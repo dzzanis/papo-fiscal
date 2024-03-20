@@ -18,12 +18,9 @@ description: Entenda o que é o registro 0221 da EFD ICMS IPI e qual sua obrigat
     border:0;
     box-shadow: 0px 0px 0px;
   }
-  a:link{
-    target-new: tab;
-  }
 </style>
 
-<img class="logo-sped" src="/src/assets/images/logo-sped.png" alt="logo do projeto SPED"/>
+![logo do projeto SPED](@assets/images/logo-sped.png)
 
 Agora a partir de 2024 o fisco tem mais uma fonte de informações, o registro 0221. Permitindo monitorar a formação ou desmembramento de caixas, packs, fardos, entre outras unidades de comercialização, além da agregação de mercadorias como Kits e cestas básicas.
 
@@ -83,15 +80,15 @@ Assim, as empresas iniciam o ano de 2024, surpreendidas com esta nova obrigaçã
 Segue abaixo a lista dos estados, com a competência de início da obrigatoriedade e embasamento legal para exigência do registro 0221.
 
 | ESTADO             | COMPETÊNCIA | EMBASAMENTO LEGAL                                                                                                                                                                             |
-| ------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Amazonas           | 01/2024     | [Resolução GSEFAZ Nº 0001 de 02/01/2024](https://online.sefaz.am.gov.br/silt/normas/Legisla%C3%A7%C3%A3o%20Estadual/Resolu%C3%A7%C3%A3o%20GSEFAZ/Ano%202024/Arquivo/RG%200001_24.htm)         |
-| Distrito Federal   | 01/2024     | [Tutorial EFD ICMS-IPI - Versão 1.10 de 08/12/2023](https://static.fazenda.df.gov.br/arquivos/servico-821/Tutorial_Escrituracao_Fiscal_EFD_ICMS_IPI_Distrito_Federal_-v_1_10_08_12_20231.pdf) |
-| Goiás              | 01/2024     | [Guia Prático Goias - Versão 5.2.1 de 21/12/2023](https://www.economia.go.gov.br/files/efd/2023/Guia_Pratico_da_EFD_-_Goias_v_5.2-1.pdf)                                                      |
-| Mato Grosso do Sul | 01/2024     | [Resolução SEFAZ Nº 3353 de 18/12/2023](https://www.spdo.ms.gov.br/diariodoe/Index/PaginaDocumento/48208/?Pagina=40)                                                                          |
-| Minas Gerais       | 01/2024     | [Resolução SEF Nº 5.727 de 8/11/2023](https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/resolucoes/2023/rr5727_2023.html)                                                          |
-| Paraíba            | 01/2024     | [Portaria Nº 00008 de 11/01/2023](https://www.sefaz.pb.gov.br/legislacao/346-portarias/portarias-2023/12988-portaria-n-00008-2023-sefaz)                                                      |
-| Rio de Janeiro     | 01/2024     | [Manual EFD-ICMS/IPI - Versão 1.69 de 21/02/2024](https://portal.fazenda.rj.gov.br/efd/wp-content/uploads/sites/32/2023/09/Manual_EFD.pdf)                                                    |
-| Alagoas            | 02/2024     | [Instrução Normativa SEF Nº 1 de 02/01/2024](https://gcs2.sefaz.al.gov.br/#/documentos/visualizar-documento?acess=1&key=6iV%2BspjKtq4%3D)                                                     |
+| ------------------ | :---------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Amazonas           |   01/2024   | [Resolução GSEFAZ Nº 0001 de 02/01/2024](https://online.sefaz.am.gov.br/silt/normas/Legisla%C3%A7%C3%A3o%20Estadual/Resolu%C3%A7%C3%A3o%20GSEFAZ/Ano%202024/Arquivo/RG%200001_24.htm)         |
+| Distrito Federal   |   01/2024   | [Tutorial EFD ICMS-IPI - Versão 1.10 de 08/12/2023](https://static.fazenda.df.gov.br/arquivos/servico-821/Tutorial_Escrituracao_Fiscal_EFD_ICMS_IPI_Distrito_Federal_-v_1_10_08_12_20231.pdf) |
+| Goiás              |   01/2024   | [Guia Prático Goias - Versão 5.2.1 de 21/12/2023](https://www.economia.go.gov.br/files/efd/2023/Guia_Pratico_da_EFD_-_Goias_v_5.2-1.pdf)                                                      |
+| Mato Grosso do Sul |   01/2024   | [Resolução SEFAZ Nº 3353 de 18/12/2023](https://www.spdo.ms.gov.br/diariodoe/Index/PaginaDocumento/48208/?Pagina=40)                                                                          |
+| Minas Gerais       |   01/2024   | [Resolução SEF Nº 5.727 de 8/11/2023](https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/resolucoes/2023/rr5727_2023.html)                                                          |
+| Paraíba            |   01/2024   | [Portaria Nº 00008 de 11/01/2023](https://www.sefaz.pb.gov.br/legislacao/346-portarias/portarias-2023/12988-portaria-n-00008-2023-sefaz)                                                      |
+| Rio de Janeiro     |   01/2024   | [Manual EFD-ICMS/IPI - Versão 1.69 de 21/02/2024](https://portal.fazenda.rj.gov.br/efd/wp-content/uploads/sites/32/2023/09/Manual_EFD.pdf)                                                    |
+| Alagoas            |   02/2024   | [Instrução Normativa SEF Nº 1 de 02/01/2024](https://gcs2.sefaz.al.gov.br/#/documentos/visualizar-documento?acess=1&key=6iV%2BspjKtq4%3D)                                                     |
 
 O estado de Santa Catarina manifestou a dispensa desta obrigação, conforme previsto na [Portaria SEF N° 243/2023](https://legislacao.sef.sc.gov.br/html/portarias/2023/port_23_243.htm).
 
