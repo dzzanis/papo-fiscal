@@ -23,7 +23,7 @@ description: Entenda o que é o registro 0221 da EFD ICMS IPI e qual sua obrigat
   }
 </style>
 
-<img class="logo-sped" src="http://sped.rfb.gov.br/Content/Images/marca-sped.png" alt="logo do projeto SPED"/>
+<img class="logo-sped" src="/src/assets/images/logo-sped.png" alt="logo do projeto SPED"/>
 
 Agora a partir de 2024 o fisco tem mais uma fonte de informações, o registro 0221. Permitindo monitorar a formação ou desmembramento de caixas, packs, fardos, entre outras unidades de comercialização, além da agregação de mercadorias como Kits e cestas básicas.
 
@@ -95,4 +95,4 @@ Segue abaixo a lista dos estados, com a competência de início da obrigatorieda
 
 O estado de Santa Catarina manifestou a dispensa desta obrigação, conforme previsto na [Portaria SEF N° 243/2023](https://legislacao.sef.sc.gov.br/html/portarias/2023/port_23_243.htm).
 
-⚠️ Mas atenção, até o presente momento muitos estados ainda não se manifestaram pela dispensa ou exigência. Algns profissionais, entendem que não havendo previsão expressa do fisco estadual exigindo este registro, já pode ser considerado como dispensa. Contudo, aconselhamos consultar a respectiva Secretaria de Fazenda do seu estado para ter mais segurança.
+⚠️ Mas atenção, até o presente momento muitos estados ainda não se manifestaram pela dispensa ou exigência. Alguns profissionais, entendem que não havendo previsão expressa do fisco estadual exigindo este registro, já pode ser considerado como dispensa. Contudo, aconselhamos consultar a respectiva Secretaria de Fazenda do seu estado para ter mais segurança.
