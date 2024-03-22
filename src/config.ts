@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://dzzanis.github.io/papo-fical", // replace this with your deployed domain
+  website: "https://papofiscal.blog", // replace this with your deployed domain
   author: "Papo Fiscal",
   desc: "Blog com os melhores conteúdos e notícias do universo fiscal e tributário. Artigos produzidos pelos especialistas do Papo Fiscal. Leia agora!",
   title: "Papo Fiscal",
-  ogImage: "/papo-fiscal/preview.png",
+  ogImage: "/preview.png",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes

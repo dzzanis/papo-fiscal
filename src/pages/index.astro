@@ -26,7 +26,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <h1>Papo Fiscal</h1>
       <a
         target="_blank"
-        href="/papo-fiscal/rss.xml"
+        href="/rss.xml"
         class="rss-link"
         aria-label="rss feed"
         title="RSS Feed"
@@ -74,7 +74,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
-                  href={`/papo-fiscal/posts/${slug}/`}
+                  href={`/posts/${slug}/`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -95,7 +95,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ({ data, slug }, index) =>
                 index < 4 && (
                   <Card
-                    href={`/papo-fiscal/posts/${slug}/`}
+                    href={`/posts/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
                   />
@@ -107,7 +107,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
 
     <div class="all-posts-btn-wrapper">
-      <LinkButton href="/papo-fiscal/posts/">
+      <LinkButton href="/posts/">
         Ver todos
         <svg xmlns="http://www.w3.org/2000/svg"
           ><path

@@ -14,10 +14,6 @@ description: Entenda o que é o registro 0221 da EFD ICMS IPI e qual sua obrigat
   img{
     box-shadow: 1px 1px 4px black;
   }
-  .logo-sped{
-    border:0;
-    box-shadow: 0px 0px 0px;
-  }
 </style>
 
 ![logo do projeto SPED](@assets/images/logo-sped.png)
