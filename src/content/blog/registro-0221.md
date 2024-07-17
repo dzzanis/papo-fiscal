@@ -3,7 +3,7 @@ author: Papo Fiscal
 pubDatetime: 2024-03-18T07:20:00Z
 title: Obrigatoriedade do Registro 0221 do SPED FISCAL
 slug: efd-icms-ipi-sped-fiscal-obrigatoriedade-registro-0221
-featured: true
+featured: false
 draft: false
 tags:
   - EFD ICMS/IPI

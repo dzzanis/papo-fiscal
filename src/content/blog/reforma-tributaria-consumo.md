@@ -3,7 +3,7 @@ author: Papo Fiscal
 pubDatetime: 2024-03-10T11:30:00Z
 title: Reforma Tributária
 slug: reforma-tributaria
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
