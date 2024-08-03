@@ -3,7 +3,7 @@ author: Papo Fiscal
 pubDatetime: 2024-07-17T08:10:00Z
 title: Câmara dos deputados aprova projeto de lei complementar da reforma tributária
 slug: reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
