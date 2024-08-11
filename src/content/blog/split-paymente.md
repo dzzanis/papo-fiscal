@@ -17,13 +17,66 @@ No modelo atual de recolhimento dos tributos o fornecedor recebe o valor bruto d
 
 Para o fisco, o problema desse modelo é que os créditos (tributos sobre as compras e serviços tomados) são utilizados pela empresa adquirente, para abater parte dos impostos a pagar sobre suas vendas, independentemente do fornecedor ou prestador pagar efetivamente esses tributos.
 
-E pior, há muitos casos de empresas <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M112,116a12,12,0,1,1-12-12A12,12,0,0,1,112,116Zm44-12a12,12,0,1,0,12,12A12,12,0,0,0,156,104Zm68,16v96a8,8,0,0,1-13.07,6.19l-24.26-19.85L162.4,222.19a8,8,0,0,1-10.13,0L128,202.34l-24.27,19.85a8,8,0,0,1-10.13,0L69.33,202.34,45.07,222.19A8,8,0,0,1,32,216V120a96,96,0,0,1,192,0Zm-16,0a80,80,0,0,0-160,0v79.12l16.27-13.31a8,8,0,0,1,10.13,0l24.27,19.85,24.26-19.85a8,8,0,0,1,10.14,0l24.26,19.85,24.27-19.85a8,8,0,0,1,10.13,0L208,199.12Z"></path></svg>“fantasmas” que só emitem notas fiscais “frias”, para geração de créditos sem pagar de fato qualquer imposto. E esses créditos falsos só serão “glosados” caso o fisco conseguir à tempo identificar a fraude e tomar as medidas cabíveis para cobrança também das empresas envolvidas.
+E pior, há muitos casos de empresas <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M112,116a12,12,0,1,1-12-12A12,12,0,0,1,112,116Zm44-12a12,12,0,1,0,12,12A12,12,0,0,0,156,104Zm68,16v96a8,8,0,0,1-13.07,6.19l-24.26-19.85L162.4,222.19a8,8,0,0,1-10.13,0L128,202.34l-24.27,19.85a8,8,0,0,1-10.13,0L69.33,202.34,45.07,222.19A8,8,0,0,1,32,216V120a96,96,0,0,1,192,0Zm-16,0a80,80,0,0,0-160,0v79.12l16.27-13.31a8,8,0,0,1,10.13,0l24.27,19.85,24.26-19.85a8,8,0,0,1,10.14,0l24.26,19.85,24.27-19.85a8,8,0,0,1,10.13,0L208,199.12Z"></path></svg>“fantasmas” que só emitem notas fiscais “frias”, para geração de créditos sem pagar de fato qualquer imposto. E esses créditos falsos só serão “glosados” caso o fisco conseguir identificar à tempo a fraude e tomar as medidas cabíveis para cobrança também das empresas envolvidas.
 
 Para mitigar esse problema, uma das alterações mais significativas, realizadas pela Emenda Constitucional 132/2023, é determinar que o crédito fica condicionado ao efetivo pagamento dos tributos.
 
 Só esta alteração isolada, estaria gerando uma enorme insegurança jurídica para todas as empresas. Pois, teriam o ônus de monitorar e exigir comprovações de pagamento dos tributos junto aos fornecedores, sobre cada nota de compra ou serviço tomado para só então, conseguir aproveitar o crédito para abater dos seus valores tributários a pagar.
 
-Para remediar esse efeito colateral, está sendo apresentado um novo modelo de recolhimento tributário conceituado como `split payment`. Onde, no processo de liquidação financeira da transação, deverá ser realizada a divisão do valor de pagamento, entre a parte que cabe ao fornecedor e a parte que cabe ao fisco, sendo os tributos descontados na fonte. Assim, o fornecedor recebe apenas o valor líquido, já os tributos da compra, devem ser transferidos diretamente para a conta do fisco ao invés de ser entregue ao fornecedor. Isso modifica o momento do recolhimento dos tributos, para junto ao pagamento do fornecedor, de forma antecipada.
+Para remediar esse efeito colateral, está sendo apresentado um novo modelo de recolhimento tributário conceituado como `split payment`. Onde, no processo de liquidação financeira da transação, deverá ser realizada a divisão do valor de pagamento, entre a parte que cabe ao fornecedor e a parte que cabe ao fisco, sendo os tributos descontados na fonte.
+
+<div class="felx flex-col p-4 ring-2 rounded ring-[#8b5cf6]">
+  <div class="flex items-center justify-around mb-8">
+    <span class="w-32 text-gray-500">Fornecedor</span>
+    <i class="ph ph-handshake text-[#8b5cf6]"></i>
+    <span class="w-32 text-gray-500">Cliente</span>
+  </div>
+  <div class="flex place-items-baseline justify-center">
+    <div class="w-56 flex flex-col gap-2">
+      <div class="flex justify-center">
+        <i class="ph ph-shopping-bag text-[#8b5cf6]"></i>
+      </div>
+      <span class="text-center text-sm text-gray-500">Produto/Serviço</span>
+    </div>
+    <i class="ph-bold ph-arrow-arc-right text-4xl text-green-700"></i>
+    <div class="w-56 flex flex-col gap-2">
+      <div class="flex justify-center">
+        <i class="ph ph-credit-card text-[#8b5cf6]"></i>
+      </div>
+      <span class="text-center text-sm text-gray-500">Pagamento eletrônico</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2">
+    <div></div>
+    <div class="flex justify-center sm:justify-start">
+      <i class="ph-bold ph-arrow-down-left text-4xl text-green-700"></i>
+    </div>
+  </div>
+  <div class="flex items-center justify-center">
+    <div class="flex flex-col items-center">
+      <strong>SPLIT PAYMENT</strong>
+      <span class="text-xs dark:text-white/60">(PAGAMENTO REPARTIDO)</span>
+      <i class="ph ph-arrow-fat-lines-down text-[#8b5cf6]"></i>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-3 justify-center">
+    <div class="flex items-center justify-end gap-2">
+      <span class="text-sm text-blue-500">FORNECEDOR</span>
+      <i class="ph ph-coins text-green-600"></i>
+    </div>
+    <div>
+      <i class="ph ph-split-horizontal text-5xl text-[#8b5cf6] flex justify-center"></i>
+    </div>
+    <div class="flex items-center justify-start gap-2">
+      <i class="ph ph-coins text-green-600"></i>
+      <span class="text-sm text-blue-500">GOVERNO</span>
+    </div>
+  </div>
+
+</div>
+
+Assim, o fornecedor recebe apenas o valor líquido, já os tributos da compra, devem ser transferidos diretamente para a conta do fisco ao invés de ser entregue ao fornecedor. Isso modifica o momento do recolhimento dos tributos, para junto ao pagamento do fornecedor, de forma antecipada.
 
 <blockquote class="text-sm">
 
