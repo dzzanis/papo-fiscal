@@ -59,7 +59,6 @@ Para remediar esse efeito colateral, está sendo apresentado um novo modelo de r
       <i class="ph ph-arrow-fat-lines-down text-[#8b5cf6]"></i>
     </div>
   </div>
-  
   <div class="grid grid-cols-3 justify-center">
     <div class="flex items-center justify-end gap-2">
       <span class="text-sm text-blue-500">FORNECEDOR</span>
@@ -73,7 +72,6 @@ Para remediar esse efeito colateral, está sendo apresentado um novo modelo de r
       <span class="text-sm text-blue-500">GOVERNO</span>
     </div>
   </div>
-
 </div>
 
 Assim, o fornecedor recebe apenas o valor líquido, já os tributos da compra, devem ser transferidos diretamente para a conta do fisco ao invés de ser entregue ao fornecedor. Isso modifica o momento do recolhimento dos tributos, para junto ao pagamento do fornecedor, de forma antecipada.
