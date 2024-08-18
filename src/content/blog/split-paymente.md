@@ -8,7 +8,7 @@ draft: false
 tags:
   - Reforma Tributária
   - Split Payment
-description: Entenda o split payment e nova forma de recolhimento dos tributos trazida pela Reforma Tributária
+description: Entenda o split payment e a nova forma de recolhimento dos tributos trazida pela Reforma Tributária
 ---
 
 Vamos continuar nosso papo sobre a reforma tributária. Você já ouviu falar do `split payment`? Sabe o que significa? Que sistemática é essa? Segue aqui que esse artigo vai lhe ajudar a entender de vez esse assunto.
@@ -139,3 +139,7 @@ II - poderá ser diferenciado por setor econômico ou por sujeito passivo, a par
 A aplicação deste sistema inicia em 2026, quando os dois sistemas tributários irão conviver no período de transição até 2032. Exceto, enquanto o fisco não conseguir implementar e colocar em uso o sistema de controle dos débitos e créditos por documento fiscal eletrônico com o split payment realizado pelos meios de pagamento eletrônico ou recolhimento pelo adquirente. Neste caso, segue com a regra atual, de tomar o crédito destacado sobre o documento fiscal de aquisição.
 
 Enfim, uma coisa é certa, as empresas terão o desafio de aprender a formar seus preços de venda e planejar seu fluxo de caixa, impactados pelos dois modelos de pagamento de tributos que estarão em vigor. Nas vendas à vista, por exemplo, hoje as empresas recebem o valor integral, podendo trabalhar com o valor destes tributos até o encerramento do período de apuração (mensal), quando devem repassar os tributos ao governo. Já com o split payment implementado, nas vendas para outras empresas, passam a receber apenas o valor líquido da venda.
+
+Gostou deste conteúdo? Compartilhe com seus colegas e amigos que também podem se beneficiar. E fica com a gente aqui no blog e saiba tudo sobre a Reforma Tributária e suas novidades! Não deixe de ler nosso artigo [Publicadas as notas técnicas para adequação dos DF-es à reforma tributária](https://papofiscal.blog/posts/reforma-tributaria-notas-tecnicas-dfe-nf-e-nfc-e-ct-e-bp-e-nf3-e-nfcom-nfs-e-nacional), para ficar atualizado com as novidades da Reforma Tributária para os documentos fiscais eletrônicis.
+
+Até a próxima! 👋
