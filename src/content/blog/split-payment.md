@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-08-03T09:30:00Z
-title: Split payment
+title: Split payment tributário
 slug: reforma-tributaria-split-payment
 featured: true
 draft: false
