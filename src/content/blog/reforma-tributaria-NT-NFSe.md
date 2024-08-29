@@ -48,7 +48,9 @@ Art. 41. O Comitê Gestor do IBS e a RFB atuarão de forma conjunta para impleme
 Em janeiro, o auditor fiscal da Receita Federal (RFB), Adriano Subirá, que também atua como coordenador operacional de Fiscalização e secretário executivo do Comitê Gestor da NFS-e, ao participar de um evento da Escola Técnica CRCPR, comentou sobre a expectativa de implantação da NFS-e Nacional em todos os municípios:
 
 <blockquote class="text-sm">
-“Estamos testemunhando um avanço notável. Nossa expectativa é alcançar, até o final deste ano, uma adesão virtual de 100% dos municípios.”
+
+Estamos testemunhando um avanço notável. Nossa expectativa é alcançar, até o final deste ano, uma adesão virtual de 100% dos municípios.
+
 </blockquote>
 
 Desta forma, para os serviços poderá até ocorrer uma padronização de uso da NFS-e Nacional, eliminando essa diversidade complexa de leiautes e formatos de emissão dos diversos municípios. Porém devemos seguir com o uso dos demais modelos fiscais de documento específicos para cada operação, conforme temos hoje.
