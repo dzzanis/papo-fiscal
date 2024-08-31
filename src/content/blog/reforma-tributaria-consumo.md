@@ -1,7 +1,8 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-03-10T11:30:00Z
-title: Reforma Tributária
+modDatetime: 2024-08-31T07:10:00Z
+title: Conheça a Reforma Tributária
 slug: reforma-tributaria
 featured: false
 draft: false
@@ -45,6 +46,12 @@ Cria o `IS`(Imposto Seletivo), com finalidade extrafiscal de desestimular o cons
 ### Processo de apuração
 
 O `IVA DUAL` seguirá o princípio da não cumulatividade. Isto significa que deve ser feita uma apuração de débito e crédito para cálculo do valor a recolher. Onde os tributos a pagar podem ser compensados com a quantia de crédito já paga sobre a aquisição de produtos e serviços. Já o `IS` será cumulativo, sem a possibilidade desta compensação.
+
+### Split payment
+
+Uma das alterações mais significativas, realizadas pela Emenda Constitucional 132/2023, é determinar que o crédito fica condicionado ao efetivo pagamento dos tributos. E para evitar uma insegurança jurídicar para tomada de créditos tributários pelas empresas, está sendo apresentado um novo modelo de recolhimento tributário conceituado como `split payment`. Onde, no processo de liquidação financeira da transação, deverá ser realizada a divisão do valor de pagamento, entre a parte que cabe ao fornecedor e a parte que cabe ao fisco, sendo os tributos descontados na fonte.
+
+Assim, o fornecedor recebe apenas o valor líquido, já os tributos da compra, devem ser transferidos diretamente para a conta do fisco ao invés de ser entregue ao fornecedor. Isso modifica o momento do recolhimento dos tributos, para junto ao pagamento do fornecedor, de forma antecipada.
 
 ### Alíquota padrão
 
