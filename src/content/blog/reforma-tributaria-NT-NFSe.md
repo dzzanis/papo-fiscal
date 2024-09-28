@@ -1,6 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-08-28T07:15:00Z
+modDatetime: 2024-09-28T08:40:00Z
 title: Adaptação da NFS-e Nacional para a reforma tributária
 slug: reforma-tributaria-notas-tecnicas-nfs-e-nacional
 featured: false
@@ -33,15 +34,36 @@ Vale ressaltar que as discussões sobre a Reforma Tributária ainda estão em cu
 Até o momento a NFS-e padrão Nacional tem a adesão opcional dos municípios. Logo, muitos municípios seguem utilizando seus sistemas e leiautes próprios.
 
 Mas, o projeto de lei complementar 68/2024 tem gerado entendimento, de alguns profissionais, que devemos caminhar para uma adesão mais forte dos municípios à NFS-e padrão Nacional. Pois, com a proposta da apuração assistida dos tributos, através do sistema split payment para controle dos recolhimentos tributários na liquidação financeira das operações e repasse dos créditos, o uso de documentos fiscais eletrônicos padronizados é essencial.
+
 Verificando, por exemplo, esta parte do texto no PLP 68/2024, realmente pode ser extraído este entendimento:
 
 <blockquote class="text-sm">
 
-Art. 41. O Comitê Gestor do IBS e a RFB atuarão de forma conjunta para implementar soluções integradas para a administração do IBS e da CBS, sem prejuízo das respectivas competências legais.
+Art. 42. O Comitê Gestor do IBS e a RFB atuarão de forma conjunta para implementar soluções integradas para a administração do IBS e da CBS, sem prejuízo das respectivas competências legais.
 
 (...)
 
 § 3º Os documentos fiscais eletrônicos relativos às operações com bens ou com serviços deverão ser compartilhados com todos os entes federativos no momento da autorização ou da recepção, utilizando padrões técnicos uniformes.
+
+</blockquote>
+
+E verificando também o artigo 61, temos algumas definições bem claras de uso da NFS-e padrão Nacional como leiaute padronizado para documentos fiscais eletrônicos na reforma tributária. Com obrigatoriedade de adaptação do fisco federal, estadual e municipal, a partir de janeiro de 2026. Caso mantiverem leiaute e emissão próprios, deveram compartilhar as mesmas informações no leiaute padronizado da NFS-e Nacional com o ambiente nacional da NFS-e.
+
+<blockquote class="text-sm">
+
+Art. 61. Ficam a União, os Estados, o Distrito Federal e os Municípios obrigados a:
+
+I - adaptar os sistemas autorizadores e aplicativos de emissão simplificada de documentos fiscais eletrônicos vigentes para utilização de leiaute padronizado, que permita aos contribuintes informar os dados relativos ao IBS e à CBS, necessários à apuração desses tributos; e
+
+II - compartilhar os documentos fiscais eletrônicos, após a recepção, validação e autorização, com o ambiente nacional de uso comum do Comitê Gestor do IBS e das administrações tributárias da União, dos Estados, do Distrito Federal e dos Municípios.
+
+§ 1º Para fins do disposto no caput deste artigo, os Municípios e o Distrito Federal ficam obrigados, a partir de 1º de janeiro de 2026, a:
+
+I - autorizar seus contribuintes a emitir a Nota Fiscal de Serviços Eletrônica de padrão nacional (NFS-e) no ambiente nacional ou, na hipótese de possuir emissor próprio, compartilhar os documentos fiscais eletrônicos gerados, conforme leiaute padronizado, para o ambiente de dados nacional da NFS-e; e
+
+(...)
+
+§ 4º O padrão e o leiaute a que se referem os incisos I e II do § 1º deste artigo são aqueles definidos em convênio firmado entre a administração tributária da União, do Distrito Federal e dos Municípios que tiver instituído a NFS-e, desenvolvidos e geridos pelo Comitê Gestor da Nota Fiscal de Serviços Eletrônica de padrão nacional (CGNFS-e).
 
 </blockquote>
 
@@ -53,7 +75,7 @@ Estamos testemunhando um avanço notável. Nossa expectativa é alcançar, até 
 
 </blockquote>
 
-Desta forma, para os serviços poderá até ocorrer uma padronização de uso da NFS-e Nacional, eliminando essa diversidade complexa de leiautes e formatos de emissão dos diversos municípios. Porém devemos seguir com o uso dos demais modelos fiscais de documento específicos para cada operação, conforme temos hoje.
+Desta forma, para os serviços deve ocorrer uma padronização de uso da NFS-e Nacional, eliminando essa diversidade complexa de leiautes e formatos de emissão dos diversos municípios. Porém devemos seguir com o uso dos demais modelos fiscais de documento específicos para cada operação, conforme temos hoje.
 
 Inclusive você pode verificar na nossa postagem [Publicadas as notas técnicas para adequação dos DF-es à reforma tributária](https://papofiscal.blog/posts/reforma-tributaria-notas-tecnicas-dfe-nf-e-nfc-e-ct-e-bp-e-nf3-e-nfcom-nfs-e-nacional), que foram emitidas várias outras notas técnicas relacionadas aos demais tipos de documento fiscal eletrônico.
 
