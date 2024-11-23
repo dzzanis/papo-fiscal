@@ -10,7 +10,7 @@ tags:
 description: Projeto de lei complementar da reforma tributária foi aprovado dia 10/7 na câmara dos deputados
 ---
 
-A reforma tributária avança mais uma etapa no seu processo atual de regulamentação. No último dia 10/7 a Câmara dos Deputados aprovou o projeto de lei complementar [PLP 68/2024](https://www.planalto.gov.br/CCIVIL_03/Projetos/Ato_2023_2026/2024/PLP/plp-068.htm). Agora o texto segue para análise pelo Senado.
+A reforma tributária avança mais uma etapa no seu processo atual de regulamentação. No último dia 10/7 a Câmara dos Deputados aprovou o projeto de lei complementar [PLP 68/2024](https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria/regulamentacao-da-reforma-tributaria/lei-geral-do-ibs-da-cbs-e-do-imposto-seletivo/textos-legais/tramitacao-plp-68-2024-redacao-final.pdf). Agora o texto segue para análise pelo Senado.
 
 A lei complementar é necessária para regulamentação da reforma tributária ([Emenda Constitucional 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm)), estabelecendo os mecanismos e regras gerais dos novos tributos sobre o consumo (IBS, CBS e o Imposto Seletivo). Como o momento da incidência e base de cálculo dos tributos, creditamento, formas de pagamento, definição de itens que terão alíquotas reduzidas ou isentas, como alimentos da cesta básica.
 
