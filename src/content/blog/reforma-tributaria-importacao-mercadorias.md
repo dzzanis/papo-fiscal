@@ -16,21 +16,21 @@ Vamos continuar vendo as principais disposições do PLP 68/2024, que trata da r
 No post anterior focamos na [Importação de Bens Imateriais e Serviços](https://papofiscal.blog/posts/reforma-tributaria-importacao-bens-imateriais-e-servicos/), neste papo fiscal vamos tratar da Importação de Bens Materiais, previsto nos artigos 64 a 82 do projeto de lei complementar.
 
 <div class="flex flex-row flex-wrap justify-center gap-6 m-4 antialiased">
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>📊 Incidência do IBS e CBS</strong>
       <p class="text-xs text-left">A tributação se aplica à importação de bens ou serviços por pessoas físicas ou jurídicas, independentemente de inscrição como contribuinte, para qualquer que seja a finalidade.</p>
       <p class="text-xs text-left">Aplicam-se as regras relativas às operações onerosas, ou seja, que implicam em pagamento.</p>
     </div>
   </div>
-   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>💼 Fato Gerador</strong>
       <p class="text-xs text-left">Entrada no território nacional de bens com procedência estrangeira.</p>
       <p class="text-xs text-left">Inclusive bens extraviados apurados pela autoridade aduaneira, exceto malas e remessas postais. </p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>⛔ Não Incidência</strong>
       <p class="text-xs text-left">Retorno de bens enviados em consignação.</p>
@@ -44,7 +44,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">Destruídos sob controle aduaneiro.</p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>✅ Isenção</strong>
       <p class="text-xs text-left">Desde que também isentas do Imposto de Importação:</p>
@@ -56,7 +56,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">📌 Atualmente não incidem IPI, PIS e COFINS nas remessas postais (via Correios pelo modal aéreo ou marítimo) ou PIS e COFINS nas encomendas aéreas, através do Regime de Tributação Simplificada (Regulamento Aduaneiro - Decreto 6.759/2009, Arts. 99 e 100), sendo tributado apenas pelo II e ICMS, seja destinada a pessoa física ou jurídica. Como nada foi mencionado, sempre haverá a incidência da CBS se o remetente ou destinatário for pessoa jurídica. </p>
     </div>
   </div>
-   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>🕝 Momento da Apuração</strong>
     <p class="text-xs text-left">Em substituição ao momento do desembaraço aduaneiro a novidade é que o fato gerador será o momento da <strong>liberação</strong> dos bens: </p>
@@ -68,7 +68,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">⚠️ No modelo atual o ICMS tem o fato gerador só na transferência da titularidade do bem, não havendo cobrança no regime aduaneiro de admissão temporária para utilização econômica. Este regime só é deferido mediante contratos internacionais que transferiram apenas a posse dos bens. Mas no IBS e CBS o fato gerador abrangerá conceitos mais amplos, incluindo operações de locação e mútuo. Assim, extingue-se esta não incidência do ICMS quando o IBS estiver implementado.  </p>
     </div>
   </div>
-   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>📍 Local da Importação</strong>
       <p class="text-xs text-left">De acordo com o artigo 68 o local da importação corresponde ao:</p>
@@ -81,7 +81,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">⚠️ Na importação por conta e ordem o local de entrega ou disponibilização ao destinatário final é o local indicado pelo adquirente ao fornecedor, ou o local de entrega indicado ao responsável pelo serviço de transporte, quando seja de responsabilidade do adquirente (interpretação do art. 11, § 1º, I). O adquirente, neste caso, está definido no artigo 3º, IV, b, sendo aquele por conta de quem ou em nome de quem decorre a obrigação de pagamento. </p>
     </div>
   </div>
-   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+   <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>🔢 Base de Cálculo</strong>
       <p class="text-xs text-left">Valor aduaneiro acrescido de:</p>
@@ -100,14 +100,14 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">⭐ Cálculo "por fora". </p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>💱 Conversão em Moeda Nacional</strong>
       <p class="text-xs text-left">Para apuração da base de cálculo os valores em moeda estrangeira deverão ser convertidos pela taxa de câmbio utilizada para cálculo do Imposto de Importação, ou que seria empregada caso houvesse sua tributação. </p>
       <p class="text-xs text-left">Dispensado de qualquer ajuste posterior decorrente de variação cambial. </p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>⚖️ Alíquota</strong>
       <p class="text-xs text-left">As mesmas alíquotas praticadas nas operações internas, inclusive nos regimes específicos de tributação. </p>
@@ -115,7 +115,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">Na impossibilidade de identificação do bem, em razão de seu extravio ou consumo, e de descrição genérica nos documentos, serão aplicadas as alíquotas-padrão do destino da operação.  </p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>👤 Contribuintes</strong>
       <p class="text-xs text-left">O importador (qualquer pessoa que promove a entrada de bens estrangeiros no país);  </p>
@@ -123,7 +123,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">Na modalidade de importação por conta e ordem de terceiros, o importador é o adquirente. </p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>🙋 Responsáveis Substitutos</strong>
       <p class="text-xs text-left">Transportador ou depositário, em caso de extravio de bens sob responsabilidade; </p>
@@ -132,7 +132,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">⚠️Devem se inscrever como sujeito passivo para cumprimento das obrigações.</p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>👥 Responsáveis Solidários</strong>
       <p class="text-xs text-left">Pessoa que registrar em seu nome a declaração de importação realizada por outra pessoa; </p>
@@ -143,7 +143,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left">⚠️Devem se inscrever como sujeito passivo para cumprimento das obrigações.</p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>✈️ Remessa Internacional</strong>
       <p class="text-xs text-left"><strong>Fornecedor:</strong> na remessa internacional que não seja aplicado o regime de tributação comum (remessas postais via Correios pelo modal aéreo ou marítimo ou encomendas aéreas pelo Regime de Tributação Simplificada) o fornecedor é o contribuinte e está obrigado a inscrição, mesmo sendo do exterior. </p>
@@ -152,7 +152,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       <p class="text-xs text-left"><strong>Destinatário contribuinte:</strong> caso o remetente seja pessoa física e a operação realizada sem intermediação de plataforma digital, então o destinatário é o contribuinte. </p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>💵 Pagamento</strong>
       <p class="text-xs text-left">Até a entrega dos bens submetidos a despacho para consumo, ainda que ocorra antes da liberação pela autoridade aduaneira.</p>
@@ -165,13 +165,13 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
       </ul>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>🔎 Bens a Granel - Diferenças </strong>
       <p class="text-xs text-left">Diferenças apuradas pela autoridade aduaneira referente bens a granel, que por sua natureza ou condições de manuseio sofrem quebra, decréscimo ou acréscimo, não serão consideradas para efeito de exigência dos tributos até determinado limite percentual a ser definido no regulamento.</p>
     </div>
   </div>
-  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3 max-w-80">
+  <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-104 hover:-translate-y-1 p-3 max-w-80">
     <div>
       <strong>⭐ Crédito</strong>
       <p class="text-xs text-left">Os contribuintes no regime regular podem apropriar e utilizar créditos correspondentes aos tributos efetivamente pagos.</p>
