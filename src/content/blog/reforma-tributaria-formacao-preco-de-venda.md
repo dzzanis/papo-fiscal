@@ -30,7 +30,7 @@ Veja esse exemplo de cálculo do preço de venda e do lucro esperado de um deter
         <span class="text-xs text-left">R$ 90,00</span>
         <span class="text-xs text-left">Margem de lucro desejada:</span>
         <span class="text-xs text-left">10%</span>
-        <strong class="text-xs text-left">Preço sem tributos =</strong>
+        <strong class="text-xs text-left">Preço sem tributos=</strong>
         <span class="text-xs text-left">100,00 ÷ (100% - 10%) = R$ 100,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
@@ -38,15 +38,15 @@ Veja esse exemplo de cálculo do preço de venda e do lucro esperado de um deter
         <span class="text-xs text-left">ICMS 18% + PIS 1,65% + COFINS 7,6%</span>
         <span class="text-xs text-left">Tributos “por dentro”:</span>
         <span class="text-xs text-left">27,25%</span>
-        <strong class="text-xs text-left">Preço com Tributos =</strong>
+        <strong class="text-xs text-left">Preço com Tributos=</strong>
         <span class="text-xs text-left">100,00 ÷ (100% - 27,25%)</span>
-        <strong class="text-xs text-left">Preço com Tributos =</strong>
+        <strong class="text-xs text-left">Preço com Tributos=</strong>
         <span class="text-xs text-left">100,00 ÷ 72,75% = R$ 137,46</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 gap-1">
         <span class="text-xs text-left">Tributos “por fora” (IPI):</span>
         <span class="text-xs text-left">5%</span>
-        <strong class="text-xs text-left">Preço final com IPI =</strong>
+        <strong class="text-xs text-left">Preço final com IPI=</strong>
         <span class="text-xs text-left">137,46 + 5% = R$ 144,33</span>
       </div >
     </div>
@@ -73,7 +73,7 @@ Tirando a prova real se vamos mesmo alcançar a margem de lucro de 10%:
         <span class="text-xs text-right">10,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
-        <span class="text-xs text-left">✅ Margem de Lucro =</span>
+        <span class="text-xs text-left">✅ Margem de Lucro=</span>
         <span class="text-xs text-left">10,00 ÷ 100,00 = 10%</span>
       </div >
     </div>
@@ -94,13 +94,13 @@ Então, seguindo o mesmo exemplo, será que o novo cálculo fica igual ao exempl
         <span class="text-xs text-left">10%</span>
         <span class="text-xs text-left">Tributos “por dentro” (ICMS, PIS, COFINS):</span>
         <span class="text-xs text-left">0%</span>
-        <span class="text-xs text-left">Preço de venda =</span>
+        <span class="text-xs text-left">Preço de venda=</span>
         <span class="text-xs text-left">90,00 ÷ (100% - 10%) = 100,00</span>
         <span class="text-xs text-left">Tributo “por fora” (IPI):</span>
         <span class="text-xs text-left">0%</span>
         <span class="text-xs text-left">Novos tributos “por fora” (IBS, CBS e IS):</span>
         <span class="text-xs text-left">26,5% + 5% = 31,50%</span>
-        <span class="text-xs text-left">Preço de venda com tributos =</span>
+        <span class="text-xs text-left">Preço de venda com tributos=</span>
         <span class="text-xs text-left">100,00 + 31,50% = 131,50</span>
       </div >
     </div>
@@ -121,13 +121,13 @@ Precisamos lembrar de considerar a composição das bases de cálculo. Se não h
         <span class="text-xs text-left">R$ 90,00</span>
         <span class="text-xs text-left">Margem de lucro desejada:</span>
         <span class="text-xs text-left">10%</span>
-        <span class="text-xs text-left">Preço sem tributos =</span>
+        <span class="text-xs text-left">Preço sem tributos=</span>
         <span class="text-xs text-left">90,00 ÷ (100% - 10%) = R$ 100,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
         <span class="text-xs text-left">Tributos “por dentro” (ICMS PIS COFINS):</span>
         <span class="text-xs text-left">0%</span>
-        <span class="text-xs text-left">Preço de venda =</span>
+        <span class="text-xs text-left">Preço de venda=</span>
         <span class="text-xs text-left">100,00 ÷ (100% - 10%) = 100,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 gap-1">
@@ -135,7 +135,7 @@ Precisamos lembrar de considerar a composição das bases de cálculo. Se não h
         <span class="text-xs text-left">100,00 x 5% = 5,00</span>
         <span class="text-xs text-left">CBS e IBS:</span>
         <span class="text-xs text-left">(100 + 5,00) x 26,5% = 27,82</span>
-        <strong class="text-xs text-left">Preço final com tributos =</strong>
+        <strong class="text-xs text-left">Preço final com tributos=</strong>
         <span class="text-xs text-left">100,00 + 5,00 + 27,82 = <strong>132,82</strong></span>
       </div >
     </div>
@@ -273,15 +273,15 @@ Mas, em 2027, com a extinção do PIS e da COFINS e a cobrança efetiva da CBS, 
         <span class="text-xs text-left">R$ 90,00</span>
         <span class="text-xs text-left">Margem de lucro desejada:</span>
         <span class="text-xs text-left">10%</span>
-        <span class="text-xs text-left">Preço sem tributos =</span>
+        <span class="text-xs text-left">Preço sem tributos=</span>
         <span class="text-xs text-left">90,00 ÷ (100% - 10%) = R$ 100,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
         <span class="text-xs text-left">Tributos “por dentro” <br>(ICMS 18% PIS/COFINS 0%):</span>
         <span class="text-xs text-left">18%</span>
-        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro” =</span>
+        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro”=</span>
         <span class="text-xs text-left">100,00 ÷ (100% - 18%)</span>
-        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro” =</span>
+        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro”=</span>
         <span class="text-xs text-left">100,00 ÷ 82% = 121,95</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 gap-1">
@@ -291,7 +291,7 @@ Mas, em 2027, com a extinção do PIS e da COFINS e a cobrança efetiva da CBS, 
         <span class="text-xs text-left">(121,95 + 6,10) x 8,8% = 11,27</span>
         <span class="text-xs text-left">ICMS:</span>
         <span class="text-xs text-left">(121,95 + 6,10 + 11,27) x 18% = 25,08</span>
-        <strong class="text-xs text-left">Preço final com tributos =</strong>
+        <strong class="text-xs text-left">Preço final com tributos=</strong>
         <span class="text-xs text-left">100,00 + 6,10 + 11,27 + 25,08 = <strong>142,45</strong></span>
       </div >
     </div>
@@ -320,7 +320,7 @@ Tirando a prova real se vamos mesmo alcançar a margem de lucro de 10%:
         <span class="text-xs text-right">10,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
-        <span class="text-xs text-left">✅ Margem de Lucro =</span>
+        <span class="text-xs text-left">✅ Margem de Lucro=</span>
         <span class="text-xs text-left">10,00 ÷ 100,00 = 10%</span>
       </div >
     </div>
@@ -339,15 +339,15 @@ Seguindo nosso exemplo, vamos simular o cálculo para 2029, em que a alíquota d
         <span class="text-xs text-left">R$ 90,00</span>
         <span class="text-xs text-left">Margem de lucro desejada:</span>
         <span class="text-xs text-left">10%</span>
-        <span class="text-xs text-left">Preço sem tributos =</span>
+        <span class="text-xs text-left">Preço sem tributos=</span>
         <span class="text-xs text-left">90,00 ÷ (100% - 10%) = R$ 100,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
         <span class="text-xs text-left">Tributos “por dentro” (ICMS 90% de 18%):</span>
         <span class="text-xs text-left">16,2%</span>
-        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro” =</span>
+        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro”=</span>
         <span class="text-xs text-left">100,00 ÷ (100% - 16,2%)</span>
-        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro” =</span>
+        <span class="text-xs text-left">Preço parcial c/ tributos “por dentro”=</span>
         <span class="text-xs text-left">100,00 ÷ 83,8% = 119,33</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 gap-1">
@@ -359,7 +359,7 @@ Seguindo nosso exemplo, vamos simular o cálculo para 2029, em que a alíquota d
         <span class="text-xs text-left">(119,33 + 5,97) x 1,77%<strong>*</strong> = 2,22</span>
         <span class="text-xs text-left">ICMS:</span>
         <span class="text-xs text-left">(119,33 + 5,97 + 11,03 + 2,22) x 16,2% = 22,45</span>
-        <strong class="text-xs text-left">Preço final com tributos =</strong>
+        <strong class="text-xs text-left">Preço final com tributos=</strong>
         <span class="text-xs text-left">100,00 + 5,97 + 11,03 + 2,22 + 22,45 = <strong>141,67</strong></span>
       </div >
     </div>
@@ -394,7 +394,7 @@ Tirando a prova real se vamos mesmo alcançar a margem de lucro de 10%:
         <span class="text-xs text-right">10,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
-        <span class="text-xs text-left">✅ Margem de Lucro =</span>
+        <span class="text-xs text-left">✅ Margem de Lucro=</span>
         <span class="text-xs text-left">10,00 ÷ 100,00 = 10%</span>
       </div >
     </div>
