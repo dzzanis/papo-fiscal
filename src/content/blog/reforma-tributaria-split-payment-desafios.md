@@ -1,6 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-09-24T07:30:00Z
+modDatetime: 2024-12-20T13:10:00Z
 title: Desafios e Críticas ao Split Payment da Reforma Tributária
 slug: reforma-tributaria-split-payment-desafios-criticas
 featured: false
@@ -40,6 +41,8 @@ O setor reivindica ainda isenção de responsabilização civil por erros de cá
 
 No modelo de split payment, é essencial estabelecer claramente quem é responsável pelo recolhimento e repasse dos tributos para evitar conflitos e ineficiências.
 
-O [Projeto de Lei Complementar (PLP 68/2024)](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados), aprovado pela Câmara, aguarda agora análise do Senado.
+---
+
+O [Projeto de Lei Complementar (PLP 68/2024)](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados) foi aprovado pela Câmara (17/12), após alterações feitas no Senado, e encaminhado para sanção presidencial.
 
 Quer entender um pouco mais sobre o `split payment`, então não deixe de ler nosso artigo [Split payment tributário](https://papofiscal.blog/posts/reforma-tributaria-split-payment) aqui do blog.

@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-08-28T07:15:00Z
-modDatetime: 2024-09-28T08:40:00Z
+modDatetime: 2024-12-20T13:10:00Z
 title: Adaptação da NFS-e Nacional para a reforma tributária
 slug: reforma-tributaria-notas-tecnicas-nfs-e-nacional
 featured: false
@@ -16,7 +16,7 @@ description: Publicada a nota técnica apresentando as adequações do leiaute d
 
 <img class="border-none" src="https://www.nfse.gov.br/ConsultaPublica/img/logo-nfse-assinatura-horizontal.png" alt="logo NFS-e Nacional">
 
-O Projeto de Lei Complementar (PLP) nº 68/2024, que estabelece regras para a implementação da reforma tributária do consumo, foi aprovado pela Câmara dos Deputados e encaminhado ao Senado Federal. Com a aprovação desse projeto, os Estados, o Distrito Federal e os Municípios devem promover ajustes nos Documentos Fiscais Eletrônicos e nos sistemas envolvidos, tendo em vista que as alterações entrarão em vigor em janeiro de 2026.
+O Projeto de Lei Complementar (PLP) nº 68/2024, que estabelece regras para a implementação da reforma tributária do consumo, foi aprovado pela Câmara dos Deputados (17/12), após alterações feitas no Senado, e encaminhado para sanção presidencial. Com a aprovação desse projeto, os Estados, o Distrito Federal e os Municípios devem promover ajustes nos Documentos Fiscais Eletrônicos e nos sistemas envolvidos, tendo em vista que as alterações entrarão em vigor em janeiro de 2026.
 
 Desde o início das discussões sobre a reforma tributária os profissionais da área fiscal se perguntavam como tudo isso impactaria as notas fiscais eletrônicas. Se seria utilizado um modelo único, tanto para mercadorias quanto serviços, ou se seriam mantidos os diversos modelos hoje existentes.
 

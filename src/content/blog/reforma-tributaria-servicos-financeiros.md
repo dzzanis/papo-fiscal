@@ -284,7 +284,7 @@ Neste papo fiscal vamos focar no regime específico de incidência do IBS e CBS 
   </div>
 </div>
 
-⚠️ O [Projeto de Lei Complementar (PLP) nº 68/2024](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados/) foi aprovado pela Câmara dos Deputados (10/07) e encaminhado para análise do Senado Federal (19/07).
+⚠️ O [Projeto de Lei Complementar (PLP) nº 68/2024](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados/) foi aprovado pela Câmara dos Deputados (17/12), após alterações feitas no Senado, e encaminhado para sanção presidencial.
 
 ---
 

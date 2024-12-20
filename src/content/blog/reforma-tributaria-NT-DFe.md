@@ -1,6 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-08-03T17:10:00Z
+modDatetime: 2024-12-20T13:10:00Z
 title: Publicadas as notas técnicas para adequação dos DF-es à reforma tributária
 slug: reforma-tributaria-notas-tecnicas-dfe-nf-e-nfc-e-ct-e-bp-e-nf3-e-nfcom-nfs-e-nacional
 featured: true
@@ -20,7 +21,7 @@ description: Foram publicadas as notas técnicas apresentando as adequações do
 
 Foram publicadas as notas técnicas apresentando as adequações dos leiautes dos DF-es (NF-e, NFC-e, CT-e, CT-e OS, BP-e, NF3-e, NFCom e NFS-e Nacional) à reforma tributária.
 
-O Projeto de Lei Complementar [(PLP) nº 68/2024](https://www.planalto.gov.br/CCIVIL_03/Projetos/Ato_2023_2026/2024/PLP/plp-068.htm), que estabelece regras para a implementação da Reforma Tributária do Consumo, foi aprovado pela Câmara dos Deputados e encaminhada para análise do Senado Federal. Com a aprovação desse projeto, os Estados, o Distrito Federal e os Municípios devem promover ajustes nos Documentos Fiscais Eletrônicos e nos sistemas envolvidos, tendo em vista que as alterações entrarão em vigor em 1º de janeiro de 2026.
+O Projeto de Lei Complementar [(PLP) nº 68/2024](https://www.planalto.gov.br/CCIVIL_03/Projetos/Ato_2023_2026/2024/PLP/plp-068.htm), que estabelece regras para a implementação da Reforma Tributária do Consumo, foi aprovado pela Câmara dos Deputados (17/12), após alterações feitas no Senado, e encaminhado para sanção presidencial. Com a aprovação desse projeto, os Estados, o Distrito Federal e os Municípios devem promover ajustes nos Documentos Fiscais Eletrônicos e nos sistemas envolvidos, tendo em vista que as alterações entrarão em vigor em 1º de janeiro de 2026.
 
 A fim de garantir a operacionalização tempestiva das novas regras, além de permitir que as administrações tributárias e os contribuintes se preparem para as mudanças, antecipou-se a publicação dessas notas técnicas.
 

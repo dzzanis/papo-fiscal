@@ -182,7 +182,7 @@ No post anterior focamos na [Importação de Bens Imateriais e Serviços](https:
 
 🚨 Um questão preocupante sobre o processo de importação é a inclusão do despachante aduaneiro no rol de responsáveis solidários, conforme o artigo 24, VI.
 
-🚧 O [Projeto de Lei Complementar (PLP) nº 68/2024](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados/) foi aprovado pela Câmara dos Deputados (10/07) e encaminhado para análise do Senado Federal (19/07).
+🚧 O [Projeto de Lei Complementar (PLP) nº 68/2024](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados/) foi aprovado pela Câmara dos Deputados (17/07), após alterações feitas no Senado, e encaminhado para sanção presidencial.
 
 ---
 
