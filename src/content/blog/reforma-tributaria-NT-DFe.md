@@ -4,7 +4,7 @@ pubDatetime: 2024-08-03T17:10:00Z
 modDatetime: 2024-12-20T13:10:00Z
 title: Publicadas as notas técnicas para adequação dos DF-es à reforma tributária
 slug: reforma-tributaria-notas-tecnicas-dfe-nf-e-nfc-e-ct-e-bp-e-nf3-e-nfcom-nfs-e-nacional
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
