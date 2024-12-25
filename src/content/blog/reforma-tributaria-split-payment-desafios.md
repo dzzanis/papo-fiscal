@@ -43,6 +43,6 @@ No modelo de split payment, é essencial estabelecer claramente quem é respons�
 
 ---
 
-O [Projeto de Lei Complementar (PLP 68/2024)](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados) foi aprovado pela Câmara (17/12), após alterações feitas no Senado, e encaminhado para sanção presidencial.
+O [Projeto de Lei Complementar (PLP 68/2024)](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-no-congresso) foi aprovado pela Câmara (17/12), após alterações feitas no Senado, e encaminhado para sanção presidencial.
 
 Quer entender um pouco mais sobre o `split payment`, então não deixe de ler nosso artigo [Split payment tributário](https://papofiscal.blog/posts/reforma-tributaria-split-payment) aqui do blog.

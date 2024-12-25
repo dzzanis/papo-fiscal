@@ -80,7 +80,7 @@ Tirando a prova real se vamos mesmo alcançar a margem de lucro de 10%:
   </div>
 </div>
 
-Contudo a [Emenda Constitucional 132/23 (reforma tributária sobre o consumo)](https://papofiscal.blog/posts/reforma-tributaria) e o [Projeto de Lei Complementar (PLP 68/2024)](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-na-camara-dos-deputados) ainda em discussão no Congresso nacional, determinam que os novos tributos serão calculados “por fora”. Isso deixa mais transparente para o consumidor o quanto de tributos ele está pagando. Além de facilitar para as empresas pagarem os tributos diretamente ao governo através do [split payment](https://papofiscal.blog/posts/reforma-tributaria-split-payment).
+Contudo a [Emenda Constitucional 132/23 (reforma tributária sobre o consumo)](https://papofiscal.blog/posts/reforma-tributaria) e o [Projeto de Lei Complementar (PLP 68/2024)](https://papofiscal.blog/posts/reforma-tributaria-projeto-de-lei-complementar-aprovado-no-congresso) ainda em discussão no Congresso nacional, determinam que os novos tributos serão calculados “por fora”. Isso deixa mais transparente para o consumidor o quanto de tributos ele está pagando. Além de facilitar para as empresas pagarem os tributos diretamente ao governo através do [split payment](https://papofiscal.blog/posts/reforma-tributaria-split-payment).
 
 Então, seguindo o mesmo exemplo, será que o novo cálculo fica igual ao exemplo abaixo?
 
