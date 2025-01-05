@@ -3,7 +3,7 @@ author: Papo Fiscal
 pubDatetime: 2024-12-24T08:30:00Z
 title: Projeto de lei complementar da reforma tributária aguarda sansão presidencial
 slug: reforma-tributaria-projeto-de-lei-complementar-aprovado-no-congresso
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
