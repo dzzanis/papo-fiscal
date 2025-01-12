@@ -38,9 +38,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Instagram",
-    href: "",
+    href: "https://www.instagram.com/papo.fiscal",
     linkTitle: `${SITE.title} on Instagram`,
-    active: false,
+    active: true,
   },
   {
     name: "LinkedIn",
@@ -50,7 +50,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:contato.zanis@gmail.com",
+    href: "mailto:contato.papofiscal@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
