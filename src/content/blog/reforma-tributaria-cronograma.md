@@ -91,8 +91,14 @@ No período de transição teremos a redução gradativa das alíquotas dos trib
     </li>
     <li class="time-item">
       <div class="panel">
-        <div class="panel-header">2024 a 2025</div>
-        <div class="panel-body">Regulamentação través da edição de leis complementares e ordinárias. <br/> Desenvolvimento do novo sistema de cobrança.</div>
+        <div class="panel-header">2024 a 2025 🔄</div>
+        <div class="panel-body">Regulamentação través da edição de leis complementares e ordinárias. 
+          <ul>
+            <li>Aprovação do PLP 68/2024 ✅</li>
+            <li>Lei Complementar 214/2025 ✅</li>
+            <li>PLP 108/2024 🕖</li>
+          </ul>
+        Desenvolvimento do novo sistema de cobrança.</div>
       </div>
     </li>
     <li class="time-item">
