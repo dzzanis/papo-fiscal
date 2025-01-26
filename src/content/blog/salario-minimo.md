@@ -10,6 +10,14 @@ tags:
 description: Reajuste do salário-mínimo para R$ 1.518 em vigor a partir de janeiro de 2025, representando um aumento de R$ 106.
 ---
 
+<blockquote 
+    class="instagram-media" 
+    data-instgrm-permalink="https://www.instagram.com/p/DFPyxm0RbYD/?utm_source=ig_embed&amp;utm_campaign=loading" 
+    data-instgrm-version="14" 
+    style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+</blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+
 A partir de janeiro de 2025 o salário-mínimo passa a ser de R$ 1.518,00. Este valor foi estabelecido pelo decreto nº 12.342/2024, representando um aumento de R$ 106,00 (7,5%) em relação ao piso de 2024 (R$ 1.412).
 
 - Valor diário: R$ 50,60
