@@ -1,6 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2024-06-16T16:00:00Z
+modDatetime: 2025-02-08T08:15:00Z
 title: Tributação sobre investimentos no exterior em 2024
 slug: nova-tributacao-sobre-investimentos-no-exterior
 featured: false
@@ -8,7 +9,7 @@ draft: false
 tags:
   - Tributação
   - Investimentos
-description: Entrou em vigor neste ano de 2024 uma nova tributação sobre investimentos no exterior. Entenda o que mudou.
+description: Entrou em vigor a partir de 2024 uma nova tributação sobre investimentos no exterior. Entenda o que mudou.
 ---
 
 <style>
@@ -18,7 +19,7 @@ description: Entrou em vigor neste ano de 2024 uma nova tributação sobre inves
   }
 </style>
 
-Está vigente neste ano de 2024 uma nova tributação sobre investimentos no exterior. Entenda as mudanças na legislação brasileira.
+Está vigente a partir de 2024 uma nova tributação sobre investimentos no exterior. Entenda as mudanças na legislação brasileira.
 
 ## Sumário
 
@@ -61,9 +62,19 @@ Algo positivo, em contrapartida, é a possibilidade de compensação de prejuíz
 
 Este é um ponto que causa bastante preocupação dos investidores. Pois, passou a ser aplicada a tributação sobre ganhos de variação cambial inclusive referente investimentos adquiridos com recursos originados do exterior.
 
+Contudo, a norma isenta os depósitos em conta corrente ou em cartão de débito ou crédito no exterior, inclusive saques em espécie, desde que não sejam remunerados e sejam mantidos em instituição financeira reconhecida e autorizada a funcionar pela autoridade monetária do pais em que estiver situada.
+
 E pela nova legislação, no caso da variação cambial de moeda estrangeira mantida em espécie, a tributação ocorre caso o valor de venda de moeda ultrapassar o `limite anual de 5 mil dólares` americanos. Estando sujeito às alíquotas progressivas, que variam de 15% a 22,5%. Lembrando que esta variação deve ser mensalmente apurada e o imposto pago até o último dia útil do mês seguinte ao da alienação.
 
-Contudo, a norma isenta os depósitos em conta corrente ou em cartão de débito ou crédito no exterior, inclusive saques em espécie, desde que não sejam remunerados e sejam mantidos em instituição financeira reconhecida e autorizada a funcionar pela autoridade monetária do pais em que estiver situada.
+## 📆 Tributação passa ser anual na época da declaração
+
+Os rendimentos com aplicações financeiras no exterior, do investidor pessoa física, passaram a ser tributados anualmente, na época da entrega da declaração do imposto de renda, e não mais mensalmente.
+
+Logo, rendimentos auferidos no exterior em 2024 deverão ser informados na declaração de imposto de renda 2025. E somente ao final do preenchimento da declaração é que o investidor pagará o imposto de renda devido.
+
+Antes, tanto os rendimentos sujeitos ao Carnê-Leão quanto os sujeitos ao GCAP deviam ter seu IR recolhido até o último dia útil do mês seguinte ao mês da transação que originou o ganho. Os rendimentos de aplicações financeiras no exterior auferidos a partir de 2024, portanto, não precisavam mais ser tributados mensalmente por meio da utilização desses programas.
+
+Mas é importante o investidor continuar mantendo um controle das suas operações no exterior ao longo do ano, pois a apuração dos ganhos e prejuízos na época da declaração se dará sempre com base no câmbio das datas de compra (aplicação) e venda (resgate).
 
 ## 🌎 Empresas offshore
 
