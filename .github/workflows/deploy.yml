@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install, build, and upload your site
         uses:
-          withastro/action@v1
+          withastro/action@v3
           # with:
           # path: . # A localização da pasta raiz do seu projeto Astro dentro do seu repositório. (opcional)
           # node-version: 18 # A versão específica do Node que deve ser utilizada para a build do seu site. A versão padrão é a 18. (opcional)
@@ -37,4 +37,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
