@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Papo Fiscal",
   ogImage: "/preview.png",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 8,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
