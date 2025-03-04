@@ -64,7 +64,15 @@ Essas tabelas estarão disponíveis nos portais nacionais para classificação d
 
 Veja no board abaixo, criado no aplicativo Miro, a representação gráfica completa dos novos grupos e campos que serão criados no XML da NFe e NFCe.
 
-<iframe class="w-full h-dvh" src="https://miro.com/app/embed/uXjVIcgeOj4=/?pres=1&frameId=3458764618243140017&embedId=334260372356" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe 
+  class="w-full h-[432px] sm:h-dvh"
+  src="https://miro.com/app/embed/uXjVIcgeOj4=/?pres=1&frameId=3458764618243140017&embedId=334260372356" 
+  frameborder="0" 
+  scrolling="no" 
+  allow="fullscreen; clipboard-read; clipboard-write" 
+  allowfullscreen
+  >
+</iframe>
 
 ## Pacote de Schemas
 
