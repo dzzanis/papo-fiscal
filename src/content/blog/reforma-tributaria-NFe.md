@@ -66,7 +66,7 @@ No ´Grupo B. Identificação da Nota Fiscal Eletrônica´ houve a inclusão do 
 
 O outro novo campo é o Indicador de Multa e Juros – `indMultaJuros`, que vai ser usado nas emissões de notas fiscais para incidência dos tributos IBS e da CBS, quando ocorrer recebimento de juros e multas. O contribuinte que pagar a multa e os juros terá direito ao crédito dos tributos, por isso a necessidade de criação desse campo.
 
-<div class="grid grid-cols-3 grid-rows-4 p-4 gap-4 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
+<div class="grid grid-cols-3 grid-rows-4 p-6 gap-4 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
   <div class="row-span-3 row-start-1 w-full flex gap-5 flex-col justify-center items-center">
     <i class="ph-bold ph-arrow-elbow-up-right text-4xl text-green-700"></i>
     <div class="w-fit p-2 flex flex-col border rounded-lg shadow-md">
