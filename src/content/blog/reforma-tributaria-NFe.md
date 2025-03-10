@@ -58,7 +58,7 @@ Cabe destacar que, a menos que ocorra uma alteração na regulamentação do ICM
 
 Os itens do documento fiscal devem ser classificados de acordo com o Código de Situação Tributária (CST) e o Código de Classificação Tributária (cClassTrib) do IBS, CBS e IS.
 
-Essas tabelas estarão disponíveis nos portais nacionais para classificação dos itens, devendo ser preenchida conforme as previsões legais da Reforma Tributária, vinculando os CST e cClassTrib com as regras de validação.
+Essa tabela, publicada através do [Informe Técnico RT 2024.001](https://papofiscal.blog/posts/reforma-tributaria-tabela-classificacao-tributaria-do-ibs-e-da-cbs), está disponível nos portais nacionais dos DF-es. E a classificação dos itens do documento deve ser realizada conforme as previsões legais da Reforma Tributária, vinculando os CST e cClassTrib com as regras de validação.
 
 ## Grupo de Identificação da Nota Fiscal Eletrônica
 
