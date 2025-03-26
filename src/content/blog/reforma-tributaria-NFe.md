@@ -1,6 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-03-01T07:58:00Z
+modDatetime: 2025-03-26T06:57:00Z
 title: Adequação da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e
 featured: false
@@ -102,13 +103,162 @@ O outro novo campo é o Indicador de Multa e Juros – `indMultaJuros`, que vai 
 
 E foi criado o subgrupo de Compra Governamental – `gCompraGov`. Junto a esse subgrupo, temos os seguintes campos:
 
-- `tpCompraGov` - Tipo de compra governamental. Que poderá ser:
+- `tpCompraGov`: Tipo de compra governamental. Que poderá ser:
   - 1 = União
   - 2 = Estados
   - 3 = Distrito Federal
   - 4 = Municípios
-- `pRedutor` - Percentual de redução de alíquota em compra governamental.
-- `tipoNotaCredito` - Indicador do tipo de nota de crédito que está sendo utilizada. Os tipos a ainda serão definidos.
+- `pRedutor`: Percentual de redução de alíquota em compra governamental.
+- `tipoNotaCredito`: Indicador do tipo de nota de crédito que está sendo utilizada. Os tipos a ainda serão definidos.
+
+## Alteração do ICMS normal e ICMS ST:
+
+As informações do ICMS da operação própria e ST passam a ter sua ocorrência opcional, pois será futuramente substituído pelo IBS.
+
+⚠️ Precisamos lembrar de considerar a composição da base de cálculo do ICMS, pois isso não será citado em notas técnicas. Se não houver alteração, temos o IBS, CBS e IS compondo a base de cálculo do ICMS no período de transição. Leia o artigo [Reforma tributária: Impactos na Formação de Preços de Venda](https://papofiscal.blog/posts/reforma-tributaria-formacao-precos-de-venda) e saiba mais.
+
+## Grupo de Informações dos Tributos IBS / CBS e IS
+
+Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ contendo um série de grupos e campos relacionados aos novos tributos que deverão ser informados para cada item do documento.
+
+- Esquema gráfico do leiaute, contemplando os grupos de campos do IBS, CBS e Imposto Seletivo.
+
+<div class="grid grid-cols-3 grid-rows-3 pl-2 pr-8 sm:px-12 pb-8 gap-1 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex gap-5 flex-col justify-center items-center">
+    <div class="w-full p-2 flex flex-col border rounded-lg shadow-md">
+      <span class="text-center text-sm text-gray-500">infNFe</span>
+    </div>
+    <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
+  </div>
+  <div class="row-span-2 row-start-2 col-span-1 col-start-1 w-full flex gap-5 flex-col justify-start items-center">
+    <div class="w-fit p-2 flex flex-col border rounded-lg shadow-md">
+      <span class="text-center text-sm text-gray-500">Grupo H.</span>
+      <span class="text-center text-xs text-gray-500">Detalhamento Produtos e Serviços</span>
+    </div>
+    <i class="ph-bold ph-arrow-elbow-down-right text-4xl text-green-700"></i>
+  </div>
+  <div class="row-span-1 row-start-2 col-start-2 w-full flex gap-2 justify-center items-end">
+    <div class="w-48 flex flex-col gap-2">
+      <span class="text-center text-sm text-gray-500 p-1 border rounded-xl shadow-md">prod</span>
+      <span class="text-center text-sm text-gray-500 p-1 border rounded-xl shadow-md">imposto</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-2 w-full mt-1 flex justify-center items-start">
+    <div class="w-48 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">IBSCBSSel</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-3 col-span-1 col-start-3 w-full mt-1 gap-1 flex justify-start items-start">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+    <div class="flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">seletivo</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">CST</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md px-0.5 sm:px-4">indPerecimento</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">gIBSCBS</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">cClassTrib</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">gIBSCBSMono</span>
+    </div>
+  </div>
+</div>
+
+- Campos do Imposto Seletivo
+
+<div class="grid grid-cols-3 grid-rows-3 pl-2 pr-2 pb-4 sm:px-12 gap-1 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-center items-end">
+    <div class="w-full flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
+      <span class="text-center text-sm text-[#8b5cf6]">seletivo</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-end">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">CST</span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">cClassTrib</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-2 col-start-2 w-full mt-1 gap-1 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">gImpSel</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-2 row-start-2 col-span-1 col-start-3 w-full gap-1 flex justify-start items-start">
+    <div class="flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vBCImpSel</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pImpSel</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md px-0.5 sm:px-4">pImpSelEspec</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">uTrib</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">qTrib</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vImpSel</span>
+    </div>
+  </div>
+</div>
+
+- Campos do IBS da UF
+- Campos do IBS dos Municípios
+- Campos da CBS
+- Campos do IBS Monofásico
+
+## Referenciamento de item de outra NF-e
+
+O `Grupo VB. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e` para as informações:
+
+- `DFeReferenciado` - Grupo para Documento Fiscal Eletrônico Referenciado
+  - `chaveAcesso` - Chave de acesso do DF-e referenciado
+  - `nItem` - Número do item do documento referenciado.
+
+## Grupo de Total da NF-e
+
+Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
+
+`IBSCBSSelTot`: Totais da NF-e com IBS, CBS e IS. Deve ser informado com o somatório do campo correspondente dos itens.
+
+- `vBCIBSCBS`: Valor total da BC do IBS e da CBS
+
+`gSel`: Grupo total do imposto seletivo
+
+- `vBCSel`: Total da base de cálculo do imposto seletivo
+- `vImpSel`: Total do imposto seletivo
+
+`gIBS`: Grupo total do IBS
+
+- `vCresPres` - Valor total do crédito presumido
+- `vCredPresCondSus` - Valor total do crédito presumido em condição suspensiva
+
+  `gIBSUFTot`: Grupo total do IBS do Estado
+
+  - `vDif`: Valor total do diferimento
+  - `vDevTrib`: Valor total de devolução de tributos
+  - `vDeson`: Valor total de desoneração
+  - `vIBSUF`: Valor total do IBS da UF
+
+  `gIBSMunTot`: Grupo total do IBS do Município
+
+  - `vDif`: Valor total do diferimento
+  - `vDevTrib`: Valor total de devolução de tributos
+  - `vDeson`: Valor total de desoneração
+  - `vIBSUF`: Valor total do IBS da UF
+
+`gCBS`: Grupo total da CBS
+
+- `vCresPres` - Valor total do crédito presumido
+- `vCredPresCondSus` - Valor total do crédito presumido em condição suspensiva
+- `vDif`: Valor total do diferimento
+- `vDevTrib`: Valor total de devolução de tributos
+- `vDeson`: Valor total de desoneração
+- `vCBS`: Valor total da CBS
+
+`gMono`:Grupo total da Monofasia
+
+- `vTotIBSMono`: Total do IBS monofásico
+- `vTotCBSMono`: Total da CBS monofásica
+- `vTotNF`: Valor total da NF-e com IBS / CBS / IS
 
 ## Visão Completa dos Novos Campos do Leiaute
 
@@ -124,6 +274,17 @@ Veja no board abaixo, criado no aplicativo Miro, a representação gráfica comp
   >
 </iframe>
 
+## Novas Regras de validação
+
+- B12a-20 - Rejeição: Município do fato gerador do IBS deve ser informado apenas em operação presencial fora do estabelecimento.
+- B25-100 - Rejeição: NF-e de cŕedito referencia documento fiscal diferente de NF-e modelo 55.
+- B25b-50 - Rejeição: NFC-e de entrega a domicílio e não informado endereço do destinatário.
+- B25b-60 - Rejeição: Operação presencial fora do estabelecimento deve informar o município do fato gerador do IBS
+- B34-10 - Rejeição: Tipo de nota de crédito deve ser informado apenas para nota com finalidade de nota de crédito.
+- B30-20 - Rejeição: NF-e com indicador de multa e juros exige referenciamento do item da NF-e original.
+- B32-10 - Rejeição: Nota de compra governamental e alíquota dos outros entes diferente de zero.
+- 3BA02-70 - Rejeição: Nota de crédito de multa/juros deve ter NF-e de débito de multa/juros referenciada.
+
 ## Pacote de Schemas
 
 A NT cita que em busca de uma padronização entre os diversos documentos fiscais eletrônicos existentes, introduz o arquivo “DFeTiposBasicos_v1.00.xsd” ao conjunto dos arquivos que compõem o schema de todos os Documentos Fiscais Eletrônicos - DF-e, entre eles a NF-e e NFC-e.
@@ -133,6 +294,68 @@ Contudo, até o momento não foi publicado oficialmente o novo pacote de schemas
 Mas, podemos encontrar uma versão beta no Portal dos Documentos Fiscais Eletrônicos SVRS, conforme o link:
 
 [https://dfe-portal.svrs.rs.gov.br/Schemas/PRBPETA/DFeTiposBasicos_v1.00.xsd](https://dfe-portal.svrs.rs.gov.br/Schemas/PRBPETA/DFeTiposBasicos_v1.00.xsd).
+
+## Novos Eventos
+
+- Informação de efetivo pagamento integral para liberar crédito presumido do adquirente:
+
+Permite que o emitente da NFe informe o efetivo pagamento integral a fim de liberar crédito presumido do adquirente.
+
+- Solicitação de Apropriação de crédito presumido:
+
+Evento a ser gerado pelo adquirente em relação às notas fiscais de aquisição de emissão de terceiros e que lhe gerem o direito à apropriação de crédito presumido.
+
+- Destinação de item para consumo pessoal:
+
+Permite ao adquirente informar quando uma aquisição for destinada para o consumo de pessoa física, hipótese em que não haverá direito à apropriação de crédito.
+
+- Imobilização de Item:
+
+Evento a ser gerado pelo adquirente de bem, quando este for integrado ao seu ativo imobilizado, a fim de viabilizar a adequada identificação, pelos sistemas da administração tributária, de prazo-limite para apreciação de eventuais pedidos de ressarcimento do respectivo crédito, nos termos do art. 59, I do PLP 68/2024.
+
+- Solicitação de Apropriação de Crédito de Combustível:
+
+Evento a ser gerado pelo adquirente de combustível listado no art. 167 do PLP 68/2024 e que pertença à cadeia produtiva desses combustíveis, para solicitar a apropriação de crédito referente à parcela que for consumida em sua atividade comercial.
+
+- Solicitação de Apropriação de Crédito de fornecimento de bem móvel usado:
+
+Evento a ser gerado pelo fisco sempre que for emitida nota fiscal de venda de bem móvel usado por contribuinte do regime regular de apuração, que referencie nota fiscal de aquisição em que tenha havido solicitação de apropriação de crédito presumido sob condição resolutória.
+
+- Solicitação de Apropriação de Crédito para bens e serviços que dependem de atividade do adquirente:
+
+Evento a ser gerado pelo adquirente para apropriação de crédito de bens e serviços que dependam da sua atividade.
+
+- Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão:
+
+Evento a ser gerado pela sucessora em relação às notas fiscais de transferência de crédito de outra sucessora da mesma empresa sucedida para informar aceite da transferência de crédito de IBS.
+
+- Manifestação sobre Pedido de Transferência de Crédito CBS em Operações de Sucessão:
+
+Evento a ser gerado pela sucessora em relação às notas fiscais de transferência de crédito de outra sucessora da mesma empresa sucedida para informar aceite da transferência de crédito de CBS.
+
+- Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão:
+
+Evento a ser gerado pelo fisco em relação às notas fiscais de transferência de crédito para informar aceite ou não aceite da transferência de crédito de IBS.
+
+- Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em Operações de Sucessão:
+
+Evento a ser gerado pelo fisco em relação às notas fiscais de transferência de crédito para informar aceite ou não aceite da transferência de crédito de CBS.
+
+- Evento de cancelamento de evento do emitente:
+
+Permite que o emitente da NF-e efetue o cancelamento de eventos que tenha efetuado, especificamente para cancelamentos referente o novo evento "Informação de efetivo pagamento integral para liberar crédito presumido do adquirente ".
+
+- Evento de cancelamento de evento do destinatário:
+
+Permite que o destinatário da NFe efetue o cancelamento destes novos eventos de NFe que tenha efetuado.
+
+- Evento de cancelamento de evento da sucessora:
+
+Permite que a sucessora efetue o cancelamento de seus eventos de NFe.
+
+## DANFE
+
+Alterações no DANFE para exibir informações relativas aos novos tributos estão em estudo. E serão publicadas em uma nova versão desta Nota Técnica.
 
 ---
 
