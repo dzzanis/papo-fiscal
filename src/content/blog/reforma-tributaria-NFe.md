@@ -219,14 +219,14 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
 
 `IBSCBSSelTot`: Totais da NF-e com IBS, CBS e IS. Deve ser informado com o somatório do campo correspondente dos itens.
 
-- `vBCIBSCBS`: Valor total da BC do IBS e da CBS
-
-`gSel`: Grupo total do imposto seletivo
+`gSel`: **Grupo total do imposto seletivo**
 
 - `vBCSel`: Total da base de cálculo do imposto seletivo
 - `vImpSel`: Total do imposto seletivo
 
-`gIBS`: Grupo total do IBS
+`vBCIBSCBS`: Valor total da BC do IBS e da CBS
+
+`gIBS`: **Grupo total do IBS**
 
 - `vCresPres` - Valor total do crédito presumido
 - `vCredPresCondSus` - Valor total do crédito presumido em condição suspensiva
@@ -245,7 +245,7 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
   - `vDeson`: Valor total de desoneração
   - `vIBSUF`: Valor total do IBS da UF
 
-`gCBS`: Grupo total da CBS
+`gCBS`: **Grupo total da CBS**
 
 - `vCresPres` - Valor total do crédito presumido
 - `vCredPresCondSus` - Valor total do crédito presumido em condição suspensiva
@@ -254,7 +254,7 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
 - `vDeson`: Valor total de desoneração
 - `vCBS`: Valor total da CBS
 
-`gMono`:Grupo total da Monofasia
+`gMono`:**Grupo total da Monofasia**
 
 - `vTotIBSMono`: Total do IBS monofásico
 - `vTotCBSMono`: Total da CBS monofásica
