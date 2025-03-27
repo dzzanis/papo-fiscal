@@ -31,7 +31,7 @@ Veja esse exemplo de cálculo do preço de venda e do lucro esperado de um deter
         <span class="text-xs text-left">Margem de lucro desejada:</span>
         <span class="text-xs text-left">10%</span>
         <strong class="text-xs text-left">Preço sem tributos=</strong>
-        <span class="text-xs text-left">100,00 ÷ (100% - 10%) = R$ 100,00</span>
+        <span class="text-xs text-left">90,00 ÷ (100% - 10%) = R$ 100,00</span>
       </div >
       <div class=" grid grid-cols-2 mt-4 mb-4 gap-1">
         <span class="text-xs text-left">Tributos “por dentro”:</span>
