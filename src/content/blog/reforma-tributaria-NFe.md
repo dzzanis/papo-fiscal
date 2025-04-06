@@ -139,8 +139,12 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
   </div>
   <div class="row-span-1 row-start-2 col-start-2 w-full flex gap-2 justify-center items-end">
     <div class="w-48 flex flex-col gap-2">
-      <span class="text-center text-sm text-gray-500 p-1 border rounded-xl shadow-md">prod</span>
-      <span class="text-center text-sm text-gray-500 p-1 border rounded-xl shadow-md">imposto</span>
+      <span class="text-center text-sm text-gray-500 p-1 border rounded-xl shadow-md relative">prod
+        <span class="absolute right-1">+</span>
+      </span>
+      <span class="text-center text-sm text-gray-500 p-1 border rounded-xl shadow-md relative">imposto
+      <span class="absolute right-1">+</span>
+      </span>
     </div>
   </div>
   <div class="row-span-1 row-start-3 col-start-2 w-full mt-1 flex justify-center items-start">
@@ -153,12 +157,18 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
     <div class="flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">seletivo</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">seletivo
+        <span class="absolute right-1">+</span>
+      </span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">CST</span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">cClassTrib</span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md px-0.5 sm:px-4">indPerecimento</span>
-      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">gIBSCBS</span>
-      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">gIBSCBSMono</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCBS
+        <span class="absolute right-1">+</span>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCBSMono
+        <span class="absolute right-1">+</span>
+      </span>
     </div>
   </div>
 </div>
@@ -202,9 +212,9 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
 
 - Grupo do IBS e CBS
 
-<div class="grid grid-cols-2 grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-1 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
+<div class="grid grid-cols-[minmax(0px,_0.6fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-center items-center">
-    <div class="w-full flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
+    <div class="w-44 flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
       <span class="text-center text-sm text-[#8b5cf6]">gIBSCBS</span>
     </div>
     <svg 
@@ -228,6 +238,85 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
 </div>
 
 - Campos do IBS da UF
+
+<div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_0.74fr)_minmax(0px,_1fr)] 
+            grid-rows-[minmax(0px,_1fr)_minmax(0px,_0.6fr)_minmax(0px,_0.4fr)_minmax(0px,_0.6fr)_minmax(0px,_2.6fr)]
+            p-2 gap-4 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 sm:pl-14 justify-end items-end">
+    <div class="w-full flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
+      <span class="text-center text-sm text-[#8b5cf6]">gIBSUF</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-end">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pIBSUF</span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vTribOP</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-2 col-start-2 w-full gap-1 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0">gDif</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-2 col-start-3 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pDif</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vDif</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-2 w-full gap-1 pt-1 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0">gDevTrib</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-3 w-full pt-2 flex justify-start items-center">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vDevTrib</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-4 col-start-2 w-full gap-1 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0">gRed</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-4 col-start-3 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pAliqEfet</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pRedAliq</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-5 col-start-2 w-full gap-1 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0">gDeson</span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-5 col-start-3 w-full pt-2 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">CST</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md px-0.5 sm:px-4">cClassTrib</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vBC</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pAliq</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vDeson</span>
+      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vIBSUF</span>
+    </div>
+  </div>
+</div>
+
 - Campos do IBS dos Municípios
 - Campos da CBS
 - Campos do IBS Monofásico
