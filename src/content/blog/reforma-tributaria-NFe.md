@@ -230,7 +230,10 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSMun
         <span class="absolute right-1">+</span>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">CBS
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
+        <span class="absolute right-1">+</span>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBS
         <span class="absolute right-1">+</span>
       </span>
     </div>
