@@ -214,11 +214,14 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
 
 <div class="grid grid-cols-[minmax(0px,_0.6fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-center items-center">
-    <div class="w-44 flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
-      <span class="text-center text-sm text-[#8b5cf6] relative group">gIBSCBS
-        <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+    <div class="min-w-28 flex flex-col gap-2 justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
+      <span class="text-center text-sm text-[#8b5cf6] relative">gIBSCBS
+        <span class="absolute left-0 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
+          i
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações do IBS e CBS
-        </div>
+          </div>
+        </span>
       </span>
     </div>
     <svg 
@@ -227,34 +230,49 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
   </div>
   <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative group">vBC
-        <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-          Base de cálculo do IBS e CBS
-        </div>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBC
+        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
+          i
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Base de cálculo do IBS e CBS
+          </div>
+        </span>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative group">gIBSUF
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSUF
         <span class="absolute right-1">+</span>
-        <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-          Grupo do IBS para a UF
-        </div>
+        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
+          i
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo do IBS para a UF
+          </div>
+        </span>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative group">gIBSMun
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSMun
         <span class="absolute right-1">+</span>
-        <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-          Grupo do IBS para o Município 
-        </div>
+        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
+          i
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo do IBS para o Município
+          </div>
+        </span>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative group">gIBSCredPres
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
         <span class="absolute right-1">+</span>
-        <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-          Grupo de Informações do Crédito Presumido do IBS 
-        </div>
+        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
+          i
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações do Crédito Presumido do IBS
+          </div>
+        </span>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative group">gCBS
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBS
         <span class="absolute right-1">+</span>
-        <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-          Grupo de Informações da CBS 
-        </div>
+        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
+          i
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações da CBS
+          </div>
+        </span>
       </span>
     </div>
   </div>
