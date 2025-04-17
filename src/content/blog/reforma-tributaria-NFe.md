@@ -216,12 +216,11 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-center items-center">
     <div class="min-w-28 flex flex-col gap-2 justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
       <span class="text-center text-sm text-[#8b5cf6] relative">gIBSCBS
-        <span class="absolute left-0 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
-          i
+        <i class="ph-light ph-info absolute left-0 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações do IBS e CBS
           </div>
-        </span>
+        </i>
       </span>
     </div>
     <svg 
@@ -231,48 +230,43 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
   <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBC
-        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
-          i
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Base de cálculo do IBS e CBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+              Base de cálculo do IBS e CBS
           </div>
-        </span>
+        </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSUF
         <span class="absolute right-1">+</span>
-        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
-          i
+        <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo do IBS para a UF
           </div>
-        </span>
+        </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSMun
         <span class="absolute right-1">+</span>
-        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
-          i
+        <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo do IBS para o Município
           </div>
-        </span>
+        </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
         <span class="absolute right-1">+</span>
-        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
-          i
+        <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações do Crédito Presumido do IBS
           </div>
-        </span>
+        </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBS
         <span class="absolute right-1">+</span>
-        <span class="absolute left-1 text-xs ring-1 ring-[#D6925B] rounded-full px-1 text-[#D6925B] group hover:ring-opacity-75 hover:text-opacity-75">
-          i
+        <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações da CBS
           </div>
-        </span>
+        </i>
       </span>
     </div>
   </div>
