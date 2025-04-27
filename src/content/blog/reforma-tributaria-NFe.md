@@ -212,12 +212,12 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
 
 - Grupo do IBS e CBS
 
-<div class="grid grid-cols-[minmax(0px,_0.6fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
-  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-center items-center">
+<div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
     <div class="min-w-28 flex flex-col gap-2 justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
       <span class="text-center text-sm text-[#8b5cf6] relative">gIBSCBS
         <i class="ph-light ph-info absolute left-0 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações do IBS e CBS
           </div>
         </i>
@@ -275,7 +275,7 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
 - Campos do IBS da UF
 
 <div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_0.74fr)_minmax(0px,_1fr)] 
-            grid-rows-[minmax(0px,_1fr)_minmax(0px,_0.6fr)_minmax(0px,_0.4fr)_minmax(0px,_0.6fr)_minmax(0px,_2.6fr)]
+            grid-rows-[minmax(0px,_1fr)_minmax(0px,_0.6fr)_minmax(0px,_0.4fr)_minmax(0px,_0.6fr)_minmax(0px,_2fr)_minmax(0px,_0.4fr)]
             p-2 gap-4 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 sm:pl-14 justify-end items-end">
     <div class="w-full flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
@@ -347,7 +347,11 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vBC</span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pAliq</span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vDeson</span>
-      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vIBSUF</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-6 col-start-2 w-full flex gap-2 justify-start items-center">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vIBSUF</span>
     </div>
   </div>
 </div>
@@ -355,7 +359,7 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
 - Campos do IBS dos Municípios
 
 <div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_0.74fr)_minmax(0px,_1fr)] 
-            grid-rows-[minmax(0px,_1fr)_minmax(0px,_0.6fr)_minmax(0px,_0.4fr)_minmax(0px,_0.6fr)_minmax(0px,_2.6fr)]
+            grid-rows-[minmax(0px,_1fr)_minmax(0px,_0.6fr)_minmax(0px,_0.4fr)_minmax(0px,_0.6fr)_minmax(0px,_2fr)_minmax(0px,_0.4fr)]
             p-2 gap-4 ring-2 rounded ring-[#8b5cf6] overflow-hidden">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 sm:pl-14 justify-end items-end">
     <div class="w-full flex justify-center p-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
@@ -427,12 +431,304 @@ Novo ´Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo´ conte
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vBC</span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">pAliq</span>
       <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vDeson</span>
-      <span class="text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vIBSMun</span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-6 col-start-2 w-full flex gap-2 justify-start items-center">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md">vIBSMun</span>
+    </div>
+  </div>
+</div>
+
+- Campos do Crédito Presumido de IBS
+
+<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
+    <div class="min-w-32 flex flex-col gap-2 justify-center py-2 ring-1 ring-[#8b5cf6] rounded-lg shadow-md">
+      <span class="text-center text-sm text-[#8b5cf6] relative">gIBSCredPres
+        <i class="ph-light ph-info absolute left-0 group">
+          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações do Crédito Presumido referente ao IBS
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+              Código de Classificação do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresCondSus
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido em condição suspensiva
+          </div>
+        </i>
+      </span>
     </div>
   </div>
 </div>
 
 - Campos da CBS
+
+<div class="grid grid-cols-[minmax(0px,_1fr)_minmax(0px,_1fr)]
+            grid-rows-[minmax(0px,_0.5fr)_minmax(0px,_0.4fr)_minmax(0px,_0.8fr)_minmax(0px,_0.4fr)_minmax(0px,_0.3fr)_minmax(0px,_0.4fr)_minmax(0px,_1fr)_minmax(0px,_0.2fr)]
+            p-2 gap-3 ring-2 rounded ring-[#8b5cf6]">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-col gap-1 justify-center items-start sm:items-end">
+    <div class="w-36 sm:w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações da CBS
+          </div>
+        </i>
+      </span>
+    </div>
+    <div class="w-36 sm:w-44 flex flex-col items-center">
+      <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-2 col-span-1 col-start-1 w-full flex flex-col gap-1 justify-center items-start sm:items-end">
+    <div class="w-36 sm:w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Alíquota da CBS
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vTribOP
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor bruto do tributo na operação
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-1 w-full gap-1 flex justify-end items-start">
+    <div class="w-56 sm:w-36 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações do Crédito Presumido referente a CBS 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Código de Classificação do Crédito Presumido 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual do Crédito Presumido 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-[0.8rem] sm:text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresCondSus
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do crédito presumido em condição suspensiva. 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-4 col-start-1 w-full gap-1 flex justify-end items-start">
+  <div class="w-56 sm:w-36 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDif
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações do Diferimento 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-4 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pDif
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual do diferimento 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDif
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Diferimento 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-5 col-start-1 w-full gap-1 pt-1 flex justify-end items-center">
+    <div class="w-56 sm:w-36 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDevTrib
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações da devolução de tributos 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-5 col-start-2 w-full pt-2 flex justify-start items-center">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do tributo devolvido 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-6 col-start-1 w-full gap-1 flex justify-end items-start">
+    <div class="w-56 sm:w-36 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gRed
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de informações da redução da alíquota 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-6 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual da redução de alíquota 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Alíquota Efetiva da CBS que será aplicada a Base de Cálculo  
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-7 col-start-1 w-full gap-1 flex justify-end items-start">
+    <div class="w-56 sm:w-36 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDeson
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de informações da Desoneração 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-7 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">CST
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Código de Situação Tributária do IBS e CBS 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md px-0.5 sm:px-4 relative">cClassTrib
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Código de Classificação Tributária do IBS e CBS 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBC
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor da BC 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliq
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor da alíquota 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDeson
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor desonerado 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-8 col-start-1 w-full flex gap-2 justify-end items-start">
+    <div class="w-36 sm:w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor da CBS 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+</div>
+
 - Campos do IBS Monofásico
 
 ## Referenciamento de item de outra NF-e
