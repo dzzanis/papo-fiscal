@@ -54,14 +54,6 @@ Esta Nota Técnica substitui, no âmbito da NFe/NFCe, a RT NT 2024.002, atualiza
 
 A versão 1.00 publicada em 28 de março de 2025 continha 48 páginas. Já a versão 1.01 de 14 de abril, passou a compor 50 páginas.
 
-## Pacote de Schemas
-
-A NT cita que em busca de uma padronização entre os diversos documentos fiscais eletrônicos existentes, introduz o arquivo “DFeTiposBasicos_v1.00.xsd” ao conjunto dos arquivos que compõem o schema de todos os Documentos Fiscais Eletrônicos - DF-e, entre eles a NF-e e NFC-e.
-
-Esse pacote de schemas é muito útil para as adaptações necessárias nos softwares, com finalidade de construção e leitura dos arquivos. Podemos encontrá-lo no Portal da Nota Fiscal Eletrônica, no menu "Documentos\Esquemas XML", com o nome:
-
-- Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP). Publicado em 15/04/2025
-
 ## Nota de Débito e Crédito
 
 Foram criadas duas novas finalidades de emissão da nota fiscal eletrônica:
@@ -1330,9 +1322,23 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
 
 `vNFTot`: Valor total da NF-e com IBS / CBS / IS
 
+## Regras de Validação
+
+Diversas regras de validação serão aplicadas. Destacam-se e rejeição caso não informados dados do grupo dos tributos IBS e CBS e a regra de validação do valor total da NF-e/NFC-e, que vai considerar os valores de IS, IBS, CBS, IBS monofásico e CBS monofásica como parte integrante do total do documento.
+
+Contudo, para no ano de 2026, que será tratado como um período de testes, está prevista a exceção em que os valores destacados dos novos tributos não sejam ainda somados no valor total da nota. Permitindo que as empresas e os sistemas de gestão, nesta exigência específica, tenham esse período para adaptação.
+
 ## DANFE
 
 Alterações no DANFE para exibir informações relativas aos novos tributos estão em estudo. E serão publicadas em uma nova versão desta Nota Técnica.
+
+## Pacote de Schemas
+
+A NT cita que em busca de uma padronização entre os diversos documentos fiscais eletrônicos existentes, introduz o arquivo “DFeTiposBasicos_v1.00.xsd” ao conjunto dos arquivos que compõem o schema de todos os Documentos Fiscais Eletrônicos - DF-e, entre eles a NF-e e NFC-e.
+
+Esse pacote de schemas é muito útil para as adaptações necessárias nos softwares, com finalidade de construção e leitura dos arquivos. Podemos encontrá-lo no Portal da Nota Fiscal Eletrônica, no menu "Documentos\Esquemas XML", com o nome:
+
+- Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP). Publicado em 15/04/2025
 
 ---
 
@@ -1349,7 +1355,7 @@ Entre já em contato com o nosso parceiro o advogado Rodrigo Zanis!
 Serviços personalizados e de excelência na área da advocacia, de forma inovadora, eficaz e ágil.
 
 <div class="text-center gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3">
-  <a href="https://rodrigozanis.adv.br" target="_blank" class="no-underline">
+  <a href="https://rodrigozanis.adv.br" target="_blank" class="no-underline hover:underline">
     <div>
       <img src="/assets/logo-rz-consultoria-e-assessoria-juridica.png" class="h-48 w-48 mx-auto" alt="logo advogado Rodrigo Zanis">
       <p class="text-xl font-medium text-black">Advogado Rodrigo Zanis</p>
