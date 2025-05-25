@@ -1340,6 +1340,28 @@ Esse pacote de schemas é muito útil para as adaptações necessárias nos soft
 
 - Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP). Publicado em 15/04/2025
 
+## Novos Eventos
+
+Criação de novos eventos destinados a ajustar a apuração assistida do IBS e da CBS. Permitindo que em certos casos específicos as empresas informem o direito ao crédito fiscal ou realizem o estorno de créditos indevidamente apropriados.
+
+| Código | Evento                                                                                             |           Autor            |
+| ------ | :------------------------------------------------------------------------------------------------- | :------------------------: |
+| 112110 | Informação de efetivo pagamento integral para liberar crédito presumido do adquirente              |          Emitente          |
+| 211110 | Solicitação de Apropriação de crédito presumido                                                    |        Destinatário        |
+| 211120 | Destinação de item para consumo pessoal                                                            |   Emitente/Destinatário    |
+| 211124 | Perecimento, perda, roubo ou furto                                                                 |        Destinatário        |
+| 211128 | Aceite de débito na apuração por emissão de nota de crédito                                        |        Destinatário        |
+| 211130 | Imobilização de Item                                                                               |        Destinatário        |
+| 211140 | Solicitação de Apropriação de Crédito de Combustível                                               |        Destinatário        |
+| 211150 | Solicitação de Apropriação de Crédito para bens e serviços que dependem de atividade do adquirente |        Destinatário        |
+| 212110 | Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão              |         Sucessora          |
+| 212120 | Manifestação sobre Pedido de Transferência de Crédito CBS em Operações de Sucessão                 |         Sucessora          |
+| 412120 | Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão     |           Fisco            |
+| 412130 | Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em Operações de Sucessão     |           Fisco            |
+| 110001 | Cancelamento de Evento (para cancelar algum dos eventos citados acima)                             | Autor do evento a cancelar |
+
+O evento de “Imobilização de Item” por exemplo, deverá ser gerado pelo adquirente de bem, quando este for integrado ao seu ativo imobilizado, a fim de viabilizar o controle do prazo de 180 dias para apreciação dos pedidos de ressarcimento do respectivo crédito, nos termos do art. 39 e 40, I da LC 214/2025.
+
 ---
 
 Gostou deste conteúdo? Compartilhe com seus colegas e amigos que também podem se beneficiar destas informações.
