@@ -153,7 +153,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`. Mas os tipos 
     <div class="sm:min-w-36 flex flex-col gap-2">
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCompraGov
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de ente governamental:
               1=União <br>
               2=Estado <br>
@@ -164,7 +164,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`. Mas os tipos 
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedutor
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual de redução de alíquota em compra governamental. Conforme art. 472/370 da LC 214/24.
           </div>
         </i>
