@@ -1348,7 +1348,7 @@ Criação de novos eventos destinados a ajustar a apuração assistida do IBS e 
 | ------ | :------------------------------------------------------------------------------------------------- | :------------------------: |
 | 112110 | Informação de efetivo pagamento integral para liberar crédito presumido do adquirente              |          Emitente          |
 | 211110 | Solicitação de Apropriação de crédito presumido                                                    |        Destinatário        |
-| 211120 | Destinação de item para consumo pessoal                                                            |   Emitente/Destinatário    |
+| 211120 | Destinação de item para consumo pessoal                                                            |   Emitente Destinatário    |
 | 211124 | Perecimento, perda, roubo ou furto                                                                 |        Destinatário        |
 | 211128 | Aceite de débito na apuração por emissão de nota de crédito                                        |        Destinatário        |
 | 211130 | Imobilização de Item                                                                               |        Destinatário        |
