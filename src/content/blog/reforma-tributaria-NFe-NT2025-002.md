@@ -89,7 +89,7 @@ A opção `04=Multa e Juros` deverá ser usada nas emissões de notas fiscais pa
 
 E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`. Mas os tipos ainda serão definidos futuramente.
 
-<div class="grid grid-cols-3 grid-rows-8 p-1 gap-2 ring-1 rounded ring-[#8b5cf6]">
+<div class="grid grid-cols-[minmax(0px,_0.94fr)_minmax(0px,_1fr)_minmax(0px,_1fr)] grid-rows-8 p-1 gap-2 ring-1 rounded ring-[#8b5cf6]">
   <div class="row-span-4 row-start-4 w-full flex gap-4 flex-col justify-center items-center">
     <i class="ph-bold ph-arrow-bend-up-right text-4xl text-green-700"></i>
     <div class="w-fit p-1 flex flex-col border rounded-lg shadow-md">
@@ -151,7 +151,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`. Mas os tipos 
   </div>
   <div class="row-span-2 row-start-7 col-start-3 gap-1 flex justify-start items-center">
     <div class="sm:min-w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCompraGov
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCompraGov
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de ente governamental:
