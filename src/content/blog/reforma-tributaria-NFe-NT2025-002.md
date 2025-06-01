@@ -271,7 +271,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cClassTrib
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cClassTrib
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Código de Classificação Tributária do IBS e CBS
@@ -286,7 +286,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
           </div>
         </i>
       </span>
-      <span class="text-center text-[0.8rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCBSMono
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCBSMono
         <span class="absolute right-0.5">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
@@ -861,7 +861,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
 <div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_1fr)] grid-rows-1 p-4 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
     <div class="min-w-28 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
-      <span class="text-center text-xs text-[#8b5cf6] group">gTribRegular
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gTribRegular
         <i class="ph-light ph-info absolute left-1 ">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Regular
@@ -940,7 +940,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
 <div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
     <div class="min-w-32 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
-      <span class="text-center text-sm text-[#8b5cf6] group">gIBSCredPres
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gIBSCredPres
         <i class="ph-light ph-info absolute left-1">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações do Crédito Presumido referente ao IBS
@@ -991,7 +991,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
 <div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
     <div class="min-w-32 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
-      <span class="text-center text-sm text-[#8b5cf6] group">gCBSCredPres
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gCBSCredPres
         <i class="ph-light ph-info absolute left-1">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Informações do Crédito Presumido referente ao CBS
@@ -1117,28 +1117,28 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemIBSREten
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemIBSReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad rem do IBS sujeito a retenção 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoReten
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS monofásico sujeito a retenção, a ser somado ao valor de IBS a ser recolhido. 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemCBSReten
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemCBSReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad rem da CBS sujeito a retenção 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoReten
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS monofásica sujeita a retenção, a ser somado ao valor de CBS a ser recolhido. 
@@ -1248,14 +1248,14 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
   </div>
   <div class="row-span-1 row-start-6 col-start-1 w-full flex gap-2 justify-end items-start sm:items-end">
     <div class="w-40 sm:w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vTotIBSMonoItem
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vTotIBSMonoItem
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Total de IBS Monofásico.
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vTotCBSMonoItem
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vTotCBSMonoItem
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Total da CBS Monofásica.
