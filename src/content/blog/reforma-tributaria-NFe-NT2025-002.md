@@ -858,7 +858,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
 
 - Grupo de informações da Tributação Regular, informando como seria a tributação caso não cumprida a condição resolutória/suspensiva
 
-<div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_1fr)] grid-rows-1 p-4 gap-2 ring-2 rounded ring-[#8b5cf6]">
+<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 p-4 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
     <div class="min-w-28 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gTribRegular
