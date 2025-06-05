@@ -858,9 +858,9 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
 
 - Grupo de informações da Tributação Regular, informando como seria a tributação caso não cumprida a condição resolutória/suspensiva
 
-<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 p-4 gap-2 ring-2 rounded ring-[#8b5cf6]">
+<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 px-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
-    <div class="min-w-28 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
+    <div class="min-w-32 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gTribRegular
         <i class="ph-light ph-info absolute left-1 ">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
@@ -917,7 +917,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfetRegCBS
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfetRegCBS
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da alíquota da CBS
@@ -937,7 +937,7 @@ Novo grupo ´Grupo VB. Total do item da NF-e´ com o campo´vItem´ e o ´Grupo 
 
 - Campos do Crédito Presumido de IBS
 
-<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
+<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 px-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
     <div class="min-w-32 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gIBSCredPres
