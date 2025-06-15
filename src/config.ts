@@ -74,7 +74,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/5547999558875",
+    href: "https://whatsapp.com/channel/0029VbBUvmuLSmbZAV6U9810",
     linkTitle: `${SITE.title} on WhatsApp`,
     active: true,
   },
