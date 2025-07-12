@@ -3,7 +3,7 @@ author: Papo Fiscal
 pubDatetime: 2025-01-17T07:45:00Z
 title: Sancionada a regulamentação da reforma tributária
 slug: reforma-tributaria-projeto-de-lei-complementar-sancionado
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
