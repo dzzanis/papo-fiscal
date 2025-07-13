@@ -162,7 +162,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
   </div>
   <div class="row-span-3 row-start-7 col-start-2 flex justify-start items-center">
     <div class="flex flex-row gap-0.5">
-      <span class="sm:min-w-44 text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCompraGov
+      <span class="sm:min-w-44 text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCompraGov
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de Compra Governamental
@@ -207,7 +207,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
   </div>
   <div class="row-span-1 row-start-10 col-start-2 flex justify-start items-center">
     <div class="flex flex-row gap-0.5">
-      <span class="sm:min-w-44 text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gPagAntecipado
+      <span class="sm:min-w-44 text-center sm:text-sm text-xs whitespace-normal text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gPagAntecipado
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de notas de antecipação de pagamento
@@ -219,7 +219,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
         width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
     </div>
   </div>
-  <div class="row-span-1 row-start-10 col-start-3 gap-1 pl-6 sm:pl-1 flex justify-start items-center">
+  <div class="row-span-1 row-start-10 col-start-3 gap-1 pl-7 sm:pl-1 flex justify-start items-center">
     <div class="sm:min-w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">refNFe
         <i class="ph-light ph-info absolute left-1 group">
