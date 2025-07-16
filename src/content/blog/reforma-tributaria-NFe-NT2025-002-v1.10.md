@@ -207,7 +207,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
   </div>
   <div class="row-span-1 row-start-10 col-start-2 flex justify-start items-center">
     <div class="flex flex-row gap-0.5">
-      <span class="sm:min-w-44 text-center sm:text-sm text-xs whitespace-normal text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gPagAntecipado
+      <span class="sm:min-w-44 text-center sm:text-sm text-[0.6rem] whitespace-normal text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gPagAntecipado
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de notas de antecipação de pagamento
@@ -219,8 +219,8 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
         width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
     </div>
   </div>
-  <div class="row-span-1 row-start-10 col-start-3 gap-1 pl-7 sm:pl-1 flex justify-start items-center">
-    <div class="sm:min-w-44 flex flex-col gap-2">
+  <div class="row-span-1 row-start-10 col-start-3 gap-1 sm:pl-1 pl-3 flex justify-start items-center">
+    <div class="sm:min-w-44 min-w-20 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">refNFe
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
@@ -365,7 +365,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCBSMono
+      <span class="text-center sm:text-sm text-[0.6rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCBSMono
         <span class="absolute right-0.5">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
@@ -373,7 +373,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gTransfCred
+      <span class="text-center sm:text-sm text-[0.6rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gTransfCred
         <span class="absolute right-0.5">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
@@ -381,7 +381,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-[0.6rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCredPresIBSZFM
+      <span class="text-center sm:text-sm text-[0.5rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCredPresIBSZFM
         <span class="absolute right-0.5">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
@@ -557,7 +557,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gTribCompraGov
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gTribCompraGov
         <span class="absolute right-1">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
@@ -645,7 +645,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-start-4 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do tributo devolvido (desconto na própria Nota Fiscal / Fatura) 
@@ -670,14 +670,14 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual da redução de alíquota do cClassTrib
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota Efetiva do IBS de competência das UF aplicada a Base de Cálculo, após redução de alíquota e gCompraGov/pRedutor: <br>
@@ -781,7 +781,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-start-4 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do tributo devolvido (“cashback” de desconto na Fatura) 
@@ -806,14 +806,14 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual da redução de alíquota do cClassTrib
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-48 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota Efetiva do IBS de competência do Município aplicada a Base de Cálculo, após redução de alíquota e gCompraGov/pRedutor: <br><br>
@@ -917,7 +917,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-start-4 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do tributo devolvido (“cashback” de desconto na Fatura) 
@@ -942,14 +942,14 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual da redução de alíquota
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota Efetiva da CBS aplicada a Base de Cálculo  
@@ -1516,7 +1516,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCredPresIBSZFM
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCredPresIBSZFM
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
               Tipo de classificação conforme percentuais definidos no <code>art. 450, § 1º, da LC 214/25</code> para cálculo do crédito presumido na ZFM: <br>
