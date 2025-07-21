@@ -31,9 +31,11 @@ No portal você encontra também as **Tabelas CST e Classificação Tributária 
 
 - [https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria](https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria)
 
-Por fim, cabe destacar que a tabela de Classificação do Crédito Presumido será fundamental para o preenchimento correto dos campos obrigatórios nos documentos fiscais eletrônicos e o cumprimento das regras de validação estabelecidas na documentação técnica de cada DFe. Sendo essencial para escrituração fiscal, parametrização dos ERP e o cumprimento das obrigações acessórias do novo sistema tributário.
+Cabe destacar que a tabela de Classificação do Crédito Presumido será fundamental para o preenchimento correto dos campos obrigatórios nos documentos fiscais eletrônicos e o cumprimento das regras de validação estabelecidas na documentação técnica de cada DFe. Sendo essencial para escrituração fiscal, parametrização dos ERP e o cumprimento das obrigações acessórias do novo sistema tributário.
 
-Por exemplo, veja abaixo os grupos e campos relacionados, previstos na [Nota Técnica 2025.002](https://papofiscal.blog/posts/reforma-tributaria-nf-e-nt-2025-002-v1.10/) da NF-e:
+Na tabela encontramos, junto aos códigos `cCredPress`, os indicadores que estabelecem se o crédito presumido será apropriado via nota fiscal ou evento de manifestação, se abrange o IBS e/ou a CBS, o tipo de alíquota que deve ser utilizada para cálculo (fixa, divulgada anualmente, efetiva, efetiva com redução) e qual cClassTrib (Código de Classificação Tributária) deve ser referenciado.
+
+Por fim, veja abaixo os grupos e campos relacionados, previstos na [Nota Técnica 2025.002](https://papofiscal.blog/posts/reforma-tributaria-nf-e-nt-2025-002-v1.10/) da NF-e:
 
 - Grupo do IBS e CBS do Item
 
@@ -93,7 +95,7 @@ Por exemplo, veja abaixo os grupos e campos relacionados, previstos na [Nota Té
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
+      <span class="text-center text-sm text-red-500 p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
         <span class="absolute right-1">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
@@ -101,7 +103,7 @@ Por exemplo, veja abaixo os grupos e campos relacionados, previstos na [Nota Té
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSCredPres
+      <span class="text-center text-sm text-red-500 p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSCredPres
         <span class="absolute right-1">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
