@@ -3,7 +3,7 @@ author: Papo Fiscal
 pubDatetime: 2025-07-12T07:16:00Z
 title: Versão 1.10 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002-v1.10
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
