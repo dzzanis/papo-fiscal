@@ -24,14 +24,14 @@ A Lei Complementar 214/2015 disciplina a matéria em dois artigos:
 
 - Art. 47: veda a apropriação de crédito na aquisição de bens e serviços de uso e consumo pessoal.
 
-<div class="text-justify gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3">
+<div class="text-justify gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] p-1 shadow-md">Art. 47. O contribuinte sujeito ao regime regular poderá apropriar créditos do IBS e da CBS quando ocorrer a extinção por qualquer das modalidades previstas no art. 27 dos débitos relativos às operações em que seja adquirente, <em class="underline">excetuadas exclusivamente aquelas consideradas de uso ou consumo pessoal, nos termos do art. 57</em> desta Lei Complementar, e as demais hipóteses previstas nesta Lei Complementar.
     </span>
 </div>
 
 - Art. 57 - Inciso I: lista os bens e serviços considerados de uso e consumo pessoal.
 
-<div class="text-justify text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3">
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">Art. 57. Consideram-se de uso ou consumo pessoal: <br>
       I - os seguintes bens e serviços:
     </span>
@@ -47,7 +47,7 @@ A Lei Complementar 214/2015 disciplina a matéria em dois artigos:
 
 - Art. 57 - Inciso II: considera uso e consumo pessoal também os bens e serviços adquiridos ou produzidos pelo contribuinte e fornecidos de forma não onerosa ou em valor inferior ao de mercado em determinadas hipóteses.
 
-<div class="text-justify text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3">
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">Art. 57. Consideram-se de uso ou consumo pessoal: <br> (...) <br>
       II - os bens e serviços adquiridos ou produzidos pelo contribuinte e fornecidos de forma não onerosa ou a valor inferior ao de mercado para:
     </span>
@@ -69,7 +69,7 @@ _💡 Conceito de valor de mercado: valor praticado em operações comparáveis 
 
 - Art. 57 - § 3º: como exceção à regra geral, a aquisição de bens e serviços gera créditos quando necessários às atividades do contribuinte.
 
-<div class="text-justify text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3">
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">§ 3º Não se consideram bens e serviços de uso ou consumo pessoal aqueles utilizados preponderantemente na atividade econômica do contribuinte, de acordo com os seguintes critérios:</span>
     <ul>
       <li class="sm:text-sm text-xs text-[#8b5cf6]">I - os bens previstos nas alíneas “a” a “d” do inciso I do caput deste artigo que sejam comercializados ou utilizados para a fabricação de bens a serem comercializados;</li>
@@ -94,21 +94,41 @@ _💡 Este último item, demonstra que a regulamentação da lei complementar po
 
 - Art. 57 - § 6º e § 7º: incidência de débitos equivalentes ao valor dos créditos aproveitados na aquisição, acrescidos de juros e atualização, ao destinar de bens e serviços para uso e consumo pessoal.
 
-<div class="text-justify text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 hover:scale-105 hover:-translate-y-1 p-3">
-  <ul>
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
+  <ul class="flex flex-col gap-2">
     <li class="sm:text-sm text-xs text-[#8b5cf6]">§ 6º Caso tenha havido a apropriação de créditos na aquisição de bens ou serviços de uso ou consumo pessoal, serão exigidos débitos em valores equivalentes aos dos créditos, com os acréscimos legais de que trata o § 2º do art. 29, calculados desde a data da apropriação.</li>
     <li class="sm:text-sm text-xs text-[#8b5cf6]">§ 7º Na hipótese de fornecimento de bem do contribuinte para utilização temporária pelas pessoas físicas de que trata o inciso II do caput deste artigo, serão exigidos débitos em valores equivalentes aos dos créditos, calculados proporcionalmente ao tempo de vida útil do bem em relação ao tempo utilizado pelo contribuinte, com os acréscimos legais de que trata o § 2º do art. 29, na forma do regulamento.</li>
   </ul>
 </div>
 
-## Conclusão
+### Conclusão
 
 Em síntese a lei complementar estabelece:
 
-- Vedação ao crédito (Art. 47)
-- Não diferenciação entre (i) bens de uso e consumo do próprio contribuinte (Art. 57 - Inciso I) e (ii) bens de uso e consumo fornecidos pela empresa a pessoas físicas vinculadas (Art. 57 - Inciso II)
-- Exceção quando necessários as atividades do contribuinte nos casos do Art. 57 - § 3º
-- Incidência de IBS e CBS nos casos do art. 57 - § 6º e § 7º
+- Vedação ao crédito (`Art. 47`)
+- Não diferenciação entre (i) bens de uso e consumo do próprio contribuinte (`Art. 57 - Inciso I`) e (ii) bens de uso e consumo fornecidos pela empresa a pessoas físicas vinculadas (`Art. 57 - Inciso II`)
+- Exceção quando necessários as atividades do contribuinte nos casos do `Art. 57 - § 3º`
+- Incidência de IBS e CBS nos casos do `Art. 57 - § 6º e § 7º`
+
+## Comparativo ICMS vs IBS/CBS
+
+- **ICMS** (modelo atual):
+
+Regra: não gera crédito de ICMS sobre bens e serviços adquiridos para uso e consumo da empresa.
+
+A sistemática do ICMS limita o crédito ao que for aplicado diretamente na produção ou revenda.
+
+Exemplo: Compra de cadeiras para escritório, material de limpeza ou papelaria não gera crédito de ICMS.
+
+- **IBS e CBS**:
+
+Regra: gera crédito, mesmo para bens de uso e consumo, desde que:
+
+🔹 Sejam utilizados nas atividades econômicas da empresa (uso profissional);
+
+🔹 Não sejam destinados ao consumo pessoal dos sócios, administradores ou empregados.
+
+Exemplo: Compra de computadores, móveis, material de expediente ou de limpeza para o funcionamento da empresa gera crédito integral de IBS e CBS.
 
 ## Nota Fiscal Eletrônica
 
