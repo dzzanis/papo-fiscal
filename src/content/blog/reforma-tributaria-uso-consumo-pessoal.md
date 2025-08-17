@@ -1,6 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-08-15T07:05:00Z
+modDatetime: 2025-08-17T07:59:00Z
 title: Reforma Tributária - Bens e serviços de uso e consumo pessoal
 slug: reforma-tributaria-bens-servicos-uso-e-consumo-pessoal
 featured: false
@@ -22,14 +23,16 @@ E delegou competência à legislação complementar para definir tais operaçõe
 
 A Lei Complementar 214/2015 disciplina a matéria em dois artigos:
 
-- Art. 47: veda a apropriação de crédito na aquisição de bens e serviços de uso e consumo pessoal.
+- ### Art. 47:
+  Veda a apropriação de crédito na aquisição de bens e serviços de uso e consumo pessoal.
 
 <div class="text-justify gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] p-1 shadow-md">Art. 47. O contribuinte sujeito ao regime regular poderá apropriar créditos do IBS e da CBS quando ocorrer a extinção por qualquer das modalidades previstas no art. 27 dos débitos relativos às operações em que seja adquirente, <em class="underline">excetuadas exclusivamente aquelas consideradas de uso ou consumo pessoal, nos termos do art. 57</em> desta Lei Complementar, e as demais hipóteses previstas nesta Lei Complementar.
     </span>
 </div>
 
-- Art. 57 - Inciso I: lista os bens e serviços considerados de uso e consumo pessoal.
+- ### Art. 57 - Inciso I:
+  Lista os bens e serviços considerados de uso e consumo pessoal.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">Art. 57. Consideram-se de uso ou consumo pessoal: <br>
@@ -45,7 +48,8 @@ A Lei Complementar 214/2015 disciplina a matéria em dois artigos:
     </ul>
 </div>
 
-- Art. 57 - Inciso II: considera uso e consumo pessoal também os bens e serviços adquiridos ou produzidos pelo contribuinte e fornecidos de forma não onerosa ou em valor inferior ao de mercado em determinadas hipóteses.
+- ### Art. 57 - Inciso II:
+  Considera uso e consumo pessoal também os bens e serviços adquiridos ou produzidos pelo contribuinte e fornecidos de forma não onerosa ou em valor inferior ao de mercado em determinadas hipóteses.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">Art. 57. Consideram-se de uso ou consumo pessoal: <br> (...) <br>
@@ -65,9 +69,10 @@ A Lei Complementar 214/2015 disciplina a matéria em dois artigos:
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">§ 2º No caso de sociedade que tenha como atividade principal a gestão de bens das pessoas físicas referidas no inciso II do caput deste artigo e dos ativos financeiros dessas pessoas físicas (family office), os bens e serviços relacionados à gestão serão considerados de uso e consumo pessoal.</span>
 </div>
 
-_💡 Conceito de valor de mercado: valor praticado em operações comparáveis entre partes não relacionadas (art. 12, § 4º , da LC 68/2024)._
+💡 _Conceito de valor de mercado: valor praticado em operações comparáveis entre partes não relacionadas (art. 12, § 4º , da LC 68/2024)._
 
-- Art. 57 - § 3º: como exceção à regra geral, a aquisição de bens e serviços gera créditos quando necessários às atividades do contribuinte.
+- ### Art. 57 - § 3º:
+  Como exceção à regra geral, a aquisição de bens e serviços gera créditos quando necessários às atividades do contribuinte.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">§ 3º Não se consideram bens e serviços de uso ou consumo pessoal aqueles utilizados preponderantemente na atividade econômica do contribuinte, de acordo com os seguintes critérios:</span>
@@ -90,9 +95,12 @@ _💡 Conceito de valor de mercado: valor praticado em operações comparáveis 
     </ul>
 </div>
 
-_💡 Este último item, demonstra que a regulamentação da lei complementar pode acrescentar novos casos de exceção._
+⭐ _Como podemos observar, é garantido o direito ao crédito para benefícios obrigatórios previstos em convenção coletiva (como planos de saúde e vales). E também, admite-se o crédito sobre benefícios educacionais concedidos aos empregados e seus dependentes de forma ampla e com critérios uniformes._
 
-- Art. 57 - § 6º e § 7º: incidência de débitos equivalentes ao valor dos créditos aproveitados na aquisição, acrescidos de juros e atualização, ao destinar de bens e serviços para uso e consumo pessoal.
+💡 _O último item, demonstra que a regulamentação da lei complementar pode acrescentar novos casos de exceção._
+
+- ### Art. 57 - § 6º e § 7º:
+  Incidência de débitos equivalentes ao valor dos créditos aproveitados na aquisição, acrescidos de juros e atualização, ao destinar de bens e serviços para uso e consumo pessoal.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
   <ul class="flex flex-col gap-2">
@@ -165,7 +173,7 @@ Estrutura XML do evento:
 | chaveAcesso          | Informar a chave da nota (NFe ou NFCe) emitida para o fornecimento nos casos em que a legislação obriga a emissão de documento fiscal.          |
 | nItem                | Corresponde ao “nItem” do DFeReferenciado                                                                                                       |
 
-Mas gera a dúvida, se este evento é específico para destinações de uso e consumo de pessoa física, como serão identificadas as aquisições dos itens de uso e consumo da própria empresa? Como por exemplo, aquisição de um quadro ou outra obra de arte para uma sala de recepção da empresa? Isso ainda precisa ser esclarecido pelo fisco, mas possivelmente será identificado automaticamente através do NCM e NBS dos itens já listados no art. 57, inciso I, da lei complementar, com a não apropriação de crédito pela apuração assistida na plataforma da reforma tributária.
+Mas gera a dúvida, se este evento é específico para destinações de uso e consumo de pessoa física, como serão identificadas as aquisições dos itens de uso e consumo da própria empresa? Como por exemplo, aquisição de um quadro ou outra obra de arte para uma sala de recepção da empresa? Isso ainda precisa ser esclarecido pelo fisco, mas possivelmente será identificado automaticamente através do NCM e NBS dos itens já listados no art. 57, inciso I, da lei complementar, sofrendo a não apropriação de crédito pela apuração assistida na plataforma da reforma tributária.
 
 ---
 
