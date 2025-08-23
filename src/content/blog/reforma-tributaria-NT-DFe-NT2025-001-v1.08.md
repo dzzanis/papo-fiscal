@@ -43,7 +43,7 @@ Então, agora estão publicadas as Notas Técnicas específicas por tipo de docu
 
 Acompanhamos uma série de versões das Notas Técnicas de NF-e (modelo 55 e 65) e do CT-e sendo publicadas no decorrer do ano. Toda a evolução dada nestes documentos possibilitou muito aprendizado e agora a atualização das notas técnicas de adequação destes demais DF-es.
 
-Essa documentação atualizada permitirá as empresas avançar no trabalho de atualização do sistemas de gestão e de emissão de documentos fiscais.
+Essa documentação atualizada permitirá as empresas avançar no trabalho de atualização dos sistemas de gestão e de emissão de documentos fiscais.
 
 ## Cronograma
 
