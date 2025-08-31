@@ -23,21 +23,19 @@ Com a unificação, a emissão será padronizada e integrada em todo o territór
 Fique por dentro das últimas atualizações:
 
 - 27/08 - [Live da Receita Federal: Adesão dos Municípios ao Padrão Nacional da NFS-e](https://www.youtube.com/live/DyTUS9-OF1M?si=lfAj5gw7MfhYOtKF)
-
 <p class="text-xs">Evento transmitido no canal do Youtube da Receita Federal direcionado às prefeituras e gestores municipais, para esclarecimentos e preparação a fim de atender ao novo marco tributário.</p>
 
 - 19/08 - [Nota Técnica nº 004/2025 publicada](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc)
-
 <p class="text-xs">A Secretaria-Executiva do Comitê Gestor da NFS-e oficializou ajustes no layout da NFS-e.
 As mudanças já dialogam diretamente com a Reforma Tributária do Consumo.</p>
 
 - 18/08 - [BH define cronograma da NFS-e Nacional](https://prefeitura.pbh.gov.br/fazenda/bhiss/avisos?combine=&field_tema_value=All&field_data_publicacao_value%5Bmin%5D=2025-04-29&field_data_publicacao_value%5Bmax%5D=2025-08-20#)
-
 <p class="text-xs">A Prefeitura de Belo Horizonte divulgou as datas de migração para o emissor nacional da nota fiscal de serviços eletrônica.
 Empresas precisam se organizar para adequar seus sistemas e processos.</p>
 
 - 15/08 - [Prefeitura de São Paulo divulga manual do novo layout da NFS-e](https://prefeitura.sp.gov.br/web/fazenda/w/layoutnotafiscal)
 <p class="text-xs">As informações da nota fiscal serão enviadas ao Ambiente de Dados Nacional para apuração dos tributos.</p>
+<img class="border-none" src="https://prefeitura.sp.gov.br/documents/d/fazenda/emissao-nfs-e" alt="diagrama do fluxo de emissão de nota fiscal de serviço do município de São Paulo">
 
 - 08/08 - [Rio de Janeiro adere ao emissor nacional](https://notacarioca.rio.gov.br/capa.aspx)
 <p class="text-xs">Contribuintes do ISS terão que emitir a NFS-e no padrão nacional a partir de 01/01/2026, através do emissor nacional.</p>
