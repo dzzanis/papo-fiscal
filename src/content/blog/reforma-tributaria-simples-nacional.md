@@ -87,7 +87,7 @@ Duas empresas — uma optante pelo Simples Nacional e outro pelo Regime Normal �
 | Valor da mercadoria         |          5.500,00          |           5.500,00            |
 | PIS/COFINS/ICMS             |          2.060,14          |           2.725,00            |
 | Total da Nota c/Tributos    |          7.560,14          |           7.560,14            |
-| Crédito do adquirente       |          2.060,14          |             0,00              |
+| Crédito do adquirente       |          2.060,14          |           **0,00**            |
 | Custo líquido do adquirente |          5.500,00          |         **7.560,14**          |
 
 b) A revenda da mercadoria
@@ -96,14 +96,14 @@ Imagine as respectivas empresas revendendo a mercadoria, pelo mesmo valor líqui
 
 Para fins de exemplificação vamos utilizar a alíquota de 27,25% (PIS 1,65%, COFINS 7,6%, ICMS 18%, Soma 27,25%) para o Regime Normal. E para o Simples Nacional, considerando uma Microempresa de comércio, que fatura R$ 360 mil por ano e recolhe tudo pelo DAS, em que tem uma alíquota efetiva média de 5,65%.
 
-|                                | Fornecedor - Regime Normal |      Fornecedor - Simples Nacional       |
-| :----------------------------- | :------------------------: | :--------------------------------------: |
-| Valor total da nota            |         10.000,00          |                 8.189,89                 |
-| PIS/COFINS/ICMS                |          2.725,00          |                                          |
-| Simples Nacional               |                            |                  462,73                  |
-| Crédito transferido ao cliente |          2.725,00          | 914,89 (ICMS 157,33 + PIS COFINS 757,56) |
-| Custo líquido do cliente       |          7.275,00          |                 7.275,00                 |
-| Lucro do fornecedor            |          1.775,00          |                  167,02                  |
+|                                |          Fornecedor - Regime Normal          |                          Fornecedor - Simples Nacional                           |
+| :----------------------------- | :------------------------------------------: | :------------------------------------------------------------------------------: |
+| Valor total da nota            |                  10.000,00                   |                                     8.189,89                                     |
+| PIS/COFINS/ICMS                |                   2.725,00                   |                                                                                  |
+| Simples Nacional               |                                              |                                      462,73                                      |
+| Crédito transferido ao cliente |                   2.725,00                   | 914,89 <br> <span class="text-[0.5rem]">(ICMS 157,33 + PIS COFINS 757,56)</span> |
+| Custo líquido do cliente       | <span class="text-green-900">7.275,00</span> |                   <span class="text-green-900">7.275,00</span>                   |
+| Lucro do fornecedor            |                   1.775,00                   |                     <span class="text-red-600">167,02</span>                     |
 
 Note, para o cliente ter o mesmo custo líquido de R$ 7.275 o fornecedor do Simples opera com margens muito pequenas, pois não aproveita o crédito na entrada da mercadoria (para fins de lucro foi considerado o valor da aquisição da mercadoria pelo fornecedor menos a receita líquida de venda).
 
@@ -111,45 +111,53 @@ Note, para o cliente ter o mesmo custo líquido de R$ 7.275 o fornecedor do Simp
 
 a) A aquisição da mercadoria
 
+|                             | Adquirente - Regime Normal | Adquirente - Simples Nacional |
+| :-------------------------- | :------------------------: | :---------------------------: |
+| Valor da mercadoria         |          5.500,00          |           5.500,00            |
+| IBS/CBS                     |          1.457,50          |           1.457,50            |
+| Total da nota               |          6.957,50          |           6.957,50            |
+| Crédito do adquirente       |          1.457,50          |           **0,00**            |
+| Custo líquido do adquirente |          5.500,00          |         **6.957,50**          |
+
 Neste primeiro momento, até vemos uma redução no custo líquido do adquirente do Simples Nacional, de 7.560,14 para 6.957,50. Mas, apesar de pagarem o mesmo preço na compra, o custo líquido do optante pelo Simples ainda é R$ 1.457,50 superior ao do optante pelo Regime Geral, justamente pela ausência de crédito nas entradas.
 
 b) A revenda da mercadoria
 
-Novamente, imagine as respectivas empresas revendendo a mercadoria adquirida, pelo mesmo valor líquido de R$ 7.275,00.
+Novamente, imagine as respectivas empresas revendendo a mercadoria adquirida, pelo mesmo valor líquido ao cliente de R$ 7.275,00.
 Para fins de exemplificação foram utilizadas as alíquotas hipotéticas de 26,5% e 5,65% para o Regime Geral e para o Simples Nacional, respectivamente.
 
-|                                | Fornecedor - Regime Regular | Fornecedor - Simples Nacional |
-| :----------------------------- | :-------------------------: | :---------------------------: |
-| Valor total da nota            |          9.202,88           |           7.484,32            |
-| IBS/CBS embutido               |          1.927,88           |     209,32\* (SN 422,86)      |
-| Crédito transferido ao cliente |          1.927,88           |            209,32             |
-| Custo líquido do cliente       |          7.275,00           |           7.275,00            |
-| Lucro do fornecedor            |          1.775,00           |            103,96             |
+|                                |         Fornecedor - Regime Regular          |         Fornecedor - Simples Nacional         |
+| :----------------------------- | :------------------------------------------: | :-------------------------------------------: |
+| Valor total da nota            |                   9.202,88                   |                   7.484,32                    |
+| IBS/CBS embutido               |                   1.927,88                   |                   209,32\*                    |
+| Crédito transferido ao cliente |                   1.927,88                   |                    209,32                     |
+| Custo líquido do cliente       | <span class="text-green-900">7.275,00</span> | <span class="text-green-900">7.275,00 </span> |
+| Lucro do fornecedor            |                   1.775,00                   |   <span class="text-red-600">103,96</span>    |
 
 <blockquote class="text-xs not-italic">
 
-\* IBS/CBS = R$ 422,86 (total Simples Nacional) x 49,5% (Anexo XVIII da LC 214/2025 - Partilha do Simples Nacional – Comércio -> Vigência a partir do ano-calendário 2033 - 2º Faixa: 15,50% CBS + 34% IBS)
+\* IBS/CBS SN = R$ 422,86 (total Simples Nacional) x 49,5% (Anexo XVIII da LC 214/2025 - Partilha do Simples Nacional – Comércio -> Vigência a partir do ano-calendário 2033 - 2º Faixa: 15,50% CBS + 34% IBS)
 
 </blockquote>
 
-O dilema do Simples Nacional fica ainda pior. No pós-reforma, para que o cliente tenha o mesmo custo líquido de R$ 7.275 o fornecedor do Simples vai ver seu lucro cair de 167,02 para 103,96. Operando com margens ainda mais estreitas, já que agora o seu cliente não pode aproveitar o crédito com a alíquota cheia da CBS, como era permitido sobre o PIS e a COFINS.
+💸 Como podemos observar, o dilema do Simples Nacional fica ainda pior. No pós-reforma, para que o cliente tenha o mesmo custo líquido de R$ 7.275 o fornecedor do Simples vai ver seu lucro cair de 167,02 para 103,96. Operando com margens ainda menores, já que agora o seu cliente não pode aproveitar o crédito com a alíquota cheia da CBS, como era permitido sobre o PIS e a COFINS.
 
 Essa diferença impacta em cheio o mercado B2B. Pois o comprador avaliará o custo líquido da operação, que pode ser igualado entre fornecedores do Simples e do Regime Regular. A questão é que, para alcançar esse mesmo custo líquido, o prestador do Simples precisa reduzir ainda mais sua margem de lucro, já que não aproveita os créditos de suas entradas. Na prática, a competitividade se fragiliza, o fornecedor do Simples sacrifica ainda mais sua rentabilidade para permanecer no jogo.
 
-Há duas perspectivas importantes: a do fornecedor, que arca com um custo operacional mais elevado e a do cliente, que pode ter vantagens no fluxo de caixa ao contratar do Simples.
+Mas há duas perspectivas importantes: a do fornecedor, que arca com um custo operacional mais elevado e a do cliente, que pode ter vantagens no fluxo de caixa ao contratar do Simples.
 
-- Custo do vendedor: o fornecedor do Simples opera com custos mais altos e, para se manter competitivo, precisa sacrificar parte da margem de lucro.
-- Vantagem para o cliente: o comprador tem um benefício de fluxo de caixa. Se o prestador do Simples conseguir igualar o custo líquido, o cliente desembolsa R$ 1.718,56 a menos de imediato — pagando R$ 7.484,32 em vez de R$ 9.202,88. Mesmo que o custo final seja idêntico, o menor desembolso imediato torna a aquisição do fornecedor do Simples mais atraente para o caixa do comprador.
+- **Custo do vendedor**: o fornecedor do Simples opera com custos mais altos e, para se manter competitivo, precisa sacrificar parte da margem de lucro.
+- **Vantagem para o cliente**: o comprador tem um benefício de fluxo de caixa. Se o prestador do Simples conseguir igualar o custo líquido, o cliente desembolsa R$ 1.718,56 a menos de imediato — pagando R$ 7.484,32 em vez de R$ 9.202,88. Mesmo que o custo final seja idêntico, o menor desembolso imediato torna a aquisição do fornecedor do Simples mais atraente para o caixa do comprador.
 
-Agora, se o fornecedor do Simples Nacional buscar igualar seu lucro líquido ao do fornecedor no Regime Geral, o custo líquido para o adquirente sobe 23,66%. Veja:
+Porém, se o fornecedor do Simples Nacional tentar igualar seu lucro líquido ao do fornecedor no Regime Geral, o custo líquido para o adquirente sobe 23,66%. Veja:
 
-|                                | Fornecedor - Regime Regular | Fornecedor - Simples Nacional |
-| :----------------------------- | :-------------------------: | :---------------------------: |
-| Valor total da nota            |          9.202,88           |           9.255,43            |
-| IBS/CBS embutido               |          1.927,88           |     258,85\* (SN 522,93)      |
-| Crédito transferido ao cliente |          1.927,88           |            258,85             |
-| Custo líquido do cliente       |          7.275,00           |           8.996,58            |
-| Lucro do fornecedor            |          1.775,00           |           1.775,00            |
+|                                | Fornecedor - Regime Regular |       Fornecedor - Simples Nacional        |
+| :----------------------------- | :-------------------------: | :----------------------------------------: |
+| Valor total da nota            |          9.202,88           |                  9.255,43                  |
+| IBS/CBS embutido               |          1.927,88           |                   258,85                   |
+| Crédito transferido ao cliente |          1.927,88           |                   258,85                   |
+| Custo líquido do cliente       |          7.275,00           | <span class="text-red-600">8.996,58</span> |
+| Lucro do fornecedor            |          1.775,00           |                  1.775,00                  |
 
 Assim, a questão não é apenas o preço da nota, mas a capacidade de manter competitividade em um mercado onde a transferência de crédito se tornou determinante.
 
@@ -187,12 +195,14 @@ Para exemplificar, vejamos esse cenário:
 Uma microempresa de comércio fatura R$ 30.000 mensais (R$ 360.000/ano). Hoje, no Simples Nacional, ela paga uma alíquota efetiva de 5,65% sobre o faturamento, recolhendo via DAS um valor de R$ 1.695 por mês. Esse valor inclui IRPJ, CSLL, CPP, ICMS e ISS.
 Não há direito a crédito de impostos.
 
-**Cenários pós-Reforma (modelo híbrido)**
+### Cenários pós-Reforma (modelo híbrido)
 
 A partir da Reforma, ela poderá optar por recolher:
 
 - IRPJ, CSLL e CPP pelo DAS (mantendo parte da simplicidade);
-- IBS e CBS por fora do DAS, com alíquota conjunta estimada em 26,5%, mas aplicada sobre a base com possibilidade de créditos.
+- IBS e CBS por fora do DAS, com alíquota conjunta estimada em 26,5%, mas aplicada sobre a base com possibilidade de créditos (modelo híbrido).
+
+Vaja abaixo duas simulações para o modelo híbrido.
 
 **Simulação 1 (margem de 25%):**
 
@@ -222,15 +232,15 @@ Agora compare:
 - Antes: R$ 1.695 fixo pelo DAS.
 - Após (se optar pelo híbrido): R$ 1.650,98 (-2,6%)
 
-Conclusão: se for uma empresa que opera com uma margem baixa, tendo a compra de produtos e serviços que permitem crédito, pode compensar. Se for prestadora de serviços ou atividade com pouco insumo, o custo será maior no modelo híbrido.
+**Conclusão**: se for uma empresa que opera com uma margem baixa, tendo a compra de produtos e serviços que permitem crédito, pode compensar. Se for prestadora de serviços ou atividade com pouco insumo, o custo será maior no modelo híbrido.
 
-Negócios que podem se beneficiar:
+**Negócios que podem se beneficiar**:
 
 - **Indústrias e comércios**: Esses setores costumam ter uma cadeia produtiva com muitos insumos, fornecedores e custos operacionais. No regime híbrido, cada compra gera um crédito de IBS e CBS, que pode ser descontado do imposto devido nas vendas.
 - **Empresas B2B**: Negócios que vendem para outras empresas também podem se beneficiar, já que seus clientes tomam crédito dos tributos, permitindo repassar o IBS e CBS sem afetar tanto a competitividade.
 - **E-commerces que trabalham com estoque**: Quem faz revenda de mercadorias e tem despesas logísticas e de armazenagem pode acumular créditos relevantes.
 
-Quem deve ter cautela:
+**Quem deve ter cautela**:
 
 - **Profissionais liberais e prestadores de serviços**: psicólogos, advogados, designers, copywriters, consultores e outras atividades que não possuem insumos relevantes tendem a não se beneficiar do regime híbrido. Afinal, terão pouco ou nenhum crédito a utilizar, e pagarão IBS e CBS integralmente sobre o faturamento.
 - **Empresas que atendem consumidor final**: restaurantes, salões de beleza, comércio varejista local, entre outros. Esses clientes não tomam crédito, portanto, o repasse dos tributos pode encarecer o preço final e reduzir competitividade.
