@@ -21,14 +21,26 @@ Neste papo fiscal vamos fazer uma análise dos impactos que a reforma tributári
 
 - ISENÇÃO em 2026 das alíquotas teste (0,9% CBS + 0,1% IBS)
 - Simples Nacional continua existindo
-- Sem aumento de carga tributária para B2C (venda ao consumidor final)
+- Sem aumento de carga tributária para <span class="relative">B2C
+  <i class="ph-light ph-info absolute left-7 group">
+    <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+    Business to Consumer
+    </div>
+  </i>
+  </span> (venda ao consumidor final)
 - Recolhimento via DAS mantido normalmente
 
 ## 🔸Nova Sistemática de Créditos:
 
-- Empresas B2B poderão conceder créditos de IBS/CBS
+- Empresas <span class="relative">B2B
+  <i class="ph-light ph-info absolute left-7 group">
+  <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+  Business to Business
+  </div>
+  </i>
+  </span> (vendem para outras empresas) concederão créditos de IBS/CBS
 - ATENÇÃO: Créditos serão baseados no valor REAL pago no Simples (não mais alíquota cheia)
-- Isso impacta a competitividade no mercado B2B
+- Impacta a competitividade no mercado B2B
 
 ## 🆕 Simples Nacional Híbrido:
 
@@ -167,7 +179,7 @@ As empresas adquirentes de optantes pelo Simples Nacional também terão necessi
 
 O momento exige escolhas e preparo. Quem antecipar simulações, ajustar sistemas, treinar equipes e alinhar contratos atravessará a transição com menos atrito.
 
-## Limitação de benefícios
+# Limitação de benefícios
 
 De modo geral, as reduções nas alíquotas (ex. regime diferenciados, cesta básica), suspensão de tributos e outros benefícios previstos na LC 214/25 não serão extensíveis para o MEI ou para os integrantes do Simples que não tenham optado pelo regime regular\*.
 
@@ -177,7 +189,7 @@ De modo geral, as reduções nas alíquotas (ex. regime diferenciados, cesta bá
 
 </blockquote>
 
-## Optar pelo regime regular de IBS/CBS
+# Optar pelo regime regular de IBS/CBS
 
 Se a empresa desejar, poderá fazer a exclusão do IBS e CBS do Simples Nacional, passando a recolher esses dois tributos no regime regular, como empresas do Lucro Presumido ou Lucro Real.
 
@@ -195,7 +207,7 @@ Para exemplificar, vejamos esse cenário:
 Uma microempresa de comércio fatura R$ 30.000 mensais (R$ 360.000/ano). Hoje, no Simples Nacional, ela paga uma alíquota efetiva de 5,65% sobre o faturamento, recolhendo via DAS um valor de R$ 1.695 por mês. Esse valor inclui IRPJ, CSLL, CPP, ICMS e ISS.
 Não há direito a crédito de impostos.
 
-### Cenários pós-Reforma (modelo híbrido)
+# Cenários pós-Reforma (modelo híbrido)
 
 A partir da Reforma, ela poderá optar por recolher:
 
@@ -216,7 +228,7 @@ Vaja abaixo duas simulações para o modelo híbrido.
 Agora compare:
 
 - Antes: R$ 1.695 fixo pelo DAS.
-- Após (se optar pelo híbrido): R$ 2.843,48 (+67,8%).
+- Após (se optar pelo híbrido): R$ 2.843,48 (<span class="text-red-600">+67,8%</span>).
 
 **Simulação 2 (margem de 10%):**
 
@@ -230,9 +242,9 @@ Agora compare:
 Agora compare:
 
 - Antes: R$ 1.695 fixo pelo DAS.
-- Após (se optar pelo híbrido): R$ 1.650,98 (-2,6%)
+- Após (se optar pelo híbrido): R$ 1.650,98 (<span class="font-semibold text-green-900">-2,6%</span>)
 
-**Conclusão**: se for uma empresa que opera com uma margem baixa, tendo a compra de produtos e serviços que permitem crédito, pode compensar. Se for prestadora de serviços ou atividade com pouco insumo, o custo será maior no modelo híbrido.
+**Conclusão**: se for uma empresa que opera com uma margem baixa, tendo a compra de produtos e serviços que permitem crédito, pode compensar. Se for prestadora de serviços ou atividade com pouco insumo, o custo tributário será maior no modelo híbrido.
 
 **Negócios que podem se beneficiar**:
 
@@ -245,17 +257,18 @@ Agora compare:
 - **Profissionais liberais e prestadores de serviços**: psicólogos, advogados, designers, copywriters, consultores e outras atividades que não possuem insumos relevantes tendem a não se beneficiar do regime híbrido. Afinal, terão pouco ou nenhum crédito a utilizar, e pagarão IBS e CBS integralmente sobre o faturamento.
 - **Empresas que atendem consumidor final**: restaurantes, salões de beleza, comércio varejista local, entre outros. Esses clientes não tomam crédito, portanto, o repasse dos tributos pode encarecer o preço final e reduzir competitividade.
 
-**Cenário prático com serviço e comércio mistos**
+**Cenário com serviço e comércio mistos**
 
 Imagine agora uma pequena empresa que atua com comércio e prestação de serviços combinados, como uma empresa de manutenção e venda de equipamentos.
 
 Hoje, no Simples Nacional, ela recolhe todos os tributos juntos no DAS. Pós-Reforma, ela precisará avaliar:
 
-- A parte de vendas gera créditos de IBS/CBS nas compras dos produtos revendidos;
-- A parte de serviços, em geral, não gera créditos, mas tem IBS e CBS sobre o valor cheio do serviço.
-  Essa empresa, portanto, terá que fazer uma análise bem detalhada para verificar se, no somatório, os créditos obtidos na parte do comércio compensam o que será pago a mais na parte de serviços.
+- A parte de vendas obterá créditos de IBS/CBS sobre as compras dos produtos revendidos;
+- A parte de serviços, em geral, não obterá créditos, mas vai pagar IBS e CBS sobre o valor cheio do serviço.
 
-## BENS DE CAPITAL
+Essa empresa, portanto, terá que fazer uma análise detalhada para verificar se, no somatório, os créditos obtidos na parte do comércio compensam o que será pago a mais na parte de serviços.
+
+# BENS DE CAPITAL
 
 Os contribuintes do Simples Nacional, quando optantes pelo regime regular, poderão se aproveitar da suspensão de pagamento de IBS e CBS nas aquisições de bens capital, aplicável para todos os contribuintes e concedida conforme ato conjunto do Poder Executivo federal e do CG-IBS.
 
