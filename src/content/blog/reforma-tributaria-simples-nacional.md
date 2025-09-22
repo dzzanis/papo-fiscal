@@ -204,17 +204,23 @@ Isso significa que, se optar por sair do DAS para IBS/CBS, a empresa permanece n
 Isso cria, na prática, um modelo híbrido, onde parte dos tributos permanece no DAS e outra parte é calculada e recolhida como qualquer outra empresa fora do Simples.
 Para exemplificar, vejamos esse cenário:
 
-Uma microempresa de comércio fatura R$ 30.000 mensais (R$ 360.000/ano). Hoje, no Simples Nacional, ela paga uma alíquota efetiva de 5,65% sobre o faturamento, recolhendo via DAS um valor de R$ 1.695 por mês. Esse valor inclui IRPJ, CSLL, CPP, ICMS e ISS.
-Não há direito a crédito de impostos.
-
-# Cenários pós-Reforma (modelo híbrido)
+Uma microempresa de comércio fatura R$ 30.000 mensais (R$ 360.000/ano). Hoje, no Simples Nacional, ela paga uma alíquota efetiva de 5,65% sobre o faturamento, recolhendo via DAS um valor de R$ 1.695 por mês. Esse valor inclui IRPJ, CSLL, CPP, ICMS e ISS. Sem direito a crédito de impostos.
 
 A partir da Reforma, ela poderá optar por recolher:
 
 - IRPJ, CSLL e CPP pelo DAS (mantendo parte da simplicidade);
 - IBS e CBS por fora do DAS, com alíquota conjunta estimada em 26,5%, mas aplicada sobre a base com possibilidade de créditos (modelo híbrido).
 
-Vaja abaixo duas simulações para o modelo híbrido.
+A opção pelo refime regular do IBS e CBS será semestral e irrevogável para o período de vigência:
+
+| Semestre de vigência  | Mês para realizar a opção |
+| :-------------------: | :-----------------------: |
+| 1° semestre (Jan-Jun) | Setembro do ano anterior  |
+| 2° semestre (Jul-Dez) |   Abril do ano anterior   |
+
+# Cenários pós-Reforma (modelo híbrido)
+
+Vaja abaixo duas simulações para o Simples Nacional Híbrido.
 
 **Simulação 1 (margem de 25%):**
 
@@ -222,7 +228,14 @@ Vaja abaixo duas simulações para o modelo híbrido.
 - Vende os produtos por R$ 30.000, incidindo IBS e CBS de 26,5% = R$ 7.950 de débito;
 - Imposto devido na venda: R$ 7.950 – 5.962,50 (crédito) = R$ 1.987,50 de IBS/CBS;
 - Soma ao DAS:
-  - DAS sem IBS/CBS = 1.695 – 49,5%\* = 855,98
+  - DAS sem IBS/CBS = 1.695 –
+    <span class="relative">49,5%
+    <i class="ph-light ph-info group">
+    <div class="absolute left-1/2 -translate-x-1/4 bottom-full mb-2 min-w-80 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+     <code>Anexo XVIII da LC 214/2025 - Partilha do Simples Nacional - Comércio <br> Vigência a partir do ano-calendário 2033 <br> 2º Faixa: 15,50% CBS + 34% IBS</code>
+    </div>
+    </i>
+    </span>= 855,98
   - DAS + IBS/CBS = 855,98 + 1.987,50 = R$ 2.843,48 de total de impostos.
 
 Agora compare:
@@ -268,7 +281,7 @@ Hoje, no Simples Nacional, ela recolhe todos os tributos juntos no DAS. Pós-Ref
 
 Essa empresa, portanto, terá que fazer uma análise detalhada para verificar se, no somatório, os créditos obtidos na parte do comércio compensam o que será pago a mais na parte de serviços.
 
-# BENS DE CAPITAL
+# Bens de capital
 
 Os contribuintes do Simples Nacional, quando optantes pelo regime regular, poderão se aproveitar da suspensão de pagamento de IBS e CBS nas aquisições de bens capital, aplicável para todos os contribuintes e concedida conforme ato conjunto do Poder Executivo federal e do CG-IBS.
 
