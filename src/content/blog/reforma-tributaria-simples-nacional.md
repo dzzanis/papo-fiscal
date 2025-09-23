@@ -211,7 +211,7 @@ A partir da Reforma, ela poderá optar por recolher:
 - IRPJ, CSLL e CPP pelo DAS (mantendo parte da simplicidade);
 - IBS e CBS por fora do DAS, com alíquota conjunta estimada em 26,5%, mas aplicada sobre a base com possibilidade de créditos (modelo híbrido).
 
-A opção pelo refime regular do IBS e CBS será semestral e irrevogável para o período de vigência:
+A opção pelo regime regular do IBS e CBS será semestral e irrevogável para o período de vigência:
 
 | Semestre de vigência  | Mês para realizar a opção |
 | :-------------------: | :-----------------------: |
@@ -230,12 +230,12 @@ Vaja abaixo duas simulações para o Simples Nacional Híbrido.
 - Soma ao DAS:
   - DAS sem IBS/CBS = 1.695 –
     <span class="relative">49,5%
-    <i class="ph-light ph-info group">
+    <i class="ph-light ph-info absolute -right-1 group">
     <div class="absolute left-1/2 -translate-x-1/4 bottom-full mb-2 min-w-80 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-     <code>Anexo XVIII da LC 214/2025 - Partilha do Simples Nacional - Comércio <br> Vigência a partir do ano-calendário 2033 <br> 2º Faixa: 15,50% CBS + 34% IBS</code>
+     <code>Anexo XVIII da LC 214/2025 <br> Partilha do Simples Nacional - Comércio <br> Vigência a partir do ano-calendário 2033 <br> 2º Faixa: 15,50% CBS + 34% IBS</code>
     </div>
     </i>
-    </span>= 855,98
+    </span> = 855,98
   - DAS + IBS/CBS = 855,98 + 1.987,50 = R$ 2.843,48 de total de impostos.
 
 Agora compare:
@@ -249,15 +249,21 @@ Agora compare:
 - Vende os produtos por R$ 30.000, incidindo IBS e CBS de 26,5% = R$ 7.950 de débito;
 - Imposto devido na venda: R$ 7.950 – 7.155 (crédito) = R$ 795 de IBS/CBS;
 - Soma ao DAS:
-- DAS sem IBS/CBS = 1.695 – 49,5%\* = 855,98
+- DAS sem IBS/CBS = 1.695 – <span class="relative">49,5%
+  <i class="ph-light ph-info absolute -right-1 group">
+    <div class="absolute left-1/2 -translate-x-1/4 bottom-full mb-2 min-w-80 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+      <code>Anexo XVIII da LC 214/2025 <br> Partilha do Simples Nacional - Comércio <br> Vigência a partir do ano-calendário 2033 <br> 2º Faixa: 15,50% CBS + 34% IBS</code>
+    </div>
+  </i>
+  </span> = 855,98
 - DAS + IBS/CBS = 855,98 + 795 = R$ 1.650,98 de total de impostos.
 
 Agora compare:
 
 - Antes: R$ 1.695 fixo pelo DAS.
-- Após (se optar pelo híbrido): R$ 1.650,98 (<span class="font-semibold text-green-900">-2,6%</span>)
+- Após (se optar pelo híbrido): R$ 1.650,98 (<span class="font-semibold text-green-800">-2,6%</span>)
 
-**Conclusão**: se for uma empresa que opera com uma margem baixa, tendo a compra de produtos e serviços que permitem crédito, pode compensar. Se for prestadora de serviços ou atividade com pouco insumo, o custo tributário será maior no modelo híbrido.
+💡**Conclusão**: se for uma empresa que opera com uma margem baixa, tendo a compra de produtos e serviços que permitem crédito, pode compensar. Se for prestadora de serviços ou atividade com pouco insumo, o custo tributário será maior no modelo híbrido.
 
 **Negócios que podem se beneficiar**:
 
