@@ -106,16 +106,54 @@ b) A revenda da mercadoria
 
 Imagine as respectivas empresas revendendo a mercadoria, pelo mesmo valor líquido R$ 7.275,00.
 
-Para fins de exemplificação vamos utilizar a alíquota de 27,25% (PIS 1,65%, COFINS 7,6%, ICMS 18%, Soma 27,25%) para o Regime Normal. E para o Simples Nacional, considerando uma Microempresa de comércio, que fatura R$ 360 mil por ano e recolhe tudo pelo DAS, em que tem uma alíquota efetiva média de 5,65%.
+Para fins de exemplificação vamos utilizar a alíquota de **27,25%** (PIS 1,65% + COFINS 7,6% + ICMS 18% = 27,25%) para o Regime Normal. E para o Simples Nacional, considerando uma Microempresa de comércio, que fatura R$ 360 mil por ano e recolhe tudo pelo DAS, em que tem uma alíquota efetiva média de **5,65%**.
 
-|                                |          Fornecedor - Regime Normal          |                          Fornecedor - Simples Nacional                           |
-| :----------------------------- | :------------------------------------------: | :------------------------------------------------------------------------------: |
-| Valor total da nota            |                  10.000,00                   |                                     8.189,89                                     |
-| PIS/COFINS/ICMS                |                   2.725,00                   |                                                                                  |
-| Simples Nacional               |                                              |                                      462,73                                      |
-| Crédito transferido ao cliente |                   2.725,00                   | 914,89 <br> <span class="text-[0.5rem]">(ICMS 157,33 + PIS COFINS 757,56)</span> |
-| Custo líquido do cliente       | <span class="text-green-900">7.275,00</span> |                   <span class="text-green-900">7.275,00</span>                   |
-| Lucro do fornecedor            |                   1.775,00                   |                     <span class="text-red-600">167,02</span>                     |
+<details class="text-xs open:ring-1 ring-[#8b5cf6] p-2">
+  <summary class="text-xs text-green-700">🔎 Ver cálculo da alíquota efetiva média (5,65%) deste exemplo</summary>
+  <p><code>Alíquota Efetiva = (RBT12 * ALÍQ - PD) ÷ RBT12</code></p>
+  <p>Para isso, considere:</p>
+  <ul>
+    <li>RBT12 = Receita brura total nos últimos 12 meses, anterior ao período de apuração.</li>
+    <li>ALÍQ = Alíquota referente ao Anexo do Simples Nacional e a faixa de faturamento em que a empresa se ancaixa.</li>
+    <li>PD = Parcela dedutível. É o valor a deduzir referente ao Anexo do Simples Nacional e a faixa de faturamento em que a empresa se ancaixa.</li>
+  </ul>
+
+|                 Faixa                 |                 Alíquota                 |             Valor a Deduzir              | Receita Bruta em 12 Meses                                  |
+| :-----------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------------------------- |
+|                  1º                   |                    4%                    |                    -                     | Até 180.000                                                |
+| <span class="text-blue-600">2º</span> | <span class="text-blue-600">7,30%</span> | <span class="text-blue-600">5.940</span> | <span class="text-blue-600">De 180.000,01 a 360.000</span> |
+|                  3º                   |                  9,50%                   |                  13.860                  | De 360.000,01 a 720.000                                    |
+|                  4º                   |                  10,70%                  |                  22.500                  | De 720.000,01 a 1.800.000                                  |
+|                  5º                   |                  14,30%                  |                  87.300                  | De 1.800.000,01 a 3.600.000                                |
+|                  6º                   |                  19,00%                  |                 378.000                  | De 3.6000.000,01 a 4.800.000                               |
+
+  <p>Obtendo os valores:</p>
+  <ul>
+    <li>RBT12 = R$ 360.000</li>
+    <li>ALÍQ = 7,30% (Alíquota nominal do Simples Nacional)</li>
+    <li>PD = R$ 5.940 (Parcela dedutível)</li>
+  </ul>
+  <p>Descobrindo a alíquota efetiva:</p>
+  <ul>
+    <li>Alíquota Efetiva = [(RBT12 * ALÍQ) - PD] ÷ RBT12</li>
+    <li>Alíquota Efetiva = [(R$ 360.000 x 7,30%) - 5.940] ÷ 360.000</li>
+    <li>Alíquota Efetiva = [26.280 - 5.940] ÷ 360.000</li>
+    <li>Alíquota Efetiva = 20.340 ÷ 360.000 = 0,0565 ou <span class="font-semibold">5,65%</span></li>
+  </ul>
+  <p>Considerando o faturamento no mês de R$ 30 mil, o cálculo do valor do DAS seria:</p>
+  <ul>
+    <li>DAS = 30.000 x 5,65% = 1.695,00</li>
+  </ul>
+</details>
+
+|                                | <span class="text-sm">Fornecedor - Regime Normal</span> |           <span class="text-sm">Fornecedor - Simples Nacional </span>            |
+| :----------------------------- | :-----------------------------------------------------: | :------------------------------------------------------------------------------: |
+| Valor total da nota            |                        10.000,00                        |                                     8.189,89                                     |
+| PIS/COFINS/ICMS                |                        2.725,00                         |                                                                                  |
+| Simples Nacional               |                                                         |                                      462,73                                      |
+| Crédito transferido ao cliente |                        2.725,00                         | 914,89 <br> <span class="text-[0.5rem]">(ICMS 157,33 + PIS COFINS 757,56)</span> |
+| Custo líquido do cliente       |      <span class="text-green-900">7.275,00</span>       |                   <span class="text-green-900">7.275,00</span>                   |
+| Lucro do fornecedor            |                        1.775,00                         |                     <span class="text-red-600">167,02</span>                     |
 
 Note, para o cliente ter o mesmo custo líquido de R$ 7.275 o fornecedor do Simples opera com margens muito pequenas, pois não aproveita o crédito na entrada da mercadoria (para fins de lucro foi considerado o valor da aquisição da mercadoria pelo fornecedor menos a receita líquida de venda).
 
