@@ -97,7 +97,7 @@ Duas empresas — uma optante pelo Simples Nacional e outro pelo Regime Normal �
 |                             | Adquirente - Regime Normal | Adquirente - Simples Nacional |
 | :-------------------------- | :------------------------: | :---------------------------: |
 | Valor da mercadoria         |          5.500,00          |           5.500,00            |
-| PIS/COFINS/ICMS             |          2.060,14          |           2.725,00            |
+| PIS/COFINS + ICMS           |          2.060,14          |           2.725,00            |
 | Total da Nota c/Tributos    |          7.560,14          |           7.560,14            |
 | Crédito do adquirente       |          2.060,14          |           **0,00**            |
 | Custo líquido do adquirente |          5.500,00          |         **7.560,14**          |
@@ -149,10 +149,10 @@ Para fins de exemplificação vamos utilizar a alíquota de **27,25%** (PIS 1,65
 |                                | <span class="text-sm">Fornecedor - Regime Normal</span> |           <span class="text-sm">Fornecedor - Simples Nacional </span>            |
 | :----------------------------- | :-----------------------------------------------------: | :------------------------------------------------------------------------------: |
 | Valor total da nota            |                        10.000,00                        |                                     8.189,89                                     |
-| PIS/COFINS/ICMS                |                        2.725,00                         |                                                                                  |
+| PIS/COFINS + ICMS              |                        2.725,00                         |                                                                                  |
 | Simples Nacional               |                                                         |                                      462,73                                      |
 | Crédito transferido ao cliente |                        2.725,00                         | 914,89 <br> <span class="text-[0.5rem]">(ICMS 157,33 + PIS COFINS 757,56)</span> |
-| Custo líquido do cliente       |      <span class="text-green-900">7.275,00</span>       |                   <span class="text-green-900">7.275,00</span>                   |
+| Custo líquido do cliente       |      <span class="text-green-800">7.275,00</span>       |                   <span class="text-green-800">7.275,00</span>                   |
 | Lucro do fornecedor            |                        1.775,00                         |                     <span class="text-red-600">167,02</span>                     |
 
 Note, para o cliente ter o mesmo custo líquido de R$ 7.275 o fornecedor do Simples opera com margens muito pequenas, pois não aproveita o crédito na entrada da mercadoria (para fins de lucro foi considerado o valor da aquisição da mercadoria pelo fornecedor menos a receita líquida de venda).
@@ -181,7 +181,7 @@ Para fins de exemplificação foram utilizadas as alíquotas hipotéticas de 26,
 | Valor total da nota            |                   9.202,88                   |                   7.484,32                    |
 | IBS/CBS embutido               |                   1.927,88                   |                   209,32\*                    |
 | Crédito transferido ao cliente |                   1.927,88                   |                    209,32                     |
-| Custo líquido do cliente       | <span class="text-green-900">7.275,00</span> | <span class="text-green-900">7.275,00 </span> |
+| Custo líquido do cliente       | <span class="text-green-800">7.275,00</span> | <span class="text-green-800">7.275,00 </span> |
 | Lucro do fornecedor            |                   1.775,00                   |   <span class="text-red-600">103,96</span>    |
 
 <blockquote class="text-xs not-italic">
