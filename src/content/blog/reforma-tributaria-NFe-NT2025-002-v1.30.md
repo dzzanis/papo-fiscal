@@ -1,9 +1,10 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-08-03T14:28:00Z
-title: Versão 1.20 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
-slug: reforma-tributaria-nf-e-nt-2025-002-v1.20
-featured: false
+modDatetime: 2025-10-09T07:50:00Z
+title: Versão 1.30 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
+slug: reforma-tributaria-nf-e-nt-2025-002-v1.30
+featured: true
 draft: false
 tags:
   - Reforma Tributária
@@ -11,25 +12,18 @@ tags:
   - DF-e
   - NF-e
   - NFC-e
-description: Atualizadas as definições da Nota Técnica 2025.002 para adequação da NF-e à reforma tributária. Em destaque, obrigatoriedade das empresas em realizar tempestivamente os eventos de manifestação para garantir dispensa do recolhimento tributário em 2026.
+description: Atualizadas as definições da Nota Técnica 2025.002 para adequação da NF-e à reforma tributária. Em destaque, mudanças nos detalhamentos do cronograma, novo campo de data da previsão de entrega ou disponibilização do bem, expanção das regras de validação, novo evento e novas finalidades para as notas de débito/crédito.
 ---
 
-O Portal da Nota Fiscal Eletrônica divulgou a versão 1.20 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e e NFC-e em razão da Reforma Tributária.
+O Portal da Nota Fiscal Eletrônica divulgou a versão 1.30 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e e NFC-e em razão da Reforma Tributária.
 
 Confira as principais novidades:
 
-- Ajuste na regra de validação referente a obrigatoriedade de informação do IBS e CBS, dispensando os emitentes `CRT 2=Simples Nacional, excesso sublimite de receita bruta`. Assim terão esta obrigação somente a partir 04/01/2027, conforme previsto no art. 348 da Lei Complementar 214/2025;
-- Novo tipo de nota de crédito: `3- Retorno`;
-- Alterações nos grupos de informações da tributação monofásica.
-- ⚠️ Eventos:
-
-  Os eventos integram as obrigações acessórias do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS). E são indispensáveis para a correta apuração dos tributos e de créditos de imposto. Eles visam garantir a integridade e a rastreabilidade das operações realizadas pelos contribuintes, servindo como base de dados para o controle e a transparência do novo modelo tributário.
-
-  De acordo com o artigo 348, §1º, da Emenda Constitucional, os contribuintes estarão dispensados do recolhimento do IBS e da CBS relativamente aos fatos geradores ocorridos entre 1º de janeiro e 31 de dezembro de 2026, desde que cumpram integralmente as obrigações acessórias previstas na legislação.
-
-  Nesse contexto, a apresentação correta e tempestiva dos eventos mencionados neste item é condição essencial para que o contribuinte possa usufruir da dispensa do recolhimento dos tributos nesse período de transição. O não cumprimento dessas obrigações poderá implicar na perda desse benefício, sujeitando o contribuinte ao recolhimento normal dos tributos devidos.
-
-  **Portanto, os eventos devem ser registrados, a partir de janeiro/2026, sempre que a situação concreta exigir, respeitando os critérios e prazos estabelecidos pela legislação, como forma de garantir o direito à dispensa e de contribuir para a efetividade do novo sistema tributário.**
+- Mudanças nos detalhamentos do cronograma;
+- Novo campo de data da previsão de entrega ou disponibilização do bem;
+- Novo evento relacionado à apuração de IBS e CBS: `Código 112150 - Atualização da Data de Previsão de Entrega`;
+- Novas finalidades para as notas de débito/crédito;
+- E a expanção significativa das regras de validação;
 
 ## Sumário
 
@@ -71,7 +65,29 @@ Outro destaque foi a criação do grupo específico de informações que envolve
 [Clique para baixar a Nota Técnica 2025.002 v.1.20](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YFz9is%20R6tw=)<br>
 <span class="text-sm">Versão 1.20 - Publicada em 30 de julho de 2025</span>
 
-Esta versão altera os detalhamentos do cronograma, acresenta novos campos, cria e altera regras de validação, e altera o nome de eventos, passando a compor 69 páginas.
+Esta versão alterou detalhamentos do cronograma, acresentou novos campos, criou e alterou regras de validação, e alterou o nome de eventos, passando a compor 69 páginas.
+
+As principais alterações foram:
+
+- Ajuste na regra de validação referente a obrigatoriedade de informação do IBS e CBS, dispensando os emitentes `CRT 2=Simples Nacional, excesso sublimite de receita bruta`. Assim estes contribuintes terão esta obrigação somente a partir 04/01/2027, conforme previsto no art. 348 da Lei Complementar 214/2025;
+- Novo tipo de nota de crédito: `3- Retorno`;
+- Alterações nos grupos de informações da tributação monofásica.
+- ⚠️ Acrescentou esse alerta sobre a obrigatoriedade dos Eventos em 2026:
+
+  Os eventos integram as obrigações acessórias do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS). E são indispensáveis para a correta apuração dos tributos e de créditos de imposto. Eles visam garantir a integridade e a rastreabilidade das operações realizadas pelos contribuintes, servindo como base de dados para o controle e a transparência do novo modelo tributário.
+
+  De acordo com o artigo 348, §1º, da Emenda Constitucional, os contribuintes estarão dispensados do recolhimento do IBS e da CBS relativamente aos fatos geradores ocorridos entre 1º de janeiro e 31 de dezembro de 2026, desde que cumpram integralmente as obrigações acessórias previstas na legislação.
+
+  Nesse contexto, a apresentação correta e tempestiva dos eventos mencionados neste item é condição essencial para que o contribuinte possa usufruir da dispensa do recolhimento dos tributos nesse período de transição. O não cumprimento dessas obrigações poderá implicar na perda desse benefício, sujeitando o contribuinte ao recolhimento normal dos tributos devidos.
+
+  **Portanto, os eventos devem ser registrados, a partir de janeiro/2026, sempre que a situação concreta exigir, respeitando os critérios e prazos estabelecidos pela legislação, como forma de garantir o direito à dispensa e de contribuir para a efetividade do novo sistema tributário.**
+
+### Nota Técnica 2025.002 v.1.30
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.30](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6vT0rTNhFLY=)<br>
+<span class="text-sm">Versão 1.30 - Publicada em 3 de outubro de 2025</span>
+
+Última versão publicada trazendo mudanças nos detalhamentos do cronograma, acresenta novos campos, expande significativamente as regras de validação, inclui mais um novo evento relacionado à apuração de IBS e CBS, `Código 112150 - Atualização da Data de Previsão de Entrega`, e acrescenta novas finalidades para as notas de débito/crédito.
 
 Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escopo das adequações da NF-e e NFC-e.
 
@@ -79,20 +95,22 @@ Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escop
 
 Em Produção, no ano de 2025 as informações de tributação relativas ao IBS, CBS e IS serão opcionais e somente serão validadas se forem preenchidas. A partir de janeiro de 2026, as novas regras de validação referentes a tributação do IBS e da CBS serão aplicadas, entrando em efetiva operacionalização.
 
-| Cronograma                                                                                                                         |   Homologação    | Produção |
-| :--------------------------------------------------------------------------------------------------------------------------------- | :--------------: | :------: |
-| Implantação de novo schema com os campos para apuração do IBS, CBS e IS, com preenchimento opcional.                               | 07/07 a 28/07/25 | 06/10/25 |
-| Aplicação das regras de validação, conforme detalhamento do cronograma abaixo.                                                     | 07/07 a 11/08/25 | 06/10/25 |
-| Implantação dos eventos para utilização na apuração do IBS, CBS e IS.                                                              |     25/08/25     | 06/10/25 |
-| Obrigatoriedade dos novos tributos e novos eventos, inclusive notas de crédito/débito, conforme detalhamento do cronograma abaixo. |     06/10/25     | 05/01/26 |
+| Cronograma                                                                                           |   Homologação    |     Produção     |
+| :--------------------------------------------------------------------------------------------------- | :--------------: | :--------------: |
+| Implantação de novo schema com os campos para apuração do IBS, CBS e IS, com preenchimento opcional. | 07/07 a 28/07/25 |                  |
+| Aplicação das regras de validação, conforme detalhamento do cronograma abaixo.                       | 07/07 a 11/08/25 |                  |
+| Implantação dos eventos para utilização na apuração do IBS, CBS e IS.                                |     25/08/25     |                  |
+| Detalhamentos do cronograma, novas regras de validação e ajustes diversos.                           |     08/09/25     |                  |
+| Entrada do schema, Regras de Validação e dos Eventos.                                                | 29/10 a 24/11/25 | 10/11 a 02/02/26 |
+| Início da obrigatoriedade da informação dos novos tributos (RV UB12-10)                              |                  |     05/01/26     |
 
 Detalhamento do Cronograma para `CRT 3=Regime Normal`:
 
-|            | Homologação                                                                                             | Produção                                                                                                                                                                                    |
-| ---------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Julho/25   | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas.                            | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                        |
-| Outubro/25 | IBS/CBS obrigatórios para NF-e com data de emissão maior ou igual a 06/10/2025 e as RV serão aplicadas. | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                           |
-| Janeiro/26 | Idem Homologação Outubro/25.                                                                            | Campos IBS/CBS obrigatórios para NF-e com data de emissão maior ou igual a 05/01/2026 e as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
+|            | Homologação                                                                  | Produção                                                                                                                                                                                    |
+| ---------- | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Julho/25   | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas. | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                        |
+| Outubro/25 | Idem Homologação Julho/25.                                                   | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                           |
+| Janeiro/26 | Idem Homologação Julho/25.                                                   | Campos IBS/CBS obrigatórios para NF-e com data de emissão maior ou igual a 05/01/2026 e as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
 
 ## Nota de Débito e Crédito
 
@@ -126,6 +144,13 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
   </div>
   <div class="row-span-4 row-start-1 col-start-2 w-full flex gap-2 justify-start items-end">
     <div class="sm:min-w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">dPrevEntrega
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Data da previsão de entrega ou disponibilização do bem. <br> Observação: Não informar este campo para a NFC-e.
+          </div>
+        </i>
+      </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cMunFGIBS
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
@@ -149,18 +174,21 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
             03=Débitos de notas fiscais não processadas na apuração; <br>
             04=Multa e juros; <br>
             05=Transferência de crédito de sucessão; <br>
-            06=Pagamento antecipado <br>
-            07=Perda em estoque 
+            06=Pagamento antecipado; <br>
+            07=Perda em estoque; <br>
+            08=Desenquadramento do SN;
           </div>
         </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpNFCredito
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
-            Tipo de Nota de Crédito:
-            01 = Multa e juros <br>
-            02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25) <br>
-            03 = Retorno
+          <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-96 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Tipo de Nota de Crédito: <br>
+            01 = Multa e juros; <br>
+            02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. <code>450, § 1º</code>, LC 214/25); <br>
+            03=Retorno por recusa na entrega ou por não localização do destinatário na tentativa de entrega; <br>
+            04=Redução de valores; <br>
+            05=Transferência de crédito na sucessão; 
           </div>
         </i>
       </span>
