@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-08-03T14:28:00Z
-modDatetime: 2025-10-09T07:50:00Z
+modDatetime: 2025-10-10T06:53:00Z
 title: Versão 1.30 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002-v1.30
 featured: true
@@ -266,7 +266,9 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
   </div>
 </div>
 
-No `Grupo B. Identificação da Nota Fiscal Eletrônica` houve a inclusão do campo de Código do Município de consumo, fato gerador do IBS / CBS – `cMunFGIBS`, que tem como finalidade informar o município de ocorrência do fato gerador dos tributos, para ser preenchido quando o `indPres = 5 (Operação presencial, fora do estabelecimento)` e a nota fiscal não tiver informações do endereço do destinatário ou local de entrega.
+No `Grupo B. Identificação da Nota Fiscal Eletrônica` houve a inclusão de vários campos. Primeiro, o campo "Data da previsão de entrega ou disponibilização do bem" - `dPrevEntrega`, que de acordo com as regras de validação, poderá ser informado em notas com finalidade “1” (NF-e normal) ou “4” (Devolução de mercadoria), exceto quando a modalidade do frete for igual a "1" (Contratação do Frete por conta do Destinatário - FOB), "4" (Transporte Próprio por conta do Destinatário) ou "9" (Sem Ocorrência de Transporte). Na emissão da nota fiscal, esta data de previsão de entrega não pode ser superior a 3 meses a data de saída da nota, mas foi disponibilizado o novo evento `Código 112150 - Atualização da Data de Previsão de Entrega`, próprio para atualização desta data de previsão, de forma a remover o débito do mês em que foi previsto inicialmente.
+
+O campo de Código do Município de consumo, fato gerador do IBS / CBS – `cMunFGIBS`, tem como finalidade informar o município de ocorrência do fato gerador dos tributos. Será preenchido quando o `indPres = 5 (Operação presencial, fora do estabelecimento)` e a nota fiscal não tiver informações do endereço do destinatário ou local de entrega.
 
 Também consta o campo "Tipo de Nota de Débito" - `tpNFDebito`, com as seguintes opções possíveis:
 
@@ -275,8 +277,9 @@ Também consta o campo "Tipo de Nota de Débito" - `tpNFDebito`, com as seguinte
 - 03 = Débitos de notas fiscais não processadas na apuração;
 - 04 = Multa e juros;
 - 05 = Transferência de crédito de sucessão;
-- 06 = Pagamento antecipado
-- 07 = Perda em estoque
+- 06 = Pagamento antecipado;
+- 07 = Perda em estoque;
+- 08 = Desenquadramento do SN
 
 A opção `04=Multa e Juros` deverá ser usada nas emissões de notas fiscais para incidência dos tributos IBS e da CBS, quando ocorrer recebimento de juros e multas. O contribuinte que pagar a multa e os juros terá direito ao crédito dos tributos, por isso a necessidade de criação desse campo.
 
@@ -284,7 +287,9 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
 
 - 01 = Multa e juros
 - 02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)
-- 03 = Retorno
+- 03 = Retorno por recusa na entrega ou por não localização do destinatário na tentativa de entrega;
+- 04 = Redução de valores;
+- 05 = Transferência de crédito na sucessão;
 
 A opção `01=Multa e Juros` deverá ser usada caso o fornecedor não emita a nota de débito referente o recebimento de juros e multas, onde o adquirente tem como alternativa emitir uma nota de crédito para se creditar. Esse crédito é condicionado à emissão do evento “Aceite de débito na apuração por emissão de nota de crédito” pelo fornecedor e a quitação do débito correspondente em sua apuração.
 
