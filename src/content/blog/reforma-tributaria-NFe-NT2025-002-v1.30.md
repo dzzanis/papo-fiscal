@@ -144,7 +144,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
   </div>
   <div class="row-span-4 row-start-1 col-start-2 w-full flex gap-2 justify-start items-end">
     <div class="sm:min-w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">dPrevEntrega
+      <span class="sm:min-w-44 text-center sm:text-sm text-xs whitespace-normal text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">dPrevEntrega
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Data da previsão de entrega ou disponibilização do bem. <br> Observação: Não informar este campo para a NFC-e.
@@ -318,9 +318,17 @@ Tendo as seguintes regras de validação:
 - Rejeição: NF-e referenciada de pagamento antecipado inexistente;
 - Rejeição: NF-e referenciada de pagamento antecipado deve ser do tipo débito.
 
-## Bem móvel usado
+## Bem móvel usado e tipo de crédito presumido na Zona Franca de Manaus
 
-O grupo `Grupo I. Produtos e Serviços da NF-e` passa a ter o campo `indBemMovelUsado` para identificar o fornecimento de bem móvel usado, adquirido de pessoa física que não seja contribuinte ou que seja inscrita como MEI.
+O grupo `Grupo I. Produtos e Serviços da NF-e` passa a ter dois novos campo:
+
+- `indBemMovelUsado` para identificar o fornecimento de bem móvel usado, adquirido de pessoa física que não seja contribuinte ou que seja inscrita como MEI;
+- `tpCredPresIBSZFM` permitindo a classificação para subapuração do IBS na ZFM. Essa classificação deverá ser conforme os percentuais definidos no art. 450, § 1º, da LC 214/25 para o cálculo do crédito presumido:
+  - 0 = Sem Crédito Presumido
+  - 1 = Bens de consumo final (55%)
+  - 2 = Bens de capital (75%)
+  - 3 = Bens intermediários (90,25%)
+  - 4 + Bens de informática e outros definidos em legislação (100%)
 
 ## Alteração do ICMS normal e ICMS ST
 
