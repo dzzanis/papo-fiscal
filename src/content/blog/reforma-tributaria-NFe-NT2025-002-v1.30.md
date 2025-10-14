@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-08-03T14:28:00Z
-modDatetime: 2025-10-13T07:57:00Z
+modDatetime: 2025-10-14T06:58:00Z
 title: Versão 1.30 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002-v1.30
 featured: true
@@ -391,14 +391,21 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
     <div class="w-40 flex flex-col gap-4">
       <span class="text-center sm:text-xs text-[0.5rem] text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCredPresIBSZFM
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
-            Classificação para subapuração do crédito presumido do IBS na ZFM
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-96 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Classificação para subapuração do crédito presumido do IBS na ZFM:
+            <ul>
+              <li><code>0 = Sem Crédito Presumido</code></li>
+              <li><code>1 = Bens de consumo final (55%) </code></li>
+              <li><code>2 = Bens de capital (75%) </code></li>
+              <li><code>3 = Bens intermediários (90,25%) </code></li>
+              <li><code>4 = Bens de informática e outros definidos em legislação (100%)</code></li>
+            </ul>
           </div>
         </i>
       </span>
     </div>
   </div>
-  <div class="row-start-9 row-span-8 col-start-1">
+  <div class="row-start-9 row-span-9 col-start-1">
     <div class="w-full flex flex-row gap-0.5 justify-center items-center">
       <span class="grow max-w-44 min-w-24 ml-0 sm:ml-6 text-center text-sm text-gray-500 p-1 border rounded-lg shadow-md relative">imposto</span>
       <svg 
@@ -444,7 +451,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
     </div>
   </div>
-  <div class="row-span-6 row-start-11 col-span-1 col-start-3 w-full gap-1 flex justify-start items-start">
+  <div class="row-span-7 row-start-11 col-span-1 col-start-3 w-full gap-1 flex justify-start items-start">
     <div class="w-full max-w-40 min-w-20 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">CST
         <i class="ph-light ph-info absolute left-1 group">
@@ -457,6 +464,13 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Código de Classificação Tributária do IBS e CBS
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">indDoacao
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Indica a natureza da operação de doação, orientando a apuração e a geração de débitos ou estornos conforme o cenário
           </div>
         </i>
       </span>
