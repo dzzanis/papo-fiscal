@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-08-03T14:28:00Z
-modDatetime: 2025-10-14T06:58:00Z
+modDatetime: 2025-10-21T06:53:00Z
 title: Versão 1.30 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002-v1.30
 featured: true
@@ -224,7 +224,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedutor
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Percentual de redução de alíquota em compra governamental. Conforme art. 472/370 da LC 214/24.
+            Percentual de redução de alíquota em compra governamental. Conforme <code>art. 472/370</code> da LC 214/24.
           </div>
         </i>
       </span>
@@ -233,7 +233,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Tipo de operação com o ente governamental:
             1=Fornecimento <br>
-            2=Recebimento do pagamento, conforme fato gerador do IBS/CBS definido no Art. <code>10 §2º</code>da LC 214/25. 
+            2=Recebimento do pagamento, conforme fato gerador do IBS/CBS definido no <code>Art. 10 §2º</code> da LC 214/25. 
           </div>
         </i>
       </span>
@@ -1621,15 +1621,58 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos de crédito presumido de IBS para fornecimentos a partir da Zona Franca de Manaus
+- Campos para Ajuste de Competência
 
-<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
-  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
-    <div class="w-40 sm:w-44 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gCredPresIBSZFM
-        <i class="ph-light ph-info absolute left-1">
-          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Grupo do crédito presumido de IBS para fornecimentos a partir da ZFM
+<div class="grid grid-cols-[minmax(0px,_1fr)_minmax(0px,_1fr)]
+            p-2 gap-4 ring-2 rounded ring-[#8b5cf6]">
+  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-col gap-1 justify-between items-end">
+    <div class="flex gap-1">
+      <span class="w-36 text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gAjusteCompet
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo dos campos de ajuste de competência
+          </div>
+        </i>
+      </span>
+      <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+    </div>
+    <div class="w-40 sm:w-44 flex flex-col items-center">
+      <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
+    </div>
+  </div>
+  <div class="row-start-1 col-span-1 col-start-2 w-full gap-1 flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">competApur
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Ano e mês referência do período de apuração <br>(AAAA-MM) 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do IBS 
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor da CBS 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-2 col-start-1 w-full gap-1 flex justify-end items-start">
+    <div class="w-32 sm:w-36 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gEstornoCred
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Estorno de Crédito
           </div>
         </i>
       </span>
@@ -1638,9 +1681,158 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
+  <div class="row-span-1 row-start-2 col-span-1 col-start-2 w-full flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCredPresIBSZFM
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSEstCred
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do IBS a ser estornado
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSEstCred
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor da CBS a ser estornada
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-1 w-full gap-1 flex justify-end items-start">
+    <div class="w-32 sm:w-36 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCredPresOper
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Crédito Presumido da Operação
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-3 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor da Base de Cálculo do Crédito Presumido da Operação 
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Código de Classificação do Crédito Presumido
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-4 col-start-1 w-full gap-1 flex justify-end items-start">
+    <div class="w-32 sm:w-36 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações do Crédito Presumido do IBS, quando aproveitado pelo emitente do documento.
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-4 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresCondSus
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido Condição Suspensiva. Preencher apenas para cCredPres com indicação de Condição Suspensiva. 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-5 col-start-1 w-full gap-1 pt-1 flex justify-end items-start">
+    <div class="w-32 sm:w-36 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gCBSCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações do Crédito Presumido da CBS, quando aproveitado pelo emitente do documento. 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-5 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPres
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresCondSus
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do Crédito Presumido Condição Suspensiva. Preencher apenas para cCredPres com indicação de Condição Suspensiva.  
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-span-1 row-start-6 col-start-1 w-full gap-1 pt-1 flex justify-end items-start">
+    <div class="w-32 sm:w-36 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gCredPresIBSZFM
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo para apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM <code>(art. 450, § 1º, LC 214/25)</code> 
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-1 row-start-6 col-start-2 w-full flex justify-start items-start">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">competApur
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Ano e mês referência do período de apuração, seja atual ou retroativo. (AAAA-MM)
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCredPresIBSZFM
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
               Tipo de classificação conforme percentuais definidos no <code>art. 450, § 1º, da LC 214/25</code> para cálculo do crédito presumido na ZFM: <br>
@@ -1654,14 +1846,10 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresIBSZFM
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresIBSZFM
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Valor do crédito presumido calculado sobre o saldo devedor apurado. <br>
-            <ul class="flex flex-col text-start">
-              <li><code>É obrigatório para nota de crédito com tpNFCredito = 02 - Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)</code></li>
-              <li><code>Vedado para documentos que não sejam nota de crédito com tpNFCredito = 02 - Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)</code></li>
-            </ul>
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do crédito presumido calculado sobre o saldo devedor apurado 
           </div>
         </i>
       </span>
