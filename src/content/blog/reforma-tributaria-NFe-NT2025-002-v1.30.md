@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-08-03T14:28:00Z
-modDatetime: 2025-10-21T06:53:00Z
+modDatetime: 2025-10-28T07:12:00Z
 title: Versão 1.30 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002-v1.30
 featured: true
@@ -1904,12 +1904,17 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
   - `vCredPresCondSus` Valor total do crédito presumido em condição suspensiva
 
 - `gMono` **Grupo total da Monofasia**:
+
   - `vIBSMono`: Total do IBS monofásico
   - `vCBSMono`: Total da CBS monofásica
   - `vIBSMonoReten`: Total do IBS monofásico sujeito a retenção
   - `vCBSMonoReten`: Total da CBS monofásico sujeito a retenção
   - `vIBSMonoRet`: Total do IBS monofásico retido anteriormente
   - `vCBSMonoReten`: Total da CBS monofásico retido anteriormente
+
+- `gEstornoCred` **Grupo total do Estorno de Crédito**:
+  - `vIBSEstCred`: Valor total do IBS estornado
+  - `vCBSEstCred`: Valor total da CBS estornada
 
 `vNFTot`: Valor total da NF-e com IBS / CBS / IS
 
@@ -1931,7 +1936,9 @@ Esse pacote de schemas é muito útil para as adaptações necessárias nos soft
 
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP).-~~ Publicado em 15/04/2025 `(versão em desuso)`
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.10, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 09/06/2025 `(versão em desuso)`
-- **Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).** Publicado em 30/07/2025
+- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 30/07/2025 `(versão em desuso)`
+- **Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP).** Publicado em 07/10/2025
+- **Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP).** Publicado em 07/10/2025
 
 ## Novos Eventos
 
@@ -1943,6 +1950,7 @@ Criação de novos eventos destinados a ajustar a apuração assistida do IBS e 
 | 112120 | Importação em ALC/ZFM não convertida em isenção                                                    |          Emitente          |
 | 112130 | Perecimento, perda, roubo ou furto durante o transporte contratado pelo fornecedor                 |          Emitente          |
 | 112140 | Fornecimento não realizado com pagamento antecipado                                                |          Emitente          |
+| 112150 | Atualização da Data de Previsão de Entrega                                                         |          Emitente          |
 | 211110 | Solicitação de Apropriação de crédito presumido                                                    |        Destinatário        |
 | 211120 | Destinação de item para consumo pessoal                                                            |   Emitente Destinatário    |
 | 211124 | Perecimento, perda, roubo ou furto durante o transporte contratado pelo adquirente                 |        Destinatário        |
