@@ -4,7 +4,7 @@ pubDatetime: 2025-08-03T14:28:00Z
 modDatetime: 2025-10-28T07:12:00Z
 title: Versão 1.30 da Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002-v1.30
-featured: true
+featured: false
 draft: false
 tags:
   - Reforma Tributária
