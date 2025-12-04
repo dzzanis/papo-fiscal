@@ -18,7 +18,7 @@ A Reforma Tributária amplia o alcance da responsabilidade fiscal, agora sendo c
 
 ## Sumário
 
-## Responsáveis Solidárias Previstos na LC 214/2025
+## Responsáveis Solidários Previstos na LC 214/2025
 
 O artigo [24 da LC 214/25](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm) lista uma série de responsáveis solidários envolvidos na cadeia dos bens e serviços, sendo eles:
 
@@ -33,7 +33,7 @@ O artigo [24 da LC 214/25](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214
   - ao bem destinado a pessoa ou entidade sem personalidade jurídica diversa daquela que o tiver importado ou arrematado; ou
   - ao bem importado e entregue sem que tenha sido autorizado pelos órgãos competentes da administração tributária.
 
-Na avaliação do [advogado Rodrigo Zanis](https://rodrigozanis.adv.br), essa ampliação da responsabilidade solidária realmente chama a atenção, especialmente porque alcança agentes que tradicionalmente não estavam nesse raio de cobrança. Outro ponto sensível é que, dependendo da interpretação, situações em que o adquirente agiu com total boa-fé ainda podem gerar responsabilização, o que pode ser questionado do ponto de vista da segurança jurídica. Por fim, imaginamos que esse rol extenso exigirá das empresas um controle mais rigoroso para evitar riscos futuros de responsabilização indireta.
+Na avaliação do [advogado Rodrigo Zanis](https://rodrigozanis.adv.br), _"essa ampliação da responsabilidade solidária realmente chama a atenção, especialmente porque alcança agentes que tradicionalmente não estavam nesse raio de cobrança. Outro ponto sensível é que, dependendo da interpretação, situações em que o adquirente agiu com total boa-fé ainda podem gerar responsabilização, o que pode ser questionado do ponto de vista da segurança jurídica. Por fim, imaginamos que esse rol extenso exigirá das empresas um controle mais rigoroso para evitar riscos futuros de responsabilização indireta."_
 
 ## Diferença entre Responsabilidade Subsidiária e Solidária
 
@@ -105,7 +105,7 @@ Mas quais funções podem ser entendidas como destinadas a descumprir a legisla�
 
 O despachante também poderá ser autuado e cobrado como se fosse o próprio contribuinte principal, mesmo que atue corretamente, caso seu cliente cometer uma infração na operação que ele esteja relacionado.
 
-## ⚠️Responsabilização de qualquer pessoa por omissões ou contribuição para o descumprimento da legislação tributária
+## ⚠️Responsabilização de qualquer pessoa por contribuição ou omissão para o descumprimento da legislação tributária
 
 Merece especial ênfase o inciso V do artigo 24, que estabelece a possível responsabilização de qualquer pessoa física ou jurídica ou ainda entidade sem personalidade jurídica que concorra por atos ou omissões para o descumprimento de obrigações tributárias, por meio da ocultação da ocorrência ou do valor da operação ou mediante abuso de personalidade jurídica. A definição do que pode ser entendido como uma contribuição para o descumprimento da legislação tributária é questão ainda não definida e que muito provavelmente ensejará divergências entre o Fisco e as pessoas alvo de responsabilização.
 
@@ -115,7 +115,7 @@ Nesse contexto, esta previsão da LC nº 214/25 deve ser aplicada apenas em caso
 
 Pois, para a norma ser válida deve ser imprescindível a prática dolosa. Considerando esses parâmetros, a norma poderá de fato ser importante para promover uma maior regularidade fiscal e segurança jurídica.
 
-Para [Rodrigo](https://www.instagram.com/rodrigozanis.advogado), embora a ampliação da responsabilidade possa fortalecer o combate a fraudes, entendemos que a interpretação desse dispositivo exigirá cautela para evitar responsabilizações automáticas. A ausência de critérios objetivos sobre o que configura contribuição para o descumprimento tributário tende a gerar incerteza jurídica, especialmente quando o contribuinte não tem ingerência sobre a conduta alheia. Por isso, parece essencial que a aplicação da regra seja restrita a hipóteses de participação dolosa, preservando-se o princípio da responsabilidade subjetiva.
+Para [Rodrigo](https://www.instagram.com/rodrigozanis.advogado), _embora a ampliação da responsabilidade possa fortalecer o combate a fraudes, a interpretação desse dispositivo exigirá cautela para evitar responsabilizações automáticas. A ausência de critérios objetivos sobre o que configura contribuição para o descumprimento tributário tende a gerar incerteza jurídica, especialmente quando o contribuinte não tem ingerência sobre a conduta alheia. Por isso, parece essencial que a aplicação da regra seja restrita a hipóteses de participação dolosa, preservando-se o princípio da responsabilidade subjetiva._
 
 ---
 
