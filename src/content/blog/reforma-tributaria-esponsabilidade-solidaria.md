@@ -50,7 +50,7 @@ Na avaliação do [advogado Rodrigo Zanis](https://rodrigozanis.adv.br), _"essa 
 ## Ampliada Necessidade de Compliance na Gestão de Fornecedores
 
 Nos dispositivos da LC 214/25 que tratam de nota fiscal é aplicado o termo de documento fiscal eletrônico idôneo. Algo que foi muito discutido no congresso nacional para ser retirado, porém ainda assim mantido.
-Trazendo a toma dois grandes riscos em relação aos fornecedores: glosa de créditos e responsabilidade solidária por débitos do fornecedor.
+Trazendo a tona dois grandes riscos em relação aos fornecedores: glosa de créditos e responsabilidade solidária por débitos do fornecedor.
 
 ### a) Glosa de créditos
 
@@ -58,10 +58,10 @@ No Art. 47, §1°, II encontramos o termo de documento fiscal eletrônico idône
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">Art. 47. O contribuinte sujeito ao regime regular poderá apropriar créditos do IBS e da CBS quando ocorrer a extinção por qualquer das modalidades previstas no art. 27 dos débitos relativos às operações em que seja adquirente, excetuadas exclusivamente aquelas consideradas de uso ou consumo pessoal, nos termos do art. 57 desta Lei Complementar, e as demais hipóteses previstas nesta Lei Complementar.
-    </span>
+    </span> <br> <br>
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">§ 1º A apropriação dos créditos de que trata o caput deste artigo:</span>
     <ul>
-      <li class="sm:text-sm text-xs text-[#8b5cf6]">I - será realizada de forma segregada para o IBS e para a CBS, vedadas, em qualquer hipótese, a compensação de créditos de IBS com valores devidos de CBS e a compensação de créditos de CBS com valores devidos de IBS; e</li>
+      <li class="sm:text-sm text-xs text-[#8b5cf6]">(...)</li>
       <li class="sm:text-sm text-xs text-[#8b5cf6]">II - está condicionada à comprovação da operação por meio de documento fiscal eletrônico idôneo.</li>
     </ul>
 </div>
