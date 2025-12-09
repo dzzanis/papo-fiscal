@@ -61,8 +61,8 @@ No Art. 47, §1°, II encontramos o termo de documento fiscal eletrônico idône
     </span> <br> <br>
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">§ 1º A apropriação dos créditos de que trata o caput deste artigo:</span>
     <ul>
-      <li class="sm:text-sm text-xs text-[#8b5cf6]">(...)</li>
-      <li class="sm:text-sm text-xs text-[#8b5cf6]">II - está condicionada à comprovação da operação por meio de documento fiscal eletrônico idôneo.</li>
+      <li class="text-xs text-[#8b5cf6] list-none">(...)</li>
+      <li class="sm:text-sm text-xs text-[#8b5cf6] list-none">II - está condicionada à comprovação da operação por meio de documento fiscal eletrônico idôneo.</li>
     </ul>
 </div>
 
@@ -74,7 +74,7 @@ O artigo 24, inciso I, atribui a responsabilidade solidária àquele que adquire
     <span class="sm:text-sm text-xs text-[#8b5cf6] shadow-md">Art. 24. Sem prejuízo das demais hipóteses previstas na Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional) e na legislação civil, são solidariamente responsáveis pelo pagamento do IBS e da CBS:
     </span>
     <ul>
-      <li class="sm:text-sm text-xs text-[#8b5cf6]">I - a pessoa ou entidade sem personalidade jurídica que, a qualquer título, adquire, importa, recebe, dá entrada ou saída ou mantém em depósito bem, ou toma serviço, não acobertado por documento fiscal idôneo;</li>
+      <li class="sm:text-sm text-xs text-[#8b5cf6] list-none">I - a pessoa ou entidade sem personalidade jurídica que, a qualquer título, adquire, importa, recebe, dá entrada ou saída ou mantém em depósito bem, ou toma serviço, não acobertado por documento fiscal idôneo;</li>
     </ul>
 </div>
 
