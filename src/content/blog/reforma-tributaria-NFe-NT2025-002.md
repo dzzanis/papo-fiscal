@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2025-12-30T14:36:00Z
+modDatetime: 2026-01-09T07:43:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -19,11 +19,26 @@ O Portal da Nota Fiscal Eletrônica divulgou a versão 1.34 da Nota Técnica nº
 
 Confira as principais novidades:
 
-- Mudanças nos detalhamentos do cronograma;
-- Novo campo de data da previsão de entrega ou disponibilização do bem;
-- Novo evento relacionado à apuração de IBS e CBS: `Código 112150 - Atualização da Data de Previsão de Entrega`;
-- Novas finalidades para as notas de débito/crédito;
-- E a expanção significativa das regras de validação;
+- Regras de validação desabilitadas:
+  - UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
+  - UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
+  - UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
+
+Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
+
+- Regras de validação alteradas:
+  - UB26-20 – IBS Estadual
+  - UB45-20 – IBS Municipal
+  - UB64-20 – CBS
+
+Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
+
+Com isso, deixa de impedir o envio do grupo de redução nos casos em que:
+
+- A tabela cClassTrib indica redução
+- Mas a alíquota é zero por força legal
+
+⚠️ A nova versão mantém o posicionamento da versão 1.33. Embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, reforçamos que esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
 
 ## Sumário
 
