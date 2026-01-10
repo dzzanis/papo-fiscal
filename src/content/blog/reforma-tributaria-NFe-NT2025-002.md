@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-01-09T07:43:00Z
+modDatetime: 2026-01-10T12:08:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -17,28 +17,38 @@ description: A versão 1.34 da Nota Técnica 2025.002 apresenta novas definiçõ
 
 O Portal da Nota Fiscal Eletrônica divulgou a versão 1.34 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e em razão da Reforma Tributária.
 
-Confira as principais novidades:
+Confira as principais novidades.
 
-- Regras de validação desabilitadas:
-  - UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
-  - UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
-  - UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
+1.  **Regras de validação desabilitadas:**
 
-Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
+- UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
+- UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
+- UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
 
-- Regras de validação alteradas:
-  - UB26-20 – IBS Estadual
-  - UB45-20 – IBS Municipal
-  - UB64-20 – CBS
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
+  </span>
+</div>
 
-Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
+2. **Regras de validação alteradas:**
 
-Com isso, deixa de impedir o envio do grupo de redução nos casos em que:
+- UB26-20 – IBS Estadual
+- UB45-20 – IBS Municipal
+- UB64-20 – CBS
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
+  </span>
+</div>
+
+Com isso, passa a admitir o envio do grupo de redução nos casos em que:
 
 - A tabela cClassTrib indica redução
 - Mas a alíquota é zero por força legal
 
-⚠️ A nova versão mantém o posicionamento da versão 1.33. Embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, reforçamos que esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
+⚠️ **Importante:** a nova versão mantém o posicionamento da versão 1.33. Em que embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
 
 ## Sumário
 
@@ -206,7 +216,7 @@ O início dessa obrigatoriedade foi postergado para “Implementação futura”
 - Regras de validação desabilitadas: UB26-15, UB45-15 e UB64-15.
 - Regras de validação alteradas: UB26-20, UB45-20, e UB64-20.
 
-⚠️ A nova versão mantém o posicionamento da versão 1.33. Embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, reforçamos que esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
+⚠️ A nova versão mantém o posicionamento da versão 1.33. Embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, reforçamos que esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025.
 
 Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escopo das adequações da NF-e e NFC-e.
 
@@ -214,22 +224,13 @@ Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escop
 
 Em Produção, no ano de 2025 as informações de tributação relativas ao IBS, CBS e IS serão opcionais e somente serão validadas se forem preenchidas. A partir de janeiro de 2026, as novas regras de validação referentes a tributação do IBS e da CBS serão aplicadas, entrando em efetiva operacionalização.
 
-| Cronograma                                                                                           |   Homologação    |     Produção     |
-| :--------------------------------------------------------------------------------------------------- | :--------------: | :--------------: |
-| Implantação de novo schema com os campos para apuração do IBS, CBS e IS, com preenchimento opcional. | 07/07 a 28/07/25 |                  |
-| Aplicação das regras de validação, conforme detalhamento do cronograma abaixo.                       | 07/07 a 11/08/25 |                  |
-| Implantação dos eventos para utilização na apuração do IBS, CBS e IS.                                |     25/08/25     |                  |
-| Detalhamentos do cronograma, novas regras de validação e ajustes diversos.                           |     08/09/25     |                  |
-| Entrada do schema, Regras de Validação e dos Eventos.                                                | 29/10 a 24/11/25 | 10/11 a 02/02/26 |
-| Início da obrigatoriedade da informação dos novos tributos (RV UB12-10)                              |                  |     05/01/26     |
-
 Detalhamento do Cronograma para `CRT 3=Regime Normal`:
 
-|            | Homologação                                                                  | Produção                                                                                                                                                                                    |
-| ---------- | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Julho/25   | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas. | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                        |
-| Outubro/25 | Idem Homologação Julho/25.                                                   | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                           |
-| Janeiro/26 | Idem Homologação Julho/25.                                                   | Campos IBS/CBS obrigatórios para NF-e com data de emissão maior ou igual a 05/01/2026 e as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
+|            | Homologação                                                                  | Produção                                                                                                                                                                                                                                                  |
+| ---------- | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Julho/25   | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas. | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                                                                                      |
+| Outubro/25 | Idem Homologação Julho/25.                                                   | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                                                                                         |
+| Janeiro/26 | Idem Homologação Julho/25.                                                   | Campos IBS/CBS não serão exigidos por regra de validação, porém permanece obrigatório conforme a legislação vigente. Para as NF-e e NFC-e com IBS/CBS as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
 
 ## Nota de Débito e Crédito
 
