@@ -224,7 +224,15 @@ Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escop
 
 Em Produção, no ano de 2025 as informações de tributação relativas ao IBS, CBS e IS serão opcionais e somente serão validadas se forem preenchidas. A partir de janeiro de 2026, as novas regras de validação referentes a tributação do IBS e da CBS serão aplicadas, entrando em efetiva operacionalização.
 
-Detalhamento do Cronograma para `CRT 3=Regime Normal`:
+<div>
+  <span class="dark:text-white/90 relative">Detalhamento do Cronograma para CRT 3=Regime Normal:
+    <i class="ph-light ph-info absolute -right-3 group">
+      <div class="absolute left-3/4 -translate-x-2/4 bottom-full mb-2 sm:min-w-96 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+        As orientações para CRT 1-Simples Nacional, CRT 2-Simples Nacional-Excesso de Sublimite, CRT 4-MEI e Tributação Monofásica serão publicadas em NT futura, tendo em vista que a tributação do IBS/CBS/IS para estes contribuintes ocorre somente a partir de <code>2027</code>
+      </div>
+    </i>
+  </span>
+</div>
 
 |            | Homologação                                                                  | Produção                                                                                                                                                                                                                                                  |
 | ---------- | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
