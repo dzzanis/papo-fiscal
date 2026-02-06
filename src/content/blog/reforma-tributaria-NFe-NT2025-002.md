@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-01-10T12:08:00Z
+modDatetime: 2026-02-06T08:21:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -139,22 +139,13 @@ Principais alterações:
 
 Correção nas regras de validação B25b-20, 3BA02-10, 3BA02-70 e NA01-20.
 
-- **B25b-20 – Operação não presencial na NFC-e**:
+**B25b-20 – Operação não presencial na NFC-e**: essa validação rejeita emissão de NFC-e quando o indicador de presença (indPres) não corresponde a uma modalidade permitida para esse tipo de documento.
 
-Rejeita emissão de NFC-e quando o indicador de presença (indPres) não corresponde a uma modalidade permitida para esse tipo de documento.
+Antes da versão 1.32 a NFC-e só aceitva indPres igual a `1 – Operação presencial` ou `4 – Entrega a domicílio`.
 
-Antes da versão 1.32 a NFC-e só aceitva indPres igual a:
+A partir da versão 1.32, também será considerada válida a NFC-e emitida com `5 – Operação presencial fora do estabelecimento`
 
-- `1 – Operação presencial`
-- `4 – Entrega a domicílio`
-
-A partir da versão 1.32, também será considerada válida a NFC-e emitida com:
-
-- `5 – Operação presencial fora do estabelecimento`
-
-- **3BA02-10 – Chave de acesso referenciada inexistente**:
-
-Verifica se cada NF-e referenciada (refNFe) realmente existe na base da SEFAZ.
+**3BA02-10 – Chave de acesso referenciada inexistente**: verifica se cada NF-e referenciada (refNFe) realmente existe na base da SEFAZ.
 
 Exceções antes da versão 1.32:
 
@@ -169,9 +160,7 @@ A partir da versão 1.32, foi retirada a observação de que a exceção não se
 
 Sendo mantida a exceção já existente para NF-e complementar (finNFe = 2).
 
-**3BA02-70 – Validação em notas de crédito que a nota referenciada existe e não esteja cancelada**:
-
-Essa regra se aplica às notas de crédito (finNFe = 5) quando o campo tpNFCredito for:
+**3BA02-70 – Validação em notas de crédito que a nota referenciada existe e não esteja cancelada**: essa regra se aplicava às notas de crédito (finNFe = 5) quando o campo tpNFCredito for:
 
 - `01 – Multa e juros`
 - `03 – Retorno`
@@ -191,9 +180,7 @@ A partir da versão 1.32, a redação da regra foi modernizada e ficou mais obje
 </span>
 </div>
 
-**NA01-20 – Exige o ICMSUFDest em operações interestaduais ao consumidor final**
-
-A partir da versão 1.32, a regra também especifica que notas emitidas em operações governamentais classificadas como “recebimento do pagamento” passam a não exigir o grupo ICMSUFDest, evitando rejeições indevidas.
+**NA01-20 – Exige o ICMSUFDest em operações interestaduais ao consumidor final**: a partir da versão 1.32 a regra também especifica que notas emitidas em operações governamentais classificadas como “recebimento do pagamento” passam a não exigir o grupo ICMSUFDest, evitando rejeições indevidas.
 
 ### Nota Técnica 2025.002 v.1.33
 
@@ -251,7 +238,12 @@ A NT cita que a regulamentação do IBS disporá sobre a utilização de notas d
 
 Também, explica que as finalidades de "Nota de Ajuste" e "Nota Complementar" que já existem são casos especiais de "Nota de Débito". Já uma "Nota de Entada" emitida para documentar, por exemplo, a devolução de mercadoria que havia sido vendida para consumidor final é um caso especial de "Nota de Crédito".
 
-Cabe destacar que, a menos que ocorra uma alteração na regulamentação do ICMS e do IPI, estas notas de crédito e notas de débito não serão utilizadas para ajustes destes tributos.
+Cabe destacar que em 09/12/2025 foi publicado o [Ajuste SINIEF 49/2025](https://www.confaz.fazenda.gov.br/legislacao/ajustes/2025/AJ049_25) compatibilizando a aplicação de notas de crédito e débito também com operações correlacionadas ao ICMS e IPI. Padronizando procedimentos para emissão de documentos fiscais em quatro situações comuns:
+
+- 1 - Venda para entrega futura com pagamento antecipado;
+- 2 - Perdas de estoque;
+- 3 - Redução de valores ou quantidades quando o cancelamento da NF-e não é possível;
+- 4 - Retorno por recusa ou não localização do destinatário.
 
 ## Código de Situação Tributária e Código de Classificação da Tributação
 
