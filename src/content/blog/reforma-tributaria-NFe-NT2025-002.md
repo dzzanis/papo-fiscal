@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-02-06T08:21:00Z
+modDatetime: 2026-02-08T20:21:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -19,7 +19,7 @@ O Portal da Nota Fiscal Eletrônica divulgou a versão 1.34 da Nota Técnica nº
 
 Confira as principais novidades.
 
-1.  **Regras de validação desabilitadas:**
+1.  🚫 **Regras de validação desabilitadas:**
 
 - UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
 - UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
@@ -31,7 +31,7 @@ Confira as principais novidades.
   </span>
 </div>
 
-2. **Regras de validação alteradas:**
+2. 🔄 **Regras de validação alteradas:**
 
 - UB26-20 – IBS Estadual
 - UB45-20 – IBS Municipal
@@ -139,13 +139,13 @@ Principais alterações:
 
 Correção nas regras de validação B25b-20, 3BA02-10, 3BA02-70 e NA01-20.
 
-**B25b-20 – Operação não presencial na NFC-e**: essa validação rejeita emissão de NFC-e quando o indicador de presença (indPres) não corresponde a uma modalidade permitida para esse tipo de documento.
+1️⃣ **B25b-20 – Operação não presencial na NFC-e**: essa validação rejeita emissão de NFC-e quando o indicador de presença (indPres) não corresponde a uma modalidade permitida para esse tipo de documento.
 
 Antes da versão 1.32 a NFC-e só aceitva indPres igual a `1 – Operação presencial` ou `4 – Entrega a domicílio`.
 
 A partir da versão 1.32, também será considerada válida a NFC-e emitida com `5 – Operação presencial fora do estabelecimento`
 
-**3BA02-10 – Chave de acesso referenciada inexistente**: verifica se cada NF-e referenciada (refNFe) realmente existe na base da SEFAZ.
+2️⃣ **3BA02-10 – Chave de acesso referenciada inexistente**: verifica se cada NF-e referenciada (refNFe) realmente existe na base da SEFAZ.
 
 Exceções antes da versão 1.32:
 
@@ -160,12 +160,7 @@ A partir da versão 1.32, foi retirada a observação de que a exceção não se
 
 Sendo mantida a exceção já existente para NF-e complementar (finNFe = 2).
 
-**3BA02-70 – Validação em notas de crédito que a nota referenciada existe e não esteja cancelada**: essa regra se aplicava às notas de crédito (finNFe = 5) quando o campo tpNFCredito for:
-
-- `01 – Multa e juros`
-- `03 – Retorno`
-
-A partir da versão 1.32, a redação da regra foi modernizada e ficou mais objetiva.
+3️⃣ **3BA02-70 – Validação em notas de crédito que a nota referenciada existe e não esteja cancelada**: essa regra se aplicava às notas de crédito (finNFe = 5) com tpNFCredito igual a `01 – Multa e juros` ou `03 – Retorno`. A partir da versão 1.32, a redação da regra foi modernizada e ficou mais objetiva:
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
 <span class="sm:text-sm text-xs text-[#8b5cf6]">  - Para cada NF-e referenciada (tag:refNFe):
@@ -180,7 +175,7 @@ A partir da versão 1.32, a redação da regra foi modernizada e ficou mais obje
 </span>
 </div>
 
-**NA01-20 – Exige o ICMSUFDest em operações interestaduais ao consumidor final**: a partir da versão 1.32 a regra também especifica que notas emitidas em operações governamentais classificadas como “recebimento do pagamento” passam a não exigir o grupo ICMSUFDest, evitando rejeições indevidas.
+4️⃣ **NA01-20 – Exige o ICMSUFDest em operações interestaduais ao consumidor final**: a partir da versão 1.32 a regra também especifica que notas emitidas em operações governamentais classificadas como “recebimento do pagamento” passam a não exigir o grupo ICMSUFDest, evitando rejeições indevidas.
 
 ### Nota Técnica 2025.002 v.1.33
 
@@ -200,8 +195,8 @@ O início dessa obrigatoriedade foi postergado para “Implementação futura”
 
 Última versão publicada com as seguintes alterações mais relevantes:
 
-- Regras de validação desabilitadas: UB26-15, UB45-15 e UB64-15.
-- Regras de validação alteradas: UB26-20, UB45-20, e UB64-20.
+- 🚫 Regras de validação desabilitadas: UB26-15, UB45-15 e UB64-15.
+- 🔄 Regras de validação alteradas: UB26-20, UB45-20, e UB64-20.
 
 ⚠️ A nova versão mantém o posicionamento da versão 1.33. Embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, reforçamos que esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025.
 
@@ -268,6 +263,13 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Data da previsão de entrega ou disponibilização do bem. <br> Observação: Não informar este campo para a NFC-e.
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cMunFG
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Código de ocorrência do fato gerador do ICMS. Utilizar a Tabela de código de Município do IBGE 
           </div>
         </i>
       </span>
