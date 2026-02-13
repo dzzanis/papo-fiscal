@@ -19,7 +19,7 @@ O Portal da Nota Fiscal Eletrônica divulgou a versão 1.34 da Nota Técnica nº
 
 Confira as principais novidades.
 
-1.  🚫 **Regras de validação desabilitadas:**
+🚫 **Regras de validação desabilitadas:**
 
 - UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
 - UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
@@ -31,7 +31,7 @@ Confira as principais novidades.
   </span>
 </div>
 
-2. 🔄 **Regras de validação alteradas:**
+🔄 **Regras de validação alteradas:**
 
 - UB26-20 – IBS Estadual
 - UB45-20 – IBS Municipal
@@ -48,7 +48,11 @@ Com isso, passa a admitir o envio do grupo de redução nos casos em que:
 - A tabela cClassTrib indica redução
 - Mas a alíquota é zero por força legal
 
-⚠️ **Importante:** a nova versão mantém o posicionamento da versão 1.33. Em que embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    ⚠️ Importante: a nova versão mantém o posicionamento da versão 1.33. Em que embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
+  </span>
+</div>
 
 ## Sumário
 
