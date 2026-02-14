@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-02-08T20:21:00Z
+modDatetime: 2026-02-14T13:08:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -265,22 +265,22 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
     <div class="sm:min-w-44 flex flex-col gap-2">
       <span class="sm:min-w-44 text-center sm:text-sm text-xs whitespace-normal text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">dPrevEntrega
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Data da previsão de entrega ou disponibilização do bem. <br> Observação: Não informar este campo para a NFC-e.
           </div>
         </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cMunFG
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Código de ocorrência do fato gerador do ICMS. Utilizar a Tabela de código de Município do IBGE 
           </div>
         </i>
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cMunFGIBS
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Código do Município de consumo, fato gerador do IBS / CBS
+          <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Cód. do Município de consumo, fato gerador do IBS/CBS. <br>Preecher somente quando se tratar de operação presencial fora do estabelecimento (<code>indPress=5</code>), e não tiver endereço do destinatário (<code>Grupo E05</code>) ou local de entrega (<code>Grupo G01</code>).
           </div>
         </i>
       </span>
@@ -293,7 +293,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpNFDebito
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-96 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/3 -translate-x-1/3 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de Nota de Débito: <br>
             01=Transferência de créditos para Cooperativas; <br>
             02=Anulação de Crédito por Saídas Imunes/Isentas; <br>
@@ -308,7 +308,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
       </span>
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpNFCredito
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-96 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/3 -translate-x-1/3 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de Nota de Crédito: <br>
             01 = Multa e juros; <br>
             02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. <code>450, § 1º</code>, LC 214/25); <br>
@@ -440,21 +440,24 @@ Este grupo deverá ser utilizado para referênciar chaves de NF-e emitidas anter
 
 Tendo as seguintes regras de validação:
 
+- Rejeição: Chave de acesso referenciada deve existir e não estar cancelada;
 - Rejeição: NF-e referenciada de pagamento antecipado informada indevidamente (caso informado para modelo 65 - NFC-e);
 - Rejeição: NF-e referenciada de pagamento antecipado inexistente;
-- Rejeição: NF-e referenciada de pagamento antecipado deve ser do tipo débito.
+- Rejeição: NF-e referenciada de pagamento antecipado deve ser do tipo débito, pagamento antecipado.
 
 ## Bem móvel usado e tipo de crédito presumido na Zona Franca de Manaus
 
 O grupo `Grupo I. Produtos e Serviços da NF-e` passa a ter dois novos campos:
 
-- `indBemMovelUsado` para identificar o fornecimento de bem móvel usado, adquirido de pessoa física que não seja contribuinte ou que seja inscrita como MEI;
 - `tpCredPresIBSZFM` permitindo a classificação, para subapuração do crédito presumido do IBS na ZFM, conforme percentuais definidos no art. 450, § 1º, da LC 214/25:
+
   - 0 = Sem Crédito Presumido
   - 1 = Bens de consumo final (55%)
   - 2 = Bens de capital (75%)
   - 3 = Bens intermediários (90,25%)
   - 4 = Bens de informática e outros definidos em legislação (100%)
+
+- `indBemMovelUsado` para identificar o fornecimento de bem móvel usado, adquirido de pessoa física que não seja contribuinte ou que seja inscrita como MEI.
 
 ## Alteração do ICMS normal e ICMS ST
 
@@ -624,11 +627,11 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCredPresIBSZFM
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gAjusteCompet
         <span class="absolute right-0.5">+</span>
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
-            Informações do crédito presumido de IBS para fornecimentos a partir da ZFM
+          <div class="absolute left-2/4 -translate-x-2/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Grupo para Ajuste de Competência. A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gAjusteCompet” da tabela de CST do IBS e da CBS. 
           </div>
         </i>
       </span>
