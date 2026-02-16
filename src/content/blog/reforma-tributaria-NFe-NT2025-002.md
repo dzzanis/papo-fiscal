@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-02-14T13:08:00Z
+modDatetime: 2026-02-16T20:15:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -534,7 +534,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-9 row-span-9 col-start-1">
+  <div class="row-start-9 row-span-11 col-start-1">
     <div class="w-full flex flex-row gap-0.5 justify-center items-center">
       <span class="grow max-w-44 min-w-24 ml-0 sm:ml-6 text-center text-sm text-gray-500 p-1 border rounded-lg shadow-md relative">imposto</span>
       <svg 
@@ -566,7 +566,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-11 col-start-2 w-full flex justify-start items-start pt-0.5">
+  <div class="row-start-12 col-start-2 w-full flex justify-start items-start pt-0.5">
     <div class="w-full flex flex-row gap-0.5">
       <span class="grow max-w-40 min-w-20 pl-4 text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">IBSCBS
         <i class="ph-light ph-info absolute left-1 group">
@@ -580,7 +580,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
     </div>
   </div>
-  <div class="row-span-7 row-start-11 col-span-1 col-start-3 w-full gap-1 flex justify-start items-start">
+  <div class="row-span-8 row-start-12 col-span-1 col-start-3 w-full gap-1 flex justify-start items-start">
     <div class="w-full max-w-40 min-w-20 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">CST
         <i class="ph-light ph-info absolute left-1 group">
@@ -631,7 +631,31 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
         <span class="absolute right-0.5">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-2/4 -translate-x-2/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
-            Grupo para Ajuste de Competência. A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gAjusteCompet” da tabela de CST do IBS e da CBS. 
+            Grupo para Ajuste de Competência. <br>A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gAjusteCompet” da tabela CST do IBS e da CBS. 
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gEstornoCred
+        <span class="absolute right-0.5">+</span>
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-2/4 -translate-x-2/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Grupo para Estorno de Crédito. <br>A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gEstornoCred” da tabela cClassTrib do IBS e da CBS. 
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCredPresOper
+        <span class="absolute right-0.5">+</span>
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-2/4 -translate-x-2/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Grupo para Crédito Presumido da Operação. <br>A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gCredPresOper” da tabela cClassTrib do IBS e da CBS. O valor "1" do indicador “ind_gCredPresOper” significa que o contribuinte pode utilizar o crédito presumido, sem obrigatoriedade (permite, mas não exige). 
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCredPresIBSZFM
+        <span class="absolute right-0.5">+</span>
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-2/4 -translate-x-2/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Grupo para apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM <code>(art. 450, § 1º, LC 214/25)</code>. <br>A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gCredPresIBSZFM” da tabela CST do IBS e da CBS.  
           </div>
         </i>
       </span>
