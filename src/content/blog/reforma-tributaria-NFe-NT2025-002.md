@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-02-16T20:15:00Z
+modDatetime: 2026-02-25T06:17:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -383,8 +383,8 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
     <div class="sm:min-w-44 min-w-20 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">refNFe
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
-            Chave de acesso da NF-e de antecipação de pagamento
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Chave de acesso da NF-e de antecipação de pagamento. Podem ser referenciadas até 99 notas de antecipação de pagamento.
           </div>
         </i>
       </span>
