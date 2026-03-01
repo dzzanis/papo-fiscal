@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-02-25T06:17:00Z
+modDatetime: 2026-03-01T10:19:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -469,7 +469,7 @@ As informações do ICMS da operação própria e ST passam a ter sua ocorrênci
 
 Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, contendo um série de campos relacionados aos novos tributos que deverão ser informados para cada item do documento, e o `Grupo VB. Total do item da NF-e` com o campo `vItem`.
 
-- Esquema gráfico do leiaute, contemplando os grupos de campos do IBS, CBS e Imposto Seletivo.
+### Esquema gráfico do leiaute, contemplando os grupos de campos do IBS, CBS e Imposto Seletivo.
 
 <div class="grid grid-cols-[minmax(0px,_1fr)_minmax(0px,_0.85fr)_minmax(0px,_1fr)]
   p-1 gap-1 ring-1 rounded ring-0.8b5cf6] overflow-hidden">
@@ -674,7 +674,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos do Imposto Seletivo
+### Campos do Imposto Seletivo
 
 <div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_1fr)] p-4 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
@@ -753,7 +753,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Grupo do IBS e CBS
+### Grupo do IBS e CBS
 
 <div class="grid grid-cols-[minmax(0px,_0.8fr)_minmax(0px,_1fr)] grid-rows-1 p-4 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
@@ -818,22 +818,6 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSCredPres
-        <span class="absolute right-1">+</span>
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Grupo de Informações do Crédito Presumido do IBS
-          </div>
-        </i>
-      </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSCredPres
-        <span class="absolute right-1">+</span>
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Grupo de Informações do Crédito Presumido referente a CBS
-          </div>
-        </i>
-      </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gTribCompraGov
         <span class="absolute right-1">+</span>
         <i class="ph-light ph-info absolute left-1 group">
@@ -846,7 +830,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos do IBS da UF
+#### Campos do IBS da UF
 
 <div class="grid grid-cols-3 p-2 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-7 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 sm:pl-14 justify-end items-center">
@@ -910,8 +894,8 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDevTrib
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Grupo de Informações da devolução de tributos
+          <div class="absolute left-1/2 -translate-x-1/3 bottom-full mb-2 min-w-64 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo de Informações da devolução de tributos no fornecimento de energia elétrica, água, esgoto, gás natural e em outras hipóteses definidas no regulamento.
           </div>
         </i>
       </span>
@@ -924,8 +908,8 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Valor do tributo devolvido (desconto na própria Nota Fiscal / Fatura) 
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor do tributo devolvido (“cashback” de desconto na própria Nota Fiscal / Fatura) 
           </div>
         </i>
       </span>
@@ -949,16 +933,19 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual da redução de alíquota do cClassTrib
           </div>
         </i>
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Alíquota Efetiva do IBS de competência das UF aplicada a Base de Cálculo, após redução de alíquota e gCompraGov/pRedutor: <br>
-             <code>pAliqEfet = pIBSUF x (1 – pRedAliq) x (1 - gCompraGov/pRedutor) </code> 
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm text-left rounded px-2 py-1 shadow-lg">
+            Alíquota Efetiva do IBS de competência das UF aplicada a Base de Cálculo <br><br>
+            Se for compra governamental: <br> 
+              <code>pAliqEfet = pIBSUF x (1 – pRedAliq) x (1 - gCompraGov/pRedutor) </code> 
+            Senão:<br> 
+              <code>pAliqEfet = pIBSUF x (1 – pRedAliq)</code>
           </div>
         </i>
       </span>
@@ -970,11 +957,10 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/3 bottom-full mb-2 min-w-64 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS de competência da UF  <br><br>
-            <code>Se grupo gRed preenchido:<br>
-                vIBSUF = gRed/pAliqEfet x vBC <br>
-              Senão: 
-                vIBSUF = pIBSUF x vBC 
-            </code> 
+            Se grupo gRed preenchido:<br>
+                <code>vIBSUF = (vBC x gRed/pAliqEfet) - vDif - vDevTrib</code><br>
+            Senão:<br> 
+                <code>vIBSUF = (vBC x pIBSUF) - vDif - vDevTrib</code>
           </div>
         </i>
       </span>
@@ -982,7 +968,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos do IBS dos Municípios
+#### Campos do IBS dos Municípios
 
 <div class="grid grid-cols-3 p-2 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-7 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 sm:pl-14 justify-end items-center">
@@ -1092,9 +1078,12 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-48 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Alíquota Efetiva do IBS de competência do Município aplicada a Base de Cálculo, após redução de alíquota e gCompraGov/pRedutor: <br><br>
-             <code>pAliqEfet = pIBSMun x (1 – pRedAliq) x (1 - gCompraGov/pRedutor) </code> 
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm text-left rounded px-2 py-1 shadow-lg">
+            Alíquota Efetiva do IBS de competência do Município aplicada a Base de Cálculo <br><br>
+            Se for compra governamental: <br> 
+              <code>pAliqEfet = pIBSMun x (1 – pRedAliq) x (1 - gCompraGov/pRedutor) </code> 
+            Senão:<br> 
+              <code>pAliqEfet = pIBSMun x (1 – pRedAliq)</code>
           </div>
         </i>
       </span>
@@ -1104,13 +1093,12 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMun
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/3 bottom-full mb-2 min-w-64 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/3 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS de competência do Município.  <br><br>
-            <code>Se grupo gRed preenchido:<br>
-                vIBSMun = gRed/pAliqEfet x vBC <br>
-              Senão: 
-                vIBSMun = pIBSMun x vBC 
-            </code> 
+            Se grupo gRed preenchido:<br>
+                <code>vIBSMun = (vBC x gRed/pAliqEfet) - vDif - vDevTrib</code><br>
+            Senão:<br> 
+                <code>vIBSMun = (vBC x pIBSUF) - vDif - vDevTrib</code>
           </div>
         </i>
       </span>
@@ -1118,7 +1106,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos da CBS
+#### Campos da CBS
 
 <div class="grid grid-cols-3 p-2 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-7 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 sm:pl-14 justify-end items-center">
@@ -1248,7 +1236,10 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Grupo de informações da Tributação Regular, informando como seria a tributação caso não cumprida a condição resolutória/suspensiva
+#### Grupo de informações da Tributação Regular
+
+Informar como seria a tributação caso não cumprida a condição resolutória/suspensiva. Por exemplo, em operações com ZFM e ALC, ou em operações com suspensão do tributo. A obrigatoriedade ou vedação do
+preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular” da tabela de cClassTrib do IBS e da CBS.
 
 <div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 px-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
@@ -1327,109 +1318,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos do Crédito Presumido de IBS
-
-<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 px-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
-  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
-    <div class="min-w-32 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gIBSCredPres
-        <i class="ph-light ph-info absolute left-1">
-          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Grupo de Informações do Crédito Presumido referente ao IBS
-          </div>
-        </i>
-      </span>
-    </div>
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
-  </div>
-  <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
-    <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cCredPres
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-              Código de Classificação do Crédito Presumido. Utilizar tabela cCredPres (Anexo IV) 
-          </div>
-        </i>
-      </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCredPres
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Percentual do Crédito Presumido
-          </div>
-        </i>
-      </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPres
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Valor do Crédito Presumido
-          </div>
-        </i>
-      </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresCondSus
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Valor do Crédito Presumido em condição suspensiva
-          </div>
-        </i>
-      </span>
-    </div>
-  </div>
-</div>
-
-- Campos do Crédito Presumido da CBS
-
-<div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
-  <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
-    <div class="min-w-32 flex flex-col gap-2 justify-center p-2 pl-4 ring-1 ring-[#8b5cf6] rounded-lg shadow-md relative">
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] group">gCBSCredPres
-        <i class="ph-light ph-info absolute left-1">
-          <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Grupo de Informações do Crédito Presumido referente ao CBS
-          </div>
-        </i>
-      </span>
-    </div>
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
-  </div>
-  <div class="row-span-1 row-start-1 col-start-2 w-full flex gap-2 justify-start items-center">
-    <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cCredPres
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-              Código de Classificação do Crédito Presumido. Utilizar tabela cCredPres (Anexo IV) 
-          </div>
-        </i>
-      </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pCredPres
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Percentual do Crédito Presumido
-          </div>
-        </i>
-      </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPres
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Valor do Crédito Presumido
-          </div>
-        </i>
-      </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCredPresCondSus
-        <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Valor do Crédito Presumido em condição suspensiva
-          </div>
-        </i>
-      </span>
-    </div>
-  </div>
-</div>
-
-- Campos do IBS e da CBS em Compras Governamentais
+#### Campos do IBS e da CBS em Compras Governamentais
 
 <div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
@@ -1494,7 +1383,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos do IBS e CBS Monofásico
+### Campos do IBS e CBS Monofásico
 
 <div class="grid grid-cols-[minmax(0px,_1fr)_minmax(0px,_1fr)]
             p-2 gap-4 ring-2 rounded ring-[#8b5cf6]">
@@ -1570,7 +1459,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Uso em operações com combustíveis derivados de petróleo (Gasolina A ou Óleo Diesel A) para retenção do imposto sobre o biocombustível a ser misturado. Art 173 PLP 68/24. 
+            Uso em operações com combustíveis derivados de petróleo (Gasolina A ou Óleo Diesel A) para retenção do imposto sobre o biocombustível a ser misturado. Art 178 LC 214/25. 
           </div>
         </i>
       </span>
@@ -1737,7 +1626,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos de Transferências de Crédito
+### Campos de Transferências de Crédito
 
 <div class="grid grid-cols-[minmax(0px,_0.9fr)_minmax(0px,_1fr)] grid-rows-1 pl-2 pr-2 p-4 sm:px-12 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-row gap-1 justify-end items-center">
@@ -1774,7 +1663,9 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
 </div>
 
-- Campos para Ajuste de Competência
+### Campos para Ajuste de Competência
+
+A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada ao indicador “ind_gAjusteCompet” da tabela de CST do IBS e da CBS.
 
 <div class="grid grid-cols-[minmax(0px,_1fr)_minmax(0px,_1fr)]
             p-2 sm:gap-4 gap-1 ring-2 rounded ring-[#8b5cf6]">
@@ -2073,9 +1964,14 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
 
 ## Regras de Validação
 
-Diversas regras de validação foram criadas. Destacam-se a rejeição caso não informados dados do grupo dos tributos IBS e CBS e a validação do valor total da NF-e/NFC-e, que vai considerar os valores de IS, IBS, CBS, IBS monofásico e CBS monofásica como parte integrante do total do documento.
+Diversas regras de validação foram criadas. Destacam-se a rejeição caso não informados os dados do grupo dos tributos IBS e CBS e a validação do valor total da NF-e/NFC-e, que vai considerar os valores de IS, IBS, CBS, IBS monofásico e CBS monofásica como parte integrante do total do documento. Mas no ano de 2026, está prevista a exceção dos novos tributos serem somados no valor total da nota, permitindo as empresas e os sistemas de gestão utilizar esse período para adaptações.
 
-Contudo, para no ano de 2026, que será tratado como um período de testes, está prevista a exceção em que os valores destacados dos novos tributos não sejam ainda somados no valor total da nota. Permitindo que as empresas e os sistemas de gestão, nesta exigência específica, tenham esse período para adaptação.
+Apesar de adiada para ativação futura a regra de validação sobre o não preenchimento dos campos do IBS e CBS, que rejeitaria a emissão da nota fiscal, esses dados são obrigatórios a partir de 01/01/2026 conforme o art. 348 da Lei Complementar nº 214/2025. Por isso, recomendamos a adequação imediata para garantir a conformidade legal.
+
+Desta forma, as principais rejeições automáticas das notas fiscais no ano de 2026 incluem:
+
+- Rejeição 1026: Alíquota do IBS da UF diferente de 0,1% para documentos emitidos em 2026.
+- Rejeição 1037: Alíquota da CBS diferente de 0,9% para documentos emitidos em 2026.
 
 ## DANFE
 
@@ -2090,8 +1986,10 @@ Esse pacote de schemas é muito útil para as adaptações necessárias nos soft
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP).-~~ Publicado em 15/04/2025 `(versão em desuso)`
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.10, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 09/06/2025 `(versão em desuso)`
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 30/07/2025 `(versão em desuso)`
+- ~~Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.20 - RTC (ZIP).~~ Publicado em 18/08/2025 `(versão em desuso)`
+- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.21 (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 20/08/2025 `(versão em desuso)`
 - **Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP).** Publicado em 07/10/2025
-- **Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP).** Publicado em 07/10/2025
+- **Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP).** Publicado em 07/10/2025 - Atualizado em 30/10/2025
 
 ## Novos Eventos
 
