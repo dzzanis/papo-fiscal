@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-13T06:31:00Z
+modDatetime: 2026-03-15T20:24:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -35,7 +35,23 @@ Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-
 
 As notas fiscais de débito têm por finalidade registrar acréscimos no valor devido de IBS na apuração do emitente, em decorrência de ajustes ou eventos que modifiquem o débito originalmente apurado.
 
-Nota: Quando aplicável, o valor de IBS informado também gera crédito correspondente para o contribuinte indicado como destinatário do documento, conforme as regras legais e operacionais vigentes.
+Quando aplicável, o valor de IBS e CBS informados também geram crédito correspondente para o contribuinte indicado como destinatário do documento, conforme as regras legais e operacionais vigentes.
+
+A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, prevê uso dos seguintes tipos de nota de débito:
+
+- 01 = Transferência de créditos para Cooperativas;
+- 02 = Anulação de Crédito por Saídas Imunes/Isentas;
+- 03 = Débitos de notas fiscais não processadas na apuração;
+- 04 = Multa e juros;
+- 05 = Transferência de crédito na sucessão;
+- 06 = Pagamento antecipado;
+- 07 = Perda em estoque;
+- 08 = Desenquadramento do SN
+
+Contudo o Ajuste SINIEF 49/2025 trata apenas duas operações para nota de débito:
+
+- 06 = Pagamento antecipado;
+- 07 = Perda em estoque;
 
 ### Pagamento antecipado
 
@@ -63,7 +79,7 @@ Conforme consta na cartilha do CGIBS, deverá ser emitida uma nota fiscal de dé
 
 Os débitos de IBS correspondentes à antecipação serão registrados no período de apuração em que ocorrer o recebimento antecipado. Quando houver direito à apropriação de crédito pelo adquirente, este será reconhecido no momento da extinção do débito do fornecedor, observadas as mesmas regras aplicáveis às notas fiscais de fornecimento.
 
-Por ocasião do efetivo fornecimento do bem ou serviço, conforme disposto no art. 10, § 4º, inciso II, da Lei Complementar nº 214/2025, o contribuinte deverá emitir a nota fiscal de fornecimento com o valor total da operação, referenciando as notas fiscais de débito de antecipação previamente emitidas, no Grupo de Notas Fiscais de Antecipação, conforme item 1.3 desta Cartilha.
+Por ocasião do efetivo fornecimento do bem ou serviço, conforme disposto no art. 10, § 4º, inciso II, da Lei Complementar nº 214/2025, o contribuinte deverá emitir a nota fiscal de fornecimento com o valor total da operação, referenciando as notas fiscais de débito de antecipação previamente emitidas, no Grupo de Notas Fiscais de Antecipação.
 
 Ao processar a nota fiscal de fornecimento, o sistema de apuração assistida do IBS deduzirá, de forma automática, o valor do IBS já destacado nas notas fiscais de débito de antecipação emitidas anteriormente, desde que a nota fiscal de fornecimento contenha o referenciamento das chaves de acesso das notas de antecipação, evitando a duplicidade de lançamento de débitos na apuração do contribuinte emitente.
 
@@ -99,28 +115,26 @@ Conforme consta no Ajuste SINIEF 49/2025 ficará sem destaque do ICMS. Então a 
 
 Têm por finalidade reduzir o débito de IBS na apuração do contribuinte emitente e, quando aplicável, gerar o correspondente lançamento a crédito na apuração do contribuinte destinatário.
 
-### Redução de valores ou quantidades
+A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, prevê uso dos seguintes tipos de nota de crédito:
 
-A nota fiscal de crédito do tipo “04 – Redução de Valores” deverá ser utilizada quando, não sendo mais possível o cancelamento do documento fiscal, for identificada a necessidade de redução do valor do IBS destacado, seja em razão de erro de destaque a maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
+- 01 = Multa e juros;
+- 02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25);
+- 03 = Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega;
+- 04 = Redução de valores;
+- 05 = Transferência de crédito na sucessão
 
-O Ajuste SINIEF 49/2025 define o seguinte:
+Contudo o Ajuste SINIEF 49/2025 trata apenas duas operações para nota de crédito:
 
-- Se a NF-e de saída não puder ser cancelada, o remetente deve emitir NF-e de entrada (nota de crédito) com:
-  - finNFe = 5
-  - tpNFCredito = 04 (Redução de valores ou quantidades)
-  - CFOP inverso ou CFOP genérico de entrada
-  - natOp: Redução de valores ou quantidades
-  - infAdFisco com justificativa
-  - refNFe apontando a NF-e a ser reduzida
-  - A NF-e deve conter apenas os valores/quantidades a serem deduzidos.
+- 03 = Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega;
+- 04 = Redução de valores
 
 ### Retorno por recusa ou não localização do destinatário
 
-Nos termos do art. 10 da Lei Complementar nº 214/2025, o fato gerador do IBS e da CBS ocorre no momento do fornecimento, caracterizado pelo art. 3º, II, “a”, como a entrega ou disponibilização do bem material. Assim, quando a entrega não se concretizar, em razão da recusa do destinatário ou de sua não localização, não se configura o fato gerador do IBS, e, portanto, o imposto não será devido.
+Nos termos do art. 10 da Lei Complementar nº 214/2025, o fato gerador do IBS e da CBS ocorre no momento do fornecimento, caracterizado pelo art. 3º, II, “a”, como a entrega ou disponibilização do bem material. Assim, quando a entrega não se concretizar, em razão da recusa do destinatário ou de sua não localização, não se configura o fato gerador, e portanto, o imposto não será devido.
 
 Entretanto, considerando que a legislação do ICMS adota o conceito de circulação da mercadoria como fato gerador, a nota fiscal original não poderá ser cancelada, uma vez que houve o efetivo transporte do bem.
 
-Para fins de desfazimento do débito de IBS, o contribuinte deverá emitir uma nota fiscal de crédito do tipo “03 – Retorno por Recusa na Entrega ou por Não Localização do Destinatário na Tentativa de Entrega”, informando a si próprio como emitente e destinatário no arquivo XML.
+Para fins de desfazimento do débito de IBS e CBS, o contribuinte deverá emitir uma nota fiscal de crédito do tipo “03 – Retorno por Recusa na Entrega ou por Não Localização do Destinatário na Tentativa de Entrega”, informando a si próprio como emitente e destinatário no arquivo XML.
 
 O Ajuste SINIEF 49/2025 define o seguinte:
 
@@ -141,7 +155,7 @@ Destinatário contribuinte: destinatário emite nota de débito, com:
 - tpNFDebito = 09 (Retorno por Recusa Parcial)
 - natOp: Retorno por Recusa Parcial
 
-#### Eventos obrigatórios em caso de recusa total ou não localização:
+#### 🚨 Eventos obrigatórios em caso de recusa total ou não localização:
 
 Destinatário deve registrar:
 
@@ -150,6 +164,21 @@ Destinatário deve registrar:
 Transportador deve registrar:
 
 - Insucesso na Entrega da NF-e ou Insucesso na Entrega do CT-e
+
+### Redução de valores ou quantidades
+
+A nota fiscal de crédito do tipo “04 – Redução de Valores” deverá ser utilizada quando, não sendo mais possível o cancelamento do documento fiscal, for identificada a necessidade de redução do valor do IBS destacado, seja em razão de erro de destaque a maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
+
+O Ajuste SINIEF 49/2025 define o seguinte:
+
+- Se a NF-e de saída não puder ser cancelada, o remetente deve emitir NF-e de entrada (nota de crédito) com:
+  - finNFe = 5
+  - tpNFCredito = 04 (Redução de valores ou quantidades)
+  - CFOP inverso ou CFOP genérico de entrada
+  - natOp: Redução de valores ou quantidades
+  - infAdFisco com justificativa
+  - refNFe apontando a NF-e a ser reduzida
+  - A NF-e deve conter apenas os valores/quantidades a serem deduzidos.
 
 ---
 
