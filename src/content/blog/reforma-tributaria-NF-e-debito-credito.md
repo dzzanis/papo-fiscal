@@ -251,14 +251,18 @@ A nota fiscal de crédito do tipo “04 – Redução de Valores” deverá ser 
 
 O Ajuste SINIEF 49/2025 define o seguinte:
 
-- Se a NF-e de saída não puder ser cancelada, o remetente deve emitir NF-e de entrada (nota de crédito) com:
-  - finNFe = 5
-  - tpNFCredito = 04 (Redução de valores ou quantidades)
-  - CFOP inverso ou CFOP genérico de entrada
-  - natOp: Redução de valores ou quantidades
-  - infAdFisco com justificativa
-  - refNFe apontando a NF-e a ser reduzida
-  - A NF-e deve conter apenas os valores/quantidades a serem deduzidos.
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
+  <ul class="flex flex-col gap-2">
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">Se a NF-e de saída não puder ser cancelada, o remetente deve emitir NF-e de entrada (nota de crédito) com:</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">finNFe = 5 (Nota de crédito)</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">tpNFCredito = 04 (Redução de valores ou quantidades)</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">CFOP inverso ou CFOP genérico de entrada</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">natOp: Redução de valores ou quantidades</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">infAdFisco com justificativa</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">refNFe apontando a NF-e a ser reduzida</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">A NF-e deve conter apenas os valores/quantidades a serem deduzidos.</li>
+  </ul>
+</div>
 
 Agora as demais operações de crédito da Cartilha Orientativa do Comitê Gestor do IBS:
 
