@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-22T09:41:00Z
+modDatetime: 2026-03-26T08:14:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -16,7 +16,7 @@ tags:
 description: Publicado o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026.
 ---
 
-O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais.
+O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. ⚠️ Produzindo efeitos a partir de 4 de maio de 2026. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais.
 
 Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-e do IBS – volume 1** com orientações, incluíndo também outras operações fiscais.
 
@@ -51,6 +51,8 @@ Contudo o Ajuste SINIEF 49/2025 trata apenas duas operações para nota de débi
 
 - 06 = Pagamento antecipado;
 - 07 = Perda em estoque;
+
+A Cartilha Orientativa do CGIBS por sua vez trouxe orientações para todas as operações de nota de débito, exceto para a `08 = Desenquadramento do SN`.
 
 Vejamos primeiro as operações de débito do Ajuste SINIEF:
 
