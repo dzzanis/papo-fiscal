@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-26T08:14:00Z
+modDatetime: 2026-03-28T07:22:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -16,7 +16,7 @@ tags:
 description: Publicado o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026.
 ---
 
-O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. ⚠️ Produzindo efeitos a partir de 4 de maio de 2026. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais.
+O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais. ⚠️ Produzindo efeitos a partir de 4 de maio de 2026.
 
 Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-e do IBS – volume 1** com orientações, incluíndo também outras operações fiscais.
 
@@ -198,6 +198,8 @@ Contudo o Ajuste SINIEF 49/2025 trata apenas duas operações para nota de créd
 - 03 = Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega;
 - 04 = Redução de valores
 
+A Cartilha Orientativa do CGIBS por sua vez trouxe orientações para todas as operações de nota de crédito, exceto para a `02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)`.
+
 Vejamos primeiro as operações de débito do Ajuste SINIEF:
 
 ### Retorno por recusa ou não localização do destinatário
@@ -249,7 +251,7 @@ Transportador deve registrar:
 
 ### Redução de valores ou quantidades
 
-A nota fiscal de crédito do tipo “04 – Redução de Valores” deverá ser utilizada quando, não sendo mais possível o cancelamento do documento fiscal, for identificada a necessidade de redução do valor do IBS destacado, seja em razão de erro de destaque a maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
+A nota fiscal de crédito do tipo `04 – Redução de Valores` deverá ser utilizada quando, não sendo mais possível o cancelamento do documento fiscal, for identificada a necessidade de redução do valor do IBS destacado, seja em razão de erro de destaque a maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
 
 O Ajuste SINIEF 49/2025 define o seguinte:
 
@@ -264,6 +266,19 @@ O Ajuste SINIEF 49/2025 define o seguinte:
     <li class="sm:text-sm text-xs text-[#8b5cf6]">refNFe apontando a NF-e a ser reduzida</li>
     <li class="sm:text-sm text-xs text-[#8b5cf6]">A NF-e deve conter apenas os valores/quantidades a serem deduzidos.</li>
   </ul>
+</div>
+
+Com as multas previstas sobre o cancelamento de notas fiscais pela LC 2014/2025, que amplia o impacto financeiro sobre erros documentais, este seria o novo processo mais adequado para correção de informações nas notas fiscais.
+
+Art. 341-G prevê multa para quem cancelar documento fiscal:
+
+- Multa de 66% do tributo de referência — Cancelamento após ocorrência do fato gerador
+- Multa de 33% do tributo de referência — Cancelamento após o prazo legal
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Importante: nunca foi possível corrigir uma nota para reduzir imposto destacado e a NT 2025.002 até então citava que as notas de débito e crédito não seriam aplicadas para ICMS. Contudo o Ajuste SINIEF 49/2025 muda a regra do jogo, agora quando destacado a maior, tanto o ICMS quanto o IBS e CBS, é através da nota de redução de valores que podemos fazer o processo de correção, inclusive do ICMS.
+  </span>
 </div>
 
 Agora as demais operações de crédito da Cartilha Orientativa do Comitê Gestor do IBS:
