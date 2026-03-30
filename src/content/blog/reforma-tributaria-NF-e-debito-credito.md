@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-28T07:22:00Z
+modDatetime: 2026-03-3007:16:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -13,12 +13,19 @@ tags:
   - DF-e
   - Ajustes SINIEF
   - CONFAZ
-description: Publicado o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026.
+description: Publicado o Ajuste SINIEF 49/2025 regulamentando a emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026.
 ---
 
 O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais. ⚠️ Produzindo efeitos a partir de 4 de maio de 2026.
 
-Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-e do IBS – volume 1** com orientações, incluíndo também outras operações fiscais.
+Inclusive, foi publicada a nova versão 3.2.2 do Guia Prático da EFD ICMS IPI, com orientações sobre CBS e IBS, e Ajuste SINIEF 49/2025:
+
+🆕 Alterações no registro C100: inclusão da exceção nº 11 de orientação:
+
+- “Não devem ser escriturados os documentos fiscais que carreguem informações exclusivamente acerca dos novos tributos criados na Reforma Tributária do Consumo e que não versem sobre ICMS ou IPI."
+- "Por outro lado, os documentos fiscais emitidos nas operações previstas no Ajuste SINIEF 49/25 que envolvam tanto os novos tributos da Reforma Tributária do Consumo quanto ICMS ou IPI devem ser regularmente escriturados na EFD em relação a estes tributos.”
+
+Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-e do IBS – volume 1** com orientações abrangentes, abordando quase todas as operações fiscais relacionadas a nota de débito e crédito.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
@@ -32,7 +39,7 @@ Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-
 
 ## Notas Fiscais de Débito
 
-As notas fiscais de débito têm por finalidade registrar acréscimos no valor devido de IBS na apuração do emitente, em decorrência de ajustes ou eventos que modifiquem o débito originalmente apurado.
+As notas fiscais de débito têm por finalidade registrar acréscimos no valor devido de IBS e CBS na apuração do emitente, em decorrência de ajustes ou eventos que modifiquem o débito originalmente apurado.
 
 Quando aplicável, o valor de IBS e CBS informados também geram crédito correspondente para o contribuinte indicado como destinatário do documento, conforme as regras legais e operacionais vigentes.
 
@@ -47,10 +54,12 @@ A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, pr
 - 07 = Perda em estoque;
 - 08 = Desenquadramento do SN
 
-Contudo o Ajuste SINIEF 49/2025 trata apenas duas operações para nota de débito:
+Contudo o Ajuste SINIEF 49/2025 relacionou ao ICMS apenas duas operações para nota de débito:
 
 - 06 = Pagamento antecipado;
 - 07 = Perda em estoque;
+
+Ou seja, uma nota de débito tipo `04 = Multa e juros` por exemplo, está relacionada apenas ao IBS/CBS, logo esse tipo de nota não terá informações de ICMS e não será escriturada na EFD ICMS/IPI.
 
 A Cartilha Orientativa do CGIBS por sua vez trouxe orientações para todas as operações de nota de débito, exceto para a `08 = Desenquadramento do SN`.
 
