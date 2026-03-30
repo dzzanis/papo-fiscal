@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-3007:16:00Z
+modDatetime: 2026-03-30T07:16:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
