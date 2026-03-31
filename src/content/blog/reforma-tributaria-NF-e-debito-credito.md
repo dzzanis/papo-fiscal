@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-30T07:16:00Z
+modDatetime: 2026-03-31T08:00:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -22,8 +22,8 @@ Inclusive, foi publicada a nova versão 3.2.2 do Guia Prático da EFD ICMS IPI, 
 
 🆕 Alterações no registro C100: inclusão da exceção nº 11 de orientação:
 
-- “Não devem ser escriturados os documentos fiscais que carreguem informações exclusivamente acerca dos novos tributos criados na Reforma Tributária do Consumo e que não versem sobre ICMS ou IPI."
-- "Por outro lado, os documentos fiscais emitidos nas operações previstas no Ajuste SINIEF 49/25 que envolvam tanto os novos tributos da Reforma Tributária do Consumo quanto ICMS ou IPI devem ser regularmente escriturados na EFD em relação a estes tributos.”
+- _Não devem ser escriturados os documentos fiscais que carreguem informações exclusivamente acerca dos novos tributos criados na Reforma Tributária do Consumo e que não versem sobre ICMS ou IPI._
+- _Por outro lado, os documentos fiscais emitidos nas operações previstas no Ajuste SINIEF 49/25 que envolvam tanto os novos tributos da Reforma Tributária do Consumo quanto ICMS ou IPI devem ser regularmente escriturados na EFD em relação a estes tributos._
 
 Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-e do IBS – volume 1** com orientações abrangentes, abordando quase todas as operações fiscais relacionadas a nota de débito e crédito.
 
@@ -202,12 +202,12 @@ A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, pr
 - 04 = Redução de valores;
 - 05 = Transferência de crédito na sucessão
 
-Contudo o Ajuste SINIEF 49/2025 trata apenas duas operações para nota de crédito:
+Contudo o Ajuste SINIEF 49/2025 relacionou ao ICMS apenas duas operações para nota de crédito:
 
 - 03 = Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega;
 - 04 = Redução de valores
 
-A Cartilha Orientativa do CGIBS por sua vez trouxe orientações para todas as operações de nota de crédito, exceto para a `02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)`.
+A Cartilha Orientativa do CGIBS por sua vez apresenta orientações para todas as operações de nota de crédito, exceto para a `02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)`.
 
 Vejamos primeiro as operações de débito do Ajuste SINIEF:
 
