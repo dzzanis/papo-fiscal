@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-03-31T08:00:00Z
+modDatetime: 2026-04-14T08:58:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -13,6 +13,7 @@ tags:
   - DF-e
   - Ajustes SINIEF
   - CONFAZ
+  - Sped
 description: Publicado o Ajuste SINIEF 49/2025 regulamentando a emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026.
 ---
 
@@ -235,12 +236,17 @@ O Ajuste SINIEF 49/2025 define o seguinte:
 
 #### Recusa parcial:
 
-- Destinatário não contribuinte: remetente emite a nota de crédito conforme citado acima.
-- Destinatário contribuinte: destinatário emite nota de débito, com:
+**Destinatário não contribuinte**: remetente emite a nota de crédito conforme citado acima;
 
-  - finNFe = 6 (Nota de débito)
-  - tpNFDebito = 09 (Retorno por Recusa Parcial)
-  - natOp: Retorno por Recusa Parcial
+**Destinatário contribuinte**: destinatário emite nota de débito, com:
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border">
+  <ul class="flex flex-col gap-1">
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">finNFe = 6 (Nota de débito)</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">tpNFDebito = 09 (Retorno por Recusa Parcial)</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">natOp: Retorno por Recusa Parcial</li>
+  </ul>
+</div>
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
