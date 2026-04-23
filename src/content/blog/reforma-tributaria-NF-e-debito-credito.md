@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-04-14T08:58:00Z
+modDatetime: 2026-04-23T08:19:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -97,14 +97,7 @@ Ao processar a nota fiscal de fornecimento, o sistema de apuração assistida do
 
 ### Perda em estoque
 
-Quando ocorrer perda de bens materiais em estoque, nos termos do art. 47, § 6º da Lei Complementar nº214/2025, os créditos de IBS apropriados relativos a esses bens, bem como os créditos vinculados a serviços a eles relacionados, deverão ser estornados da apuração mediante a emissão de nota fiscal de débito do tipo “07 – Perda em Estoque”.
-
-Caso o bem perdido tenha sido adquirido de terceiros, deverá ser referenciado na nota fiscal de débito:
-
-- o documento fiscal referente à aquisição do bem;
-- o documento fiscal referente aos serviços vinculados à aquisição do bem.
-
-O Ajuste SINIEF 49/2025 define o seguinte:
+O Ajuste SINIEF 49/2025 define as seguintes regras para emissão da nota fiscal referente a perda de bens materiais em estoque:
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
   <ul class="flex flex-col gap-2">
@@ -121,9 +114,70 @@ O Ajuste SINIEF 49/2025 define o seguinte:
   </ul>
 </div>
 
-Na Nota Fiscal de débito por perda do estoque, não terá destaque do ICMS, certo? Então, em que momento acontecerá o estorno do crédito do ICMS? Deverá ser emitida outra NF só pra estornar o ICMS?
+Nesta nota de débito por perda do estoque, não terá destaque do ICMS, certo? Então, em que momento acontecerá o estorno do crédito do ICMS? Deverá ser emitida outra NF só pra estornar o ICMS?
 
-Conforme consta no Ajuste SINIEF 49/2025 ficará sem destaque do ICMS. Então a princípio o estorno do crédito do ICMS vai ocorrer por ajuste na apuração do ICMS, conforme a regra de cada estado.
+Conforme consta no Ajuste SINIEF 49/2025, ficará sem destaque do ICMS. Então a princípio o estorno do crédito do ICMS vai ocorrer por ajuste na apuração do ICMS, conforme a regra de cada estado.
+
+Em relação ao IBS e a CBS, nos termos do art. 47, § 6º da Lei Complementar nº214/2025, os créditos apropriados relativos a esses bens, bem como os créditos vinculados a serviços a eles relacionados, deverão ser estornados da apuração mediante a emissão de nota fiscal de débito do tipo “07 – Perda em Estoque”.
+
+Caso o bem perdido tenha sido adquirido de terceiros, deverá ser referenciado na nota fiscal de débito:
+
+- o documento fiscal referente à aquisição do bem;
+- o documento fiscal referente aos serviços vinculados à aquisição do bem.
+
+Exemplo da nota de débito da Cartilha Orientativa do Comitê Gestor do IBS:
+
+- Um restaurante perde 20 galinhas de seu estoque no dia 03/04/2026
+- Valor de cada galinha (1800/300 (galinhas) + 300/300 (frete) = 6+1=7.
+- Valor das 20 galinhas = 20 x 7 = 140,00
+
+IBS UF a ser estornado pelo restaurante:
+
+- Valor IBS UF por unidade: (6,00 + 1,00) x 4% (alíq. reduzida) = 0,28
+- Valor de IBS UF total: 20 galinhas \* 0,28 = 5,60
+
+IBS Mun a ser estornado pelo restaurante:
+
+- Valor de IBS Mun por unidade: (6,00 + 1,00) \* 1,6% = 0,112
+- Valor de IBS Mun total: 20 galinhas \_ 0,112 = 2,24
+
+=> IBS total a ser estornado: 5,60 + 2,24 = 7,84
+
+```xml
+<infNfe>
+  <ide>
+    <dhEmi>2026-04-03T10:00:00-03:00</dhEmi>
+    <tpNF>1</tpNF>
+    <finNFe>6</finNFe>         <!-- nota de debito-->
+    <tpNFDebito>7</tpNFDebito> <!-- perda em estoque -->
+    <emit>...</emit>           <!-- restaurante-->
+    <dest>...</dest>           <!-- restaurante-->
+  </ide>
+  <det nItem="1">
+    <prod>
+      <cProd>Gal01</cProd>
+      <xProd>galinhas</xProd>
+      <uCom>unidade</uCom>
+      <qCom>20</qCom>
+      <vProd>140.00</vProd>
+    </prod>
+    <imposto>
+      <IBSCBS>
+        <CST>...em avaliação pelo CGIBS</CST>
+        <cClassTrib>...será criado um cClassTrib específico</cClassTrib>
+        <gEstornoCred>
+          <vIBSEstCred>7.84</vIBSEstCred>
+          <vCBSEstCred>...</vCBSEstCred>
+        </gEstornoCred>
+      </IBSCBS>
+    </imposto>
+    <DFeReferenciado>
+      <chaveAcesso>...chave da nota de fornecimento/compra</chaveAcesso>
+      <nItem>1</nItem>
+    </DFeReferenciado>
+  </det>
+</infNfe>
+```
 
 Agora as demais operações de débito da Cartilha Orientativa do Comitê Gestor do IBS:
 
