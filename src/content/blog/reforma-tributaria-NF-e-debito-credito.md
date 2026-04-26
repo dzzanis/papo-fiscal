@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-04-25T09:19:00Z
+modDatetime: 2026-04-26T09:06:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -127,6 +127,16 @@ Caso o bem perdido tenha sido adquirido de terceiros, deverá ser referenciado n
 - o documento fiscal referente à aquisição do bem;
 - o documento fiscal referente aos serviços vinculados à aquisição do bem.
 
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-8">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 A nota de perda de estoque não se aplica às perdas ocorridas durante o transporte do bens, neste caso deverá ser gerado um dos evento de NF-e abaixo, conforme o caso:
+  </span>
+  <ul class="flex flex-col gap-1">
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">Perecimento, perda, roubo ou furto durante o transporte contratado pelo adquirente</li>
+    <li class="sm:text-sm text-xs text-[#8b5cf6]">Perecimento, perda, roubo ou furto durante o transporte contratado pelo fornecedor</li>
+  </ul>
+</div>
+
 Exemplo da nota de débito da Cartilha Orientativa do Comitê Gestor do IBS:
 
 - Um restaurante perde 20 galinhas de seu estoque no dia 03/04/2026
@@ -181,7 +191,7 @@ IBS Mun a ser estornado pelo restaurante:
 </infNfe>
 ```
 
-Agora as demais operações de débito da Cartilha Orientativa do Comitê Gestor do IBS:
+Agora vejamos as demais operações de débito detalhadas na Cartilha Orientativa do Comitê Gestor do IBS.
 
 ### Transferência de créditos para Cooperativas
 
