@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-04-26T09:06:00Z
+modDatetime: 2026-04-30T20:45:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -14,12 +14,12 @@ tags:
   - Ajustes SINIEF
   - CONFAZ
   - Sped
-description: Publicado o Ajuste SINIEF 49/2025 regulamentando a emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 4 de maio de 2026.
+description: Publicado o Ajuste SINIEF 49/2025 regulamentando a emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Produzindo efeitos a partir de 3 de agosto de 2026 (prorrogado pelo Ajuste SINIEF 15/26).
 ---
 
-O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais. ⚠️ Produzindo efeitos a partir de 4 de maio de 2026.
+O CONFAZ publicou o Ajuste SINIEF 49/2025 definindo regras para emissão de notas de débito e crédito em vendas com pagamento antecipado, perdas de estoque, redução de valores e retornos por recusa. Adequando a legislação do ICMS às novas regras da Reforma Tributária relacionadas à emissão de notas fiscais. ⚠️ Produzindo efeitos a partir de 3 de agosto de 2026 (prorrogado pelo Ajuste SINIEF 15/26).
 
-Inclusive, foi publicada a nova versão 3.2.2 do Guia Prático da EFD ICMS IPI, com orientações sobre CBS e IBS, e Ajuste Sinief 49/2025:
+E foi publicada a nova versão 3.2.2 do Guia Prático da EFD ICMS IPI, com orientações sobre CBS e IBS, e Ajuste Sinief 49/2025:
 
 🆕 Alterações no registro C100: inclusão da exceção nº 11 de orientação:
 
@@ -37,6 +37,28 @@ Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-
 </div>
 
 ## Sumário
+
+## Visão Geral
+
+| **Tipo de débito**                                        | Tipo NF | Emissão                                     | Aj. 49/25 |    CFOP     | Destaque ICMS | EFD ICMS/IPI |
+| :-------------------------------------------------------- | :-----: | :------------------------------------------ | :-------: | :---------: | :-----------: | :----------: |
+| 01 - Transferência de créditos para Cooperativas          |  Saída  | Associado emite, cooperativa é destinatária |     -     |      -      |       -       |      -       |
+| 02 - Anulação de Crédito por Saídas Imunes/Isentas        |  Saída  | Empresa é emitente e destinatária           |     -     |      -      |       -       |      -       |
+| 03 - Débitos de notas fiscais não processadas na apuração |  Saída  | Empresa é emitente e destinatária           |     -     |      -      |       -       |      -       |
+| 04 - Multa e juros                                        |  Saída  | Fornecedor emite, cliente é destinatário    |     -     |      -      |       -       |      -       |
+| 05 - Transferência de crédito na sucessão                 |  Saída  | Sucedida emite, sucessora(s) destinatário   |     -     |      -      |       -       |      -       |
+| 06 - Pagamento antecipado                                 |  Saída  | Fornecedor emite, cliente é destinatário    |    Sim    | 5.922 6.922 |      Não      |     Sim      |
+| 07 - Perda em estoque                                     |  Saída  | Empresa é emitente e destinatária           |    Sim    |    5.927    |      Não      |     Sim      |
+| 08 - Desenquadramento do SN                               |  Saída  | Própria                                     |     -     |      -      |       -       |      -       |
+
+| Tipo de crédito                                                                                         | Tipo NF | Emissão                                                                     | Aj. 49/25 |                  CFOP                  | Destaque ICMS | EFD ICMS/IPI |
+| :------------------------------------------------------------------------------------------------------ | :-----: | :-------------------------------------------------------------------------- | :-------: | :------------------------------------: | :-----------: | :----------: |
+| 01 - Multa e juros                                                                                      | Entrada | Cliente emite, fornecedor é destinatário                                    |     -     |                   -                    |       -       |      -       |
+| 02 - Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)   | Entrada | Própria                                                                     |     -     |                   -                    |       -       |      -       |
+| 03 - Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega | Entrada | Fornecedor emite. Cliente deve constar como destinatário conforme Aj. 49/25 |    Sim    |                   -                    |      Sim      |     Sim      |
+| 04 - Redução de valores                                                                                 | Entrada | Sucessora(s) emite, sucedida destinatário                                   |    Sim    | Inverso do original ou outras entradas |      Sim      |     Sim      |
+| 05 - Transferência de crédito na sucessão                                                               | Entrada | Fornecedor emite, cliente é destinatário                                    |     -     |                   -                    |       -       |     Não      |
+| 06 - Retorno por Recusa Parcial na Entrega                                                              | Entrada | Fornecedor emite. Cliente deve constar como destinatário cfe Aj. 49/25      |    Sim    |                   -                    |      Sim      |     Sim      |
 
 ## Notas Fiscais de Débito
 
