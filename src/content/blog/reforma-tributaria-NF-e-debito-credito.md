@@ -30,9 +30,7 @@ Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    📌 Ponto importante: o Ato Conjunto nº 1/2025 flexibilizou a exigência dessas obrigações nesse período de adaptação. Ele prevê que não haverá aplicação de penalidades até o primeiro dia do quarto mês subsequente à publicação do regulamento, que ainda não foi publicado. <br><br>
-    Na prática, o Fisco não estará punindo o descumprimento das formalidades neste momento.
-    Então, embora a obrigação exista na norma, não é razoável exigir rigor absoluto enquanto o próprio regulamento ainda não foi editado.
+    📌 Ponto importante: o Ato Conjunto nº 1/2025 flexibilizou a exigência dessas obrigações nesse período de adaptação. Prevê que não haverá aplicação de penalidades até o primeiro dia do quarto mês subsequente à publicação do regulamento. <br> Como os regulamentos foram publicados em 30/04/2025, na prática, o Fisco não estará punindo o descumprimento das formalidades até o fim dessa flexibilização que se encerra a partir de 1º de agosto de 2026.
   </span>
 </div>
 
