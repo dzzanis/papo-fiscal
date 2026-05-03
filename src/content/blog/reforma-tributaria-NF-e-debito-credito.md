@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-04-30T20:45:00Z
+modDatetime: 2026-05-03T07:56:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -62,7 +62,7 @@ Já o Comitê Gestor do IBS lança a **Cartilha Orientativa para Emissão da NF-
 | 03 - Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega | Entrada | Fornecedor emite. Cliente deve constar como destinatário conforme Aj. 49/25 |    Sim    |                   -                    |      Sim      |     Sim      |
 | 04 - Redução de valores                                                                                 | Entrada | Sucessora(s) emite, sucedida destinatário                                   |    Sim    | Inverso do original ou outras entradas |      Sim      |     Sim      |
 | 05 - Transferência de crédito na sucessão                                                               | Entrada | Fornecedor emite, cliente é estinatário                                     |     -     |                   -                    |       -       |     Não      |
-| 06 - Retorno por Recusa Parcial na Entrega                                                              | Entrada | Fornecedor emite. Cliente deve constar como destinatário cfe Aj. 49/25      |    Sim    |                   -                    |      Sim      |     Sim      |
+| 06 - Retorno por Recusa Parcial na Entrega                                                              | Entrada | Fornecedor emite. Cliente deve constar como destinatário (Aj. 49/25)        |    Sim    |                   -                    |      Sim      |     Sim      |
 
 </div>
 
@@ -80,7 +80,7 @@ A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, pr
 - 04 = Multa e juros;
 - 05 = Transferência de crédito na sucessão;
 - 06 = Pagamento antecipado;
-- 07 = Perda em estoque;
+- 07 = 07= Perda em estoque (Perecimento, Perda, Furto, Roubo);
 - 08 = Desenquadramento do SN
 
 Contudo o Ajuste SINIEF 49/2025 relacionou ao ICMS apenas duas operações para nota de débito:
@@ -125,7 +125,7 @@ Ao processar a nota fiscal de fornecimento, o sistema de apuração assistida do
 
 📌 A cartilha do CGIBS cita sobre o recebimento antecipado sem definição de itens a serem fornecidos. Onde, se não houver como identificar o produto que será entregue, a nota de antecipação não deve ser emitida. Como exemplo, retrata o cenário de uma loja que trabalha no formato de franquia. E recebe a mensagem de seu franqueador que deve antecipar o valor de R$250.000,00 para garantir a remessa de um novo estoque com a coleção de verão em outubro de 2026, com data prevista de entrega em novembro do mesmo ano. Devido a antecipação ser uma cláusula contratual e não ter definição das peças de roupas que serão fornecidas, a nota de antecipação não deve ser emitida.
 
-### Perda em estoque
+### Perda em estoque (Perecimento, Perda, Furto, Roubo)
 
 O Ajuste SINIEF 49/2025 define as seguintes regras para emissão da nota fiscal referente a perda de bens materiais em estoque:
 
@@ -298,16 +298,17 @@ A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, pr
 - 03 = Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega;
 - 04 = Redução de valores;
 - 05 = Transferência de crédito na sucessão
+- 06 = Retorno por recusa parcial na entrega
 
 Já o Ajuste SINIEF 49/2025 relacionou ao ICMS três operações para nota de crédito:
 
 - 03 = Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega;
 - 04 = Redução de valores
-- 06 = Retorno por Recusa Parcial na Entrega <span class="text-xs">⚠️(ainda não previsto na NT 2025.002)</span>
+- 06 = Retorno por recusa parcial na entrega
 
 A Cartilha Orientativa do CGIBS por sua vez apresenta orientações para todas as operações de nota de crédito, exceto para a `02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)`.
 
-Vejamos primeiro as operações de débito do Ajuste SINIEF:
+Vejamos primeiro as operações de débito do Ajuste SINIEF.
 
 ### Retorno por recusa ou não localização do destinatário
 
@@ -334,12 +335,6 @@ O Ajuste SINIEF 49/2025 define o seguinte:
   </ul>
 </div>
 
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6 mt-12">
-  <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    ⚠️ Cabe destacar que o código "09 (Retorno por Recusa Parcial)" para “tpNFDebito - Tipo de Nota de Débito” ainda não consta na NT 2025.002, ficando impossivel seu cumprimento com o atual leiaute da NF-e. Mas é provável que o leiaute seja devidamente atualizado até 4 de maio de 2026, data que inicia a vigência do Ajuste SINIEF 49/2025.
-  </span>
-</div>
-
 #### 🚨 Eventos obrigatórios em caso de recusa ou não localização:
 
 Destinatário deve registrar:
@@ -352,7 +347,7 @@ Transportador deve registrar:
 
 ### Redução de valores ou quantidades
 
-A nota fiscal de crédito do tipo `04 – Redução de Valores` deverá ser utilizada quando, não sendo mais possível o cancelamento do documento fiscal, for identificada a necessidade de redução do valor do IBS destacado, seja em razão de erro de destaque a maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
+A nota fiscal de crédito do tipo `04 – Redução de Valores` deverá ser utilizada quando, não sendo mais possível o cancelamento do documento fiscal, for identificada a necessidade de redução do valor do IBS/CBS destacado, seja em razão de erro de destaque a maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
 
 O Ajuste SINIEF 49/2025 define o seguinte:
 
@@ -378,7 +373,7 @@ O Ajuste SINIEF 49/2025 define o seguinte:
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    📌 Importante: nunca foi possível corrigir uma nota para reduzir imposto destacado e a NT 2025.002 até então citava que as notas de débito e crédito não seriam aplicadas para ICMS. Contudo o Ajuste SINIEF 49/2025 muda a regra do jogo, agora quando destacado a maior, tanto o ICMS quanto o IBS e CBS, é através da nota de redução de valores que podemos fazer o processo de correção, inclusive do ICMS.
+    📌 Importante: nunca foi possível corrigir uma nota para reduzir imposto destacado e a NT 2025.002 até sua sua versão 1.35 citava que as notas de débito e crédito não seriam aplicadas para ICMS. Contudo o Ajuste SINIEF 49/2025 muda a regra do jogo, agora quando destacado a maior, tanto o ICMS quanto o IBS e CBS, é através da nota de redução de valores que podemos fazer o processo de correção, inclusive do ICMS.
   </span>
 </div>
 
