@@ -80,7 +80,7 @@ A NT 2025.002, que trata das adequações da NF-e para a reforma tributária, pr
 - 04 = Multa e juros;
 - 05 = Transferência de crédito na sucessão;
 - 06 = Pagamento antecipado;
-- 07 = 07= Perda em estoque (Perecimento, Perda, Furto, Roubo);
+- 07 = Perda em estoque (Perecimento, Perda, Furto, Roubo);
 - 08 = Desenquadramento do SN
 
 Contudo o Ajuste SINIEF 49/2025 relacionou ao ICMS apenas duas operações para nota de débito:

@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-03-01T10:19:00Z
+modDatetime: 2026-05-10T10:27:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -12,45 +12,30 @@ tags:
   - DF-e
   - NF-e
   - NFC-e
-description: A versão 1.34 da Nota Técnica 2025.002 apresenta novas definições para adequação do leiaute da NF-e à reforma tributária.
+description: A versão 1.36 da Nota Técnica 2025.002 apresenta novas definições para adequação do leiaute da NF-e à reforma tributária.
 ---
 
-O Portal da Nota Fiscal Eletrônica divulgou a versão 1.34 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e em razão da Reforma Tributária.
+O Portal da Nota Fiscal Eletrônica publicou a versão 1.36 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e em razão da Reforma Tributária.
 
-Confira as principais novidades.
+Confira as principais novidades:
 
-🚫 **Regras de validação desabilitadas:**
+- Mudanças trazidas pelos Ajustes SINIEF nº 49/2025 e 8/2026, normas emitidas pelo CONFAZ em conjunto com a Receita Federal do Brasil, admitindo hipóteses para emissão da NF-e de [débito e crédito](https://papofiscal.blog/posts/reforma-tributaria-notas-fiscais-de-debito-e-credito) com reflexos no controle do ICMS para situações específicas, como vendas com pagamento antecipado, perda de estoque, redução de valores e retorno de mercadorias não entregues;
+- Criação do tipo de nota de crédito `06 – Retorno por recusa parcial na entrega`. Fazendo distinção entre recusa total e parcial, exigindo que a NF-e apresente quais itens foram recusados e a referencia ao item da nota de venda quando parcial;
+- Nova regra de validação **I08-141**: controle sobre correto preenchimento do CFOP em notas de devolução ou retorno emitidas por MEI (CFOP aceitos: 1.202, 1.553, 2.202,2.553, 5.202 e 6.202);
+- Regras de validação alteradas:
+  - `I08-140` e `I08-144`: controlam o uso de CFOPs de devolução apenas em notas de devolução ou retorno por recusa/não entrega;
+  - `VC02-07` e `VC02-10`: tornando obrigatório o referenciamento a nível de item nas notas de retorno parcial por recusa;
+  - `UB18-10`, `UB37-10` e `B56-10`: flexibiliza a informação das alíquotas de IBS e CBS em notas de redução de valores;
+  - `B25-80`: admitindo uma única nota para tratar tanto os tributos atuais (ICMS, IPI, PIS, Cofins, etc) quanto os novos os novos tributos IBS/CBS, nos cenários de notas de débito e crédito (notas de retorno por recusa/não entrega, redução de valores, perda em estoque) introduzidos pelo Ajuste Sinief 49/2025 (exceto pagamento antecipado, não mencionado nesta regra de validação).
 
-- UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
-- UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
-- UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
+O cronograma de implantação previsto na Nota Técnica:
 
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
-  <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    📌 Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
-  </span>
-</div>
-
-🔄 **Regras de validação alteradas:**
-
-- UB26-20 – IBS Estadual
-- UB45-20 – IBS Municipal
-- UB64-20 – CBS
+- Ambiente de homologação: até 1º de julho de 2026
+- Ambiente de produção: 03 de agosto de 2026
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    📌 Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
-  </span>
-</div>
-
-Com isso, passa a admitir o envio do grupo de redução nos casos em que:
-
-- A tabela cClassTrib indica redução
-- Mas a alíquota é zero por força legal
-
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
-  <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    ⚠️ Importante: a nova versão mantém o posicionamento da versão 1.33. Em que embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos então a adequação imediata para garantir a conformidade legal no prazo.
+    ⚠️ A nova versão mantém o posicionamento de embora o não preenchimento de IBS e CBS não rejeite a emissão da nota fiscal, esses dados são obrigatórios desde 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos a adequação imediata para garantir a conformidade legal no prazo.
   </span>
 </div>
 
@@ -197,12 +182,45 @@ O início dessa obrigatoriedade foi postergado para “Implementação futura”
 [Clique para baixar a Nota Técnica 2025.002 v.1.34](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=IwLPdZ67F5M=)<br>
 <span class="text-sm">Versão 1.34 - Publicada em 04/12/2025</span>
 
-Última versão publicada com as seguintes alterações mais relevantes:
+🚫 **Regras de validação desabilitadas:**
 
-- 🚫 Regras de validação desabilitadas: UB26-15, UB45-15 e UB64-15.
-- 🔄 Regras de validação alteradas: UB26-20, UB45-20, e UB64-20.
+- UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
+- UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
+- UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
 
-⚠️ A nova versão mantém o posicionamento da versão 1.33. Embora o não preenchimento dos campos do IBS e CBS não rejeite a emissão da nota fiscal, reforçamos que esses dados são obrigatórios a partir de 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025.
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
+  </span>
+</div>
+
+🔄 **Regras de validação alteradas:**
+
+- UB26-20 – IBS Estadual
+- UB45-20 – IBS Municipal
+- UB64-20 – CBS
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
+  </span>
+</div>
+
+Com isso, passa a admitir o envio do grupo de redução nos casos em que a tabela cClassTrib indica redução mas a alíquota é zero por força legal.
+
+### Nota Técnica 2025.002 v.1.35
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.35](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SA3Qh5Htywo=)<br>
+<span class="text-sm">Versão 1.35 - Publicada em 31/03/2026</span>
+
+Postergação da aplicação das regras de validação relacionadas à tributação monofásica do IBS e da CBS no ambiente de homologação. Indicando que o fisco ainda deverá promover ajustes técnicos nessas regras ao longo de 2026.
+
+### Nota Técnica 2025.002 v.1.36
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.36](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bBbBVKSai3U=)<br>
+<span class="text-sm">Versão 1.36 - Publicada em 30/04/2026</span>
+
+Última versão publicada, tendo as alterações mais relevantes já destacadas no início deste artigo.
 
 Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escopo das adequações da NF-e e NFC-e.
 
@@ -235,14 +253,7 @@ Foram criadas duas novas finalidades de emissão da nota fiscal eletrônica:
 
 A NT cita que a regulamentação do IBS disporá sobre a utilização de notas de crédito e notas de débito para lançamentos de ajuste, com a finalidade de instrumentalizar a preparação da declaração assistida a ser oferecida para os contribuintes, de maneira automatizada, a partir de documentos fiscais eletrônicos, em cumprimento ao que preconiza a LC 214/2025.
 
-Também, explica que as finalidades de "Nota de Ajuste" e "Nota Complementar" que já existem são casos especiais de "Nota de Débito". Já uma "Nota de Entada" emitida para documentar, por exemplo, a devolução de mercadoria que havia sido vendida para consumidor final é um caso especial de "Nota de Crédito".
-
-Cabe destacar que em 09/12/2025 foi publicado o [Ajuste SINIEF 49/2025](https://www.confaz.fazenda.gov.br/legislacao/ajustes/2025/AJ049_25) compatibilizando a aplicação de notas de crédito e débito também com operações correlacionadas ao ICMS e IPI. Padronizando procedimentos para emissão de documentos fiscais em quatro situações comuns:
-
-- 1 - Venda para entrega futura com pagamento antecipado;
-- 2 - Perdas de estoque;
-- 3 - Redução de valores ou quantidades quando o cancelamento da NF-e não é possível;
-- 4 - Retorno por recusa ou não localização do destinatário.
+Também, explica que nos termos do Ajuste SINIEF 49/2025, a NF-e passa a admitir essas finalidades em hipóteses específicas, como instrumento formal de documentação de ajustes, produzindo reflexos no ICMS, observado o tratamento próprio desse tributo, sendo vedada sua utilização fora das hipóteses expressamente previstas na legislação aplicável.
 
 ## Código de Situação Tributária e Código de Classificação da Tributação
 
@@ -301,7 +312,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
             04=Multa e juros; <br>
             05=Transferência de crédito de sucessão; <br>
             06=Pagamento antecipado; <br>
-            07=Perda em estoque; <br>
+            07=Perda em estoque (Perecimento, Perda, Furto, Roubo); <br>
             08=Desenquadramento do SN;
           </div>
         </i>
@@ -314,7 +325,8 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
             02 = Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. <code>450, § 1º</code>, LC 214/25); <br>
             03=Retorno por recusa na entrega ou por não localização do destinatário na tentativa de entrega; <br>
             04=Redução de valores; <br>
-            05=Transferência de crédito na sucessão; 
+            05=Transferência de crédito na sucessão; <br>
+            06=Retorno por recusa parcial na entrega 
           </div>
         </i>
       </span>
