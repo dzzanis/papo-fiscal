@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-05-10T10:27:00Z
+modDatetime: 2026-05-12T07:05:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -43,12 +43,12 @@ O cronograma de implantação previsto na Nota Técnica:
 
 ## Histórico de Atualização das Notas Técnicas
 
-Já foram publicadas diversas notas técnicas apresentando adequações dos leiautes dos DF-es (NF-e, NFC-e, CT-e, CT-e OS, BP-e, NF3-e, NFCom e NFS-e Nacional) à reforma tributária,que entrarão em vigor em [janeiro de 2026](https://papofiscal.blog/posts/reforma-tributaria-cronograma/). Veja a seguir um histórico das notas técnicas criadas para a NF-e.
+Já foram publicadas diversas notas técnicas apresentando adequações dos leiautes dos DF-es (NF-e, NFC-e, CT-e, CT-e OS, BP-e, NF3-e, NFCom e NFS-e Nacional) à reforma tributária, que iniciou seu período de transição em [janeiro de 2026](https://papofiscal.blog/posts/reforma-tributaria-cronograma/). Veja a seguir um histórico das notas técnicas criadas para a NF-e.
 
 ### RT - Nota Técnica 2024.002
 
 [Clique para baixar a RT - Nota Técnica 2024.002](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=DaB0yzqdbRU=)<br>
-<span class="text-sm">Versão 1.10 - Publicada em 6 de dezembro de 2024</span>
+<span class="text-xs">Versão 1.10 - Publicada em 6 de dezembro de 2024</span>
 
 Esta foi a primeira nota técnica definida conjuntamente entre os Estados, Municípios e Receita Federal do Brasil, modificando o leiaute da NF-e (modelo 55) e NFC-e (modelo 65). Inserindo os grupos e campos relacionados a tributação do Imposto sobre Bens e Serviços (IBS), Contribuição sobre Bens e Serviços (CBS) e Imposto Seletivo (IS), em atendimento as alterações previstas na EC 132/2023 para implementação da Reforma Tributária.
 
@@ -57,7 +57,7 @@ A versão 1.0 publicada em 01 de agosto de 2024 continha 41 páginas. Já a vers
 ### Nota Técnica 2025.002 v1.01
 
 [Clique para baixar a Nota Técnica 2025.002 v1.01](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wuVuolIzJLs=)<br>
-<span class="text-sm">Versão 1.01 - Publicada em 15 de abril de 2025</span>
+<span class="text-xs">Versão 1.01 - Publicada em 15 de abril de 2025</span>
 
 Esta Nota Técnica substitui a RT NT 2024.002, atualizando as definições dos novos eventos, regras de validação e leiaute da NF-e e NFC-e referente à Reforma Tributária do Consumo.
 
@@ -66,7 +66,7 @@ A versão 1.00 publicada em 28 de março de 2025 continha 48 páginas. Já a ver
 ### Nota Técnica 2025.002 v.1.10
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.10](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=B7DBKw%20UPbs=)<br>
-<span class="text-sm">Versão 1.10 - Publicada em 9 de junho de 2025</span>
+<span class="text-xs">Versão 1.10 - Publicada em 9 de junho de 2025</span>
 
 Esta versão acresentou várias atualizações, como novos campos, criando e alterando regras de validação, e novos eventos para apuração do IBS/CBS, passando a compor 66 páginas.
 
@@ -77,7 +77,7 @@ Outro destaque foi a criação do grupo específico de informações que envolve
 ### Nota Técnica 2025.002 v.1.20
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.20](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YFz9is%20R6tw=)<br>
-<span class="text-sm">Versão 1.20 - Publicada em 30 de julho de 2025</span>
+<span class="text-xs">Versão 1.20 - Publicada em 30 de julho de 2025</span>
 
 Esta versão alterou detalhamentos do cronograma, acresentou novos campos, criou e alterou regras de validação, e alterou o nome de eventos, passando a compor 69 páginas.
 
@@ -99,7 +99,7 @@ As principais alterações foram:
 ### Nota Técnica 2025.002 v.1.30
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.30](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6vT0rTNhFLY=)<br>
-<span class="text-sm">Versão 1.30 - Publicada em 3 de outubro de 2025</span>
+<span class="text-xs">Versão 1.30 - Publicada em 3 de outubro de 2025</span>
 
 As principais alterações foram:
 
@@ -112,7 +112,7 @@ As principais alterações foram:
 ### Nota Técnica 2025.002 v.1.31
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.31](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=xxtjiU7xjnk=)<br>
-<span class="text-sm">Versão 1.31 - Publicada em 11/11/2025</span>
+<span class="text-xs">Versão 1.31 - Publicada em 11/11/2025</span>
 
 Principais alterações:
 
@@ -124,7 +124,7 @@ Principais alterações:
 ### Nota Técnica 2025.002 v.1.32
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.32](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=8H1QDj2ADhQ=)<br>
-<span class="text-sm">Versão 1.32 - Publicada em 25/11/2025</span>
+<span class="text-xs">Versão 1.32 - Publicada em 25/11/2025</span>
 
 Correção nas regras de validação B25b-20, 3BA02-10, 3BA02-70 e NA01-20.
 
@@ -169,7 +169,7 @@ Sendo mantida a exceção já existente para NF-e complementar (finNFe = 2).
 ### Nota Técnica 2025.002 v.1.33
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.33](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AklZnck3o6I=)<br>
-<span class="text-sm">Versão 1.33 - Publicada em 02/12/2025</span>
+<span class="text-xs">Versão 1.33 - Publicada em 02/12/2025</span>
 
 Altera a data de início de aplicação da regra de validação UB12-10, regra que define a obrigatoriedade de preenchimento dos campos relativos ao IBS e à CBS.
 
@@ -211,14 +211,14 @@ Com isso, passa a admitir o envio do grupo de redução nos casos em que a tabel
 ### Nota Técnica 2025.002 v.1.35
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.35](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SA3Qh5Htywo=)<br>
-<span class="text-sm">Versão 1.35 - Publicada em 31/03/2026</span>
+<span class="text-xs">Versão 1.35 - Publicada em 31/03/2026</span>
 
 Postergação da aplicação das regras de validação relacionadas à tributação monofásica do IBS e da CBS no ambiente de homologação. Indicando que o fisco ainda deverá promover ajustes técnicos nessas regras ao longo de 2026.
 
 ### Nota Técnica 2025.002 v.1.36
 
 [Clique para baixar a Nota Técnica 2025.002 v.1.36](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bBbBVKSai3U=)<br>
-<span class="text-sm">Versão 1.36 - Publicada em 30/04/2026</span>
+<span class="text-xs">Versão 1.36 - Publicada em 30/04/2026</span>
 
 Última versão publicada, tendo as alterações mais relevantes já destacadas no início deste artigo.
 
@@ -416,7 +416,7 @@ Também consta o campo "Tipo de Nota de Débito" - `tpNFDebito`, com as seguinte
 - 04 = Multa e juros;
 - 05 = Transferência de crédito de sucessão;
 - 06 = Pagamento antecipado;
-- 07 = Perda em estoque;
+- 07 = Perda em estoque (Perecimento, Perda, Furto, Roubo);
 - 08 = Desenquadramento do SN
 
 A opção `04=Multa e Juros` deverá ser usada nas emissões de notas fiscais para incidência dos tributos IBS e da CBS, quando ocorrer recebimento de juros e multas. O contribuinte que pagar a multa e os juros terá direito ao crédito dos tributos, por isso a necessidade de criação desse campo.
@@ -428,6 +428,7 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
 - 03 = Retorno por recusa na entrega ou por não localização do destinatário na tentativa de entrega;
 - 04 = Redução de valores;
 - 05 = Transferência de crédito na sucessão;
+- 06=Retorno por recusa parcial na entrega;
 
 A opção `01=Multa e Juros` deverá ser usada caso o fornecedor não emita a nota de débito referente o recebimento de juros e multas, onde o adquirente tem como alternativa emitir uma nota de crédito para se creditar. Esse crédito é condicionado à emissão do evento “Aceite de débito na apuração por emissão de nota de crédito” pelo fornecedor e a quitação do débito correspondente em sua apuração.
 
