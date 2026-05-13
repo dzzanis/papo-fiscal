@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-05-12T07:05:00Z
+modDatetime: 2026-05-13T07:29:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -2001,7 +2001,7 @@ Esse pacote de schemas é muito útil para as adaptações necessárias nos soft
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 30/07/2025 `(versão em desuso)`
 - ~~Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.20 - RTC (ZIP).~~ Publicado em 18/08/2025 `(versão em desuso)`
 - ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.21 (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 20/08/2025 `(versão em desuso)`
-- **Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP).** Publicado em 07/10/2025
+- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 07/10/2025 `(versão em desuso)`
 - **Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP).** Publicado em 07/10/2025 - Atualizado em 30/10/2025
 
 ## Novos Eventos
