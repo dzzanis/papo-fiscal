@@ -1996,13 +1996,19 @@ A NT cita que em busca de uma padronização entre os diversos documentos fiscai
 
 Esse pacote de schemas é muito útil para as adaptações necessárias nos softwares, com finalidade de construção e leitura dos arquivos. Podemos encontrá-lo no Portal da Nota Fiscal Eletrônica, no menu "Documentos\Esquemas XML", com o nome:
 
-- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP).-~~ Publicado em 15/04/2025 `(versão em desuso)`
-- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.10, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 09/06/2025 `(versão em desuso)`
-- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 30/07/2025 `(versão em desuso)`
-- ~~Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.20 - RTC (ZIP).~~ Publicado em 18/08/2025 `(versão em desuso)`
-- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.21 (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 20/08/2025 `(versão em desuso)`
-- ~~Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP).~~ Publicado em 07/10/2025 `(versão em desuso)`
-- **Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP).** Publicado em 07/10/2025 - Atualizado em 30/10/2025
+- Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP). `Publicado em 07/10/2025 - Atualizado em 30/10/2025`
+
+<details class="text-xs open:ring-1 ring-[#8b5cf6] p-2">
+  <summary class="text-xs">🔎 Ver versões anteriores (em desuso)</summary>
+  <ul>
+    <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP). <span class="font-semibold">Publicado em 07/10/2025</span></li>
+    <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.21 (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP). <span class="font-semibold">Publicado em 20/08/2025</span></li>
+    <li>Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.20 - RTC (ZIP). <span class="font-semibold">Publicado em 18/08/2025</span></li>
+    <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP).  <span class="font-semibold">Publicado em 30/07/2025</span></li>
+    <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.10, NT 2024.003 e NT 2025.001) (ZIP). <span class="font-semibold">Publicado em 09/06/2025</span></li>
+    <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP). <span class="font-semibold">Publicado em 15/04/2025</span></li>
+  </ul>
+  </details>
 
 ## Novos Eventos
 
