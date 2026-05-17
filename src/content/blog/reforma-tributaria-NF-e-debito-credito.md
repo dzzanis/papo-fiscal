@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2026-03-11T19:46:00Z
-modDatetime: 2026-05-03T07:56:00Z
+modDatetime: 2026-05-17T14:07:00Z
 title: Notas Fiscais de Débito e Crédito na Reforma Tributária
 slug: reforma-tributaria-notas-fiscais-de-debito-e-credito
 featured: false
@@ -376,6 +376,127 @@ O Ajuste SINIEF 49/2025 define o seguinte:
     📌 Importante: nunca foi possível corrigir uma nota para reduzir imposto destacado e a NT 2025.002 até sua sua versão 1.35 citava que as notas de débito e crédito não seriam aplicadas para ICMS. Contudo o Ajuste SINIEF 49/2025 muda a regra do jogo, agora quando destacado a maior, tanto o ICMS quanto o IBS e CBS, é através da nota de redução de valores que podemos fazer o processo de correção, inclusive do ICMS.
   </span>
 </div>
+
+Exemplo da Cartilha Orientativa do Comitê Gestor do IBS:
+
+- Nota de fornecimento de uma loja online com valor de um produto preenchido, por erro, pelo dobro do valor cobrado:
+
+```xml
+<infNfe>
+  <ide>
+    <dhEmi>2026-07-03T12:00:00-03:00</dhEmi>
+    <tpNF>1</tpNF>
+    <finNFe>1</finNFe>    <!-- nota normal-->
+    <gPagAntecipado>
+      <refNFe>
+        chave da nota de antecipação
+      </refNFe>
+    </gPagAntecipado>
+    <emit>...</emit>   <!-- loja que vende pela internet-->
+    <dest>...</dest>   <!-- consumidora pela internet-->
+  </ide>
+  <det nItem="1">
+    <prod>    <!--item com valor 2 vezes maior-->
+      <cProd>sapVerm</cProd>
+      <xProd>Sapato de salto alto vermelho modelo Madri</xProd>
+      <uCom>cx</uCom>
+      <qCom>1</qCom>
+      <vProd>1754.38</vProd>   <!--877,19 * 2 valor dobrado por erro do emitente-->
+    </prod>
+    <imposto>
+      <IBSCBS>
+        <CST>000</CST>
+        <cClassTrib>000001</cClassTrib>
+        <gIBSCBS>
+          <vBC>1754.38</vBC>           <!-- 877,19 * 2 -->
+          <gIBSUF>
+            <pIBSUF>10.00</pIBSUF>
+            <vIBSUF>175.42</vIBSUF>   <!-- 87,71 * 2 -->
+          </gIBSUF>
+          <gIBSMun>
+            <pIBSMun>4.00</pIBSMun>
+            <vIBSMun>70.18</vIBSMun>   <!-- 35,09 * 2 -->
+          </gIBSMun>
+          <vIBS>245.60</vIBS>
+          <gCBS>...</gCBS>
+        </gIBSCBS>
+      </IBSCBS>
+    </imposto>
+  </det>
+  <det nItem="2">
+    <prod>
+      <cProd>cinto123</cProd>
+      <xProd>cinto marrom café 120cm</xProd>
+      <uCom>unid</uCom>
+      <qCom>1</qCom>
+      Página 46
+      <vProd>438.60</vProd>
+    </prod>
+    <imposto>
+      <IBSCBS>
+        <CST>000</CST>
+        <cClassTrib>000001</cClassTrib>
+        <gIBSCBS>
+          <vBC>438.60</vBC>
+          <gIBSUF>
+            <pIBSUF>10.00</pIBSUF>
+            <vIBSUF>43.86</vIBSUF>
+          </gIBSUF>
+          <gIBSMun>
+            <pIBSMun>4.00</pIBSMun>
+            <vIBSMun>17.54</vIBSMun>
+          </gIBSMun>
+          <vIBS>61.40</vIBS>
+          <gCBS>...</gCBS>
+        </gIBSCBS>
+      </IBSCBS>
+    </imposto>
+  </det>
+</infNfe>
+```
+
+- Nota fiscal de redução de valores:
+
+```xml
+<infNfe>
+  <ide>
+    <dhEmi>2026-07-04T12:00:00-03:00</dhEmi>
+    <tpNF>0</tpNF>
+    <finNFe>5</finNFe>    <!-- nota de crédito -->
+    <tpNFCredito>4</tpNFCredito>   <!-- redução de valores-->
+    <emit>...</emit>     <!-- loja que vende pela internet-->
+    <dest>...</dest>     <!-- consumidora pela internet-->
+  </ide>
+  <det nItem="1">
+    <prod>
+      <cProd>sapVerm</cProd>
+      <xProd>Sapato de salto alto vermelho modelo Madri</xProd>
+      <uCom>cx</uCom>
+      <qCom>0</qCom>   <!-- semelhante à nota complementar, preenche apenas o que será reduzido da nota original-->
+      <vProd>877.19</vProd>  <!--apenas campos que terão valor reduzido são preenchidos com valores maiores que zero-->
+    </prod>
+    <imposto>
+      <IBSCBS>
+        <CST>000</CST>
+        <cClassTrib>000001</cClassTrib>
+        <gIBSCBS>
+          <vBC>877.19</vBC>
+          <gIBSUF>
+            <pIBSUF>0.00</pIBSUF>
+            <vIBSUF>87.71</vIBSUF>
+          </gIBSUF>
+          <gIBSMun>
+            <pIBSMun>0.00</pIBSMun>
+            <vIBSMun>35.09</vIBSMun>
+          </gIBSMun>
+          <vIBS>122.80</vIBS>
+          <gCBS>...</gCBS>
+        </gIBSCBS>
+      </IBSCBS>
+    </imposto>
+  </det>
+</infNfe>
+```
 
 Agora as demais operações de crédito da Cartilha Orientativa do Comitê Gestor do IBS:
 
