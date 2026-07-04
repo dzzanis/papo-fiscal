@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-05-13T07:29:00Z
+modDatetime: 2026-07-04T13:00:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -12,30 +12,20 @@ tags:
   - DF-e
   - NF-e
   - NFC-e
-description: A versão 1.36 da Nota Técnica 2025.002 apresenta novas definições para adequação do leiaute da NF-e à reforma tributária.
+description: A versão 1.50 da Nota Técnica 2025.002 apresenta novas definições para adequação do leiaute da NF-e à reforma tributária.
 ---
 
-O Portal da Nota Fiscal Eletrônica publicou a versão 1.36 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e em razão da Reforma Tributária.
+O Portal da Nota Fiscal Eletrônica publicou a versão 1.50 da Nota Técnica nº 2025/002, trazendo mais atualizações nas regras de emissão de NF-e em razão da Reforma Tributária.
 
 Confira as principais novidades:
 
-- Mudanças trazidas pelos Ajustes SINIEF nº 49/2025 e 8/2026, normas emitidas pelo CONFAZ em conjunto com a Receita Federal do Brasil, admitindo hipóteses para emissão da NF-e de [débito e crédito](https://papofiscal.blog/posts/reforma-tributaria-notas-fiscais-de-debito-e-credito) com reflexos no controle do ICMS para situações específicas, como vendas com pagamento antecipado, perda de estoque, redução de valores e retorno de mercadorias não entregues;
-- Criação do tipo de nota de crédito `06 – Retorno por recusa parcial na entrega`. Fazendo distinção entre recusa total e parcial, exigindo que a NF-e apresente quais itens foram recusados e a referencia ao item da nota de venda quando parcial;
-- Nova regra de validação **I08-141**: controle sobre correto preenchimento do CFOP em notas de devolução ou retorno emitidas por MEI (CFOP aceitos: 1.202, 1.553, 2.202,2.553, 5.202 e 6.202);
-- Regras de validação alteradas:
-  - `I08-140` e `I08-144`: controlam o uso de CFOPs de devolução apenas em notas de devolução ou retorno por recusa/não entrega;
-  - `VC02-07` e `VC02-10`: tornando obrigatório o referenciamento a nível de item nas notas de retorno parcial por recusa;
-  - `UB18-10`, `UB37-10` e `B56-10`: flexibiliza a informação das alíquotas de IBS e CBS em notas de redução de valores;
-  - `B25-80`: admitindo uma única nota para tratar tanto os tributos atuais (ICMS, IPI, PIS, Cofins, etc) quanto os novos os novos tributos IBS/CBS, nos cenários de notas de débito e crédito (notas de retorno por recusa/não entrega, redução de valores, perda em estoque) introduzidos pelo Ajuste Sinief 49/2025 (exceto pagamento antecipado, não mencionado nesta regra de validação).
-
-O cronograma de implantação previsto na Nota Técnica:
-
-- Ambiente de homologação: até 1º de julho de 2026
-- Ambiente de produção: 03 de agosto de 2026
+- Reformulação do layout da tributação monofásica de combustíveis e regras de validação, com entrada em produção agendada para 03/11/2026;
+- Grupos de campos específico para detalhar a mistura de Etanol Anidro (EAC) na gasolina;
+- Vigência em homologação a partir de setembro de 2026.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    ⚠️ A nova versão mantém o posicionamento de embora o não preenchimento de IBS e CBS não rejeite a emissão da nota fiscal, esses dados são obrigatórios desde 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. Recomendamos a adequação imediata para garantir a conformidade legal no prazo.
+    ⚠️ Embora o não preenchimento de IBS e CBS não rejeite a emissão da nota fiscal, seus dados são obrigatórios desde 01/01/2026, conforme o art. 348 da Lei Complementar nº 214/2025. A adequação imediata é necessária para garantir a conformidade legal.
   </span>
 </div>
 
@@ -220,6 +210,135 @@ Postergação da aplicação das regras de validação relacionadas à tributaç
 [Clique para baixar a Nota Técnica 2025.002 v.1.36](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bBbBVKSai3U=)<br>
 <span class="text-xs">Versão 1.36 - Publicada em 30/04/2026</span>
 
+- Mudanças trazidas pelos Ajustes SINIEF nº 49/2025 e 8/2026, normas emitidas pelo CONFAZ em conjunto com a Receita Federal do Brasil, admitindo hipóteses para emissão da NF-e de [débito e crédito](https://papofiscal.blog/posts/reforma-tributaria-notas-fiscais-de-debito-e-credito) com reflexos no controle do ICMS para situações específicas, como vendas com pagamento antecipado, perda de estoque, redução de valores e retorno de mercadorias não entregues;
+- Criação do tipo de nota de crédito `06 – Retorno por recusa parcial na entrega`. Fazendo distinção entre recusa total e parcial, exigindo que a NF-e apresente quais itens foram recusados e a referencia ao item da nota de venda quando parcial;
+- Nova regra de validação **I08-141**: controle sobre correto preenchimento do CFOP em notas de devolução ou retorno emitidas por MEI (CFOP aceitos: 1.202, 1.553, 2.202,2.553, 5.202 e 6.202);
+- Regras de validação alteradas:
+  - `I08-140` e `I08-144`: controlam o uso de CFOPs de devolução apenas em notas de devolução ou retorno por recusa/não entrega;
+  - `VC02-07` e `VC02-10`: tornando obrigatório o referenciamento a nível de item nas notas de retorno parcial por recusa;
+  - `UB18-10`, `UB37-10` e `B56-10`: flexibiliza a informação das alíquotas de IBS e CBS em notas de redução de valores;
+  - `B25-80`: admitindo uma única nota para tratar tanto os tributos atuais (ICMS, IPI, PIS, Cofins, etc) quanto os novos os novos tributos IBS/CBS, nos cenários de notas de débito e crédito (notas de retorno por recusa/não entrega, redução de valores, perda em estoque) introduzidos pelo Ajuste Sinief 49/2025 (exceto pagamento antecipado, não mencionado nesta regra de validação).
+
+O cronograma de implantação previsto na Nota Técnica:
+
+- Ambiente de homologação: até 1º de julho de 2026
+- Ambiente de produção: 03 de agosto de 2026
+
+### Nota Técnica 2025.002 v.1.40
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.40](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=lWEyoabukyw=)<br>
+<span class="text-xs">Versão 1.40 - Publicada em 20/05/2026</span>
+
+- Criação do campo `cIndOp - Código Indicador do Local da Operação de Fornecimento`, obrigatório quando:
+
+  - Leilão judicial ou licitação promovida pelo poder público (`cIndOp=010104`)
+  - Constatação de irregularidade pela falta de documentação fiscal ou acobertamento por documentação inidônea (`cIndOp=010105`)
+
+- E respectivas regras de validação vinculadas ao `cIndOp`:
+
+  - B25d-10: Não permite uso do `cIndOp` na NFC-e (modelo 65);
+  - B25d-20: Não permite `cIndOp` quando a respectiva tabela `Código Indicador de Local da Operação` indicar que o código não deve ser utilizado na NF-e;
+  - B25d-30: Local de Retirada não informado quando informado `cIndOp=010104` ou `cIndOp=010105`.
+
+- Atualização dos valores de `tpEnteGov - Tipo de ente governamental`, acrescentando as opções `5=Consórcio Público` e `6=Comitê Gestor do IBS`;
+- Os valores do `tpOperGov - Tipo de operação com o ente governamental ` passa a ter quatro situações:
+
+  - `1 = Fornecimento com pagamento posterior;`
+  - `2 = Recebimento do pagamento com fornecimento já realizado;`
+  - `3 = Fornecimento com pagamento já realizado;` e
+  - `4 = Recebimento do pagamento com fornecimento posterior`
+
+- E criação do campo `refDFeAnt - Chave de acesso do documento fiscal anterior`, com uma série de regras de validação para garantir o referenciamento correto da nota especificamente no caso de operação com ente governamental igual a 2-Recebimento do pagamento com fornecimento já realizado (`tpOperGov=2`) ou 3-Fornecimento com pagamento já realizado (`tpOperGov=3`).
+
+- Novo campo `ISUFEmit` para informar a inscrição SUFRAMA do emitente;
+
+- Novo campo `pDevTrib - Percentual de devolução`, incluído no `gDevTrib - Grupo de Informações da devolução de tributos` (“cashback”) do IBS da UF, IBS do Município e da CBS, e regras de validação relacionadas;
+
+- Campo do Imposto Seletivo tem alteração de nomenclatura, de `pISEspec` passa a se chamar `adRemIS`;
+
+- Criação do grupo `gALCZFMCBS - Grupo de operações em áreas incentivadas (ALC/ZFM) - CBS (alíquota zero)`destinado à identificação de operações realizadas em:
+
+  - Zona Franca de Manaus (ZFM);
+  - Áreas de Livre Comércio (ALC).
+
+- Validações por cClassTrib para notas de débito e crédito:
+
+  - UB14-60: valida o cClassTrib compatível com o tipo de Nota de Débito ou Crédito:
+    |cClassTrib | tpNFDebito | tpNFCredito |
+    | :-------- | :--------: | :---------: |
+    |10030-Estorno de crédito por perda |07|-|
+    |800001-Fusão, cisão ou incorporação|05|05|
+    |800002-Transferência de crédito do associado|01| -|
+    |810001-Crédito presumido IBS ZFM|- |02|
+    |811001-Anulação Crédito por Saída Imune/Isenta|02| -|
+    |811002-Débito de NF não processada na apuração|03| -|
+    |811003-Desenquadramento Simples Nacional|08| -|
+
+  - UB14-70: valida o cClassTrib compatível com o tipo de Nota de Débito:
+    | tpNFDebito | cClassTrib |
+    | :-------- | :---------: |
+    |01=Transferência de créditos para Cooperativas; |800002|
+    |02=Anulação de Crédito por Saídas Imunes/Isentas; |811001|
+    |03=Débitos de notas fiscais não processadas na apuração; |811002|
+    |04=Multa e juros; |Não limitar|
+    |05=Transferência de crédito na sucessão; |800001|
+    |06=Pagamento antecipado; |Não limitar|
+    |07=Perda em estoque; |410030|
+    |08=Desenquadramento do SN; |811003|
+
+  - UB14-80: valida o cClassTrib compatível com o tipo de Nota de Crédito:
+    |tpNFCredito|cClassTrib|
+    |:--------- |:--------:|
+    |01=Multa e Juros |Não limitar|
+    |02=Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25) |&nbsp;&nbsp;&nbsp;810001&nbsp;&nbsp;&nbsp;|
+    |03=Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega |Não limitar|
+    |04=Redução de valores |Não limitar|
+    |05=Transferência de crédito na sucessão |800001|
+    |06=Retorno por recusa parcial na entrega |Não limitar|
+
+- Devoluções passam a exigir referenciamento exclusivamente por item (DFeReferenciado), exigindo maior rastreabilidade documental;
+
+- Regras de validação incluídas:
+
+  - `B25d-10, B25d-20, B25d-30`: relacionadas ao campo `cIndOp - Código Indicador do Local da Operação de Fornecimento`;
+  - `BB05-10, BB05-20, BB05-30, BB05-40, BB05-50, BB05-60, BB05-70, BB05-80, BB05-90, BB05-100, BB05-110, BB05-120, BB05-130, BB05-140, BB05-150, BB05-160, BB05-170, BB05-180, BB05-190, BB05-200`: relacionadas ao DFe referenciado em operação com ente governamental;
+  - `C22-10, C22-20, UB66a-10, UB66a-20, UB66c-10, UB66e-10`: relacionadas à área incentivada SUFRAMA;
+  - `UB14-60, UB14-70, UB14-80`: relacionadas a validação entre `cClassTrib` e os tipos de nota de débito ou crédito;
+  - `UB24-10, UB43-10, UB62-10, UB62a-10, UB63-10`: relacionadas ao grupo de devolução do IBS e da CBS;
+  - `UB56-20`: relacionada ao controle da alíquota de CBS a partir de 2027;
+  - `VC02-40, VC02-50, VC03-20`: relacionadas a nota referenciada por item nas devoluções.
+
+- Regras de validação alteradas:
+  - `B10a-30`: ajuste para desconsiderar a hora na validação da data de previsão anterior a data/hora de saída;
+  - `BB02-10`: adiciona o `tpEnteGov` "_5-Consórcio Público_" e "_6-Comitê Gestor do IBS_" na validação da alíquota de outros entes na compra governamental;
+  - `E18-30`: ajuste para considerar tag "dest/ISUF" na validação se UF/Município do destinatário pertence a SUFRAMA;
+  - `UB26-20, UB45-20, UB64-20, UB82a-10`: criada exceção a regra de obrigatoriedade do grupo de redução de alíquota do IBS para quando a CST possui indicação que não permite informação do IBS/CBS (Isenção, Imunidade e não incidência, Tributação monofásica, entre outros);
+  - `UB56-10`: atualizada sua lista de municípios pertencentes as Áreas de Livre Comércio (ALC), para quais permite alíquota zero da CBS, como exceção a exigência da alíquota de 0,9% entre 2025 e 2026;
+  - `UB123-10`e `UB127-10`: removida a exceção em que permitia crédito presumido no fornecimento de bem móvel usado por pessoa física quando a tabela cCredPres indicar não permitir uso do crédito presumido. Desta forma agora precisa respeitar rigorasamente a tabela. Contudo, tal exceção segue na regra UB120-20, que controla a inclusão do grupo de crédito presumido, porém baseado na tabela cClassTrib;
+  - `UB133-10`: a mensagem de validação, que exige ter um único tipo de classificação do item referente ao crédito presumido sobre o saldo devedor na Zona Franca de Manauas, foi aprimorada passando a apontar o item inválido;
+  - `VB01-05, VB01-10, VB01-20`: validações relacionadas ao total do item com os novos tributos foi aprimorada passando a apontar o item inválido;
+  - `VC02-14`: regra principal que nas operações de devolução exigia o referenciamento apenas a nível de nota, que a partir de 01/09/26 passará exigir o referenciamnento detalhado a nível de item;
+  - `VC02-15`: regra descontinuada, ela seria utilizada para validar o referenciamento do número do item na nota de devolução, contudo foi substituída pela regra `VC03-20` e que combinado com a regra `VC02-14` continuará fazendo o mesmo papel. O motivo é que a regra `VC03-20` torna-se mais genérica e combinada com outras regras, que também exigem o referenciamento da chave da nota por item, complementará exigindo também o referenciamento do número do item;
+  - `W07-10`: esta regra que verificava o valor total dos produtos/serviços sujeitos ao ICMS, comprando com a soma do valor total dos respectivos itens, passa a ser obrigatória impedindo qualquer flexibilização. Além disso, sua descrição foi alterada informando que se aplica também para itens sujeitos ao IBS e CBS;
+  - `UB12-10`: restabelece validação que rejeita notas emitidas sem preenchido do grupo IBS/CBS, tendo início no ambiente de homologação em 01/07/26 e em produção ativada em 03/08/26, para empresas do Regime Normal (CRT=3). Mas inclui exceção para combustíveis sujeitos à tributação monofásica.
+
+📅 Cronograma de implantação previsto na Nota Técnica:
+
+- 01/07/26: ambiente de Homologação para empresas de Regime Normal (CRT 3).
+- 03/08/26: ambiente de Produção, ativando as regras de validação com especial atenção para a `UB12-10`, de rejeição por ausência de IBS/CBS para empresas CRT 3.
+- 01/09/26: ambiente de Produção, ativando especificamente a regra de validação `VC02-14` (DFeReferenciado) para notas de devolução com referenciamento por item.
+- 04/01/27: obrigatoriedades estendidas em Produção para os demais regimes (CRT 1, 2 e 4).
+
+Mudanças em Eventos Fiscais
+
+- Exclusão: o evento 211120 (Destinação de item para consumo pessoal) foi eliminado da estrutura da NF-e. A remoção ocorreu após revogação do §6º do art. 57 da LC 214/2025 pela LC 227/2026.
+- Alteração: o evento 211110 (Solicitação de Apropriação de Crédito Presumido) foi modificado no layout XML e passou a permitir que o próprio emitente da nota seja o autor do evento. E poderá ser utilizado quando a informação não tiver sido incluída originalmente e quando houver necessidade de correção posterior.
+
+### Nota Técnica 2025.002 v.1.50
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.50](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=pD4YrecPV6s=)<br>
+<span class="text-xs">Versão 1.50 - Publicada em 03/06/2026</span>
+
 Última versão publicada, tendo as alterações mais relevantes já destacadas no início deste artigo.
 
 Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escopo das adequações da NF-e e NFC-e.
@@ -243,6 +362,8 @@ Em Produção, no ano de 2025 as informações de tributação relativas ao IBS,
 | Julho/25   | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas. | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                                                                                      |
 | Outubro/25 | Idem Homologação Julho/25.                                                   | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                                                                                         |
 | Janeiro/26 | Idem Homologação Julho/25.                                                   | Campos IBS/CBS não serão exigidos por regra de validação, porém permanece obrigatório conforme a legislação vigente. Para as NF-e e NFC-e com IBS/CBS as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
+| 01/07/26   | Preenchimento dos campos IBS/CBS obrigatório.                                | Idem Produção Janeiro/26                                                                                                                                                                                                                                  |
+| 03/08/26   | Preenchimento dos campos IBS/CBS obrigatório.                                | Preenchimento dos campos IBS/CBS obrigatório.                                                                                                                                                                                                             |
 
 ## Nota de Débito e Crédito
 
@@ -485,7 +606,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
 ### Esquema gráfico do leiaute, contemplando os grupos de campos do IBS, CBS e Imposto Seletivo.
 
 <div class="grid grid-cols-[minmax(0px,_1fr)_minmax(0px,_0.85fr)_minmax(0px,_1fr)]
-  p-1 gap-1 ring-1 rounded ring-0.8b5cf6] overflow-hidden">
+  p-1 gap-2 ring-1 rounded ring-0.8b5cf6] overflow-hidden">
   <div class="row-span-2 row-start-1 col-start-1 flex gap-4 flex-col justify-end items-center">
     <div class="w-full max-w-44 min-w-28 p-2 flex flex-col border rounded-lg shadow-md">
       <span class="text-center text-sm text-gray-500">infNFe</span>
@@ -518,7 +639,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-7 col-start-2 w-full flex justify-start items-center pt-0.5">
+  <div class="row-start-7 col-start-2 w-full flex justify-start items-center pt-0">
     <div class="w-40 flex flex-col gap-4">
       <span class="text-center sm:text-xs text-[0.54rem] text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">indBemMovelUsado
         <i class="ph-light ph-info absolute left-1 group">
@@ -529,7 +650,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-8 col-start-2 w-full flex justify-start items-center pt-0.5">
+  <div class="row-start-8 col-start-2 w-full flex justify-start items-center pt-0">
     <div class="w-40 flex flex-col gap-4">
       <span class="text-center sm:text-xs text-[0.54rem] text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpCredPresIBSZFM
         <i class="ph-light ph-info absolute left-1 group">
@@ -680,6 +801,44 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Valor total do Item, considerando tributos e despesas, correspondente à sua participação no total da nota. A soma dos itens deverá corresponder ao total da nota. 
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-start-14 row-span-4 col-start-1">
+    <div class="w-full flex flex-row gap-0.5 justify-center items-center">
+      <span class="grow max-w-44 min-w-24 ml-0 sm:ml-6 text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] p-1 rounded-lg shadow-md relative">DFeReferenciado
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Grupo para referenciamento de item de outro DF-e.
+          </div>
+        </i>
+      </span>
+      <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+    </div>
+  </div>
+  <div class="row-start-14 col-start-2 w-full flex justify-start items-center pt-0.5">
+    <div class="w-40 flex flex-col gap-4">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">chaveAcesso
+        <span class="absolute right-1">+</span>
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm text-center rounded px-2 py-1 shadow-lg">
+            Chave de acesso do DF-e referenciado.
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="row-start-16 col-start-2 w-full flex justify-start items-center pt-0.5">
+    <div class="w-40 flex flex-col gap-4">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">nItem
+        <span class="absolute right-1">+</span>
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Número do item no documento referenciado.
           </div>
         </i>
       </span>
