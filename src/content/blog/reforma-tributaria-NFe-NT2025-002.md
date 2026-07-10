@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-07-04T13:00:00Z
+modDatetime: 2026-07-10T06:10:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -84,7 +84,11 @@ As principais alterações foram:
 
   Nesse contexto, a apresentação correta e tempestiva dos eventos mencionados neste item é condição essencial para que o contribuinte possa usufruir da dispensa do recolhimento dos tributos nesse período de transição. O não cumprimento dessas obrigações poderá implicar na perda desse benefício, sujeitando o contribuinte ao recolhimento normal dos tributos devidos.
 
-  **Portanto, os eventos devem ser registrados, a partir de janeiro/2026, sempre que a situação concreta exigir, respeitando os critérios e prazos estabelecidos pela legislação, como forma de garantir o direito à dispensa e de contribuir para a efetividade do novo sistema tributário.**
+  <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+    <span class="sm:text-sm text-xs text-[#8b5cf6]">
+      ⚠️ Portanto, os eventos devem ser registrados, a partir de janeiro/2026, sempre que a situação concreta exigir, respeitando os critérios e prazos estabelecidos pela legislação, como forma de garantir o direito à dispensa e contribuir para a efetividade do novo sistema tributário.
+    </span>
+  </div>
 
 ### Nota Técnica 2025.002 v.1.30
 
@@ -412,7 +416,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cMunFGIBS
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/4 -translate-x-1/4 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
-            Cód. do Município de consumo, fato gerador do IBS/CBS. <br>Preecher somente quando se tratar de operação presencial fora do estabelecimento (<code>indPress=5</code>), e não tiver endereço do destinatário (<code>Grupo E05</code>) ou local de entrega (<code>Grupo G01</code>).
+            Cód. do Município de consumo, fato gerador do IBS/CBS. <br>Preecher somente quando se tratar de operação presencial fora do estabelecimento (<code>indPress=5</code>), e não informado o endereço do destinatário (<code>Grupo E05</code>) nem o local de entrega (<code>Grupo G01</code>).
           </div>
         </i>
       </span>
@@ -434,7 +438,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
             05=Transferência de crédito de sucessão; <br>
             06=Pagamento antecipado; <br>
             07=Perda em estoque (Perecimento, Perda, Furto, Roubo); <br>
-            08=Desenquadramento do SN;
+            08=Desenquadramento do SN.
           </div>
         </i>
       </span>
@@ -447,7 +451,17 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
             03=Retorno por recusa na entrega ou por não localização do destinatário na tentativa de entrega; <br>
             04=Redução de valores; <br>
             05=Transferência de crédito na sucessão; <br>
-            06=Retorno por recusa parcial na entrega 
+            06=Retorno por recusa parcial na entrega.
+          </div>
+        </i>
+      </span>
+      <span class="text-center text-sm text-[#8b5cf6] p-1 pl-5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">cIndOp
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/3 -translate-x-1/3 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+            Código indicador do local da operação de fornecimento. Obrigatório no caso de: <br>
+            - Leilão judicial ou Licitação promovida pelo poder público (<code>cIndOp=010104</code>) <br>
+            - Constatação de irregularidade pela falta de documentação fiscal ou pelo acobertamento por documentação inidônea (<code>cIndOp=010105</code>) <br>
+            Observação: consultar tabela “Código Indicador do Local de Operação”.
           </div>
         </i>
       </span>
@@ -471,28 +485,41 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
     <div class="sm:min-w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpEnteGov
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de ente governamental:
               1=União <br>
               2=Estado <br>
               3=Distrito Federal 
               4=Município
+              5=Consórcio Público 
+              6=Comitê Gestor do IBS 
           </div>
         </i>
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedutor
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual de redução de alíquota em compra governamental. Conforme <code>art. 472/370</code> da LC 214/24.
           </div>
         </i>
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpOperGov
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de operação com o ente governamental:
-            1=Fornecimento <br>
-            2=Recebimento do pagamento, conforme fato gerador do IBS/CBS definido no <code>Art. 10 §2º</code> da LC 214/25. 
+            <ul>
+              <li><code>1 = Fornecimento com pagamento posterior</code></li>
+              <li><code>2 = Recebimento do pagamento com fornecimento já realizado</code></li>
+              <li><code>3 = Fornecimento com pagamento já realizado </code></li>
+              <li><code>4 = Recebimento do pagamento com fornecimento posterior</code></li>
+            </ul>
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">refDFeAnt
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Chave de acesso do documento fiscal anterior, para referenciamento em operação com ente governamental igual a "2-Recebimento do pagamento com fornecimento já realizado" ou "3-Fornecimento com pagamento já realizado".
           </div>
         </i>
       </span>
@@ -553,17 +580,9 @@ E a inclusão do campo "Tipo de Nota de Crédito" - `tpNFCredito`, com as seguin
 
 A opção `01=Multa e Juros` deverá ser usada caso o fornecedor não emita a nota de débito referente o recebimento de juros e multas, onde o adquirente tem como alternativa emitir uma nota de crédito para se creditar. Esse crédito é condicionado à emissão do evento “Aceite de débito na apuração por emissão de nota de crédito” pelo fornecedor e a quitação do débito correspondente em sua apuração.
 
-Foi também criado o subgrupo de Compra Governamental – `gCompraGov`. Junto a esse subgrupo, temos os seguintes campos:
+## Grupo de notas de compras governamentais
 
-- `tpEnteGov`: Tipo de ente governamental. Que poderá ser:
-  - 1 = União
-  - 2 = Estado
-  - 3 = Distrito Federal
-  - 4 = Município
-- `pRedutor`: Percentual de redução de alíquota em compra governamental, conforme o art. 472/370 da LC 214/2024.
-- `tpOperGov`: Tipo de operação com o ente governamental. Que pode ser:
-  - 1=Fornecimento
-  - 2=Recebimento do pagamento, conforme fato gerador do IBS/CBS definido no Art. 10 § 2ºd a LC 214/2024.
+Foi também criado o `Grupo BB` de Compras Governamentais – `gCompraGov`. Junto a esse subgrupo, devem ser informados dados que permitem rastrear o fluxo financeiro e físico de compras públicas.
 
 ## Grupo de notas de antecipação de pagamento
 
