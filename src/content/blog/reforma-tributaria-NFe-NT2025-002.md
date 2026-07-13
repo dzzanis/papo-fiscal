@@ -505,7 +505,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpOperGov
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-2/3 -translate-x-2/3 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Tipo de operação com o ente governamental:
             <ul>
               <li><code>1 = Fornecimento com pagamento posterior</code></li>
@@ -518,7 +518,7 @@ Essa tabela, publicada através do "Informe Técnico 2025.002 RTC", está dispon
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">refDFeAnt
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-2/3 -translate-x-2/3 bottom-full mb-2 min-w-60 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Chave de acesso do documento fiscal anterior, para referenciamento em operação com ente governamental igual a "2-Recebimento do pagamento com fornecimento já realizado" ou "3-Fornecimento com pagamento já realizado".
           </div>
         </i>
@@ -827,7 +827,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-start-14 row-span-4 col-start-1">
     <div class="w-full flex flex-row gap-0.5 justify-center items-center">
-      <span class="grow max-w-44 min-w-24 ml-0 sm:ml-6 text-center text-sm text-[#8b5cf6] ring-1 ring-[#8b5cf6] p-1 rounded-lg shadow-md relative">DFeReferenciado
+      <span class="grow max-w-44 min-w-28 ml-0 sm:ml-2 text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] ring-1 ring-[#8b5cf6] p-1 rounded-lg shadow-md relative">DFeReferenciado
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Grupo para referenciamento de item de outro DF-e.
@@ -841,8 +841,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   </div>
   <div class="row-start-14 col-start-2 w-full flex justify-start items-center pt-0.5">
     <div class="w-40 flex flex-col gap-4">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">chaveAcesso
-        <span class="absolute right-1">+</span>
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">chaveAcesso
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm text-center rounded px-2 py-1 shadow-lg">
             Chave de acesso do DF-e referenciado.
@@ -854,7 +853,6 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
   <div class="row-start-16 col-start-2 w-full flex justify-start items-center pt-0.5">
     <div class="w-40 flex flex-col gap-4">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">nItem
-        <span class="absolute right-1">+</span>
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 translate-x-0 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Número do item no documento referenciado.
