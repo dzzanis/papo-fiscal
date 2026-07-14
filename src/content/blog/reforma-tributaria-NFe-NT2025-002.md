@@ -268,37 +268,49 @@ O cronograma de implantação previsto na Nota Técnica:
 - Validações por cClassTrib para notas de débito e crédito:
 
   - UB14-60: valida o cClassTrib compatível com o tipo de Nota de Débito ou Crédito:
-    |cClassTrib | tpNFDebito | tpNFCredito |
-    | :-------- | :--------: | :---------: |
-    |10030-Estorno de crédito por perda |07|-|
-    |800001-Fusão, cisão ou incorporação|05|05|
-    |800002-Transferência de crédito do associado|01| -|
-    |810001-Crédito presumido IBS ZFM|- |02|
-    |811001-Anulação Crédito por Saída Imune/Isenta|02| -|
-    |811002-Débito de NF não processada na apuração|03| -|
-    |811003-Desenquadramento Simples Nacional|08| -|
+    <div class="overflow-x-auto sm:text-sm text-xs">
+
+    | cClassTrib                                     | tpNFDebito | tpNFCredito |
+    | :--------------------------------------------- | :--------: | :---------: |
+    | 10030-Estorno de crédito por perda             |     07     |      -      |
+    | 800001-Fusão, cisão ou incorporação            |     05     |     05      |
+    | 800002-Transferência de crédito do associado   |     01     |      -      |
+    | 810001-Crédito presumido IBS ZFM               |     -      |     02      |
+    | 811001-Anulação Crédito por Saída Imune/Isenta |     02     |      -      |
+    | 811002-Débito de NF não processada na apuração |     03     |      -      |
+    | 811003-Desenquadramento Simples Nacional       |     08     |      -      |
+
+  </div>
 
   - UB14-70: valida o cClassTrib compatível com o tipo de Nota de Débito:
-    | tpNFDebito | cClassTrib |
-    | :-------- | :---------: |
-    |01=Transferência de créditos para Cooperativas; |800002|
-    |02=Anulação de Crédito por Saídas Imunes/Isentas; |811001|
-    |03=Débitos de notas fiscais não processadas na apuração; |811002|
-    |04=Multa e juros; |Não limitar|
-    |05=Transferência de crédito na sucessão; |800001|
-    |06=Pagamento antecipado; |Não limitar|
-    |07=Perda em estoque; |410030|
-    |08=Desenquadramento do SN; |811003|
+    <div class="overflow-x-auto sm:text-sm text-xs">
+
+    | tpNFDebito                                               | cClassTrib  |
+    | :------------------------------------------------------- | :---------: |
+    | 01=Transferência de créditos para Cooperativas;          |   800002    |
+    | 02=Anulação de Crédito por Saídas Imunes/Isentas;        |   811001    |
+    | 03=Débitos de notas fiscais não processadas na apuração; |   811002    |
+    | 04=Multa e juros;                                        | Não limitar |
+    | 05=Transferência de crédito na sucessão;                 |   800001    |
+    | 06=Pagamento antecipado;                                 | Não limitar |
+    | 07=Perda em estoque;                                     |   410030    |
+    | 08=Desenquadramento do SN;                               |   811003    |
+
+    </div>
 
   - UB14-80: valida o cClassTrib compatível com o tipo de Nota de Crédito:
-    |tpNFCredito|cClassTrib|
-    |:--------- |:--------:|
-    |01=Multa e Juros |Não limitar|
-    |02=Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25) |&nbsp;&nbsp;&nbsp;810001&nbsp;&nbsp;&nbsp;|
-    |03=Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega |Não limitar|
-    |04=Redução de valores |Não limitar|
-    |05=Transferência de crédito na sucessão |800001|
-    |06=Retorno por recusa parcial na entrega |Não limitar|
+    <div class="overflow-x-auto sm:text-sm text-xs">
+
+    | tpNFCredito                                                                                           |                 cClassTrib                 |
+    | :---------------------------------------------------------------------------------------------------- | :----------------------------------------: |
+    | 01=Multa e Juros                                                                                      |                Não limitar                 |
+    | 02=Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)   | &nbsp;&nbsp;&nbsp;810001&nbsp;&nbsp;&nbsp; |
+    | 03=Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega |                Não limitar                 |
+    | 04=Redução de valores                                                                                 |                Não limitar                 |
+    | 05=Transferência de crédito na sucessão                                                               |                   800001                   |
+    | 06=Retorno por recusa parcial na entrega                                                              |                Não limitar                 |
+
+    </div>
 
 - Devoluções passam a exigir referenciamento exclusivamente por item (DFeReferenciado), exigindo maior rastreabilidade documental;
 
