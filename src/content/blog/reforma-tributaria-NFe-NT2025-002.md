@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-07-10T06:10:00Z
+modDatetime: 2026-07-16T07:50:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -335,7 +335,7 @@ O cronograma de implantação previsto na Nota Técnica:
   - `VB01-05, VB01-10, VB01-20`: validações relacionadas ao total do item com os novos tributos foi aprimorada passando a apontar o item inválido;
   - `VC02-14`: regra principal que nas operações de devolução exigia o referenciamento apenas a nível de nota, que a partir de 01/09/26 passará exigir o referenciamnento detalhado a nível de item;
   - `VC02-15`: regra descontinuada, ela seria utilizada para validar o referenciamento do número do item na nota de devolução, contudo foi substituída pela regra `VC03-20` e que combinado com a regra `VC02-14` continuará fazendo o mesmo papel. O motivo é que a regra `VC03-20` torna-se mais genérica e combinada com outras regras, que também exigem o referenciamento da chave da nota por item, complementará exigindo também o referenciamento do número do item;
-  - `W07-10`: esta regra que verificava o valor total dos produtos/serviços sujeitos ao ICMS, comprando com a soma do valor total dos respectivos itens, passa a ser obrigatória impedindo qualquer flexibilização. Além disso, sua descrição foi alterada informando que se aplica também para itens sujeitos ao IBS e CBS;
+  - `W07-10`: esta regra que verificava o valor total dos produtos/serviços sujeitos ao ICMS, comparando com a soma do valor total dos respectivos itens, passa a ser obrigatória impedindo qualquer flexibilização. Além disso, sua descrição foi alterada informando que se aplica também para itens sujeitos ao IBS e CBS;
   - `UB12-10`: restabelece validação que rejeita notas emitidas sem preenchido do grupo IBS/CBS, tendo início no ambiente de homologação em 01/07/26 e em produção ativada em 03/08/26, para empresas do Regime Normal (CRT=3). Mas inclui exceção para combustíveis sujeitos à tributação monofásica.
 
 📅 Cronograma de implantação previsto na Nota Técnica:
@@ -601,18 +601,15 @@ Foi também criado o `Grupo BB` de Compras Governamentais – `gCompraGov`. Junt
 Este grupo deverá ser utilizado para referênciar chaves de NF-e emitidas anteriormente, referente pagamentos antecipados.
 
 - `gPagAntecipado`: Grupo de notas de antecipação de pagamento. Informado para abater as parcelas de antecipação de pagamento, conforme Art. 10. § 4º.
-  - `refNFe`: Chave de acesso da NF-e de antecipação de pagamento. Pode ser informado até 99 chaves de NF-e.
+  - `refNFe`: Chave de acesso da NF-e de antecipação de pagamento. Pode ser informado até 99 chaves de NF-e, de débito tipo pagamento antecipado.
 
-Tendo as seguintes regras de validação:
+## Inscrição Suframa
 
-- Rejeição: Chave de acesso referenciada deve existir e não estar cancelada;
-- Rejeição: NF-e referenciada de pagamento antecipado informada indevidamente (caso informado para modelo 65 - NFC-e);
-- Rejeição: NF-e referenciada de pagamento antecipado inexistente;
-- Rejeição: NF-e referenciada de pagamento antecipado deve ser do tipo débito, pagamento antecipado.
+No `Grupo C. Identificação do Emitente da Nota Fiscal eletrônica` foi incluído o campo `ISUFEmit - Inscrição do emitente da Suframa `. Para obrigatoriamente ser informado o número do cadastro do emitente, nas operações que se beneficiam de incentivos fiscais existentes nas áreas sob controle da SUFRAMA com alíquota zero da CBS, conforme aos arts. 451 e 466 da LC 214/25.
 
 ## Bem móvel usado e tipo de crédito presumido na Zona Franca de Manaus
 
-O grupo `Grupo I. Produtos e Serviços da NF-e` passa a ter dois novos campos:
+O `Grupo I. Produtos e Serviços da NF-e` passa a ter dois novos campos:
 
 - `tpCredPresIBSZFM` permitindo a classificação, para subapuração do crédito presumido do IBS na ZFM, conforme percentuais definidos no art. 450, § 1º, da LC 214/25:
 
