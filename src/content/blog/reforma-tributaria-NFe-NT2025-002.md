@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-07-16T07:50:00Z
+modDatetime: 2026-07-21T07:33:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -915,11 +915,11 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pIS
       <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
-            Alíquota do Imposto Seletivo 
+            Alíquota do Imposto Seletivo (em percentual) 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pISEspec
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemIS
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm text-start rounded px-2 py-1 shadow-lg">
             Alíquota específica por unidade de medida apropriada  
@@ -1088,7 +1088,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-4 col-start-2 w-full gap-1 flex justify-start items-center">
+  <div class="row-span-2 row-start-4 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDevTrib
         <i class="ph-light ph-info absolute left-1 group">
@@ -1102,8 +1102,15 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-start-4 col-start-3 w-full flex justify-start items-center">
+  <div class="row-span-2 row-start-4 col-start-3 pt-2 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-0.5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pDevTrib
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual de devolução do IBS da UF, conforme LC 214/25 art. 118.
+          </div>
+        </i>
+      </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
@@ -1113,7 +1120,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-span-2 row-start-5 col-start-2 w-full gap-1 flex justify-start items-center">
+  <div class="row-span-2 row-start-6 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gRed
         <i class="ph-light ph-info absolute left-1 group">
@@ -1127,7 +1134,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
+  <div class="row-span-2 row-start-6 col-start-3 pt-2 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
@@ -1149,7 +1156,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-7 col-start-2 w-full flex gap-2 justify-start items-center">
+  <div class="row-start-8 col-start-2 w-full flex gap-2 justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSUF
         <i class="ph-light ph-info absolute left-1 group">
@@ -1226,7 +1233,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-4 col-start-2 w-full gap-1 flex justify-start items-center">
+  <div class="row-span-2 row-start-4 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDevTrib
         <i class="ph-light ph-info absolute left-1 group">
@@ -1240,18 +1247,25 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-start-4 col-start-3 w-full flex justify-start items-center">
+  <div class="row-span-2 row-start-4 col-start-3 pt-2 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-0.5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pDevTrib
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual de devolução do IBS da UF, conforme LC 214/25 art. 118.
+          </div>
+        </i>
+      </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do tributo devolvido (“cashback” de desconto na Fatura) 
           </div>
         </i>
       </span>
     </div>
   </div>
-  <div class="row-span-2 row-start-5 col-start-2 w-full gap-1 flex justify-start items-center">
+  <div class="row-span-2 row-start-6 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gRed
         <i class="ph-light ph-info absolute left-1 group">
@@ -1265,11 +1279,11 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
+  <div class="row-span-2 row-start-6 col-start-3 pt-2 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual da redução de alíquota do cClassTrib
           </div>
         </i>
@@ -1287,7 +1301,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-7 col-start-2 w-full flex gap-2 justify-start items-center">
+  <div class="row-start-8 col-start-2 w-full flex gap-2 justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMun
         <i class="ph-light ph-info absolute left-1 group">
@@ -1364,7 +1378,7 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       </span>
     </div>
   </div>
-  <div class="row-start-4 col-start-2 w-full gap-1 flex justify-start items-center">
+  <div class="row-span-2 row-start-4 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 pl-4 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gDevTrib
         <i class="ph-light ph-info absolute left-1 group">
@@ -1378,18 +1392,25 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-start-4 col-start-3 w-full flex justify-start items-center">
+  <div class="row-span-2 row-start-4 col-start-3 pt-2 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
+      <span class="text-center text-sm text-[#8b5cf6] p-0.5 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pDevTrib
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual de devolução do IBS da UF, conforme LC 214/25 art. 118.
+          </div>
+        </i>
+      </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vDevTrib
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do tributo devolvido (“cashback” de desconto na Fatura) 
           </div>
         </i>
       </span>
     </div>
   </div>
-  <div class="row-span-2 row-start-5 col-start-2 w-full gap-1 flex justify-start items-center">
+  <div class="row-span-2 row-start-6 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gRed
         <i class="ph-light ph-info absolute left-1 group">
@@ -1403,25 +1424,75 @@ Novo grupo `UB. Informações dos tributos IBS / CBS e Imposto Seletivo`, conten
       xmlns="http://www.w3.org/2000/svg" 
       width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
   </div>
-  <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
+  <div class="row-span-2 row-start-6 col-start-3 pt-2 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pRedAliq
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Percentual da redução de alíquota
           </div>
         </i>
       </span>
       <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfet
         <i class="ph-light ph-info absolute left-1 group">
-          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota Efetiva da CBS aplicada a Base de Cálculo  
           </div>
         </i>
       </span>
     </div>
   </div>
-  <div class="row-start-7 col-start-2 w-full flex gap-2 justify-start items-center">
+  <div class="row-span-4 row-start-8 col-start-2 w-full gap-1 flex justify-start items-center">
+    <div class="w-44 flex flex-col gap-2 grow-0">
+      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md grow-0 relative">gALCZFMCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Grupo para identificação de operações em áreas incentivadas (ALC/ZFM) com alíquota zero da CBS, conforme arts. 451 e 466 da LC 214/25.
+          </div>
+        </i>
+      </span>
+    </div>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="32" height="32" fill="#000000" viewBox="0 0 256 256"> <path d="M43.18,128a29.78,29.78,0,0,1,8,10.26c4.8,9.9,4.8,22,4.8,33.74,0,24.31,1,36,24,36a8,8,0,0,1,0,16c-17.48,0-29.32-6.14-35.2-18.26-4.8-9.9-4.8-22-4.8-33.74,0-24.31-1-36-24-36a8,8,0,0,1,0-16c23,0,24-11.69,24-36,0-11.72,0-23.84,4.8-33.74C50.68,38.14,62.52,32,80,32a8,8,0,0,1,0,16C57,48,56,59.69,56,84c0,11.72,0,23.84-4"></path></svg>
+  </div>
+  <div class="row-span-4 row-start-8 col-start-3 pt-2 w-full flex justify-start items-center">
+    <div class="w-44 flex flex-col gap-2">
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-2 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">tpALCZFMCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-72 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Tipo de aplicação da alíquota zero da CBS:
+            <ul>
+              <li>1 - quando o fornecedor e o destinatário estiverem localizados em área incentivada, a operação estiver amparada por alíquota zero da CBS e não se tratar de operação industrial com processo aprovado na Suframa para o item;</li>
+              <li>2 - quando o fornecedor e o destinatário estiverem localizados em área incentivada, a operação estiver amparada por alíquota zero da CBS e se tratar de operação industrial com processo aprovado na Suframa para o tem.</li>
+            </ul> 
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">nProcSuframa
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Número do processo na Suframa para o item comercializado.
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqEfetRegCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Percentual efetivo de referência da CBS sem a redução, aplicável à operação fora de áreas ou regimes incentivados.
+          </div>
+        </i>
+      </span>
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-0.5 pl-3 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vTribRegCBS
+        <i class="ph-light ph-info absolute left-1 group">
+          <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-44 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
+            Valor efetivo sem a redução, calculado para a operação fora de áreas ou regimes incentivados.
+          </div>
+        </i>
+      </span>
+    </div>
+  </div>
+  <div class="col-start-2 w-full flex gap-2 justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
       <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBS
         <i class="ph-light ph-info absolute left-1 group">
