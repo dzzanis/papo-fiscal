@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-08-08T18:44:00Z
+modDatetime: 2026-08-11T06:27:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -20,7 +20,9 @@ O Portal da Nota Fiscal Eletrônica publicou a versão 1.51 da Nota Técnica nº
 Confira as principais novidades:
 
 - Adiantamento da Rejeição 1115 (Regra UB12-10): a regra que rejeitaria notas pela ausência dos grupos de IBS e CBS (prevista inicialmente para entrar em produção em agosto de 2026) foi alterada para "implementação futura", sem uma nova data definida;
-- O referenciamento do documento fiscal de origem a nível de item, nas NF-e de devolução de mercadorias, teve sua entrada em produção adiada de 01/09/2026 para 05/10/2026.
+- O referenciamento do documento fiscal de origem a nível de item, nas NF-e de devolução de mercadorias (Regra VC02-14), teve sua entrada em produção adiada de 01/09/2026 para 05/10/2026;
+- Alterada a regra de validação B25-80 para permitir PIS/COFINS e IPI na NF-e de débito por pagamento antecipado emitida em 2026;
+- Alteradas as regras de validação UB13-20, UB13-30, UB13-39 e UB13-40 para a mensagem de rejeição citar nominalmente as tags gIBSCBS ou gIBSCBSMono do XML ausentes ou informadas indevidamente.
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
@@ -381,13 +383,13 @@ Em Produção, no ano de 2025 as informações de tributação relativas ao IBS,
   </span>
 </div>
 
-|            | Homologação                                                                  | Produção                                                                                                                                                                                                                                                  |
-| ---------- | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Julho/25   | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas. | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                                                                                      |
-| Outubro/25 | Idem Homologação Julho/25.                                                   | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                                                                                         |
-| Janeiro/26 | Idem Homologação Julho/25.                                                   | Campos IBS/CBS não serão exigidos por regra de validação, porém permanece obrigatório conforme a legislação vigente. Para as NF-e e NFC-e com IBS/CBS as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
-| 01/07/26   | Preenchimento dos campos IBS/CBS obrigatório.                                | Idem Produção Janeiro/26                                                                                                                                                                                                                                  |
-| 03/08/26   | Preenchimento dos campos IBS/CBS obrigatório.                                | Preenchimento dos campos IBS/CBS obrigatório.                                                                                                                                                                                                             |
+|              | Homologação                                                                  | Produção                                                                                                                                                                                                                                                  |
+| ------------ | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Julho/25     | IBS/CBS facultativo. Se preenchidos, as Regras de Validação serão aplicadas. | Campos do IBS/CBS ainda não implantados. Caso informados, ocasionará erro de schema.                                                                                                                                                                      |
+| Outubro/25   | Idem Homologação Julho/25.                                                   | IBS/CBS facultativo. Se preenchidos, as RV serão aplicadas. <br><br> 💡Sem valor jurídico para os novos tributos.                                                                                                                                         |
+| Janeiro/26   | Idem Homologação Julho/25.                                                   | Campos IBS/CBS não serão exigidos por regra de validação, porém permanece obrigatório conforme a legislação vigente. Para as NF-e e NFC-e com IBS/CBS as RV serão aplicadas. <br><br> ⚠️Com valor jurídico para os novos tributos a partir de 01/01/2026. |
+| 01/07/26     | Preenchimento dos campos IBS/CBS obrigatório.                                | Idem Produção Janeiro/26                                                                                                                                                                                                                                  |
+| ~~03/08/26~~ | ~~Preenchimento dos campos IBS/CBS obrigatório.~~                            | ~~Preenchimento dos campos IBS/CBS obrigatório.~~                                                                                                                                                                                                         |
 
 ## Nota de Débito e Crédito
 
