@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-08-11T06:27:00Z
+modDatetime: 2026-08-12T06:23:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -32,346 +32,9 @@ Confira as principais novidades:
 
 ## Sumário
 
-## Histórico de Atualização das Notas Técnicas
-
-Já foram publicadas diversas notas técnicas apresentando adequações dos leiautes dos DF-es (NF-e, NFC-e, CT-e, CT-e OS, BP-e, NF3-e, NFCom e NFS-e Nacional) à reforma tributária, que iniciou seu período de transição em [janeiro de 2026](https://papofiscal.blog/posts/reforma-tributaria-cronograma/). Veja a seguir um histórico das notas técnicas criadas para a NF-e.
-
-### RT - Nota Técnica 2024.002
-
-[Clique para baixar a RT - Nota Técnica 2024.002](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=DaB0yzqdbRU=)<br>
-<span class="text-xs">Versão 1.10 - Publicada em 6 de dezembro de 2024</span>
-
-Esta foi a primeira nota técnica definida conjuntamente entre os Estados, Municípios e Receita Federal do Brasil, modificando o leiaute da NF-e (modelo 55) e NFC-e (modelo 65). Inserindo os grupos e campos relacionados a tributação do Imposto sobre Bens e Serviços (IBS), Contribuição sobre Bens e Serviços (CBS) e Imposto Seletivo (IS), em atendimento as alterações previstas na EC 132/2023 para implementação da Reforma Tributária.
-
-A versão 1.0 publicada em 01 de agosto de 2024 continha 41 páginas. Já a versão 1.10 de 06 de dezembro, passou a compor 67 páginas. Descrevendo além de novos campos, uma série de regras de validação e novos eventos.
-
-### Nota Técnica 2025.002 v1.01
-
-[Clique para baixar a Nota Técnica 2025.002 v1.01](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wuVuolIzJLs=)<br>
-<span class="text-xs">Versão 1.01 - Publicada em 15 de abril de 2025</span>
-
-Esta Nota Técnica substitui a RT NT 2024.002, atualizando as definições dos novos eventos, regras de validação e leiaute da NF-e e NFC-e referente à Reforma Tributária do Consumo.
-
-A versão 1.00 publicada em 28 de março de 2025 continha 48 páginas. Já a versão 1.01 de 15 de abril, passou a compor 50 páginas.
-
-### Nota Técnica 2025.002 v.1.10
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.10](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=B7DBKw%20UPbs=)<br>
-<span class="text-xs">Versão 1.10 - Publicada em 9 de junho de 2025</span>
-
-Esta versão acresentou várias atualizações, como novos campos, criando e alterando regras de validação, e novos eventos para apuração do IBS/CBS, passando a compor 66 páginas.
-
-Dentre as principais alterações destacou-se a dispensa das empresas do Simples Nacional e os MEIs de preencher os novos campos de IBS e CBS nas NF-e e NFC-e, nas emissões realizadas ao longo de 2026. A obrigatoriedade para o Simples Nacional vale a partir de janeiro de 2027. A alteração compatibilizou as regras de validação com a dispensa prevista no artigo 348, inciso III, alínea “c” da Lei Complementar 214/2025.
-
-Outro destaque foi a criação do grupo específico de informações que envolvem antecipação de pagamento. Para referenciar os documentos fiscais relacionados às antecipações financeiras ocorridas antes da efetiva entrega de mercadorias ou prestação de serviços. Por exemplo, casos de operações de venda com entrega futura, nas quais o comprador realiza pagamentos e aguarda a disponibilidade dos bens adquiridos.
-
-### Nota Técnica 2025.002 v.1.20
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.20](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YFz9is%20R6tw=)<br>
-<span class="text-xs">Versão 1.20 - Publicada em 30 de julho de 2025</span>
-
-Esta versão alterou detalhamentos do cronograma, acresentou novos campos, criou e alterou regras de validação, e alterou o nome de eventos, passando a compor 69 páginas.
-
-As principais alterações foram:
-
-- Ajuste na regra de validação referente a obrigatoriedade de informação do IBS e CBS, dispensando os emitentes `CRT 2=Simples Nacional, excesso sublimite de receita bruta`. Assim estes contribuintes terão esta obrigação somente a partir 04/01/2027, conforme previsto no art. 348 da Lei Complementar 214/2025;
-- Novo tipo de nota de crédito: `3- Retorno`;
-- Alterações nos grupos de informações da tributação monofásica.
-- ⚠️ Acrescentou esse alerta sobre a obrigatoriedade dos Eventos em 2026:
-
-  Os eventos integram as obrigações acessórias do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS). E são indispensáveis para a correta apuração dos tributos e de créditos de imposto. Eles visam garantir a integridade e a rastreabilidade das operações realizadas pelos contribuintes, servindo como base de dados para o controle e a transparência do novo modelo tributário.
-
-  De acordo com o artigo 348, §1º, da Emenda Constitucional, os contribuintes estarão dispensados do recolhimento do IBS e da CBS relativamente aos fatos geradores ocorridos entre 1º de janeiro e 31 de dezembro de 2026, desde que cumpram integralmente as obrigações acessórias previstas na legislação.
-
-  Nesse contexto, a apresentação correta e tempestiva dos eventos mencionados neste item é condição essencial para que o contribuinte possa usufruir da dispensa do recolhimento dos tributos nesse período de transição. O não cumprimento dessas obrigações poderá implicar na perda desse benefício, sujeitando o contribuinte ao recolhimento normal dos tributos devidos.
-
-  <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
-    <span class="sm:text-sm text-xs text-[#8b5cf6]">
-      ⚠️ Portanto, os eventos devem ser registrados, a partir de janeiro/2026, sempre que a situação concreta exigir, respeitando os critérios e prazos estabelecidos pela legislação, como forma de garantir o direito à dispensa e contribuir para a efetividade do novo sistema tributário.
-    </span>
-  </div>
-
-### Nota Técnica 2025.002 v.1.30
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.30](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6vT0rTNhFLY=)<br>
-<span class="text-xs">Versão 1.30 - Publicada em 3 de outubro de 2025</span>
-
-As principais alterações foram:
-
-- Mudanças nos detalhamentos do cronograma;
-- Novo campo de data da previsão de entrega ou disponibilização do bem;
-- Novo evento relacionado à apuração de IBS e CBS: `Código 112150 - Atualização da Data de Previsão de Entrega`;
-- Novas finalidades para as notas de débito/crédito;
-- E expanção significativa das regras de validação;
-
-### Nota Técnica 2025.002 v.1.31
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.31](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=xxtjiU7xjnk=)<br>
-<span class="text-xs">Versão 1.31 - Publicada em 11/11/2025</span>
-
-Principais alterações:
-
-- Atualizações em regras de validação, como B25-80, B25-90, B25-100, Q01-20, S01-20, UB56-10 e VC02-30;
-- Inclusão de observação explicativa nas regras de validação UB27-10, UB46-10 e UB65-10, sem impacto nas validações;
-- Rejeição 1001 (para finalidade “Nota de Débito” e “Nota de Crédito”): estendida essa regra para operação de compra governamental, rejeitando a inclusão dos tributos atuais (ICMS, PIS, COFINS, ISS ou IPI). E criada uma exeção, não se aplicando essa regra quando a finalidade for “Nota de Crédito” e o tipo de crédito for `3 = Retorno`.
-- Rejeições 745 e 748 (sem informações de PIS/COFINS): além das “Notas de Débito” e “Notas de Crédito”, a exceção para a exigência de PIS e COFINS passa a incluir a operação de compra governamental `tpOperGov = 2-Recebimento do pagamento`.
-
-### Nota Técnica 2025.002 v.1.32
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.32](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=8H1QDj2ADhQ=)<br>
-<span class="text-xs">Versão 1.32 - Publicada em 25/11/2025</span>
-
-Correção nas regras de validação B25b-20, 3BA02-10, 3BA02-70 e NA01-20.
-
-1️⃣ **B25b-20 – Operação não presencial na NFC-e**: essa validação rejeita emissão de NFC-e quando o indicador de presença (indPres) não corresponde a uma modalidade permitida para esse tipo de documento.
-
-Antes da versão 1.32 a NFC-e só aceitva indPres igual a `1 – Operação presencial` ou `4 – Entrega a domicílio`.
-
-A partir da versão 1.32, também será considerada válida a NFC-e emitida com `5 – Operação presencial fora do estabelecimento`
-
-2️⃣ **3BA02-10 – Chave de acesso referenciada inexistente**: verifica se cada NF-e referenciada (refNFe) realmente existe na base da SEFAZ.
-
-Exceções antes da versão 1.32:
-
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
-<span class="sm:text-sm text-xs text-[#8b5cf6]">NF-e emitida em contingência (tpEmis = 2, 4 ou 5) ou NFF (tpEmis = 3), desde que a referência seja de até um mês anterior ou exista o EPEC. Esta exceção não se aplica para NF-e com finalidade de crédito (tag: finNF-e = 5). </span>
-</div>
-
-A partir da versão 1.32, foi retirada a observação de que a exceção não se aplica para NF-e com finalidade de crédito. Sendo melhor especificado, através da definição dos tipos de nota de crédito para exceção:
-
-- tpNFCredito = `01 – Multa e juros`
-- tpNFCredito = `03 – Retorno`
-
-Sendo mantida a exceção já existente para NF-e complementar (finNFe = 2).
-
-3️⃣ **3BA02-70 – Validação em notas de crédito que a nota referenciada existe e não esteja cancelada**: essa regra se aplicava às notas de crédito (finNFe = 5) com tpNFCredito igual a `01 – Multa e juros` ou `03 – Retorno`. A partir da versão 1.32, a redação da regra foi modernizada e ficou mais objetiva:
-
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
-<span class="sm:text-sm text-xs text-[#8b5cf6]">  - Para cada NF-e referenciada (tag:refNFe):
-
-<ul>
-      <li class="sm:text-sm text-xs text-[#8b5cf6] list-none">
-      - Acessar BD NFE com Chave de Acesso referenciada (se mod=55)
-      </li>
-        <li class="sm:text-sm text-xs text-[#8b5cf6] list-none"> - Chave de acesso referenciada deve existir e não estar cancelada. 
-        </li>
-  </ul>
-</span>
-</div>
-
-4️⃣ **NA01-20 – Exige o ICMSUFDest em operações interestaduais ao consumidor final**: a partir da versão 1.32 a regra também especifica que notas emitidas em operações governamentais classificadas como “recebimento do pagamento” passam a não exigir o grupo ICMSUFDest, evitando rejeições indevidas.
-
-### Nota Técnica 2025.002 v.1.33
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.33](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AklZnck3o6I=)<br>
-<span class="text-xs">Versão 1.33 - Publicada em 02/12/2025</span>
-
-Altera a data de início de aplicação da regra de validação UB12-10, regra que define a obrigatoriedade de preenchimento dos campos relativos ao IBS e à CBS.
-
-O início dessa obrigatoriedade foi postergado para “Implementação futura”, ou seja, ainda sem data definida.
-
-⚠️ Essa flexibilização assegura que a emissão de notas fiscais não será impedida, embora o preenchimento dos campos CBS e IBS permaneça obrigatório conforme a legislação.
-
-### Nota Técnica 2025.002 v.1.34
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.34](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=IwLPdZ67F5M=)<br>
-<span class="text-sm">Versão 1.34 - Publicada em 04/12/2025</span>
-
-🚫 **Regras de validação desabilitadas:**
-
-- UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
-- UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
-- UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
-
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
-  <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    📌 Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
-  </span>
-</div>
-
-🔄 **Regras de validação alteradas:**
-
-- UB26-20 – IBS Estadual
-- UB45-20 – IBS Municipal
-- UB64-20 – CBS
-
-<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
-  <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    📌 Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
-  </span>
-</div>
-
-Com isso, passa a admitir o envio do grupo de redução nos casos em que a tabela cClassTrib indica redução mas a alíquota é zero por força legal.
-
-### Nota Técnica 2025.002 v.1.35
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.35](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SA3Qh5Htywo=)<br>
-<span class="text-xs">Versão 1.35 - Publicada em 31/03/2026</span>
-
-Postergação da aplicação das regras de validação relacionadas à tributação monofásica do IBS e da CBS no ambiente de homologação. Indicando que o fisco ainda deverá promover ajustes técnicos nessas regras ao longo de 2026.
-
-### Nota Técnica 2025.002 v.1.36
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.36](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bBbBVKSai3U=)<br>
-<span class="text-xs">Versão 1.36 - Publicada em 30/04/2026</span>
-
-- Mudanças trazidas pelos Ajustes SINIEF nº 49/2025 e 8/2026, normas emitidas pelo CONFAZ em conjunto com a Receita Federal do Brasil, admitindo hipóteses para emissão da NF-e de [débito e crédito](https://papofiscal.blog/posts/reforma-tributaria-notas-fiscais-de-debito-e-credito) com reflexos no controle do ICMS para situações específicas, como vendas com pagamento antecipado, perda de estoque, redução de valores e retorno de mercadorias não entregues;
-- Criação do tipo de nota de crédito `06 – Retorno por recusa parcial na entrega`. Fazendo distinção entre recusa total e parcial, exigindo que a NF-e apresente quais itens foram recusados e a referencia ao item da nota de venda quando parcial;
-- Nova regra de validação **I08-141**: controle sobre correto preenchimento do CFOP em notas de devolução ou retorno emitidas por MEI (CFOP aceitos: 1.202, 1.553, 2.202,2.553, 5.202 e 6.202);
-- Regras de validação alteradas:
-  - `I08-140` e `I08-144`: controlam o uso de CFOPs de devolução apenas em notas de devolução ou retorno por recusa/não entrega;
-  - `VC02-07` e `VC02-10`: tornando obrigatório o referenciamento a nível de item nas notas de retorno parcial por recusa;
-  - `UB18-10`, `UB37-10` e `B56-10`: flexibiliza a informação das alíquotas de IBS e CBS em notas de redução de valores;
-  - `B25-80`: admitindo uma única nota para tratar tanto os tributos atuais (ICMS, IPI, PIS, Cofins, etc) quanto os novos os novos tributos IBS/CBS, nos cenários de notas de débito e crédito (notas de retorno por recusa/não entrega, redução de valores, perda em estoque) introduzidos pelo Ajuste Sinief 49/2025 (exceto pagamento antecipado, não mencionado nesta regra de validação).
-
-O cronograma de implantação previsto na Nota Técnica:
-
-- Ambiente de homologação: até 1º de julho de 2026
-- Ambiente de produção: 03 de agosto de 2026
-
-### Nota Técnica 2025.002 v.1.40
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.40](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=lWEyoabukyw=)<br>
-<span class="text-xs">Versão 1.40 - Publicada em 20/05/2026</span>
-
-- Criação do campo `cIndOp - Código Indicador do Local da Operação de Fornecimento`, obrigatório quando:
-
-  - Leilão judicial ou licitação promovida pelo poder público (`cIndOp=010104`)
-  - Constatação de irregularidade pela falta de documentação fiscal ou acobertamento por documentação inidônea (`cIndOp=010105`)
-
-- E respectivas regras de validação vinculadas ao `cIndOp`:
-
-  - B25d-10: Não permite uso do `cIndOp` na NFC-e (modelo 65);
-  - B25d-20: Não permite `cIndOp` quando a respectiva tabela `Código Indicador de Local da Operação` indicar que o código não deve ser utilizado na NF-e;
-  - B25d-30: Local de Retirada não informado quando informado `cIndOp=010104` ou `cIndOp=010105`.
-
-- Atualização dos valores de `tpEnteGov - Tipo de ente governamental`, acrescentando as opções `5=Consórcio Público` e `6=Comitê Gestor do IBS`;
-- Os valores do `tpOperGov - Tipo de operação com o ente governamental ` passa a ter quatro situações:
-
-  - `1 = Fornecimento com pagamento posterior;`
-  - `2 = Recebimento do pagamento com fornecimento já realizado;`
-  - `3 = Fornecimento com pagamento já realizado;` e
-  - `4 = Recebimento do pagamento com fornecimento posterior`
-
-- E criação do campo `refDFeAnt - Chave de acesso do documento fiscal anterior`, com uma série de regras de validação para garantir o referenciamento correto da nota especificamente no caso de operação com ente governamental igual a 2-Recebimento do pagamento com fornecimento já realizado (`tpOperGov=2`) ou 3-Fornecimento com pagamento já realizado (`tpOperGov=3`).
-
-- Novo campo `ISUFEmit` para informar a inscrição SUFRAMA do emitente;
-
-- Novo campo `pDevTrib - Percentual de devolução`, incluído no `gDevTrib - Grupo de Informações da devolução de tributos` (“cashback”) do IBS da UF, IBS do Município e da CBS, e regras de validação relacionadas;
-
-- Campo do Imposto Seletivo tem alteração de nomenclatura, de `pISEspec` passa a se chamar `adRemIS`;
-
-- Criação do grupo `gALCZFMCBS - Grupo de operações em áreas incentivadas (ALC/ZFM) - CBS (alíquota zero)`destinado à identificação de operações realizadas em:
-
-  - Zona Franca de Manaus (ZFM);
-  - Áreas de Livre Comércio (ALC).
-
-- Validações por cClassTrib para notas de débito e crédito:
-
-  - UB14-60: valida o cClassTrib compatível com o tipo de Nota de Débito ou Crédito:
-    <div class="overflow-x-auto sm:text-sm text-xs">
-
-    | cClassTrib                                     | tpNFDebito | tpNFCredito |
-    | :--------------------------------------------- | :--------: | :---------: |
-    | 10030-Estorno de crédito por perda             |     07     |      -      |
-    | 800001-Fusão, cisão ou incorporação            |     05     |     05      |
-    | 800002-Transferência de crédito do associado   |     01     |      -      |
-    | 810001-Crédito presumido IBS ZFM               |     -      |     02      |
-    | 811001-Anulação Crédito por Saída Imune/Isenta |     02     |      -      |
-    | 811002-Débito de NF não processada na apuração |     03     |      -      |
-    | 811003-Desenquadramento Simples Nacional       |     08     |      -      |
-
-  </div>
-
-  - UB14-70: valida o cClassTrib compatível com o tipo de Nota de Débito:
-    <div class="overflow-x-auto sm:text-sm text-xs">
-
-    | tpNFDebito                                               | cClassTrib  |
-    | :------------------------------------------------------- | :---------: |
-    | 01=Transferência de créditos para Cooperativas;          |   800002    |
-    | 02=Anulação de Crédito por Saídas Imunes/Isentas;        |   811001    |
-    | 03=Débitos de notas fiscais não processadas na apuração; |   811002    |
-    | 04=Multa e juros;                                        | Não limitar |
-    | 05=Transferência de crédito na sucessão;                 |   800001    |
-    | 06=Pagamento antecipado;                                 | Não limitar |
-    | 07=Perda em estoque;                                     |   410030    |
-    | 08=Desenquadramento do SN;                               |   811003    |
-
-    </div>
-
-  - UB14-80: valida o cClassTrib compatível com o tipo de Nota de Crédito:
-    <div class="overflow-x-auto sm:text-sm text-xs">
-
-    | tpNFCredito                                                                                           |                 cClassTrib                 |
-    | :---------------------------------------------------------------------------------------------------- | :----------------------------------------: |
-    | 01=Multa e Juros                                                                                      |                Não limitar                 |
-    | 02=Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)   | &nbsp;&nbsp;&nbsp;810001&nbsp;&nbsp;&nbsp; |
-    | 03=Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega |                Não limitar                 |
-    | 04=Redução de valores                                                                                 |                Não limitar                 |
-    | 05=Transferência de crédito na sucessão                                                               |                   800001                   |
-    | 06=Retorno por recusa parcial na entrega                                                              |                Não limitar                 |
-
-    </div>
-
-- Devoluções passam a exigir referenciamento exclusivamente por item (DFeReferenciado), exigindo maior rastreabilidade documental;
-
-- Regras de validação incluídas:
-
-  - `B25d-10, B25d-20, B25d-30`: relacionadas ao campo `cIndOp - Código Indicador do Local da Operação de Fornecimento`;
-  - `BB05-10, BB05-20, BB05-30, BB05-40, BB05-50, BB05-60, BB05-70, BB05-80, BB05-90, BB05-100, BB05-110, BB05-120, BB05-130, BB05-140, BB05-150, BB05-160, BB05-170, BB05-180, BB05-190, BB05-200`: relacionadas ao DFe referenciado em operação com ente governamental;
-  - `C22-10, C22-20, UB66a-10, UB66a-20, UB66c-10, UB66e-10`: relacionadas à área incentivada SUFRAMA;
-  - `UB14-60, UB14-70, UB14-80`: relacionadas a validação entre `cClassTrib` e os tipos de nota de débito ou crédito;
-  - `UB24-10, UB43-10, UB62-10, UB62a-10, UB63-10`: relacionadas ao grupo de devolução do IBS e da CBS;
-  - `UB56-20`: relacionada ao controle da alíquota de CBS a partir de 2027;
-  - `VC02-40, VC02-50, VC03-20`: relacionadas a nota referenciada por item nas devoluções.
-
-- Regras de validação alteradas:
-  - `B10a-30`: ajuste para desconsiderar a hora na validação da data de previsão anterior a data/hora de saída;
-  - `BB02-10`: adiciona o `tpEnteGov` "_5-Consórcio Público_" e "_6-Comitê Gestor do IBS_" na validação da alíquota de outros entes na compra governamental;
-  - `E18-30`: ajuste para considerar tag "dest/ISUF" na validação se UF/Município do destinatário pertence a SUFRAMA;
-  - `UB26-20, UB45-20, UB64-20, UB82a-10`: criada exceção a regra de obrigatoriedade do grupo de redução de alíquota do IBS para quando a CST possui indicação que não permite informação do IBS/CBS (Isenção, Imunidade e não incidência, Tributação monofásica, entre outros);
-  - `UB56-10`: atualizada sua lista de municípios pertencentes as Áreas de Livre Comércio (ALC), para quais permite alíquota zero da CBS, como exceção a exigência da alíquota de 0,9% entre 2025 e 2026;
-  - `UB123-10`e `UB127-10`: removida a exceção em que permitia crédito presumido no fornecimento de bem móvel usado por pessoa física quando a tabela cCredPres indicar não permitir uso do crédito presumido. Desta forma agora precisa respeitar rigorasamente a tabela. Contudo, tal exceção segue na regra UB120-20, que controla a inclusão do grupo de crédito presumido, porém baseado na tabela cClassTrib;
-  - `UB133-10`: a mensagem de validação, que exige ter um único tipo de classificação do item referente ao crédito presumido sobre o saldo devedor na Zona Franca de Manauas, foi aprimorada passando a apontar o item inválido;
-  - `VB01-05, VB01-10, VB01-20`: validações relacionadas ao total do item com os novos tributos foi aprimorada passando a apontar o item inválido;
-  - `VC02-14`: regra principal que nas operações de devolução exigia o referenciamento apenas a nível de nota, que a partir de 01/09/26 passará exigir o referenciamnento detalhado a nível de item;
-  - `VC02-15`: regra descontinuada, ela seria utilizada para validar o referenciamento do número do item na nota de devolução, contudo foi substituída pela regra `VC03-20` e que combinado com a regra `VC02-14` continuará fazendo o mesmo papel. O motivo é que a regra `VC03-20` torna-se mais genérica e combinada com outras regras, que também exigem o referenciamento da chave da nota por item, complementará exigindo também o referenciamento do número do item;
-  - `W07-10`: esta regra que verificava o valor total dos produtos/serviços sujeitos ao ICMS, comparando com a soma do valor total dos respectivos itens, passa a ser obrigatória impedindo qualquer flexibilização. Além disso, sua descrição foi alterada informando que se aplica também para itens sujeitos ao IBS e CBS;
-  - `UB12-10`: restabelece validação que rejeita notas emitidas sem preenchido do grupo IBS/CBS, tendo início no ambiente de homologação em 01/07/26 e em produção ativada em 03/08/26, para empresas do Regime Normal (CRT=3). Mas inclui exceção para combustíveis sujeitos à tributação monofásica.
-
-📅 Cronograma de implantação previsto na Nota Técnica:
-
-- 01/07/26: ambiente de Homologação para empresas de Regime Normal (CRT 3).
-- 03/08/26: ambiente de Produção, ativando as regras de validação com especial atenção para a `UB12-10`, de rejeição por ausência de IBS/CBS para empresas CRT 3.
-- 01/09/26: ambiente de Produção, ativando especificamente a regra de validação `VC02-14` (DFeReferenciado) para notas de devolução com referenciamento por item.
-- 04/01/27: obrigatoriedades estendidas em Produção para os demais regimes (CRT 1, 2 e 4).
-
-Mudanças em Eventos Fiscais
-
-- Exclusão: o evento 211120 (Destinação de item para consumo pessoal) foi eliminado da estrutura da NF-e. A remoção ocorreu após revogação do §6º do art. 57 da LC 214/2025 pela LC 227/2026.
-- Alteração: o evento 211110 (Solicitação de Apropriação de Crédito Presumido) foi modificado no layout XML e passou a permitir que o próprio emitente da nota seja o autor do evento. E poderá ser utilizado quando a informação não tiver sido incluída originalmente e quando houver necessidade de correção posterior.
-
-### Nota Técnica 2025.002 v.1.50
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.50](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=pD4YrecPV6s=)<br>
-<span class="text-xs">Versão 1.50 - Publicada em 03/06/2026</span>
-
-- Reformulação do layout da tributação monofásica de combustíveis e regras de validação, com entrada em produção agendada para 03/11/2026;
-- Grupos de campos específico para detalhar a mistura de Etanol Anidro (EAC) na gasolina;
-- Vigência em homologação a partir de setembro de 2026.
-
-### Nota Técnica 2025.002 v.1.51
-
-[Clique para baixar a Nota Técnica 2025.002 v.1.50](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AKD/muSmiIY=)<br>
-<span class="text-xs">Versão 1.51 - Publicada em 04/08/2026</span>
-
-Última versão publicada, tendo as alterações mais relevantes já destacadas no início deste artigo.
-
 Vamos seguir, apresentando abaixo, uma visão geral e atualizada de todo o escopo das adequações da NF-e e NFC-e.
 
 ## Cronograma
-
-Em Produção, no ano de 2025 as informações de tributação relativas ao IBS, CBS e IS serão opcionais e somente serão validadas se forem preenchidas. A partir de janeiro de 2026, as novas regras de validação referentes a tributação do IBS e da CBS serão aplicadas, entrando em efetiva operacionalização.
 
 <div>
   <span class="dark:text-white/90 relative">Detalhamento do Cronograma para CRT 3=Regime Normal:
@@ -2786,7 +2449,340 @@ Criação de novos eventos destinados a ajustar a apuração assistida do IBS e 
 
 O evento de “Imobilização de Item” por exemplo, deverá ser gerado pelo adquirente de bem, quando este for integrado ao seu ativo imobilizado, a fim de viabilizar o controle do prazo de 180 dias para apreciação dos pedidos de ressarcimento do respectivo crédito, caso apurar saldo a recuperar nos termos do art. 39 e 40, I da LC 214/2025.
 
----
+## Histórico de Atualização das Notas Técnicas
+
+Já foram publicadas diversas notas técnicas apresentando adequações dos leiautes dos DF-es (NF-e, NFC-e, CT-e, CT-e OS, BP-e, NF3-e, NFCom e NFS-e Nacional) à reforma tributária, que iniciou seu período de transição em [janeiro de 2026](https://papofiscal.blog/posts/reforma-tributaria-cronograma/). Veja a seguir um histórico das notas técnicas criadas para a NF-e.
+
+### RT - Nota Técnica 2024.002
+
+[Clique para baixar a RT - Nota Técnica 2024.002](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=DaB0yzqdbRU=)<br>
+<span class="text-xs">Versão 1.10 - Publicada em 6 de dezembro de 2024</span>
+
+Esta foi a primeira nota técnica definida conjuntamente entre os Estados, Municípios e Receita Federal do Brasil, modificando o leiaute da NF-e (modelo 55) e NFC-e (modelo 65). Inserindo os grupos e campos relacionados a tributação do Imposto sobre Bens e Serviços (IBS), Contribuição sobre Bens e Serviços (CBS) e Imposto Seletivo (IS), em atendimento as alterações previstas na EC 132/2023 para implementação da Reforma Tributária.
+
+A versão 1.0 publicada em 01 de agosto de 2024 continha 41 páginas. Já a versão 1.10 de 06 de dezembro, passou a compor 67 páginas. Descrevendo além de novos campos, uma série de regras de validação e novos eventos.
+
+### Nota Técnica 2025.002 v1.01
+
+[Clique para baixar a Nota Técnica 2025.002 v1.01](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wuVuolIzJLs=)<br>
+<span class="text-xs">Versão 1.01 - Publicada em 15 de abril de 2025</span>
+
+Esta Nota Técnica substitui a RT NT 2024.002, atualizando as definições dos novos eventos, regras de validação e leiaute da NF-e e NFC-e referente à Reforma Tributária do Consumo.
+
+A versão 1.00 publicada em 28 de março de 2025 continha 48 páginas. Já a versão 1.01 de 15 de abril, passou a compor 50 páginas.
+
+### Nota Técnica 2025.002 v.1.10
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.10](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=B7DBKw%20UPbs=)<br>
+<span class="text-xs">Versão 1.10 - Publicada em 9 de junho de 2025</span>
+
+Esta versão acresentou várias atualizações, como novos campos, criando e alterando regras de validação, e novos eventos para apuração do IBS/CBS, passando a compor 66 páginas.
+
+Dentre as principais alterações destacou-se a dispensa das empresas do Simples Nacional e os MEIs de preencher os novos campos de IBS e CBS nas NF-e e NFC-e, nas emissões realizadas ao longo de 2026. A obrigatoriedade para o Simples Nacional vale a partir de janeiro de 2027. A alteração compatibilizou as regras de validação com a dispensa prevista no artigo 348, inciso III, alínea “c” da Lei Complementar 214/2025.
+
+Outro destaque foi a criação do grupo específico de informações que envolvem antecipação de pagamento. Para referenciar os documentos fiscais relacionados às antecipações financeiras ocorridas antes da efetiva entrega de mercadorias ou prestação de serviços. Por exemplo, casos de operações de venda com entrega futura, nas quais o comprador realiza pagamentos e aguarda a disponibilidade dos bens adquiridos.
+
+### Nota Técnica 2025.002 v.1.20
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.20](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YFz9is%20R6tw=)<br>
+<span class="text-xs">Versão 1.20 - Publicada em 30 de julho de 2025</span>
+
+Esta versão alterou detalhamentos do cronograma, acresentou novos campos, criou e alterou regras de validação, e alterou o nome de eventos, passando a compor 69 páginas.
+
+As principais alterações foram:
+
+- Ajuste na regra de validação referente a obrigatoriedade de informação do IBS e CBS, dispensando os emitentes `CRT 2=Simples Nacional, excesso sublimite de receita bruta`. Assim estes contribuintes terão esta obrigação somente a partir 04/01/2027, conforme previsto no art. 348 da Lei Complementar 214/2025;
+- Novo tipo de nota de crédito: `3- Retorno`;
+- Alterações nos grupos de informações da tributação monofásica.
+- ⚠️ Acrescentou esse alerta sobre a obrigatoriedade dos Eventos em 2026:
+
+  Os eventos integram as obrigações acessórias do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS). E são indispensáveis para a correta apuração dos tributos e de créditos de imposto. Eles visam garantir a integridade e a rastreabilidade das operações realizadas pelos contribuintes, servindo como base de dados para o controle e a transparência do novo modelo tributário.
+
+  De acordo com o artigo 348, §1º, da Emenda Constitucional, os contribuintes estarão dispensados do recolhimento do IBS e da CBS relativamente aos fatos geradores ocorridos entre 1º de janeiro e 31 de dezembro de 2026, desde que cumpram integralmente as obrigações acessórias previstas na legislação.
+
+  Nesse contexto, a apresentação correta e tempestiva dos eventos mencionados neste item é condição essencial para que o contribuinte possa usufruir da dispensa do recolhimento dos tributos nesse período de transição. O não cumprimento dessas obrigações poderá implicar na perda desse benefício, sujeitando o contribuinte ao recolhimento normal dos tributos devidos.
+
+  <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+    <span class="sm:text-sm text-xs text-[#8b5cf6]">
+      ⚠️ Portanto, os eventos devem ser registrados, a partir de janeiro/2026, sempre que a situação concreta exigir, respeitando os critérios e prazos estabelecidos pela legislação, como forma de garantir o direito à dispensa e contribuir para a efetividade do novo sistema tributário.
+    </span>
+  </div>
+
+### Nota Técnica 2025.002 v.1.30
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.30](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6vT0rTNhFLY=)<br>
+<span class="text-xs">Versão 1.30 - Publicada em 3 de outubro de 2025</span>
+
+As principais alterações foram:
+
+- Mudanças nos detalhamentos do cronograma;
+- Novo campo de data da previsão de entrega ou disponibilização do bem;
+- Novo evento relacionado à apuração de IBS e CBS: `Código 112150 - Atualização da Data de Previsão de Entrega`;
+- Novas finalidades para as notas de débito/crédito;
+- E expanção significativa das regras de validação;
+
+### Nota Técnica 2025.002 v.1.31
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.31](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=xxtjiU7xjnk=)<br>
+<span class="text-xs">Versão 1.31 - Publicada em 11/11/2025</span>
+
+Principais alterações:
+
+- Atualizações em regras de validação, como B25-80, B25-90, B25-100, Q01-20, S01-20, UB56-10 e VC02-30;
+- Inclusão de observação explicativa nas regras de validação UB27-10, UB46-10 e UB65-10, sem impacto nas validações;
+- Rejeição 1001 (para finalidade “Nota de Débito” e “Nota de Crédito”): estendida essa regra para operação de compra governamental, rejeitando a inclusão dos tributos atuais (ICMS, PIS, COFINS, ISS ou IPI). E criada uma exeção, não se aplicando essa regra quando a finalidade for “Nota de Crédito” e o tipo de crédito for `3 = Retorno`.
+- Rejeições 745 e 748 (sem informações de PIS/COFINS): além das “Notas de Débito” e “Notas de Crédito”, a exceção para a exigência de PIS e COFINS passa a incluir a operação de compra governamental `tpOperGov = 2-Recebimento do pagamento`.
+
+### Nota Técnica 2025.002 v.1.32
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.32](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=8H1QDj2ADhQ=)<br>
+<span class="text-xs">Versão 1.32 - Publicada em 25/11/2025</span>
+
+Correção nas regras de validação B25b-20, 3BA02-10, 3BA02-70 e NA01-20.
+
+1️⃣ **B25b-20 – Operação não presencial na NFC-e**: essa validação rejeita emissão de NFC-e quando o indicador de presença (indPres) não corresponde a uma modalidade permitida para esse tipo de documento.
+
+Antes da versão 1.32 a NFC-e só aceitva indPres igual a `1 – Operação presencial` ou `4 – Entrega a domicílio`.
+
+A partir da versão 1.32, também será considerada válida a NFC-e emitida com `5 – Operação presencial fora do estabelecimento`
+
+2️⃣ **3BA02-10 – Chave de acesso referenciada inexistente**: verifica se cada NF-e referenciada (refNFe) realmente existe na base da SEFAZ.
+
+Exceções antes da versão 1.32:
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
+<span class="sm:text-sm text-xs text-[#8b5cf6]">NF-e emitida em contingência (tpEmis = 2, 4 ou 5) ou NFF (tpEmis = 3), desde que a referência seja de até um mês anterior ou exista o EPEC. Esta exceção não se aplica para NF-e com finalidade de crédito (tag: finNF-e = 5). </span>
+</div>
+
+A partir da versão 1.32, foi retirada a observação de que a exceção não se aplica para NF-e com finalidade de crédito. Sendo melhor especificado, através da definição dos tipos de nota de crédito para exceção:
+
+- tpNFCredito = `01 – Multa e juros`
+- tpNFCredito = `03 – Retorno`
+
+Sendo mantida a exceção já existente para NF-e complementar (finNFe = 2).
+
+3️⃣ **3BA02-70 – Validação em notas de crédito que a nota referenciada existe e não esteja cancelada**: essa regra se aplicava às notas de crédito (finNFe = 5) com tpNFCredito igual a `01 – Multa e juros` ou `03 – Retorno`. A partir da versão 1.32, a redação da regra foi modernizada e ficou mais objetiva:
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
+<span class="sm:text-sm text-xs text-[#8b5cf6]">  - Para cada NF-e referenciada (tag:refNFe):
+
+<ul>
+      <li class="sm:text-sm text-xs text-[#8b5cf6] list-none">
+      - Acessar BD NFE com Chave de Acesso referenciada (se mod=55)
+      </li>
+        <li class="sm:text-sm text-xs text-[#8b5cf6] list-none"> - Chave de acesso referenciada deve existir e não estar cancelada. 
+        </li>
+  </ul>
+</span>
+</div>
+
+4️⃣ **NA01-20 – Exige o ICMSUFDest em operações interestaduais ao consumidor final**: a partir da versão 1.32 a regra também especifica que notas emitidas em operações governamentais classificadas como “recebimento do pagamento” passam a não exigir o grupo ICMSUFDest, evitando rejeições indevidas.
+
+### Nota Técnica 2025.002 v.1.33
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.33](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AklZnck3o6I=)<br>
+<span class="text-xs">Versão 1.33 - Publicada em 02/12/2025</span>
+
+Altera a data de início de aplicação da regra de validação UB12-10, regra que define a obrigatoriedade de preenchimento dos campos relativos ao IBS e à CBS.
+
+O início dessa obrigatoriedade foi postergado para “Implementação futura”, ou seja, ainda sem data definida.
+
+⚠️ Essa flexibilização assegura que a emissão de notas fiscais não será impedida, embora o preenchimento dos campos CBS e IBS permaneça obrigatório conforme a legislação.
+
+### Nota Técnica 2025.002 v.1.34
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.34](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=IwLPdZ67F5M=)<br>
+<span class="text-sm">Versão 1.34 - Publicada em 04/12/2025</span>
+
+🚫 **Regras de validação desabilitadas:**
+
+- UB26-15 – Rejeição: Grupo de redução de alíquota do IBS Estadual informado indevidamente
+- UB45-15 – Rejeição: Grupo de redução de alíquota do IBS Municipal informado indevidamente
+- UB64-15 – Rejeição: Grupo de redução de alíquota da CBS informado indevidamente
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Essas regras rejeitavam a emissão da nota quando informado simultaneamente alíquota zero e o grupo de redução (gRed)
+  </span>
+</div>
+
+🔄 **Regras de validação alteradas:**
+
+- UB26-20 – IBS Estadual
+- UB45-20 – IBS Municipal
+- UB64-20 – CBS
+
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
+  <span class="sm:text-sm text-xs text-[#8b5cf6]">
+    📌 Removendo a exigência da alíquota ser maior que zero para permitir a aplicação da redução.
+  </span>
+</div>
+
+Com isso, passa a admitir o envio do grupo de redução nos casos em que a tabela cClassTrib indica redução mas a alíquota é zero por força legal.
+
+### Nota Técnica 2025.002 v.1.35
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.35](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SA3Qh5Htywo=)<br>
+<span class="text-xs">Versão 1.35 - Publicada em 31/03/2026</span>
+
+Postergação da aplicação das regras de validação relacionadas à tributação monofásica do IBS e da CBS no ambiente de homologação. Indicando que o fisco ainda deverá promover ajustes técnicos nessas regras ao longo de 2026.
+
+### Nota Técnica 2025.002 v.1.36
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.36](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bBbBVKSai3U=)<br>
+<span class="text-xs">Versão 1.36 - Publicada em 30/04/2026</span>
+
+- Mudanças trazidas pelos Ajustes SINIEF nº 49/2025 e 8/2026, normas emitidas pelo CONFAZ em conjunto com a Receita Federal do Brasil, admitindo hipóteses para emissão da NF-e de [débito e crédito](https://papofiscal.blog/posts/reforma-tributaria-notas-fiscais-de-debito-e-credito) com reflexos no controle do ICMS para situações específicas, como vendas com pagamento antecipado, perda de estoque, redução de valores e retorno de mercadorias não entregues;
+- Criação do tipo de nota de crédito `06 – Retorno por recusa parcial na entrega`. Fazendo distinção entre recusa total e parcial, exigindo que a NF-e apresente quais itens foram recusados e a referencia ao item da nota de venda quando parcial;
+- Nova regra de validação **I08-141**: controle sobre correto preenchimento do CFOP em notas de devolução ou retorno emitidas por MEI (CFOP aceitos: 1.202, 1.553, 2.202,2.553, 5.202 e 6.202);
+- Regras de validação alteradas:
+  - `I08-140` e `I08-144`: controlam o uso de CFOPs de devolução apenas em notas de devolução ou retorno por recusa/não entrega;
+  - `VC02-07` e `VC02-10`: tornando obrigatório o referenciamento a nível de item nas notas de retorno parcial por recusa;
+  - `UB18-10`, `UB37-10` e `B56-10`: flexibiliza a informação das alíquotas de IBS e CBS em notas de redução de valores;
+  - `B25-80`: admitindo uma única nota para tratar tanto os tributos atuais (ICMS, IPI, PIS, Cofins, etc) quanto os novos os novos tributos IBS/CBS, nos cenários de notas de débito e crédito (notas de retorno por recusa/não entrega, redução de valores, perda em estoque) introduzidos pelo Ajuste Sinief 49/2025 (exceto pagamento antecipado, não mencionado nesta regra de validação).
+
+O cronograma de implantação previsto na Nota Técnica:
+
+- Ambiente de homologação: até 1º de julho de 2026
+- Ambiente de produção: 03 de agosto de 2026
+
+### Nota Técnica 2025.002 v.1.40
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.40](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=lWEyoabukyw=)<br>
+<span class="text-xs">Versão 1.40 - Publicada em 20/05/2026</span>
+
+- Criação do campo `cIndOp - Código Indicador do Local da Operação de Fornecimento`, obrigatório quando:
+
+  - Leilão judicial ou licitação promovida pelo poder público (`cIndOp=010104`)
+  - Constatação de irregularidade pela falta de documentação fiscal ou acobertamento por documentação inidônea (`cIndOp=010105`)
+
+- E respectivas regras de validação vinculadas ao `cIndOp`:
+
+  - B25d-10: Não permite uso do `cIndOp` na NFC-e (modelo 65);
+  - B25d-20: Não permite `cIndOp` quando a respectiva tabela `Código Indicador de Local da Operação` indicar que o código não deve ser utilizado na NF-e;
+  - B25d-30: Local de Retirada não informado quando informado `cIndOp=010104` ou `cIndOp=010105`.
+
+- Atualização dos valores de `tpEnteGov - Tipo de ente governamental`, acrescentando as opções `5=Consórcio Público` e `6=Comitê Gestor do IBS`;
+- Os valores do `tpOperGov - Tipo de operação com o ente governamental ` passa a ter quatro situações:
+
+  - `1 = Fornecimento com pagamento posterior;`
+  - `2 = Recebimento do pagamento com fornecimento já realizado;`
+  - `3 = Fornecimento com pagamento já realizado;` e
+  - `4 = Recebimento do pagamento com fornecimento posterior`
+
+- E criação do campo `refDFeAnt - Chave de acesso do documento fiscal anterior`, com uma série de regras de validação para garantir o referenciamento correto da nota especificamente no caso de operação com ente governamental igual a 2-Recebimento do pagamento com fornecimento já realizado (`tpOperGov=2`) ou 3-Fornecimento com pagamento já realizado (`tpOperGov=3`).
+
+- Novo campo `ISUFEmit` para informar a inscrição SUFRAMA do emitente;
+
+- Novo campo `pDevTrib - Percentual de devolução`, incluído no `gDevTrib - Grupo de Informações da devolução de tributos` (“cashback”) do IBS da UF, IBS do Município e da CBS, e regras de validação relacionadas;
+
+- Campo do Imposto Seletivo tem alteração de nomenclatura, de `pISEspec` passa a se chamar `adRemIS`;
+
+- Criação do grupo `gALCZFMCBS - Grupo de operações em áreas incentivadas (ALC/ZFM) - CBS (alíquota zero)`destinado à identificação de operações realizadas em:
+
+  - Zona Franca de Manaus (ZFM);
+  - Áreas de Livre Comércio (ALC).
+
+- Validações por cClassTrib para notas de débito e crédito:
+
+  - UB14-60: valida o cClassTrib compatível com o tipo de Nota de Débito ou Crédito:
+    <div class="overflow-x-auto sm:text-sm text-xs">
+
+    | cClassTrib                                     | tpNFDebito | tpNFCredito |
+    | :--------------------------------------------- | :--------: | :---------: |
+    | 10030-Estorno de crédito por perda             |     07     |      -      |
+    | 800001-Fusão, cisão ou incorporação            |     05     |     05      |
+    | 800002-Transferência de crédito do associado   |     01     |      -      |
+    | 810001-Crédito presumido IBS ZFM               |     -      |     02      |
+    | 811001-Anulação Crédito por Saída Imune/Isenta |     02     |      -      |
+    | 811002-Débito de NF não processada na apuração |     03     |      -      |
+    | 811003-Desenquadramento Simples Nacional       |     08     |      -      |
+
+  </div>
+
+  - UB14-70: valida o cClassTrib compatível com o tipo de Nota de Débito:
+    <div class="overflow-x-auto sm:text-sm text-xs">
+
+    | tpNFDebito                                               | cClassTrib  |
+    | :------------------------------------------------------- | :---------: |
+    | 01=Transferência de créditos para Cooperativas;          |   800002    |
+    | 02=Anulação de Crédito por Saídas Imunes/Isentas;        |   811001    |
+    | 03=Débitos de notas fiscais não processadas na apuração; |   811002    |
+    | 04=Multa e juros;                                        | Não limitar |
+    | 05=Transferência de crédito na sucessão;                 |   800001    |
+    | 06=Pagamento antecipado;                                 | Não limitar |
+    | 07=Perda em estoque;                                     |   410030    |
+    | 08=Desenquadramento do SN;                               |   811003    |
+
+    </div>
+
+  - UB14-80: valida o cClassTrib compatível com o tipo de Nota de Crédito:
+    <div class="overflow-x-auto sm:text-sm text-xs">
+
+    | tpNFCredito                                                                                           |                 cClassTrib                 |
+    | :---------------------------------------------------------------------------------------------------- | :----------------------------------------: |
+    | 01=Multa e Juros                                                                                      |                Não limitar                 |
+    | 02=Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25)   | &nbsp;&nbsp;&nbsp;810001&nbsp;&nbsp;&nbsp; |
+    | 03=Retorno por recusa total na entrega ou por não localização do destinatário na tentativa de entrega |                Não limitar                 |
+    | 04=Redução de valores                                                                                 |                Não limitar                 |
+    | 05=Transferência de crédito na sucessão                                                               |                   800001                   |
+    | 06=Retorno por recusa parcial na entrega                                                              |                Não limitar                 |
+
+    </div>
+
+- Devoluções passam a exigir referenciamento exclusivamente por item (DFeReferenciado), exigindo maior rastreabilidade documental;
+
+- Regras de validação incluídas:
+
+  - `B25d-10, B25d-20, B25d-30`: relacionadas ao campo `cIndOp - Código Indicador do Local da Operação de Fornecimento`;
+  - `BB05-10, BB05-20, BB05-30, BB05-40, BB05-50, BB05-60, BB05-70, BB05-80, BB05-90, BB05-100, BB05-110, BB05-120, BB05-130, BB05-140, BB05-150, BB05-160, BB05-170, BB05-180, BB05-190, BB05-200`: relacionadas ao DFe referenciado em operação com ente governamental;
+  - `C22-10, C22-20, UB66a-10, UB66a-20, UB66c-10, UB66e-10`: relacionadas à área incentivada SUFRAMA;
+  - `UB14-60, UB14-70, UB14-80`: relacionadas a validação entre `cClassTrib` e os tipos de nota de débito ou crédito;
+  - `UB24-10, UB43-10, UB62-10, UB62a-10, UB63-10`: relacionadas ao grupo de devolução do IBS e da CBS;
+  - `UB56-20`: relacionada ao controle da alíquota de CBS a partir de 2027;
+  - `VC02-40, VC02-50, VC03-20`: relacionadas a nota referenciada por item nas devoluções.
+
+- Regras de validação alteradas:
+  - `B10a-30`: ajuste para desconsiderar a hora na validação da data de previsão anterior a data/hora de saída;
+  - `BB02-10`: adiciona o `tpEnteGov` "_5-Consórcio Público_" e "_6-Comitê Gestor do IBS_" na validação da alíquota de outros entes na compra governamental;
+  - `E18-30`: ajuste para considerar tag "dest/ISUF" na validação se UF/Município do destinatário pertence a SUFRAMA;
+  - `UB26-20, UB45-20, UB64-20, UB82a-10`: criada exceção a regra de obrigatoriedade do grupo de redução de alíquota do IBS para quando a CST possui indicação que não permite informação do IBS/CBS (Isenção, Imunidade e não incidência, Tributação monofásica, entre outros);
+  - `UB56-10`: atualizada sua lista de municípios pertencentes as Áreas de Livre Comércio (ALC), para quais permite alíquota zero da CBS, como exceção a exigência da alíquota de 0,9% entre 2025 e 2026;
+  - `UB123-10`e `UB127-10`: removida a exceção em que permitia crédito presumido no fornecimento de bem móvel usado por pessoa física quando a tabela cCredPres indicar não permitir uso do crédito presumido. Desta forma agora precisa respeitar rigorasamente a tabela. Contudo, tal exceção segue na regra UB120-20, que controla a inclusão do grupo de crédito presumido, porém baseado na tabela cClassTrib;
+  - `UB133-10`: a mensagem de validação, que exige ter um único tipo de classificação do item referente ao crédito presumido sobre o saldo devedor na Zona Franca de Manauas, foi aprimorada passando a apontar o item inválido;
+  - `VB01-05, VB01-10, VB01-20`: validações relacionadas ao total do item com os novos tributos foi aprimorada passando a apontar o item inválido;
+  - `VC02-14`: regra principal que nas operações de devolução exigia o referenciamento apenas a nível de nota, que a partir de 01/09/26 passará exigir o referenciamnento detalhado a nível de item;
+  - `VC02-15`: regra descontinuada, ela seria utilizada para validar o referenciamento do número do item na nota de devolução, contudo foi substituída pela regra `VC03-20` e que combinado com a regra `VC02-14` continuará fazendo o mesmo papel. O motivo é que a regra `VC03-20` torna-se mais genérica e combinada com outras regras, que também exigem o referenciamento da chave da nota por item, complementará exigindo também o referenciamento do número do item;
+  - `W07-10`: esta regra que verificava o valor total dos produtos/serviços sujeitos ao ICMS, comparando com a soma do valor total dos respectivos itens, passa a ser obrigatória impedindo qualquer flexibilização. Além disso, sua descrição foi alterada informando que se aplica também para itens sujeitos ao IBS e CBS;
+  - `UB12-10`: restabelece validação que rejeita notas emitidas sem preenchido do grupo IBS/CBS, tendo início no ambiente de homologação em 01/07/26 e em produção ativada em 03/08/26, para empresas do Regime Normal (CRT=3). Mas inclui exceção para combustíveis sujeitos à tributação monofásica.
+
+📅 Cronograma de implantação previsto na Nota Técnica:
+
+- 01/07/26: ambiente de Homologação para empresas de Regime Normal (CRT 3).
+- 03/08/26: ambiente de Produção, ativando as regras de validação com especial atenção para a `UB12-10`, de rejeição por ausência de IBS/CBS para empresas CRT 3.
+- 01/09/26: ambiente de Produção, ativando especificamente a regra de validação `VC02-14` (DFeReferenciado) para notas de devolução com referenciamento por item.
+- 04/01/27: obrigatoriedades estendidas em Produção para os demais regimes (CRT 1, 2 e 4).
+
+Mudanças em Eventos Fiscais
+
+- Exclusão: o evento 211120 (Destinação de item para consumo pessoal) foi eliminado da estrutura da NF-e. A remoção ocorreu após revogação do §6º do art. 57 da LC 214/2025 pela LC 227/2026.
+- Alteração: o evento 211110 (Solicitação de Apropriação de Crédito Presumido) foi modificado no layout XML e passou a permitir que o próprio emitente da nota seja o autor do evento. E poderá ser utilizado quando a informação não tiver sido incluída originalmente e quando houver necessidade de correção posterior.
+
+### Nota Técnica 2025.002 v.1.50
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.50](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=pD4YrecPV6s=)<br>
+<span class="text-xs">Versão 1.50 - Publicada em 03/06/2026</span>
+
+- Reformulação do layout da tributação monofásica de combustíveis e regras de validação, com entrada em produção agendada para 03/11/2026;
+- Grupos de campos específico para detalhar a mistura de Etanol Anidro (EAC) na gasolina;
+- Vigência em homologação a partir de setembro de 2026.
+
+### Nota Técnica 2025.002 v.1.51
+
+[Clique para baixar a Nota Técnica 2025.002 v.1.50](https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AKD/muSmiIY=)<br>
+<span class="text-xs">Versão 1.51 - Publicada em 04/08/2026</span>
+
+## Última versão publicada, tendo as alterações mais relevantes já destacadas no início deste artigo.
 
 Gostou deste conteúdo? Compartilhe com seus colegas e amigos que também podem se beneficiar destas informações.
 
