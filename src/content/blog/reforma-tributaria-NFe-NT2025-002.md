@@ -1410,7 +1410,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
         </i>
       </span>
     </div>
-    <div class="w-40 sm:w-44 flex flex-col items-center">
+    <div class="w-40 sm:w-44 flex flex-col items-center sm:-translate-x-0 -translate-x-1/4">
       <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
     </div>
   </div>
@@ -1559,7 +1559,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
             p-2 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-col gap-1 justify-end items-start sm:items-end">
     <div class="w-40 sm:w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSMonoAdValorem
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gIBSMonoAdValorem
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Monofásica Ad Valorem do IBS 
@@ -1567,13 +1567,13 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
         </i>
       </span>
     </div>
-    <div class="w-40 sm:w-44 flex flex-col items-center">
+    <div class="w-40 sm:w-44 flex flex-col items-center sm:-translate-x-0 -translate-x-1/4">
       <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
     </div>
   </div>
   <div class="row-span-1 row-start-2 col-start-1 w-full gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoPadrao
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoPadrao
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Monofásica Padrão (Monofasia dos Combustíveis)
@@ -1587,42 +1587,42 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-2 col-span-1 col-start-2 w-full flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMono
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMono
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor tributado na monofasia
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoUF
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoUF
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad valorem do IBS Estadual 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoUF
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoUF
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS monofásico Estadual
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoMun
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoMun
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad valorem do IBS Municipal  
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoMun
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoMun
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS monofásico Municipal
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMono
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMono
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS monofásico:<br>vIBSMonoUF + vIBSMonoMun
@@ -1633,7 +1633,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-3 col-start-1 w-full pt-4 gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Uso em operações com combustíveis derivados de petróleo (Gasolina A ou Óleo Diesel A) para retenção do imposto sobre o biocombustível a ser misturado. Art 178 LC 214/25. 
@@ -1647,21 +1647,21 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-3 col-start-2 w-full pt-4 flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor tributado sujeito à retenção na monofasia
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoReten
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad valorem do IBS sujeito à retenção
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS monofásico sujeito a retenção, a ser somado ao valor de IBS a ser recolhido. 
@@ -1672,7 +1672,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-4 col-start-1 w-full pt-4 gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoRet
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoRet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Tributação monofásica própria sobre combustíveis retida anteriormente.
@@ -1686,7 +1686,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-4 col-start-2 w-full pt-4 flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoRet
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSMonoRet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS retido anteriormente
@@ -1697,7 +1697,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-5 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gpBioDiferenca
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gpBioDiferenca
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações sobre mistura de EAC com gasolina A em percentual inferior ou superior ao obrigatório.
@@ -1711,14 +1711,14 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCBioComb
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCBioComb
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Quantidade de Biocombustível (EAC) a recolher ou a ressarcir 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSDiferenca
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vIBSDiferenca
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor do IBS correspondente a diferença em relação ao pBioObrigatorio  
@@ -1737,7 +1737,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
             p-2 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-col gap-1 justify-end items-start sm:items-end">
     <div class="w-40 sm:w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSMonoAdRem
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSMonoAdRem
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Monofásica Ad Rem da CBS 
@@ -1745,13 +1745,13 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
         </i>
       </span>
     </div>
-    <div class="w-40 sm:w-44 flex flex-col items-center">
+    <div class="w-40 sm:w-44 flex flex-col items-center sm:-translate-x-0 -translate-x-1/4">
       <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
     </div>
   </div>
   <div class="row-span-1 row-start-2 col-start-1 w-full gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoPadrao
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoPadrao
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Monofásica Padrão (Monofasia dos Combustíveis)
@@ -1765,21 +1765,21 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-2 col-span-1 col-start-2 w-full flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCMono
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCMono
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Quantidade tributada na monofasia
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemCBS
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemCBS
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad rem da CBS
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMono
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMono
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS monofásica
@@ -1790,7 +1790,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-3 col-start-1 w-full pt-4 gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Uso em operações com combustíveis derivados de petróleo (Gasolina A ou Óleo Diesel A) para retenção do imposto sobre o biocombustível a ser misturado. Art 178 LC 214/25. 
@@ -1804,21 +1804,21 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-3 col-start-2 w-full pt-4 flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Quantidade tributada sujeita à retenção na monofasia  
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemCBSReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">adRemCBSReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad rem da CBS sujeito a retenção 
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS monofásica sujeito a retenção, a ser somado ao valor de CBS a ser recolhida. 
@@ -1829,7 +1829,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-4 col-start-1 w-full pt-4 gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoRet
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoRet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Tributação monofásica própria sobre combustíveis retida anteriormente.
@@ -1843,7 +1843,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-4 col-start-2 w-full pt-4 flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoRet
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoRet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS retida anteriormente
@@ -1854,7 +1854,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-5 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gpBioDiferenca
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gpBioDiferenca
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações sobre mistura de EAC com gasolina A em percentual inferior ou superior ao obrigatório.
@@ -1868,14 +1868,14 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCBioComb
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCBioComb
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Quantidade de Biocombustível (EAC) a recolher ou a ressarcir 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSDiferenca
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSDiferenca
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS correspondente a diferença em relação ao pBioObrigatorio
@@ -1894,7 +1894,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
             p-2 gap-2 ring-2 rounded ring-[#8b5cf6]">
   <div class="row-span-1 row-start-1 col-span-1 col-start-1 w-full flex flex-col gap-1 justify-end items-start sm:items-end">
     <div class="w-40 sm:w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSMonoAdValorem
+      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gCBSMonoAdValorem
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Monofásica Ad Valorem da CBS  
@@ -1902,13 +1902,13 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
         </i>
       </span>
     </div>
-    <div class="w-40 sm:w-44 flex flex-col items-center">
+    <div class="w-40 sm:w-44 flex flex-col items-center sm:-translate-x-0 -translate-x-1/4">
       <i class="ph-bold ph-arrow-down text-4xl text-green-700"></i>
     </div>
   </div>
   <div class="row-span-1 row-start-2 col-start-1 w-full gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoPadrao
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoPadrao
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações da Tributação Monofásica Padrão
@@ -1922,21 +1922,21 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-2 col-span-1 col-start-2 w-full flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMono
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMono
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor tributado na monofasia
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoCBS
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoCBS
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad valorem da CBS 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMono
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMono
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-8 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS monofásica
@@ -1947,7 +1947,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-3 col-start-1 w-full pt-4 gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Uso em operações com combustíveis derivados de petróleo (Gasolina A ou Óleo Diesel A) para retenção do imposto sobre o biocombustível a ser misturado. Art 178 LC 214/25. 
@@ -1961,21 +1961,21 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-3 col-start-2 w-full pt-4 flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vBCMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor tributado sujeito à retenção na monofasia
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">pAliqMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-20 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Alíquota ad valorem da CBS sujeita à retenção
           </div>
         </i>
       </span>
-      <span class="text-center sm:text-sm text-xs text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoReten
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoReten
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS monofásica sujeita à retenção 
@@ -1986,7 +1986,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-4 col-start-1 w-full pt-4 gap-1 flex justify-end items-start">
     <div class="w-32 sm:w-36 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoRet
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gMonoRet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-10 -translate-x-1/2 bottom-full mb-2 min-w-36 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Tributação monofásica própria sobre combustíveis retida anteriormente.
@@ -2000,7 +2000,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-4 col-start-2 w-full pt-4 flex justify-start items-start">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoRet
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSMonoRet
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS retida anteriormente
@@ -2011,7 +2011,7 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-1 row-start-5 col-start-2 w-full gap-1 flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2 grow-0">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gpBioDiferenca
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">gpBioDiferenca
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-32 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Grupo de informações sobre mistura de EAC com gasolina A em percentual inferior ou superior ao obrigatório.
@@ -2025,14 +2025,14 @@ preenchimento deste grupo está condicionada ao indicador “ind_gTribRegular”
   </div>
   <div class="row-span-2 row-start-5 col-start-3 w-full flex justify-start items-center">
     <div class="w-44 flex flex-col gap-2">
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCBioComb
+      <span class="text-center sm:text-sm text-[0.60rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">qBCBioComb
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Quantidade de Biocombustível (EAC) a recolher ou a ressarcir 
           </div>
         </i>
       </span>
-      <span class="text-center text-sm text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSDiferenca
+      <span class="text-center sm:text-sm text-[0.54rem] text-[#8b5cf6] p-1 ring-1 ring-[#8b5cf6] rounded-xl shadow-md relative">vCBSDiferenca
         <i class="ph-light ph-info absolute left-1 group">
           <div class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 min-w-40 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg">
             Valor da CBS correspondente a diferença em relação ao pBioObrigatorio 
@@ -2329,11 +2329,19 @@ A obrigatoriedade ou vedação do preenchimento deste grupo está condicionada a
 
 ## Referenciamento de item de outra NF-e
 
-O `Grupo VC. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e` para as informações:
+`Grupo VC. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e` contendo os campos:
 
-- `DFeReferenciado` - Grupo para Documento Fiscal Eletrônico Referenciado
-  - `chaveAcesso` - Chave de acesso do DF-e referenciado
-  - `nItem` - Número do item do documento referenciado.
+<div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3">
+<span class="sm:text-sm text-xs text-[#8b5cf6]">  <code>DFeReferenciado</code> - Grupo para Documento Fiscal Eletrônico Referenciado:</span>
+<ul class="space-y-2">
+      <li class="sm:text-sm text-xs text-[#8b5cf6] list-none">
+      <code>chaveAcesso</code> - Chave de acesso do DF-e referenciado
+      </li>
+      <li class="sm:text-sm text-xs text-[#8b5cf6] list-none"> 
+      <code>nItem</code> - Número do item do documento referenciado.
+      </li>
+  </ul>
+</div>
 
 ## Grupo de Total da NF-e
 
