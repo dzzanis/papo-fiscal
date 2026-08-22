@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-08-12T06:23:00Z
+modDatetime: 2026-08-22T12:17:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -26,7 +26,7 @@ Confira as principais novidades:
 
 <div class="text-left text-[#8b5cf6] gap-0 shadow-[0.1rem_0.2rem_0.2rem_0.2rem_lightgray] rounded-2xl box-border transition ease-in-out delay-150 sm:hover:scale-105 hover:-translate-y-1 p-3 mx-6">
   <span class="sm:text-sm text-xs text-[#8b5cf6]">
-    ⚠️ Embora o não preenchimento de IBS e CBS não rejeite a emissão da nota fiscal, seus dados são obrigatórios conforme a Lei Complementar nº 214/2025. A adequação imediata é necessária para garantir a conformidade legal.
+    ⚠️ Embora o não preenchimento de IBS e CBS não rejeite a emissão da nota fiscal, juridicamente seus dados são obrigatórios conforme a Lei Complementar nº 214/2025 e Ato Conjunto RFB/CGIBS nº 4/2026. A adequação imediata é necessária para garantir a conformidade legal.
   </span>
 </div>
 
@@ -2400,7 +2400,7 @@ Novo `Grupo W03. Total da NF-e - IBS / CBS / IS` contendo campos totalizadores.
 
 Diversas regras de validação foram criadas. Destacam-se a rejeição caso não informados os dados do grupo dos tributos IBS e CBS e a validação do valor total da NF-e/NFC-e, que vai considerar os valores de IS, IBS, CBS, IBS monofásico e CBS monofásica como parte integrante do total do documento. Mas no ano de 2026, está prevista a exceção dos novos tributos serem somados no valor total da nota, permitindo as empresas e os sistemas de gestão utilizar esse período para adaptações.
 
-Apesar de adiada para ativação futura a regra de validação sobre o não preenchimento dos campos do IBS e CBS, que rejeitaria a emissão da nota fiscal, esses dados são obrigatórios a partir de 01/01/2026 conforme o art. 348 da Lei Complementar nº 214/2025. Por isso, recomendamos a adequação imediata para garantir a conformidade legal.
+Apesar de adiada para ativação futura a regra de validação sobre o não preenchimento dos campos do IBS e CBS, que rejeitaria a emissão da nota fiscal, esses dados são obrigatórios a partir de 03/08/2026 conforme o Ato Conjunto RFB/CGIBS nº 4/2026. Por isso, recomendamos a adequação imediata para garantir a conformidade legal.
 
 Desta forma, as principais rejeições automáticas das notas fiscais no ano de 2026 incluem:
 
@@ -2417,11 +2417,14 @@ A NT cita que em busca de uma padronização entre os diversos documentos fiscai
 
 Esse pacote de schemas é muito útil para as adaptações necessárias nos softwares, com finalidade de construção e leitura dos arquivos. Podemos encontrá-lo no Portal da Nota Fiscal Eletrônica, no menu "Documentos\Esquemas XML", com o nome:
 
-- Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP). `Publicado em 07/10/2025 - Atualizado em 30/10/2025`
+- Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.40 - RTC (ZIP). `Publicado em 27/07/2026`
+- Schemas XML NF-e -010e_v.1.02 - NT 2025.002 v.1.40 , NT 2026.002 v.1.0 e NT 2026.003 v.1.0 `Publicado em 10/07/2026`
 
 <details class="text-xs open:ring-1 ring-[#8b5cf6] p-2">
   <summary class="text-xs">🔎 Ver versões anteriores (em desuso)</summary>
   <ul>
+    <li>- Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP). <span class="font-semibold">Publicado em 07/10/2025 - Atualizado em 30/10/2025</span></li>
+    <li>- Schemas XML NF-e -010e_v1.01- NT 2025.002 v.1.40 , NT 2026.002 v.1.0 e NT 2026.003 v.1.0 <span class="font-semibold">Publicado em 26/06/2026</span></li>
     <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.30 (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP). <span class="font-semibold">Publicado em 07/10/2025</span></li>
     <li>Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b v. 1.21 (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP). <span class="font-semibold">Publicado em 20/08/2025</span></li>
     <li>Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.20 - RTC (ZIP). <span class="font-semibold">Publicado em 18/08/2025</span></li>
@@ -2435,25 +2438,25 @@ Esse pacote de schemas é muito útil para as adaptações necessárias nos soft
 
 Criação de novos eventos destinados a ajustar a apuração assistida do IBS e da CBS. Permitindo que em certos casos específicos as empresas informem o direito ao crédito fiscal ou realizem o estorno de créditos indevidamente apropriados.
 
-| Código | Evento                                                                                             |           Autor            |
-| ------ | :------------------------------------------------------------------------------------------------- | :------------------------: |
-| 112110 | Informação de efetivo pagamento integral para liberar crédito presumido do adquirente              |          Emitente          |
-| 112120 | Importação em ALC/ZFM não convertida em isenção                                                    |          Emitente          |
-| 112130 | Perecimento, perda, roubo ou furto durante o transporte contratado pelo fornecedor                 |          Emitente          |
-| 112140 | Fornecimento não realizado com pagamento antecipado                                                |          Emitente          |
-| 112150 | Atualização da Data de Previsão de Entrega                                                         |          Emitente          |
-| 211110 | Solicitação de Apropriação de crédito presumido                                                    |        Destinatário        |
-| 211120 | Destinação de item para consumo pessoal                                                            |   Emitente Destinatário    |
-| 211124 | Perecimento, perda, roubo ou furto durante o transporte contratado pelo adquirente                 |        Destinatário        |
-| 211128 | Aceite de débito na apuração por emissão de nota de crédito                                        |        Destinatário        |
-| 211130 | Imobilização de Item                                                                               |        Destinatário        |
-| 211140 | Solicitação de Apropriação de Crédito de Combustível                                               |        Destinatário        |
-| 211150 | Solicitação de Apropriação de Crédito para bens e serviços que dependem de atividade do adquirente |        Destinatário        |
-| 212110 | Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão              |         Sucessora          |
-| 212120 | Manifestação sobre Pedido de Transferência de Crédito CBS em Operações de Sucessão                 |         Sucessora          |
-| 412120 | Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão     |           Fisco            |
-| 412130 | Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em Operações de Sucessão     |           Fisco            |
-| 110001 | Cancelamento de Evento (para cancelar algum dos eventos citados acima)                             | Autor do evento a cancelar |
+| Código     | Evento                                                                                             |           Autor            |
+| ---------- | :------------------------------------------------------------------------------------------------- | :------------------------: |
+| 112110     | Informação de efetivo pagamento integral para liberar crédito presumido do adquirente              |          Emitente          |
+| 112120     | Importação em ALC/ZFM não convertida em isenção                                                    |          Emitente          |
+| 112130     | Perecimento, perda, roubo ou furto durante o transporte contratado pelo fornecedor                 |          Emitente          |
+| 112140     | Fornecimento não realizado com pagamento antecipado                                                |          Emitente          |
+| 112150     | Atualização da Data de Previsão de Entrega                                                         |          Emitente          |
+| 211110     | Solicitação de Apropriação de crédito presumido                                                    |        Destinatário        |
+| ~~211120~~ | ~~Destinação de item para consumo pessoal~~                                                        | ~~Emitente Destinatário~~  |
+| 211124     | Perecimento, perda, roubo ou furto durante o transporte contratado pelo adquirente                 |        Destinatário        |
+| 211128     | Aceite de débito na apuração por emissão de nota de crédito                                        |        Destinatário        |
+| 211130     | Imobilização de Item                                                                               |        Destinatário        |
+| 211140     | Solicitação de Apropriação de Crédito de Combustível                                               |        Destinatário        |
+| 211150     | Solicitação de Apropriação de Crédito para bens e serviços que dependem de atividade do adquirente |        Destinatário        |
+| 212110     | Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão              |         Sucessora          |
+| 212120     | Manifestação sobre Pedido de Transferência de Crédito CBS em Operações de Sucessão                 |         Sucessora          |
+| 412120     | Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão     |           Fisco            |
+| 412130     | Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em Operações de Sucessão     |           Fisco            |
+| 110001     | Cancelamento de Evento (para cancelar algum dos eventos citados acima)                             | Autor do evento a cancelar |
 
 O evento de “Imobilização de Item” por exemplo, deverá ser gerado pelo adquirente de bem, quando este for integrado ao seu ativo imobilizado, a fim de viabilizar o controle do prazo de 180 dias para apreciação dos pedidos de ressarcimento do respectivo crédito, caso apurar saldo a recuperar nos termos do art. 39 e 40, I da LC 214/2025.
 
