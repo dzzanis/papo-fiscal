@@ -1,7 +1,7 @@
 ---
 author: Papo Fiscal
 pubDatetime: 2025-05-03T07:58:00Z
-modDatetime: 2026-08-22T12:17:00Z
+modDatetime: 2026-08-24T08:23:00Z
 title: Nota Técnica 2025.002 - Adequações da NF-e à reforma tributária
 slug: reforma-tributaria-nf-e-nt-2025-002
 featured: false
@@ -19,7 +19,7 @@ O Portal da Nota Fiscal Eletrônica publicou a versão 1.51 da Nota Técnica nº
 
 Confira as principais novidades:
 
-- Adiantamento da Rejeição 1115 (Regra UB12-10): a regra que rejeitaria notas pela ausência dos grupos de IBS e CBS (prevista inicialmente para entrar em produção em agosto de 2026) foi alterada para "implementação futura", sem uma nova data definida;
+- Adiamento da Rejeição 1115 (Regra UB12-10): regra que rejeitaria notas pela ausência dos grupos de IBS e CBS (prevista inicialmente para agosto de 2026) foi alterada para "implementação futura", sem uma nova data definida;
 - O referenciamento do documento fiscal de origem a nível de item, nas NF-e de devolução de mercadorias (Regra VC02-14), teve sua entrada em produção adiada de 01/09/2026 para 05/10/2026;
 - Alterada a regra de validação B25-80 para permitir PIS/COFINS e IPI na NF-e de débito por pagamento antecipado emitida em 2026;
 - Alteradas as regras de validação UB13-20, UB13-30, UB13-39 e UB13-40 para a mensagem de rejeição citar nominalmente as tags gIBSCBS ou gIBSCBSMono do XML ausentes ou informadas indevidamente.
